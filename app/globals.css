@@ -1,0 +1,52 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body {
+    @apply bg-gradient-to-r from-[#333333] via-[#15382f] to-[#333333];
+}
+
+.overlock-sc-regular {
+  font-family: "Overlock SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.overlock-regular {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .overlock-bold {
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .overlock-black {
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .overlock-regular-italic {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .overlock-bold-italic {
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .overlock-black-italic {
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
