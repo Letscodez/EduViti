@@ -1,41 +1,15 @@
-"use client";
-import React, { useState } from "react";
+import React from "react";
 
 const Slide = () => {
-  // State for the slider
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const slides = [
-    { id: 1, text: "Join a vibrant community of learners!" },
-    { id: 2, text: "Master concepts with interactive modules!" },
-    { id: 3, text: "Ace your exams with our curated content!" },
-  ];
-
-  // Function to handle the next slide
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
-
-  // Function to handle the previous slide
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
-
   return (
-    <div className="bg-[#222] p-4 rounded-xl mb-6 shadow-lg text-center">
-      <button
-        onClick={prevSlide}
-        className="bg-[#06d6a0] text-white px-4 py-1 rounded-l-lg"
-      >
-        &#10094; {/* Left Arrow */}
-      </button>
-      <span className="mx-4">{slides[currentSlide].text}</span>
-      <button
-        onClick={nextSlide}
-        className="bg-[#06d6a0] text-white px-4 py-1 rounded-r-lg"
-      >
-        &#10095; {/* Right Arrow */}
-      </button>
+    <div className="bg-[#55555562] max-h-24 p-4 rounded-xl mb-6 shadow-lg m-8 flex items-center justify-between">
+      <h2 className="text-white text-lg md:text-2xl font-semibold ml-10">
+        Explore the World of Knowledge!
+      </h2>
+      <span className="text-5xl font-black text-[#0ac895] mx-4">&rarr;</span>
+      <p className="text-[#0ac895] font-semibold text-lg md:text-2xl mr-10">
+        Explore our question banks
+      </p>
     </div>
   );
 };
