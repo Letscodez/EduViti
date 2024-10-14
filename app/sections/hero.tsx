@@ -7,7 +7,7 @@ import Slide from "../components/slide";
 
 const HeroSection = () => {
   return (
-    <section className="w-screen min-h-screen space-y-6">
+    <section className="w-screen max-h-screen space-y-6">
       <div className="flex flex-col mt-28 md:flex-row md:justify-center items-center bg-gradient-to-r text-white ml-8">
         {/* Left side: Text content */}
         <div className="md:w-1/2 mb-8 md:mb-0 mx-4 flex flex-col items-center md:items-start justify-center">

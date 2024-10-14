@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Btn from "@/app/components/btn";
-import navLinks from "@/data/main";
+import {navLinks} from "@/data/main";
 import { nav_logo } from "@/images/main";
 
 interface NavbarProps {
