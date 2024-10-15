@@ -7,7 +7,7 @@ import Slide from "../components/slide";
 
 const HeroSection = () => {
   return (
-    <section className="w-screen max-h-screen space-y-6">
+    <section className="w-screen min-h-screen space-y-12 lg:space-y-0">
       <div className="flex flex-col mt-28 md:flex-row md:justify-center items-center bg-gradient-to-r text-white ml-8">
         {/* Left side: Text content */}
         <div className="md:w-1/2 mb-8 md:mb-0 mx-4 flex flex-col items-center md:items-start justify-center">
@@ -43,13 +43,15 @@ const HeroSection = () => {
           <Image
             src={heroImage}
             alt="Hero Image"
-            className="md:rounded-l-3xl rounded-3xl shadow-2xl"
+            className="rounded-l-3xl w-11/12 shadow-2xl"
             width={600}
             height={400}
           />
         </div>
       </div>
+      <div className="lg:absolute bottom-0 w-full h-[15vh]">
         <Slide />
+      </div>
     </section>
   );
 };

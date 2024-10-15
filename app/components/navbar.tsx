@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     <nav className=" bg-white/20 backdrop-blur-sm border-[#8bc2b348] ml-[1%] mr-[1%] border w-[98%] h-16 flex items-center justify-between rounded-xl fixed top-3 z-10">
       <Image src={nav_logo} alt="Logo" height={60} width={60} className="ml-4" />
-      <ul className="sm:flex space-x-4 mx-auto hidden">
+      <ul className="sm:flex space-x-20 mx-auto hidden">
         {navLinks.map((link) => (
           <li key={link.label}>
             <a
