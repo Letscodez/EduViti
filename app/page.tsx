@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/navbar";
 import HeroSection from "./sections/hero";
 import CTA from "./sections/CTA";
+import Capabilities from "./sections/capabilities";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <CTA />
+      <Capabilities />
     </main>
   );
 }
