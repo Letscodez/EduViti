@@ -30,6 +30,7 @@ const Carousel: React.FC = () => {
         disableButtonsControls
         infinite
         autoPlayDirection="rtl"
+        disableDotsControls={true}
       />
     </div>
   );
