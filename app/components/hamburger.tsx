@@ -15,12 +15,14 @@ const Hamburger = () => {
     <Dialog>
       <DialogTrigger asChild>
         <svg
+          role="button"
+          aria-label="Open Menu"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-8 h-8 text-white hover:text-primary cursor-pointer sm:hidden block"
+          className="w-8 h-8 text-white hover:text-primary cursor-pointer lg:hidden block"
         >
           <path
             strokeLinecap="round"

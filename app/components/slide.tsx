@@ -8,7 +8,7 @@ const Carousel: React.FC = () => {
   const carouselRef = useRef<AliceCarousel | null>(null); // Create a ref for the carousel
 
   const items = slidesData.map((slide) => (
-    <div key={slide.id} className="bg-[#55555562] p-8 rounded-xl shadow-lg flex items-center justify-between h-[12vh] sm:h-[10vh]">
+    <div key={slide.id} className="bg-[#55555562] p-8 sm:rounded-xl shadow-lg flex items-center justify-between h-[12vh] sm:h-[10vh]">
       <h2 className="text-white md:text-start text-center text-lg md:text-2xl font-semibold">
         {slide.title}
       </h2>

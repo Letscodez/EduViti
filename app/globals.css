@@ -5,10 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Overlock+SC&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 body {
   @apply bg-gradient-to-r from-bg via-primary to-bg;
-  font-family: "Baloo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
 }
 
 .overlock-regular-italic {

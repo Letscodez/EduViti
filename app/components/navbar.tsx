@@ -7,7 +7,7 @@ import Hamburger from "./hamburger";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-white/20 backdrop-blur-sm mx-4 border border-primary/20 w-[98%] h-16 flex items-center justify-between rounded-xl fixed top-3 z-10">
+    <nav className="bg-white/20 backdrop-blur-sm left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-10">
       {/* Logo */}
       <Image
         src={nav_logo}
@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
 
       {/* Navigation Links */}
       <div className="relative flex items-center mx-2 md:mx-0">
-        <ul className="sm:flex space-x-6 md:space-x-12 text-lg mx-auto hidden">
+        <ul className="lg:flex space-x-6 md:space-x-12 text-lg mx-auto hidden">
           {navLinks.map((link) => (
             <li key={link.label}>
               <a
@@ -33,12 +33,11 @@ const Navbar: React.FC = () => {
           ))}
         </ul>
 
-        {/* Hamburger Menu for mobile */}
+      </div>
+      <div className="flex flex-row items-center justify-center space-x-3 mr-2">
+        <Btn className="sm:block hidden" />
         <Hamburger />
       </div>
-
-      {/* Button with adjusted padding for medium screens */}
-      <Btn className="mr-4 md:ml-4 sm:block hidden px-4" />
     </nav>
   );
 };

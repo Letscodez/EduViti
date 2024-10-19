@@ -1,4 +1,4 @@
-import Image from "next/image"; 
+import Image from "next/image";
 import { heroImage, title } from "@/images/main";
 import React from "react";
 import Btn from "../components/btn";
@@ -6,24 +6,23 @@ import Slide from "../components/slide";
 
 const HeroSection = () => {
   return (
-    <section className="w-screen pt-28 min-h-screen space-y-12 lg:space-y-0 ">
-      <div className="flex md:pl-8 flex-col md:flex-row md:justify-center items-center text-white">
+    <section className="w-screen pt-28 min-h-screen space-y-12 lg:space-y-0">
+      <div className="flex ml-2 md:pl-8 flex-col md:flex-row md:justify-center items-center text-white">
         {/* Left side: Text content */}
         <div className="md:w-1/2 mb-8 md:mb-0 mx-4 flex flex-col items-center md:items-start justify-center">
-          {/* Optimized image with priority */}
           <Image
             src={title}
-            height={80}
-            width={350}
             alt="Hero Title"
+            className="sm:ml-0 ml-3 md:h-[80px] h-[60px] w-auto max-w-full"
             priority
           />
-          <h2 className="text-[#06d6a0] text-2xl overlock-regular-italic mb-4 text-center md:text-start">
+
+          <h1 className="text-[#06d6a0] text-2xl overlock-regular-italic mb-4 text-center md:text-start">
             "Glow Together, Grow Together"
-          </h2>
-          <h3 className="text-2xl font-semibold mb-4 text-white text-center md:text-start">
+          </h1>
+          <h2 className="text-2xl font-semibold mb-4 text-white text-center md:text-start">
             Elevate Your Learning Journey with Learnix
-          </h3>
+          </h2>
           <p className="text-gray-300 mb-8 text-center md:text-start">
             Your go-to platform for curated modules, concept maps, NCERTs, and
             more—all designed to help you ace your exams and excel in academics

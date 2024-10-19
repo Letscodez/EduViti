@@ -3,10 +3,11 @@ import { pen, reload, rocket } from "@/images/main"; // Import your images
 
 // Navigation links array
 const navLinks = [
-  { label: "Home", url: "/" },
-  { label: "About", url: "/about" },
-  { label: "Services", url: "/services" },
-  { label: "Contact", url: "/contact" },
+  { label: "Modules", url: "/modules" },
+  { label: "Notes", url: "/notes" },
+  { label: "Question Banks", url: "/question-banks" },
+  { label: "Concept Maps", url: "/concept-maps" },
+  { label: "Video Lectures", url: "/video-lectures" },
 ];
 
 // Card data interface for strong typing
@@ -44,7 +45,7 @@ const cardData: CardDataType[] = [
 const slidesData = [
   {
     id: 1,
-    title: "Explore the World of Knowledge!",
+    title: "Explore Knowledge Today!",
     description: "Explore our question banks",
   },
   {
@@ -57,7 +58,43 @@ const slidesData = [
     title: "Achieve Academic Success!",
     description: "Access a wealth of resources",
   },
+  {
+    id: 4,
+    title: "Dive into Learning!",
+    description: "Discover engaging materials",
+  },
+  {
+    id: 5,
+    title: "Your Success Awaits!",
+    description: "Start your journey here",
+  },
+  {
+    id: 6,
+    title: "Enhance Your Skills!",
+    description: "Utilize our resources",
+  },
+  {
+    id: 7,
+    title: "Start Learning Now!",
+    description: "Kickstart your studies today",
+  },
+  {
+    id: 8,
+    title: "Find What Excels!",
+    description: "Locate essential resources",
+  },
+  {
+    id: 9,
+    title: "Ignite Your Curiosity!",
+    description: "Explore and learn more",
+  },
+  {
+    id: 10,
+    title: "Transform Your Routine!",
+    description: "Revamp your study habits",
+  },
 ];
+
 // data/main.ts
 
 // data/main.ts
