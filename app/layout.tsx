@@ -4,7 +4,7 @@ import "./globals.css"; // Importing global styles
 
 // Metadata for the page
 export const metadata: Metadata = {
-  title: "Learnix - Grow together, Glow Together",
+  title: "Eduvity - Grow together, Glow Together",
   description: "Empower your learning journey with us for brighter futures.",
   keywords: "education, learning, community, study, free, growing",
 };

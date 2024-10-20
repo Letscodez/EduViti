@@ -13,19 +13,22 @@ const HeroSection = () => {
           <Image
             src={title}
             alt="Hero Title"
-            className="sm:ml-0 ml-3 md:h-[80px] h-[60px] w-auto max-w-full"
+            height={90}
+            width={670}
+            className="sm:ml-0 ml-3 md:w-96 w-[320px]"
             priority
+            //670x90 dam yeh kya ho gya
           />
 
-          <h1 className="text-[#06d6a0] text-2xl overlock-regular-italic mb-4 text-center md:text-start">
+          <h1 className="text-[#06d6a0] text-2xl overlock-regular-italic my-4 text-center md:text-start">
             "Glow Together, Grow Together"
           </h1>
           <h2 className="text-2xl font-semibold mb-4 text-white text-center md:text-start">
-            Elevate Your Learning Journey with Learnix
+            Elevate Your Learning Journey with Eduvity
           </h2>
           <p className="text-gray-300 mb-8 text-center md:text-start">
             Your go-to platform for curated modules, concept maps, NCERTs, and
-            more—all designed to help you ace your exams and excel in academics
+            more — all designed to help you ace your exams and excel in academics
             for free!
           </p>
 
