@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import HeroSection from "./sections/hero";
 import CTA from "./sections/CTA";
 import Capabilities from "./sections/capabilities";
+import BenefitsSection from "./sections/Benifits";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <CTA />
       <Capabilities />
+      <BenefitsSection />
     </main>
   );
 }

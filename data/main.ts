@@ -141,7 +141,69 @@ const capabilities = [
     title: "Community Support",
   },
 ];
+export interface BenefitType {
+  icon: string;
+  title: string;
+  description: string;
+}
+const benefitsData: BenefitType[] = [
+  {
+    icon: "🔄",
+    title: "Interactive Learning Modules",
+    description:
+      "Explore structured modules designed to simplify complex topics and enhance understanding.",
+  },
+  {
+    icon: "⚡",
+    title: "Concise Notes",
+    description:
+      "Quick, to-the-point summaries for effective revision and deeper insights.",
+  },
+  {
+    icon: "📚",
+    title: "NCERT & Exemplars",
+    description:
+      "All essential chapters, exercises, and practice questions from NCERT and Exemplar materials.",
+  },
+  {
+    icon: "📋",
+    title: "Focused Syllabus",
+    description:
+      "Stay updated with a streamlined syllabus tailored for high performance.",
+  },
+  {
+    icon: "📅",
+    title: "Support Material",
+    description:
+      "Extra study resources to reinforce your understanding and boost your academic journey.",
+  },
+  {
+    icon: "🧠",
+    title: "Concept Maps",
+    description:
+      "Simplify complex topics with easy-to-follow visual aids.",
+  },
+  {
+    icon: "📝",
+    title: "Question Banks",
+    description:
+      "A broad collection of questions for mastering each subject.",
+  },
+  {
+    icon: "🎥",
+    title: "Preferred Video Lectures",
+    description:
+      "Handpicked video content to explain tricky topics in an engaging way.",
+  },
+  {
+    icon: "✍️",
+    title: "Short Notes",
+    description:
+      "Quick, short notes summarizing key concepts for fast, efficient revision.",
+  },
+];
+
 
 // Exporting navLinks and cardData, as well as the type for use in other files
-export { navLinks, cardData, slidesData, capabilities };
+export { navLinks, cardData, slidesData, capabilities, benefitsData };
 export type { CardDataType };

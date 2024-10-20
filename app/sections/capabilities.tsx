@@ -3,7 +3,7 @@ import { capabilities } from "@/data/main"; // Import capabilities data
 
 const Capabilities: React.FC = () => {
   return (
-    <section className="px-4 py-12">
+    <section className="md:block hidden px-4 py-12">
       <h1 className="text-lg font-light text-center text-primary mb-4">Our Capabilities</h1>
       <h2 className="text-4xl font-bold text-center text-white mb-8">We Can Help You With...</h2>
       <div className="max-w-7xl min-w-5xl mx-auto flex flex-wrap justify-center gap-6">
