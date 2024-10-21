@@ -7,7 +7,7 @@ import Hamburger from "./hamburger";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-white/20 backdrop-blur-sm left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-10">
+    <nav className="bg-teal-100/30 backdrop-blur-lg left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-10">
       {/* Logo */}
       <Image
         src={nav_logo}

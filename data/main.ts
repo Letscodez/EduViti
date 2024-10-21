@@ -1,5 +1,22 @@
 import { StaticImageData } from "next/image";
-import { pen, reload, rocket } from "@/images/main"; // Import your images
+import {
+  pen,
+  rocket,
+  reload,
+  book_svg,
+  bookdown_svg,
+  openbook_svg,
+  templates_svg,
+  focused_svg,
+  support_svg,
+  maps_svg,
+  concise_svg,
+  qbank_svg,
+  lectures_svg,
+  sachinsir,
+  rajwantsir,
+  mohitsir,
+} from "@/images/main"; // Import your images
 
 // Navigation links array
 const navLinks = [
@@ -95,10 +112,6 @@ const slidesData = [
   },
 ];
 
-// data/main.ts
-
-// data/main.ts
-
 const capabilities = [
   {
     id: 1,
@@ -142,68 +155,104 @@ const capabilities = [
   },
 ];
 export interface BenefitType {
-  icon: string;
+  icon?: StaticImageData | any;
   title: string;
   description: string;
 }
 const benefitsData: BenefitType[] = [
   {
-    icon: "🔄",
+    icon: openbook_svg,
     title: "Interactive Learning Modules",
     description:
       "Explore structured modules designed to simplify complex topics and enhance understanding.",
   },
   {
-    icon: "⚡",
+    icon: book_svg,
     title: "Concise Notes",
     description:
       "Quick, to-the-point summaries for effective revision and deeper insights.",
   },
   {
-    icon: "📚",
+    icon: templates_svg,
     title: "NCERT & Exemplars",
     description:
       "All essential chapters, exercises, and practice questions from NCERT and Exemplar materials.",
   },
   {
-    icon: "📋",
+    icon: focused_svg,
     title: "Focused Syllabus",
     description:
       "Stay updated with a streamlined syllabus tailored for high performance.",
   },
   {
-    icon: "📅",
+    icon: support_svg,
     title: "Support Material",
     description:
       "Extra study resources to reinforce your understanding and boost your academic journey.",
   },
   {
-    icon: "🧠",
+    icon: maps_svg,
     title: "Concept Maps",
-    description:
-      "Simplify complex topics with easy-to-follow visual aids.",
+    description: "Simplify complex topics with easy-to-follow visual aids.",
   },
   {
-    icon: "📝",
+    icon: qbank_svg,
     title: "Question Banks",
-    description:
-      "A broad collection of questions for mastering each subject.",
+    description: "A broad collection of questions for mastering each subject.",
   },
   {
-    icon: "🎥",
+    icon: lectures_svg,
     title: "Preferred Video Lectures",
     description:
       "Handpicked video content to explain tricky topics in an engaging way.",
   },
   {
-    icon: "✍️",
+    icon: concise_svg,
     title: "Short Notes",
     description:
       "Quick, short notes summarizing key concepts for fast, efficient revision.",
   },
 ];
 
+export interface EducatorType {
+  id: number;
+  name: string;
+  image?: StaticImageData | any;
+  quote: string;
+}
 
+const raw_educators: EducatorType[] = [
+  {
+    id: 1,
+    name: "Sachin Jhakar Sir",
+    image: sachinsir, // Replace with actual image path
+    quote:
+      "The journey of learning is endless. The more you learn, the more you'll realize how much there is to discover.",
+  },
+  {
+    id: 2,
+    name: "Rajwant Singh Sir",
+    image: rajwantsir, // Replace with actual image path
+    quote:
+      "Challenges in learning are inevitable, but with discipline and consistency, no obstacle is too great.",
+  },
+  {
+    id: 3,
+    name: "Mohit Tyagi Sir",
+    image: mohitsir, // Replace with actual image path
+    quote:
+      "Don't focus on how much time you are putting in, focus on how well you are understanding the subject.",
+  },
+  // Add more educators as needed
+];
+
+const educators : EducatorType[] =  [...raw_educators].sort(() => Math.random() - 0.5);
 // Exporting navLinks and cardData, as well as the type for use in other files
-export { navLinks, cardData, slidesData, capabilities, benefitsData };
-export type { CardDataType };
+export {
+  navLinks,
+  cardData,
+  slidesData,
+  capabilities,
+  benefitsData,
+  educators,
+};

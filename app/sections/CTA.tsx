@@ -24,7 +24,7 @@ const CTA: React.FC = () => {
       </div>
 
       {/* Card Grid Section */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-14">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-14"> 
         {cardData.map((card) => (
           <div key={card.id} className="flex flex-col items-center text-center">
             <div className="bg-[#06d6a0] rounded-full p-4 mb-4">
