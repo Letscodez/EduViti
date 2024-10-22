@@ -10,11 +10,11 @@ const BenefitsSection = () => {
 
       <div className="items-start mb-6 max-w-7xl mx-auto text-center md:text-start flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 mb-6 md:mb-0 md:pr-10 flex flex-col justify-start">
-          <h3 className="text-lg font-mono text-[#06D6A0] mb-4">BENEFITS</h3>
+          <h1 className="text-lg font-mono text-[#06D6A0] mb-4">BENEFITS</h1>
           <div className="w-full mb-6 text-center md:text-start md:mb-0 md:pr-10">
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+            <h2 className="text-4xl md:text-5xl font-bold leading-tight">
               Why Join the Eduvity Community?
-            </h1>
+            </h2>
           </div>
         </div>
         <div className="w-full md:w-1/2 flex md:mt-10 flex-col items-center md:items-start">
@@ -35,11 +35,13 @@ const BenefitsSection = () => {
             className="flex p-8 border-y border-[#666]/50 flex-col sm:text-start text-center"
           >
             <Image
-              src={benefit.icon}
-              className="text-4xl sm:mx-0 mx-auto mb-3 size-10"
-              alt="icon"
+              src={benefit.icon} 
+              className="text-4xl sm:mx-0 mx-auto mb-3 size-10" 
+              alt={benefit.title} 
+              width={50} 
+              height={50} 
             />
-            <h4 className="text-xl font-bold mb-2">{benefit.title}</h4>
+            <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
             <p className="text-gray-400">{benefit.description}</p>
           </div>
         ))}

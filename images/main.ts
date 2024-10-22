@@ -47,20 +47,20 @@ export {
 export type ImageAssets = {
   title: StaticImageData;
   nav_logo: StaticImageData;
-  heroImage: StaticImageData; // dekhti ekk o kitna imp hoti kaam karti apna ham dekh legi idhar ka ok 
+  heroImage: StaticImageData;
   pen: StaticImageData;
   rocket: StaticImageData;
   reload: StaticImageData;
-  book_svg: StaticImageData;
-  bookdown_svg: StaticImageData;
-  openbook_svg: StaticImageData;
-  templates_svg: StaticImageData;
-  focused_svg: StaticImageData;
-  support_svg: StaticImageData;
-  maps_svg: StaticImageData;
-  concise_svg: StaticImageData;
-  qbank_svg: StaticImageData;
-  lectures_svg: StaticImageData;
+  book_svg: any;
+  bookdown_svg: any;
+  openbook_svg: any;
+  templates_svg: any;
+  focused_svg: any;
+  support_svg: any;
+  maps_svg: any;
+  concise_svg: any;
+  qbank_svg: any;
+  lectures_svg: any;
   sachinsir: StaticImageData;
   rajwantsir: StaticImageData;
   mohitsir: StaticImageData;

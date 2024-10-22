@@ -262,11 +262,8 @@ const raw_educators: EducatorType[] = [
   // Add more educators as needed
 ];
 
-const educators: EducatorType[] = [...raw_educators].sort(
-  () => Math.random() - 0.5
-);
-const slidesData = [...raw_slidesData].sort(() => Math.random() - 0.5);
-// Exporting navLinks and cardData, as well as the type for use in other files
+const slidesData = [...raw_slidesData];
+const educators = raw_educators.slice().sort(() => Math.random() - 0.5);
 export {
   navLinks,
   cardData,
