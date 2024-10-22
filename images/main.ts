@@ -19,7 +19,7 @@ import lectures_svg from './lectures.svg';
 import sachinsir from './sachinsir.webp';
 import rajwantsir from './rajwantsir.webp';
 import mohitsir from './mohitsir.webp';
-
+import khansir from './khan_sir.webp';
 
 export {
   title,
@@ -41,7 +41,7 @@ export {
   sachinsir,
   rajwantsir,
   mohitsir,
-
+  khansir,
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -64,6 +64,7 @@ export type ImageAssets = {
   sachinsir: StaticImageData;
   rajwantsir: StaticImageData;
   mohitsir: StaticImageData;
+  khansir: StaticImageData;
 };
 // Default export of images for better structure
 const images: ImageAssets = {
@@ -86,6 +87,7 @@ const images: ImageAssets = {
   sachinsir,
   rajwantsir,
   mohitsir,
+  khansir
 };
 
 export default images; // Default export

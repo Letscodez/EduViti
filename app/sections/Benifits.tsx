@@ -5,7 +5,7 @@ import Btn from "../components/btn";
 
 const BenefitsSection = () => {
   return (
-    <section className="space-y-24 flex-col w-full mx-6 py-16 px-4 md:px-8 text-white mr-12">
+    <section className="space-y-24 flex-col w-full md:mx-6 py-16 justify-center px-4 md:px-8 text-white mr-12">
       {/* Heading and description */}
 
       <div className="items-start mb-6 max-w-7xl mx-auto text-center md:text-start flex flex-col md:flex-row">
@@ -32,11 +32,11 @@ const BenefitsSection = () => {
         {benefitsData.map((benefit: BenefitType, index: number) => (
           <div
             key={index}
-            className="flex p-8 border-y border-[#666]/50 flex-col items-start text-center sm:text-left"
+            className="flex p-8 border-y border-[#666]/50 flex-col sm:text-start text-center"
           >
             <Image
               src={benefit.icon}
-              className="text-4xl mb-3 size-10"
+              className="text-4xl sm:mx-0 mx-auto mb-3 size-10"
               alt="icon"
             />
             <h4 className="text-xl font-bold mb-2">{benefit.title}</h4>

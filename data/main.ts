@@ -16,6 +16,7 @@ import {
   sachinsir,
   rajwantsir,
   mohitsir,
+  khansir,
 } from "@/images/main"; // Import your images
 
 // Navigation links array
@@ -59,7 +60,15 @@ const cardData: CardDataType[] = [
       "Concise, one-page notes summarize key concepts for quick exam preparation.",
   },
 ];
-const slidesData = [
+// Define an interface for the slide structure
+interface Slide {
+  id: number;
+  title: string;
+  description: string;
+}
+
+// Use the interface for the slidesData array
+const raw_slidesData: Slide[] = [
   {
     id: 1,
     title: "Explore Knowledge Today!",
@@ -243,10 +252,20 @@ const raw_educators: EducatorType[] = [
     quote:
       "Don't focus on how much time you are putting in, focus on how well you are understanding the subject.",
   },
+  {
+    id: 4,
+    name: "Khan Sir",
+    image: khansir, // Replace with actual image path
+    quote:
+      "To be successful in life it is not important how much you have done but how much you can do",
+  },
   // Add more educators as needed
 ];
 
-const educators : EducatorType[] =  [...raw_educators].sort(() => Math.random() - 0.5);
+const educators: EducatorType[] = [...raw_educators].sort(
+  () => Math.random() - 0.5
+);
+const slidesData = [...raw_slidesData].sort(() => Math.random() - 0.5);
 // Exporting navLinks and cardData, as well as the type for use in other files
 export {
   navLinks,

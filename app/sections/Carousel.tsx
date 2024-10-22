@@ -10,8 +10,8 @@ import { educators } from "@/data/main";
 
 const EducatorCarousel = () => {
   return (
-    <div className="w-5/6 mx-auto text-white p-10 rounded-lg">
-      <h1 className="text-5xl font-bold mb-2 text-center">
+    <div className="lg:w-5/6 md:w-11/12 w-full mx-auto text-white lg:p-10 p-4 rounded-lg">
+      <h1 className="text-4xl sm:text-5xl font-bold mb-2 text-center">
         Guiding You to <span className="text-green-400">Success!</span>
       </h1>
       <p className="text-center text-gray-400 mb-6">
@@ -21,30 +21,28 @@ const EducatorCarousel = () => {
 
       <Carousel>
         {/* Left Arrow */}
-        <CarouselPrevious className="absolute left-0 top-1/2 transform -translate-y-1/2">
-          <button className="text-white bg-gray-700 p-2 rounded-full">←</button>
-        </CarouselPrevious>
+        <CarouselPrevious className="sm:block hidden absolute left-2 top-1/2 transform -translate-y-1/2 z-10"></CarouselPrevious>
 
         <CarouselContent>
           {/* Mapping over educators array */}
           {educators.map((educator) => (
-            <CarouselItem key={educator.id} className="p-4">
-              <div className="bg-white/15 rounded-3xl shadow-lg p-12 flex flex-col md:flex-row items-center md:items-start text-center md:text-left h-full">
+            <CarouselItem key={educator.id} className="sm:p-4">
+              <div className="bg-white/15 rounded-3xl shadow-lg sm:p-12 p-6 flex flex-col md:flex-row items-center md:items-start text-center md:text-left h-full">
                 {/* Left: Text Content */}
-                <div className="md:w-1/2 h-1/3 flex flex-col  justify-evenly sm:space-y-6 space-y-12 space-x-12 mt-14">
-                  <h1 className="text-4xl font-extrabold text-green-400 ml-11">
+                <div className="mt-4 md:w-1/2 h-full flex flex-col md:space-y-10 space-y-4">
+                  <h1 className="2xl:text-5xl text-3xl sm:text-4xl font-extrabold text-green-400 ">
                     Educator Spotlight
                   </h1>
-                  <p className="text-gray-200 text-lg font-medium">{`"${educator.quote}"`}</p>
-                  <p className="text-green-400/90 text-xl font-semibold">
+                  <p className="text-gray-200 text-base 2xl:text-2xl sm:text-lg font-medium">{`"${educator.quote}"`}</p>
+                  <p className="text-green-400/90 2xl:text-2xl text-lg sm:text-xl font-semibold">
                     – {educator.name}
                   </p>
                 </div>
 
                 {/* Right: Educator Image */}
-                <div className="md:w-1/2 mt-4 md:mt-0 md:ml-6 flex justify-center md:justify-end">
+                <div className="md:w-1/2 w-full mt-4 h-full md:mt-0 flex items-center justify-center md:justify-end sm:mb-0 mb-4 md:mr-10">
                   <Image
-                    className="rounded-full mx-auto size-96"
+                    className="rounded-full size-72 xl:size-96"
                     src={educator.image}
                     alt={educator.name}
                   />
@@ -55,9 +53,7 @@ const EducatorCarousel = () => {
         </CarouselContent>
 
         {/* Right Arrow */}
-        <CarouselNext className="absolute right-0 top-1/2 transform -translate-y-1/2">
-          <button className="text-white bg-gray-700 p-2 rounded-full">→</button>
-        </CarouselNext>
+        <CarouselNext className="absolute sm:block hidden right-6 top-1/2 transform -translate-y-1/2"></CarouselNext>
       </Carousel>
     </div>
   );
