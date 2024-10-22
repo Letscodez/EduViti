@@ -14,17 +14,15 @@ const AccordionItem = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <AccordionPrimitive.Item
     ref={ref}
-    className={cn("border-b", className)}
     {...props}
   />
 ))
-AccordionItem.displayName = "AccordionItem"
-// ohh itna deep toh humko bhi smjh ni aati bas ham thoda bhot smjh k css lagati ham bhilaga deti
+AccordionItem.displayName = "AccordionItem" 
 const AccordionTrigger = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Trigger>,
   React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Trigger>
 >(({ className, children, ...props }, ref) => (
-  <AccordionPrimitive.Header className="flex bg-bg rounded-2xl p-2">
+  <AccordionPrimitive.Header className="flex bg-bg p-2 data-[state=closed]:rounded-2xl data-[state=open]:rounded-t-2xl">
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
@@ -34,7 +32,7 @@ const AccordionTrigger = React.forwardRef<
       {...props}
     >
       {children}
-      <ChevronDownIcon className="h-6 w-6 shrink-0 text-white/80 transition-transform duration-200 dark:text-neutral-400 bg-teal-500 rounded-full" />
+      <ChevronDownIcon className="h-6 w-6 shrink-0 text-bg transition-transform duration-200 dark:text-neutral-400 bg-primary rounded-full" />
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
 ))
@@ -46,10 +44,10 @@ const AccordionContent = React.forwardRef<
 >(({ className, children, ...props }, ref) => (
   <AccordionPrimitive.Content
     ref={ref}
-    className="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+    className="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down bg-bg rounded-b-2xl text-white/80"
     {...props}
   >
-    <div className={cn("pb-4 pt-0", className)}>{children}</div>
+    <div className={cn("pb-4 px-4 text-start", className)}>{children}</div>
   </AccordionPrimitive.Content>
 ))
 AccordionContent.displayName = AccordionPrimitive.Content.displayName

@@ -4,10 +4,11 @@ import Btn from "@/app/components/btn";
 import { navLinks } from "@/data/main";
 import { nav_logo } from "@/images/main";
 import Hamburger from "./hamburger";
+import { difference } from "next/dist/build/utils";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-teal-100/30 backdrop-blur-lg left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-10">
+    <nav className="bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-10 filter" >
       {/* Logo */}
       <Image
         src={nav_logo}
@@ -32,7 +33,6 @@ const Navbar: React.FC = () => {
             </li>
           ))}
         </ul>
-
       </div>
       <div className="flex flex-row items-center justify-center space-x-3 mr-2">
         <Btn className="sm:block hidden" />

@@ -12,7 +12,7 @@ const EducatorCarousel = () => {
   return (
     <section className="lg:w-5/6 md:w-11/12 w-full mx-auto text-white lg:p-10 p-4 rounded-lg">
       <h1 className="text-4xl sm:text-5xl font-bold mb-2 text-center">
-        Guiding You to <span className="text-green-400">Success!</span>
+        Guiding You to <span className="text-[#06D6A0]">Success!</span>
       </h1>
       <p className="text-center text-gray-400 mb-6">
         Honoring Educators Who Inspire Excellence. Recognizing the dedication of
@@ -30,11 +30,11 @@ const EducatorCarousel = () => {
               <div className="bg-white/15 rounded-3xl shadow-lg sm:p-12 p-6 flex flex-col md:flex-row items-center md:items-start text-center md:text-left h-full">
                 {/* Left: Text Content */}
                 <div className="mt-4 md:w-1/2 h-full flex flex-col md:space-y-10 space-y-4">
-                  <h1 className="2xl:text-5xl text-3xl sm:text-4xl font-extrabold text-green-400 ">
+                  <h1 className="2xl:text-5xl text-3xl sm:text-4xl font-extrabold text-[#06D6A0] ">
                     Educator Spotlight
                   </h1>
                   <p className="text-gray-200 text-base 2xl:text-2xl sm:text-lg font-medium">{`"${educator.quote}"`}</p>
-                  <p className="text-green-400/90 2xl:text-2xl text-lg sm:text-xl font-semibold">
+                  <p className="text-[#06D6A0] 2xl:text-2xl text-lg sm:text-xl font-semibold">
                     – {educator.name}
                   </p>
                 </div>
