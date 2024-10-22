@@ -10,7 +10,7 @@ import { educators } from "@/data/main";
 
 const EducatorCarousel = () => {
   return (
-    <div className="lg:w-5/6 md:w-11/12 w-full mx-auto text-white lg:p-10 p-4 rounded-lg">
+    <section className="lg:w-5/6 md:w-11/12 w-full mx-auto text-white lg:p-10 p-4 rounded-lg">
       <h1 className="text-4xl sm:text-5xl font-bold mb-2 text-center">
         Guiding You to <span className="text-green-400">Success!</span>
       </h1>
@@ -55,7 +55,7 @@ const EducatorCarousel = () => {
         {/* Right Arrow */}
         <CarouselNext className="absolute sm:block hidden right-6 top-1/2 transform -translate-y-1/2"></CarouselNext>
       </Carousel>
-    </div>
+    </section>
   );
 };
 
