@@ -6,6 +6,7 @@ import Capabilities from "./sections/capabilities";
 import BenefitsSection from "./sections/Benifits";
 import EducatorCarousel from "./sections/Carousel";
 import Contact from "./sections/contact";
+import Footer from "./sections/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <BenefitsSection />
       <EducatorCarousel />
       <Contact />
+      <Footer />
     </main>
   );
 }
