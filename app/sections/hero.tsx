@@ -57,7 +57,6 @@ const HeroSection = () => {
           />
         </div>
       </div>
-
       <div className="lg:absolute bottom-0 h-[15vh] sm:right-8 sm:left-8 right-0 left-0">
         <Slide />
       </div>

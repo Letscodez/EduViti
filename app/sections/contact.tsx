@@ -56,15 +56,17 @@ const Contact = () => {
     <section className="w-screen bg-white flex justify-center py-16">
       <div className="md:w-1/2 min-h-screen mx-auto flex flex-col text-center space-y-4">
         <h1 className="text-black text-5xl font-black">Join Our Team</h1>
-        <p className="mx-4">
+        <h2 className="mx-4">
           Become a part of something bigger! Help students succeed and share
           your knowledge with a growing community.
-        </p>
+        </h2>
         <div className="w-5/6 mx-auto space-y-4">
           {FAQs.map((faq) => (
             <Accordion type="single" collapsible key={faq.id}>
               <AccordionItem value={`item-${faq.id}`}>
-                <AccordionTrigger>{faq.question}</AccordionTrigger>
+                <AccordionTrigger>
+              {faq.question}
+                </AccordionTrigger>
                 <AccordionContent>{faq.answer}</AccordionContent>
               </AccordionItem>
             </Accordion>

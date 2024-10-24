@@ -20,7 +20,7 @@ const Carousel: React.FC = () => {
   ));
 
   return (
-    <div className="sm:flex flex-row items-center justify-center">
+    <div className="sm:flex flex-row items-center justify-center" >
       <AliceCarousel
         ref={carouselRef}
         mouseTracking

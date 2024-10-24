@@ -27,6 +27,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#06d6a0" />
         <link rel="preconnect" href="https://vercel.live" />
         <link rel="dns-prefetch" href="https://vercel.live" />
+        <link rel="preconnect" href="https://vercel.app" />
+        <link rel="dns-prefetch" href="https://vercel.app" />
         <link
           rel="preconnect"
           href="https://cdn.example.com"
