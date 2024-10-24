@@ -9,11 +9,11 @@ const Footer: React.FC = () => {
       <div className="bg-white max-w-screen h-96 -mt-40"></div>
       <div className="container mx-auto px-6 md:px-12">
         <div className="bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333] rounded-3xl p-10 text-white max-w-7xl mx-auto border-solid border-[1px] border-[#06D6A0] -mt-44 place-items-center h-96 ">
-          <h2 className=" font-bold mb-6 max-w-lg text-center text-6xl mt-4 xs:text-96">
-            Script your future with Eduvity
+          <h2 className="font-bold mb-6 max-w-lg text-center text-4xl sm:text-6xl mt-4 xs:text-96">
+            Script your future with Eduvity!
           </h2>
           <p className="text-lg text-gray-300 mb-6 max-w-60 text-center">
-            Take the advantages of ours to improve yourself!
+            Take the advantages of ours to improve yourself
           </p>
           <a
             href="#"
@@ -25,9 +25,9 @@ const Footer: React.FC = () => {
         </div>
       </div>
       {/* </section> */}
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-32 mt-32">
+      <div className="container mx-auto flex flex-row justify-between items-center md:px-32 px-6 mt-32">
         {/* Left Section (Logo and Description) */}
-        <div className="mb-6 md:mb-0">
+        <div className="sm:w-auto w-1/2 mb-6 md:mb-0">
           <h2 className="text-2xl font-bold text-[#06D6A0] font-mono">
             EDUVITY
           </h2>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Right Section (Contact Info) */}
-        <div className="flex flex-col items-center md:items-end">
+        <div className="flex flex-col items-center md:items-end text-right">
           <ul className="text-sm text-gray-400 space-y-1">
             <li>
               <a href="mailto:info@learnix.com" className="hover:text-white">
@@ -46,8 +46,8 @@ const Footer: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="tel:+910000000000" className="hover:text-white">
-                +91 0000000000
+              <a href="" className="hover:text-white">
+                Instagram - @Eduvity_official
               </a>
             </li>
           </ul>
@@ -84,9 +84,9 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Bottom Copyright */}
-      <hr className="w-[83%] mx-auto mt-6 opacity-40" />
+      <hr className="w-[83%] mx-auto mt-8 opacity-40" />
       <div className="text-center text-sm text-gray-500 mt-8">
-        © 2024 - All Rights Reserved
+        Eduvity© 2024 - All Rights Reserved
       </div>
     </footer>
   );

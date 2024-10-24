@@ -10,6 +10,7 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { FAQs } from "@/data/main";
+import Btn from "@/app/components/btn";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -52,10 +53,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="w-screen bg-white flex justify-center md:py-16">
+    <section className="w-screen bg-white flex justify-center py-16">
       <div className="md:w-1/2 min-h-screen mx-auto flex flex-col text-center space-y-4">
         <h1 className="text-black text-5xl font-black">Join Our Team</h1>
-        <p>
+        <p className="mx-4">
           Become a part of something bigger! Help students succeed and share
           your knowledge with a growing community.
         </p>
@@ -72,6 +73,7 @@ const Contact = () => {
         {/* ------------Contact------------ */}
         <form onSubmit={handleSubmit} className="space-y-4">
           <Input
+            type="text"
             name="name"
             placeholder="Your Name"
             value={formData.name}
@@ -79,27 +81,27 @@ const Contact = () => {
             required
           />
           <Input
-            type="email"
+            type="text"
             name="email"
             placeholder="Your Email\Phone no."
             value={formData.email}
             onChange={handleChange}
             required
           />
-          <Textarea  name="message" value={formData.message} onChange={handleChange} required />
-          <div className="flex flex-row justify-evenly">
-            <span className="w-1/2 text-start">
+          <Textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          />
+          <div className="flex flex-col sm:flex-row sm:justify-evenly w-5/6 mx-auto sm:space-y-0 space-y-3">
+            <span className="sm:w-1/2 sm:text-start">
               <p className="text-sm text-gray-500">
                 We will answer your questions via Email/Discord/Whatsapp within
                 48 hours.
               </p>
             </span>
-            <button
-              type="submit"
-              className="inline-flex items-center justify-center px-5 py-3 text-black bg-primary rounded-md hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
-            >
-              Start Contributing
-            </button>
+            <Btn className="mx-auto" displayText="Start Contributing" />
           </div>
         </form>
       </div>

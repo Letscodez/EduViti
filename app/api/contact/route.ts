@@ -8,7 +8,7 @@ export async function POST(req: Request) {
 
   // Discord webhook URL
   const webhookURL =
-    "https://discord.com/api/webhooks/1298637837805031496/trU42SEl_dk0Zfb71jIsbRKfNhqEV6qAAuE12g_j0cRAQ0-uPgvqTtGVS4jOX5bv-mxo";
+    "https://discord.com/api/webhooks/1298988103540801626/Q7x7LSjU35KUpz26t2yZLjhrW7rRBxcytAifERHrYG3xlYOASg6cTK0VhzA4Wl7r9TwL";
 
   // Prepare the message
   const discordMessage = {
