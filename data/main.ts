@@ -263,12 +263,12 @@ const raw_educators: EducatorType[] = [
 ];
 
 type FAQType = {
-  id:number,
+  id: number;
   question: string;
   answer: string;
-}
+};
 
-const FAQs : FAQType[] = [
+const FAQs: FAQType[] = [
   {
     id: 1,
     question: "How can I contribute to Eduvity?",
@@ -276,13 +276,13 @@ const FAQs : FAQType[] = [
       "We welcome contributions in the form of study materials, video lectures, or offering guidance to students. You can be part of our vision for a better academic future!",
   },
   {
-    id : 2,
+    id: 2,
     question: "What are the perks of being part of the team?",
     answer:
       "Yes, all the study materials on our platform are available for free. You can access them at any time and use them to enhance your learning experience.",
   },
   {
-    id:3,
+    id: 3,
     question: "Is teaching experience required to join?",
     answer:
       "Yes, you can download the study materials, including notes, question banks, and other resources, for offline use. This way, you can study even when you're not connected to the internet.",
@@ -295,6 +295,21 @@ const FAQs : FAQType[] = [
   },
 ];
 
+type LinkType = {
+  name: string;
+  path: string;
+  icon: StaticImageData | any;
+};
+
+const links: LinkType[] = [
+  { name: "Modules", path: "/study/modules",icon: rocket },
+  { name: "Video Lectures", path: "/study/videos",icon: lectures_svg },
+  { name: "Concept Maps", path: "/study/concept-maps",icon: maps_svg },
+  { name: "Question Banks", path: "/study/question-banks",icon: qbank_svg },
+  { name: "Notes", path: "/study/notes",icon: book_svg },
+  { name: "Community Discussions", path: "/study/discussions",icon: support_svg },
+];
+
 const slidesData = [...raw_slidesData];
 const educators = raw_educators.slice().sort(() => Math.random() - 0.5);
 export {
@@ -305,4 +320,5 @@ export {
   benefitsData,
   educators,
   FAQs,
+  links,
 };
