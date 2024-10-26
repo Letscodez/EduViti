@@ -48,7 +48,7 @@ const Hamburger = () => {
               className="py-3 pl-6 hover:bg-slate-500/5 rounded-2xl"
             >
               <a
-                href={link.url}
+                // href={link.url}
                 className="text-white hover:text-[#06d6a0] transition-colors duration-300 ease-in-out"
               >
                 {link.label}
