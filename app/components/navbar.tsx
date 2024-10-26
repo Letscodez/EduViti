@@ -5,6 +5,7 @@ import { navLinks } from "@/data/main";
 import { nav_logo } from "@/images/main";
 import Hamburger from "./hamburger";
 import { difference } from "next/dist/build/utils";
+import Dropdown from "./dropdown";
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-10 filter">
@@ -22,14 +23,7 @@ const Navbar: React.FC = () => {
       <div className="relative flex items-center mx-2 md:mx-0">
         <ul className="lg:flex space-x-6 md:space-x-12 text-lg mx-auto hidden">
           {navLinks.map((link) => (
-            <li key={link.label}>
-              <a
-                href={link.url}
-                className="text-white/90 hover:text-[#06d6a0] transition-colors duration-300 ease-in-out"
-              >
-                {link.label}
-              </a>
-            </li>
+                <Dropdown link={link}/>
           ))}
         </ul>
       </div>

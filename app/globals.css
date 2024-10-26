@@ -7,11 +7,6 @@ body {
   @apply bg-gradient-to-r from-bg via-primary to-bg;
 }
 
-.overlock-regular-italic {
-  font-family: "Overlock", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
 
 .outfit {
   font-family: "Outfit", sans-serif;

@@ -6,7 +6,7 @@ import Slide from "../components/slide";
 
 const HeroSection = () => {
   return (
-    <section className="w-screen pt-28 min-h-screen space-y-12 lg:space-y-0">
+    <section className="w-screen pt-28 sm:pt-52 min-h-screen space-y-12 lg:space-y-0">
       <div className="flex ml-2 md:pl-8 flex-col md:flex-row md:justify-center items-center text-white">
         {/* Left side: Text content */}
         <div className="md:w-1/2 mb-8 md:mb-0 mx-4 flex flex-col items-center md:items-start justify-center">
@@ -23,12 +23,11 @@ const HeroSection = () => {
             "Glow Together, Grow Together"
           </h1>
           <h2 className="text-2xl font-semibold mb-4 text-white text-center md:text-start">
-            Elevate Your Learning Journey with Eduvity
+            Empowering Your Academic journey with Eduvity!
           </h2>
           <p className="2xl:text-2xl text-lg text-gray-300 mb-8 text-center md:text-start">
-            Your go-to platform for curated modules, concept maps, NCERTs, and
-            more — all designed to help you ace your exams and excel in academics
-            for free!
+            Discover an all-in-one platform for curated modules,
+            textbooks, recommended books, and free courses to excel in your learning journey on each step.
           </p>
 
           {/* LET'S GROW TOGETHER section */}
@@ -58,7 +57,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="lg:absolute bottom-0 h-[15vh] sm:right-8 sm:left-8 right-0 left-0">
-        <Slide />
+        {/* <Slide /> */}
       </div>
     </section>
   );

@@ -28,9 +28,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto flex flex-row justify-between items-center md:px-32 px-6 mt-32">
         {/* Left Section (Logo and Description) */}
         <div className="sm:w-auto w-1/2 mb-6 md:mb-0">
-          <h2 className="text-2xl font-bold text-primary font-mono">
-            EDUVITY
-          </h2>
+          <h2 className="text-2xl font-bold text-primary font-mono">EDUVITY</h2>
           <p className="mt-2 max-w-xs">
             Eduvity – Online study guide for those who are ready to achieve
             their goals.
@@ -46,26 +44,16 @@ const Footer: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/Eduvity_official" className="hover:text-white">
+              <a
+                href="https://www.instagram.com/Eduvity_official"
+                className="hover:text-white"
+              >
                 Instagram - @Eduvity_official
               </a>
             </li>
           </ul>
           <div className="flex space-x-4 mt-4">
             <div className="flex space-x-4 mt-4">
-              <a
-                href="#"
-                className="hover:text-teal-400"
-                aria-label="Watch us on YouTube"
-              >
-                <svg
-                  className="w-6 h-6 fill-current text-gray-400 hover:text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M24 4.56v14.88C24 21.88 22.88 23 21.44 23H2.56A2.57 2.57 0 010 19.44V4.56C0 3.12 1.12 2 2.56 2h18.88C22.88 2 24 3.12 24 4.56zM9.29 17.24v-8.48L16 12l-6.71 5.24z" />
-                </svg>
-              </a>
               <a
                 href="#"
                 className="hover:text-teal-400"

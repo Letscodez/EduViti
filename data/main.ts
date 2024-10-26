@@ -21,11 +21,34 @@ import {
 
 // Navigation links array
 const navLinks = [
-  { label: "Modules", url: "/modules" },
-  { label: "Notes", url: "/notes" },
-  { label: "Question Banks", url: "/question-banks" },
-  { label: "Concept Maps", url: "/concept-maps" },
-  { label: "Video Lectures", url: "/video-lectures" },
+  {
+    label: "Study Material",
+    sublinks: [
+      { label: "Class 9", path: "/study/class-9" },
+      { label: "Class 10", path: "/study/class-10" },
+      { label: "Class 11", path: "/study/class-11" },
+      { label: "Class 12", path: "/study/class-12" },
+    ],
+  },
+  {
+    label: "Preferred Books",
+    sublinks: [
+      { label: "Conceptual & Theory Books", path: "/study/conceptual-theory-books" },
+      { label: "Reference Books", path: "/study/reference-books" },
+      { label: "Sample Papers", path: "/study/sample-papers" },
+      { label: "PYQ Series", path: "/study/previous-year-questions" },
+    ],
+  },
+  {
+    label: "Free Courses",
+    sublinks: [
+      { label: "JEE", path: "/study/jee" },
+      { label: "NEET", path: "/study/neet" },
+      { label: "CBSE", path: "/study/cbse" },
+      { label: "ICSE", path: "/study/icse" },
+      { label: "State Boards", path: "/study/state-boards" },
+    ],
+  },
 ];
 
 // Card data interface for strong typing
@@ -41,25 +64,26 @@ const cardData: CardDataType[] = [
   {
     id: 1,
     image: rocket, // Use the imported image
-    title: "Explore Interactive Modules",
+    title: "Curated Study Resources",
     description:
-      "Engage with hands-on learning experiences tailored to your curriculum.",
+      "Access a variety of well-organized materials tailored for school and college students.",
   },
   {
     id: 2,
     image: pen, // Use the imported image
-    title: "Instant PDF Access",
+    title: "Comprehensive PDF Library",
     description:
-      "Downloadable materials, including NCERT textbooks and exam preparation resources.",
+      "Instant access to downloadable textbooks, study guides, and exam prep resources.",
   },
   {
     id: 3,
     image: reload, // Use the imported image
-    title: "Revisions Made Simple",
+    title: "Free Available Courses",
     description:
-      "Concise, one-page notes summarize key concepts for quick exam preparation.",
+      "These courses are handpicked, covering essential topics in areas like science and mathematics, all available at no cost.",
   },
 ];
+
 // Define an interface for the slide structure
 interface Slide {
   id: number;
@@ -71,98 +95,99 @@ interface Slide {
 const raw_slidesData: Slide[] = [
   {
     id: 1,
-    title: "Explore Knowledge Today!",
-    description: "Explore our question banks",
+    title: "Explore New Horizons!",
+    description: "Study materials for all levels",
   },
   {
     id: 2,
     title: "Unlock Your Potential!",
-    description: "Join our study community",
+    description: "Join our learning community",
   },
   {
     id: 3,
-    title: "Achieve Academic Success!",
-    description: "Access a wealth of resources",
+    title: "Excel Academically!",
+    description: "Curated resources and guides",
   },
   {
     id: 4,
-    title: "Dive into Learning!",
-    description: "Discover engaging materials",
+    title: "Interactive Learning Awaits!",
+    description: "Concept maps and guides",
   },
   {
     id: 5,
-    title: "Your Success Awaits!",
-    description: "Start your journey here",
+    title: "Start Your Journey!",
+    description: "Expert-selected content for you",
   },
   {
     id: 6,
-    title: "Enhance Your Skills!",
-    description: "Utilize our resources",
+    title: "Sharpen Your Skills!",
+    description: "Practice modules available",
   },
   {
     id: 7,
-    title: "Start Learning Now!",
-    description: "Kickstart your studies today",
+    title: "Learn Anytime!",
+    description: "Mobile-friendly resources",
   },
   {
     id: 8,
-    title: "Find What Excels!",
-    description: "Locate essential resources",
+    title: "Find Success Here!",
+    description: "Courses and study guides",
   },
   {
     id: 9,
-    title: "Ignite Your Curiosity!",
-    description: "Explore and learn more",
+    title: "Fuel Your Passion!",
+    description: "Insights across subjects",
   },
   {
     id: 10,
-    title: "Transform Your Routine!",
-    description: "Revamp your study habits",
+    title: "Transform Your Studies!",
+    description: "Innovative learning tools",
   },
 ];
 
 const capabilities = [
   {
     id: 1,
-    title: "Interactive Modules",
+    title: "Knowledgeable Books",
   },
   {
     id: 2,
-    title: "One-Page Concept Maps",
+    title: "Handpicked Courses",
   },
   {
     id: 3,
-    title: "Detailed Notes",
+    title: "Comprehensive Study Notes",
   },
   {
     id: 4,
-    title: "Question Banks",
+    title: "Extensive Question Banks",
   },
   {
     id: 5,
-    title: "Video Lectures",
+    title: "Preferred Video Lectures",
   },
   {
     id: 6,
-    title: "Mock Tests",
+    title: "Downloadable PDF Resources",
   },
   {
     id: 7,
-    title: "PDF Resources",
+    title: "Engaging Learning Modules ",
   },
   {
     id: 8,
-    title: "Study Planner",
+    title: "Efficient Study ",
   },
   {
     id: 9,
-    title: "Interactive Quizzes",
+    title: "PYQ's",
   },
   {
     id: 10,
-    title: "Community Support",
+    title: "Regular Content Updates",
   },
 ];
+
 export interface BenefitType {
   icon?: StaticImageData | any;
   title: string;
@@ -173,53 +198,55 @@ const benefitsData: BenefitType[] = [
     icon: openbook_svg,
     title: "Interactive Learning Modules",
     description:
-      "Explore structured modules designed to simplify complex topics and enhance understanding.",
+      "Engage with structured modules that simplify complex concepts and enhance your understanding.",
   },
   {
     icon: book_svg,
-    title: "Concise Notes",
+    title: "Concise Revision Notes",
     description:
-      "Quick, to-the-point summaries for effective revision and deeper insights.",
+      "Quick summaries to help you revise effectively and gain deeper insights into topics.",
   },
   {
     icon: templates_svg,
-    title: "NCERT & Exemplars",
+    title: "Comprehensive Study Materials",
     description:
-      "All essential chapters, exercises, and practice questions from NCERT and Exemplar materials.",
+      "Access essential textbooks, exercises, and practice questions tailored for effective learning.",
   },
   {
     icon: focused_svg,
-    title: "Focused Syllabus",
+    title: "Focused Learning Pathways",
     description:
-      "Stay updated with a streamlined syllabus tailored for high performance.",
+      "Stay on track with a streamlined syllabus designed for academic excellence.",
   },
   {
     icon: support_svg,
-    title: "Support Material",
+    title: "Extensive Support Resources",
     description:
-      "Extra study resources to reinforce your understanding and boost your academic journey.",
+      "Utilize additional study materials to reinforce your understanding and elevate your learning journey.",
   },
   {
-    icon: maps_svg,
-    title: "Concept Maps",
-    description: "Simplify complex topics with easy-to-follow visual aids.",
+    icon: support_svg,
+    title: "Visual Concept Maps",
+    description:
+      "Break down complex topics with easy-to-follow visual aids for better retention.",
   },
   {
     icon: qbank_svg,
-    title: "Question Banks",
-    description: "A broad collection of questions for mastering each subject.",
+    title: "Diverse Question Banks",
+    description:
+      "Explore a wide array of questions to master each subject efficiently.",
   },
   {
     icon: lectures_svg,
-    title: "Preferred Video Lectures",
+    title: "Curated Video Lectures",
     description:
-      "Handpicked video content to explain tricky topics in an engaging way.",
+      "Watch selected video content to clarify challenging topics in an engaging and accessible format.",
   },
   {
     icon: concise_svg,
-    title: "Short Notes",
+    title: "Quick Reference Notes",
     description:
-      "Quick, short notes summarizing key concepts for fast, efficient revision.",
+      "Utilize short notes summarizing key concepts for fast, efficient revision.",
   },
 ];
 
@@ -302,12 +329,11 @@ type LinkType = {
 };
 
 const links: LinkType[] = [
-  { name: "Modules", path: "/study/modules",icon: rocket },
-  { name: "Video Lectures", path: "/study/videos",icon: lectures_svg },
-  { name: "Concept Maps", path: "/study/concept-maps",icon: maps_svg },
-  { name: "Question Banks", path: "/study/question-banks",icon: qbank_svg },
-  { name: "Notes", path: "/study/notes",icon: book_svg },
-  { name: "Community Discussions", path: "/study/discussions",icon: support_svg },
+  { name: "Modules", path: "/study/modules", icon: rocket },
+  { name: "Video Lectures", path: "/study/videos", icon: lectures_svg },
+  { name: "Concept Maps", path: "/study/concept-maps", icon: maps_svg },
+  { name: "Question Banks", path: "/study/question-banks", icon: qbank_svg },
+  { name: "Notes", path: "/study/notes", icon: book_svg },
 ];
 
 const slidesData = [...raw_slidesData];
