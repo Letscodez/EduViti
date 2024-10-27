@@ -208,7 +208,7 @@ const benefitsData: BenefitType[] = [
   },
   {
     icon: qbank_svg,
-    title: "Diverse Question Banks",
+    title: "Question Banks",
     description:
       "Explore a wide array of questions to master each subject efficiently.",
   },
