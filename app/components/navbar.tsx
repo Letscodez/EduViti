@@ -20,9 +20,9 @@ const Navbar: React.FC = () => {
 
       {/* Navigation Links */}
       <div className="relative flex items-center mx-2 md:mx-0">
-        <ul className="lg:flex space-x-6 md:space-x-12 text-lg mx-auto hidden" key="uniquw">
+        <ul className="lg:flex space-x-6 md:space-x-12 text-lg mx-auto hidden" key="unique">
           {navLinks.map((link) => (
-                <Dropdown link={link}/>
+                <Dropdown key={link.label} link={link}/>
           ))}
         </ul>
       </div>

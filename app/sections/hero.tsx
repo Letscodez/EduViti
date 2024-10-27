@@ -5,9 +5,9 @@ import Btn from "../components/btn";
 import Slide from "../components/slide";
 const HeroSection = () => {
   return (
-    <section className="w-screen min-h-screen px-2 pt-32 md:pt-16 flex items-center md:pl-8 flex-col md:flex-row justify-center text-white">
+    <section className="w-screen min-h-screen  pt-32 md:pt-16 flex items-center px-12 flex-col md:flex-row justify-center text-white">
       {/* Left side: Text content */}
-      <div className="md:w-1/2 md:mb-0 mx-4 flex flex-col md:items-start md:justify-start items-center justify-center">
+      <div className="md:w-1/2 md:mb-0  flex flex-col md:items-start md:justify-start items-center justify-center">
         <Image
           src={title}
           alt="Hero Title"
@@ -21,7 +21,7 @@ const HeroSection = () => {
           "Know Together, Grow Together"
         </h1>
         <h2 className="text-2xl font-semibold mb-4 text-white text-center md:text-start">
-          Empowering Your Academic journey with Eduvity!
+          Empowering Your Learning journey with StudySite!
         </h2>
         <p className="2xl:text-2xl text-lg text-gray-300 mb-8 text-center md:text-start">
           Discover an all-in-one platform for curated modules,

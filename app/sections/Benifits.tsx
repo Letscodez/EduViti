@@ -12,13 +12,13 @@ const BenefitsSection = () => {
           <h1 className="text-lg font-mono text-[#06D6A0] mb-4">BENEFITS</h1>
           <div className="w-full mb-6 text-center md:text-start md:mb-0 md:pr-10">
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Why Choose Eduvity for Your Learning Journey?
+              Why Choose StudySite for Your Learning Journey?
             </h2>
           </div>
         </div>
         <div className="w-full md:w-1/2 flex md:mt-10 flex-col items-center md:items-start">
           <p className="sm:text-start text-center mb-8 text-white/80 text-lg md:text-xl leading-relaxed">
-            At Eduvity, we empower students by providing a comprehensive suite of educational resources designed to enhance your learning experience and support your academic growth.
+            At StudySite, we empower students by providing a comprehensive suite of educational resources designed to enhance your learning experience and support your learning growth.
           </p>
           <Btn />
         </div>

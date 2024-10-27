@@ -3,14 +3,14 @@ import { capabilities } from "@/data/main"; // Import capabilities data
 
 const Capabilities: React.FC = () => {
   return (
-    <section className="md:block hidden px-4 py-12">
+    <section className=" h-[64vh] md:block hidden px-4 py-32">
       <h1 className="text-lg font-light text-center text-primary mb-4">Our Capabilities</h1>
       <h2 className="text-4xl font-bold text-center text-white mb-8">We Can Help You With...</h2>
-      <div className="max-w-7xl min-w-5xl mx-auto flex flex-wrap justify-center gap-6">
+      <div className="max-w-7xl min-w-5xl mx-auto flex flex-wrap justify-center gap-6 pt-3">
         {capabilities.map((capability) => (
           <div
             key={capability.id}
-            className="bg-primary text-[#222] p-4 rounded-lg shadow-md hover:bg-primary/70 cursor-pointer duration-100 flex items-center justify-center"
+            className="bg-primary text-[#222] p-4 rounded-xl shadow-md hover:bg-primary/70 cursor-pointer duration-100 flex items-center justify-center"
           >
             <p className="text-md font-medium whitespace-nowrap overflow-hidden text-ellipsis text-center">
               {capability.title}

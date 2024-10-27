@@ -11,6 +11,7 @@ import {
 import { navLinks } from "@/data/main";
 import Image from "next/image";
 import { nav_logo, title } from "@/images/main";
+import Dropdown from "./dropdown";
 
 const Hamburger = () => {
   return (
@@ -38,7 +39,16 @@ const Hamburger = () => {
 
       <DialogContent>
         <DialogHeader>
-          <DialogTitle className=" flex mx-auto"><Image src={nav_logo} alt="logo" height={70} /><Image className="my-6" src={title} alt="img" height={120} width={120} /></DialogTitle>
+          <DialogTitle className=" flex mx-auto">
+            <Image src={nav_logo} alt="logo" height={70} />
+            <Image
+              className="my-6"
+              src={title}
+              alt="img"
+              height={120}
+              width={120}
+            />
+          </DialogTitle>
           {/* <DialogDescription><Image src={title} alt="img" height={19} /></DialogDescription> */}
         </DialogHeader>
         <ul className="flex flex-col p-2">

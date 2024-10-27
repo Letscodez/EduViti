@@ -19,34 +19,71 @@ import {
   khansir,
 } from "@/images/main"; // Import your images
 
+type ResourceType = {
+  title: string;
+  description: string;
+  icon: StaticImageData | any;
+}
+const resources : ResourceType[] = [
+  {
+    title: "Notes",
+    description: "Iconic notes, easy to understand and download",
+    icon: concise_svg,
+  },
+  {
+    title: "Question Banks",
+    description: "Explore Question Banks packed with curated questions across all key subjects.",
+    icon: qbank_svg,
+  },
+  {
+    title: "PYQ's",
+    description: "Get access to free CBSE Previous Year Question Papers (PYQs) right here!",
+    icon: maps_svg,
+  },
+  {
+    title: "Sample Paper",
+    description: "CBSE released sample paper, solved by experts",
+    icon: openbook_svg,
+  },
+  {
+    title: "Books & Solutions",
+    description: "All books are available like RD Sharma, RS Aggarwal, HC Verma, etc. ",
+    icon: bookdown_svg,
+  },
+  {
+    title: "Preferred Video Lectures",
+    description: "Dedicated Preferred Video Lectures on specific Chapter & Topics.",
+    icon: book_svg,
+  },
+];
 // Navigation links array
 const navLinks = [
   {
-    label: "Study Material",
+    label: "Study Resources",
     sublinks: [
-      { label: "Class 9", path: "/study/class-9" },
-      { label: "Class 10", path: "/study/class-10" },
-      { label: "Class 11", path: "/study/class-11" },
-      { label: "Class 12", path: "/study/class-12" },
+      { label: "Grade 9 Materials", path: "/resources/Grade-9" },
+      { label: "Grade 10 Materials", path: "/resources/Grade-10" },
+      { label: "Grade 11 Materials", path: "/resources/Grade-11" },
+      { label: "Grade 12 Materials", path: "/resources/Grade-12" },
     ],
   },
   {
-    label: "Preferred Books",
+    label: "Recommended Books",
     sublinks: [
-      { label: "Conceptual & Theory Books", path: "/study/conceptual-theory-books" },
-      { label: "Reference Books", path: "/study/reference-books" },
-      { label: "Sample Papers", path: "/study/sample-papers" },
-      { label: "PYQ Series", path: "/study/previous-year-questions" },
+      { label: "Conceptual & Theory Books", path: "/RecommendedBooks/conceptual&theory-books" },
+      { label: "Reference Books", path: "/RecommendedBooks/reference-books" },
+      { label: "Sample Papers", path: "/RecommendedBooks/sample-papers" },
+      { label: "Previous Year Questions", path: "/RecommendedBooks/previous-year-questions" },
     ],
   },
   {
-    label: "Free Courses",
+    label: "Free Online Courses",
     sublinks: [
-      { label: "JEE", path: "/study/jee" },
-      { label: "NEET", path: "/study/neet" },
-      { label: "CBSE", path: "/study/cbse" },
-      { label: "ICSE", path: "/study/icse" },
-      { label: "State Boards", path: "/study/state-boards" },
+      { label: "JEE Preparation", path: "/study/jee" },
+      { label: "NEET Preparation", path: "/study/neet" },
+      { label: "CBSE Courses", path: "/study/cbse" },
+      { label: "ICSE Courses", path: "/study/icse" },
+      { label: "State Board Courses", path: "/study/state-boards" },
     ],
   },
 ];
@@ -81,67 +118,6 @@ const cardData: CardDataType[] = [
     title: "Free Available Courses",
     description:
       "These courses are handpicked, covering essential topics in areas like science and mathematics, all available at no cost.",
-  },
-];
-
-// Define an interface for the slide structure
-interface Slide {
-  id: number;
-  title: string;
-  description: string;
-}
-
-// Use the interface for the slidesData array
-const raw_slidesData: Slide[] = [
-  {
-    id: 1,
-    title: "Explore New Horizons!",
-    description: "Study materials for all levels",
-  },
-  {
-    id: 2,
-    title: "Unlock Your Potential!",
-    description: "Join our learning community",
-  },
-  {
-    id: 3,
-    title: "Excel Academically!",
-    description: "Curated resources and guides",
-  },
-  {
-    id: 4,
-    title: "Interactive Learning Awaits!",
-    description: "Concept maps and guides",
-  },
-  {
-    id: 5,
-    title: "Start Your Journey!",
-    description: "Expert-selected content for you",
-  },
-  {
-    id: 6,
-    title: "Sharpen Your Skills!",
-    description: "Practice modules available",
-  },
-  {
-    id: 7,
-    title: "Learn Anytime!",
-    description: "Mobile-friendly resources",
-  },
-  {
-    id: 8,
-    title: "Find Success Here!",
-    description: "Courses and study guides",
-  },
-  {
-    id: 9,
-    title: "Fuel Your Passion!",
-    description: "Insights across subjects",
-  },
-  {
-    id: 10,
-    title: "Transform Your Studies!",
-    description: "Innovative learning tools",
   },
 ];
 
@@ -196,9 +172,9 @@ export interface BenefitType {
 const benefitsData: BenefitType[] = [
   {
     icon: openbook_svg,
-    title: "Free Interactive Books",
+    title: "Free Interesting Books",
     description:
-      "Engage with structured modules that simplify complex concepts and enhance your understanding.",
+      "Engage with curated books that simplify complex concepts and enhance your understanding.",
   },
   {
     icon: book_svg,
@@ -298,7 +274,7 @@ type FAQType = {
 const FAQs: FAQType[] = [
   {
     id: 1,
-    question: "How can I contribute to Eduvity?",
+    question: "How can I contribute to StudySite?",
     answer:
       "We welcome contributions in the form of study materials, video lectures, or offering guidance to students. You can be part of our vision for a better academic future!",
   },
@@ -329,22 +305,28 @@ type LinkType = {
 };
 
 const links: LinkType[] = [
-  { name: "Modules", path: "/study/modules", icon: rocket },
-  { name: "Video Lectures", path: "/study/videos", icon: lectures_svg },
-  { name: "Concept Maps", path: "/study/concept-maps", icon: maps_svg },
-  { name: "Question Banks", path: "/study/question-banks", icon: qbank_svg },
-  { name: "Notes", path: "/study/notes", icon: book_svg },
+  { name: "Grade 9 ", path: "/resources/Grade-9", icon: rocket },
+  { name: "Grade 10", path: "/resources/Grade-10", icon: lectures_svg },
+  { name: "Grade 11", path: "/resources/Grade-11", icon: maps_svg },
+  { name: "Grade 12", path: "/resources/Grade-12", icon: qbank_svg },
 ];
 
-const slidesData = [...raw_slidesData];
+const books: LinkType[] = [
+  { name: "Conceptual & Theory Books", path: "/RecommendedBooks/conceptual&theory-books", icon: rocket },
+  { name: "Reference Books", path: "/RecommendedBooks/reference-books", icon: lectures_svg },
+  { name: "Sample Papers", path: "/RecommendedBooks/sample-papers", icon: maps_svg },
+  { name: "Previous Year Questions", path: "/RecommendedBooks/previous-year-questions", icon: qbank_svg },
+];
+
 const educators = raw_educators.slice().sort(() => Math.random() - 0.5);
 export {
   navLinks,
   cardData,
-  slidesData,
   capabilities,
   benefitsData,
   educators,
   FAQs,
   links,
+  books,
+  resources,
 };
