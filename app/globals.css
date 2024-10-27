@@ -14,9 +14,3 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
-@layer base {
-  :root {
-    --radius: 0.5rem;
-  }
-}
