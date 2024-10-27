@@ -5,7 +5,7 @@ import Btn from "../components/btn";
 import Slide from "../components/slide";
 const HeroSection = () => {
   return (
-    <section className="w-screen bg-hero bg-no-repeat bg-cover bg-center bg-fixed min-h-screen px-2 pr-14 pt-32 md:pt-16 flex items-center md:pl-8 flex-col md:flex-row justify-center text-white">
+    <section className="w-screen min-h-screen px-2 pt-32 md:pt-16 flex items-center md:pl-8 flex-col md:flex-row justify-center text-white">
       {/* Left side: Text content */}
       <div className="md:w-1/2 md:mb-0 mx-4 flex flex-col md:items-start md:justify-start items-center justify-center">
         <Image
@@ -54,7 +54,6 @@ const HeroSection = () => {
         />
       </div>
     </section>
-    ///hnn bata abb kya krti ham
   );
 };
 

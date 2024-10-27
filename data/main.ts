@@ -196,7 +196,7 @@ export interface BenefitType {
 const benefitsData: BenefitType[] = [
   {
     icon: openbook_svg,
-    title: "Interactive Learning Modules",
+    title: "Free Interactive Books",
     description:
       "Engage with structured modules that simplify complex concepts and enhance your understanding.",
   },
@@ -214,9 +214,9 @@ const benefitsData: BenefitType[] = [
   },
   {
     icon: focused_svg,
-    title: "Focused Learning Pathways",
+    title: "Focused Learning Content",
     description:
-      "Stay on track with a streamlined syllabus designed for academic excellence.",
+      "Stay on track with a streamlined available content designed for academic excellence.",
   },
   {
     icon: support_svg,
@@ -238,13 +238,13 @@ const benefitsData: BenefitType[] = [
   },
   {
     icon: lectures_svg,
-    title: "Curated Video Lectures",
+    title: "Free Video Lectures",
     description:
       "Watch selected video content to clarify challenging topics in an engaging and accessible format.",
   },
   {
     icon: concise_svg,
-    title: "Quick Reference Notes",
+    title: "Quick One-Paged Notes",
     description:
       "Utilize short notes summarizing key concepts for fast, efficient revision.",
   },

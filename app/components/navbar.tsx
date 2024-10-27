@@ -4,7 +4,6 @@ import Btn from "@/app/components/btn";
 import { navLinks } from "@/data/main";
 import { nav_logo } from "@/images/main";
 import Hamburger from "./hamburger";
-import { difference } from "next/dist/build/utils";
 import Dropdown from "./dropdown";
 const Navbar: React.FC = () => {
   return (
@@ -21,7 +20,7 @@ const Navbar: React.FC = () => {
 
       {/* Navigation Links */}
       <div className="relative flex items-center mx-2 md:mx-0">
-        <ul className="lg:flex space-x-6 md:space-x-12 text-lg mx-auto hidden">
+        <ul className="lg:flex space-x-6 md:space-x-12 text-lg mx-auto hidden" key="uniquw">
           {navLinks.map((link) => (
                 <Dropdown link={link}/>
           ))}

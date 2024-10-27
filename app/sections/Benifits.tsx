@@ -26,7 +26,7 @@ const BenefitsSection = () => {
 
       {/* Features grid - Limit to 4-5 benefits */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
-        {benefitsData.slice(0, 5).map((benefit: BenefitType, index: number) => (
+        {benefitsData.map((benefit: BenefitType, index: number) => (
           <div
             key={index}
             className="flex p-8 border-y border-[#666]/50 flex-col sm:text-start text-center"

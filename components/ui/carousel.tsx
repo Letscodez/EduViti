@@ -119,6 +119,41 @@ const Carousel = React.forwardRef<
         api?.off("select", onSelect);
       };
     }, [api, onSelect]);
+    React.useEffect(() => {
+      if (!api) {
+        return;
+      }
+
+      const interval = setInterval(() => {
+        scrollNext();
+      }, 7000);
+
+      return () => {
+        clearInterval(interval);
+      };
+    }, [api, scrollNext]);
+
+    React.useEffect(() => {
+      if (!api || !setApi) {
+        return;
+      }
+
+      setApi(api);
+    }, [api, setApi]);
+
+    React.useEffect(() => {
+      if (!api) {
+        return;
+      }
+
+      onSelect(api);
+      api.on("reInit", onSelect);
+      api.on("select", onSelect);
+
+      return () => {
+        api?.off("select", onSelect);
+      };
+    }, [api, onSelect]);
 
     return (
       <CarouselContext.Provider
@@ -205,10 +240,7 @@ const CarouselPrevious = React.forwardRef<
       ref={ref}
       variant={variant}
       size={size}
-      className={cn(
-        "absolute h-8 w-8 rounded-full",
-        className
-      )}
+      className={cn("absolute h-8 w-8 rounded-full", className)}
       disabled={!canScrollPrev}
       onClick={scrollPrev}
       {...props}
