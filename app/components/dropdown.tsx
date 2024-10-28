@@ -74,7 +74,7 @@ const Dropdown = ({ link }: DropdownProps): ReactElement => {
               <a
                 key={sublink.label}
                 href={sublink.path}
-                className="rounded-xl block px-4 py-2 text-sm hover:bg-white/20"
+                className="rounded-xl block px-4 py-2 text-sm hover:bg-white/20 hover:scale-105 hover:pl-6 hover:text-[#06D6A0]"
               >
                 {sublink.label}
               </a>

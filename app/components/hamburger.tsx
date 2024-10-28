@@ -5,13 +5,17 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-  DialogDescription,
   DialogTrigger,
-} from "@/components/ui/dialog";
-import { navLinks } from "@/data/main";
+} from "@/components/ui/mob-nav";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"; // Ensure these components are exported correctly
+import { navLinks } from "@/data/main"; // Your navigation links data
 import Image from "next/image";
-import { nav_logo, title } from "@/images/main";
-import Dropdown from "./dropdown";
+import { nav_logo, title } from "@/images/main"; // Make sure nav_logo is imported correctly
 
 const Hamburger = () => {
   return (
@@ -35,37 +39,33 @@ const Hamburger = () => {
         </svg>
       </DialogTrigger>
 
-      {/* Dialog for mobile menu */}
-
       <DialogContent>
         <DialogHeader>
-          <DialogTitle className=" flex mx-auto">
-            <Image src={nav_logo} alt="logo" height={70} />
-            <Image
-              className="my-6"
-              src={title}
-              alt="img"
-              height={120}
-              width={120}
-            />
+          <DialogTitle className="flex h-[70px] sm:h-[90px] ">
+            <Image src={nav_logo} alt="logo" height={70} className="ml-2 sm:w-[90px] " />
+            <Image src={title} alt="title" className=" pl-2 pr-20 py-6 sm:px-6" />
+            {/* <p className="text-white/90 text-xl font-bold ml-2">
+              Choose a link to navigate.
+            </p> */}
           </DialogTitle>
-          {/* <DialogDescription><Image src={title} alt="img" height={19} /></DialogDescription> */}
         </DialogHeader>
-        <ul className="flex flex-col p-2">
+
+        <Accordion type="single" className="flex flex-col p-2">
           {navLinks.map((link) => (
-            <li
-              key={link.label}
-              className="py-3 pl-6 hover:bg-slate-500/5 rounded-2xl"
-            >
-              <a
-                // href={link.url}
-                className="text-white hover:text-[#06d6a0] transition-colors duration-300 ease-in-out"
-              >
+            <AccordionItem key={link.label} value={link.label}>
+              <AccordionTrigger>
                 {link.label}
-              </a>
-            </li>
+              </AccordionTrigger>
+              <AccordionContent>
+                {link.sublinks.map((sublink) => (
+                  <div className="my-2 text-grey-400">      
+                    <a key={sublink.label} href={sublink.path}>{sublink.label}</a>
+                  </div>
+                ))}
+              </AccordionContent>
+            </AccordionItem>
           ))}
-        </ul>
+        </Accordion>
       </DialogContent>
     </Dialog>
   );

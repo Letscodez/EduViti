@@ -2,7 +2,6 @@ import Image from "next/image";
 import { heroImage, title } from "@/images/main";
 import React from "react";
 import Btn from "../components/btn";
-import Slide from "../components/slide";
 const HeroSection = () => {
   return (
     <section className="w-screen min-h-screen  pt-32 md:pt-16 flex items-center px-12 flex-col md:flex-row justify-center text-white">
@@ -13,7 +12,7 @@ const HeroSection = () => {
           alt="Hero Title"
           height={90}
           width={670}
-          className="sm:ml-0 ml-3 md:w-96 w-[320px]"
+          className="sm:ml-0 ml-3 md:w-auto w-[320px] md:h-[54px]"
           priority
         />
 
@@ -21,7 +20,7 @@ const HeroSection = () => {
           "Know Together, Grow Together"
         </h1>
         <h2 className="text-2xl font-semibold mb-4 text-white text-center md:text-start">
-          Empowering Your Learning journey with StudySite!
+          Empowering Your Learning journey with Eduviti !
         </h2>
         <p className="2xl:text-2xl text-lg text-gray-300 mb-8 text-center md:text-start">
           Discover an all-in-one platform for curated modules,

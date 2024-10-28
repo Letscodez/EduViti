@@ -23,8 +23,8 @@ type ResourceType = {
   title: string;
   description: string;
   icon: StaticImageData | any;
-}
-const resources : ResourceType[] = [
+};
+const resources: ResourceType[] = [
   {
     title: "Notes",
     description: "Iconic notes, easy to understand and download",
@@ -32,12 +32,14 @@ const resources : ResourceType[] = [
   },
   {
     title: "Question Banks",
-    description: "Explore Question Banks packed with curated questions across all key subjects.",
+    description:
+      "Explore Question Banks packed with curated questions across all key subjects.",
     icon: qbank_svg,
   },
   {
     title: "PYQ's",
-    description: "Get access to free CBSE Previous Year Question Papers (PYQs) right here!",
+    description:
+      "Get access to free CBSE Previous Year Question Papers (PYQs) right here!",
     icon: maps_svg,
   },
   {
@@ -47,12 +49,14 @@ const resources : ResourceType[] = [
   },
   {
     title: "Books & Solutions",
-    description: "All books are available like RD Sharma, RS Aggarwal, HC Verma, etc. ",
+    description:
+      "All books are available like RD Sharma, RS Aggarwal, HC Verma, etc. ",
     icon: bookdown_svg,
   },
   {
     title: "Preferred Video Lectures",
-    description: "Dedicated Preferred Video Lectures on specific Chapter & Topics.",
+    description:
+      "Dedicated Preferred Video Lectures on specific Chapter & Topics.",
     icon: book_svg,
   },
 ];
@@ -61,29 +65,41 @@ const navLinks = [
   {
     label: "Study Resources",
     sublinks: [
-      { label: "Grade 9 Materials", path: "/resources/Grade-9" },
-      { label: "Grade 10 Materials", path: "/resources/Grade-10" },
-      { label: "Grade 11 Materials", path: "/resources/Grade-11" },
-      { label: "Grade 12 Materials", path: "/resources/Grade-12" },
+      { label: "Grade 9 Materials", path: "/StudyResources/Grade-9" },
+      { label: "Grade 10 Materials", path: "/StudyResources/Grade-10" },
+      { label: "Grade 11 Materials", path: "/StudyResources/Grade-11" },
+      { label: "Grade 12 Materials", path: "/StudyResources/Grade-12" },
     ],
   },
   {
     label: "Recommended Books",
     sublinks: [
-      { label: "Conceptual & Theory Books", path: "/RecommendedBooks/conceptual&theory-books" },
+      {
+        label: "Conceptual & Theory Books",
+        path: "/RecommendedBooks/conceptual&theory-books",
+      },
       { label: "Reference Books", path: "/RecommendedBooks/reference-books" },
       { label: "Sample Papers", path: "/RecommendedBooks/sample-papers" },
-      { label: "Previous Year Questions", path: "/RecommendedBooks/previous-year-questions" },
+      {
+        label: "Previous Year Questions",
+        path: "/RecommendedBooks/previous-year-questions",
+      },
     ],
   },
   {
     label: "Free Online Courses",
     sublinks: [
-      { label: "JEE Preparation", path: "/study/jee" },
-      { label: "NEET Preparation", path: "/study/neet" },
-      { label: "CBSE Courses", path: "/study/cbse" },
-      { label: "ICSE Courses", path: "/study/icse" },
-      { label: "State Board Courses", path: "/study/state-boards" },
+      { label: "JEE Preparation", path: "/FreeOnlineCourses/JEE-preparation" },
+      {
+        label: "NEET Preparation",
+        path: "/FreeOnlineCourses/NEET-preparation",
+      },
+      { label: "CBSE Courses", path: "/FreeOnlineCourses/CBSE-courses" },
+      { label: "ICSE Courses", path: "/FreeOnlineCourses/ICSE-courses" },
+      {
+        label: "State Board Courses",
+        path: "/FreeOnlineCourses/state-board-courses",
+      },
     ],
   },
 ];
@@ -305,17 +321,247 @@ type LinkType = {
 };
 
 const links: LinkType[] = [
-  { name: "Grade 9 ", path: "/resources/Grade-9", icon: rocket },
-  { name: "Grade 10", path: "/resources/Grade-10", icon: lectures_svg },
-  { name: "Grade 11", path: "/resources/Grade-11", icon: maps_svg },
-  { name: "Grade 12", path: "/resources/Grade-12", icon: qbank_svg },
+  { name: "Maths", path: "/StudyResources/Grade-9/maths", icon: rocket },
+  {
+    name: "Physics",
+    path: "/StudyResources/Grade-9/physics",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/StudyResources/Grade-9/chemistry",
+    icon: maps_svg,
+  },
+  { name: "Biology", path: "/StudyResources/Grade-9/biology", icon: qbank_svg },
+];
+const links2: LinkType[] = [
+  { name: "Maths", path: "/StudyResources/Grade-10/maths", icon: rocket },
+  {
+    name: "Physics",
+    path: "/StudyResources/Grade-10/physics",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/StudyResources/Grade-10/chemistry",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/StudyResources/Grade-10/biology",
+    icon: qbank_svg,
+  },
+];
+const links3: LinkType[] = [
+  { name: "Maths", path: "/StudyResources/Grade-11/maths", icon: rocket },
+  {
+    name: "Physics",
+    path: "/StudyResources/Grade-11/physics",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/StudyResources/Grade-11/chemistry",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/StudyResources/Grade-11/biology",
+    icon: qbank_svg,
+  },
+];
+const links4: LinkType[] = [
+  { name: "Maths", path: "/StudyResources/Grade-12/maths", icon: rocket },
+  {
+    name: "Physics",
+    path: "/StudyResources/Grade-12/physics",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/StudyResources/Grade-12/chemistry",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/StudyResources/Grade-12/biology",
+    icon: qbank_svg,
+  },
 ];
 
 const books: LinkType[] = [
-  { name: "Conceptual & Theory Books", path: "/RecommendedBooks/conceptual&theory-books", icon: rocket },
-  { name: "Reference Books", path: "/RecommendedBooks/reference-books", icon: lectures_svg },
-  { name: "Sample Papers", path: "/RecommendedBooks/sample-papers", icon: maps_svg },
-  { name: "Previous Year Questions", path: "/RecommendedBooks/previous-year-questions", icon: qbank_svg },
+  {
+    name: "Maths",
+    path: "/RecommendedBooks/conceptual&theory-books/maths",
+    icon: rocket,
+  },
+  {
+    name: "Physics",
+    path: "/RecommendedBooks/conceptual&theory-books/physics",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/RecommendedBooks/conceptual&theory-books/chemistry",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/RecommendedBooks/conceptual&theory-books/biology",
+    icon: qbank_svg,
+  },
+];
+const books2: LinkType[] = [
+  {
+    name: "Maths",
+    path: "/RecommendedBooks/reference-books/maths",
+    icon: rocket,
+  },
+  {
+    name: "Physics",
+    path: "/RecommendedBooks/reference-books/physics",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/RecommendedBooks/reference-books/chemistry",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/RecommendedBooks/reference-books/biology",
+    icon: qbank_svg,
+  },
+];
+const books3: LinkType[] = [
+  {
+    name: "Maths",
+    path: "/RecommendedBooks/sample-papers/maths",
+    icon: rocket,
+  },
+  {
+    name: "Physics",
+    path: "/RecommendedBooks/sample-papers/physics",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/RecommendedBooks/sample-papers/chemistry",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/RecommendedBooks/sample-papers/biology",
+    icon: qbank_svg,
+  },
+];
+const books4: LinkType[] = [
+  {
+    name: "Maths",
+    path: "/RecommendedBooks/previous-year-questions/maths",
+    icon: rocket,
+  },
+  {
+    name: "Physics",
+    path: "/RecommendedBooks/previous-year-questions/physics",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/RecommendedBooks/previous-year-questions/chemistry",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/RecommendedBooks/previous-year-questions/biology",
+    icon: qbank_svg,
+  },
+];
+const courses: LinkType[] = [
+  { name: "Maths", path: "/FreeOnlineCourses/JEE-preparation", icon: rocket },
+  {
+    name: "Physics",
+    path: "/FreeOnlineCourses/JEE-preparation",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/FreeOnlineCourses/JEE-preparation",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/FreeOnlineCourses/JEE-preparation",
+    icon: qbank_svg,
+  },
+];
+const courses2: LinkType[] = [
+  { name: "Maths", path: "/FreeOnlineCourses/NEET-preparation", icon: rocket },
+  {
+    name: "Physics",
+    path: "/FreeOnlineCourses/NEET-preparation",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/FreeOnlineCourses/NEET-preparation",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/FreeOnlineCourses/NEET-preparation",
+    icon: qbank_svg,
+  },
+];
+const courses3: LinkType[] = [
+  { name: "Maths", path: "/FreeOnlineCourses/CBSE-courses", icon: rocket },
+  {
+    name: "Physics",
+    path: "/FreeOnlineCourses/CBSE-courses",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/FreeOnlineCourses/CBSE-courses",
+    icon: maps_svg,
+  },
+  { name: "Biology", path: "/FreeOnlineCourses/CBSE-courses", icon: qbank_svg },
+];
+const courses4: LinkType[] = [
+  { name: "Maths", path: "/FreeOnlineCourses/ICSE-courses", icon: rocket },
+  {
+    name: "Physics",
+    path: "/FreeOnlineCourses/ICSE-courses",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/FreeOnlineCourses/ICSE-courses",
+    icon: maps_svg,
+  },
+  { name: "Biology", path: "/FreeOnlineCourses/ICSE-courses", icon: qbank_svg },
+];
+const courses5: LinkType[] = [
+  {
+    name: "Maths",
+    path: "/FreeOnlineCourses/state-board-courses",
+    icon: rocket,
+  },
+  {
+    name: "Physics",
+    path: "/FreeOnlineCourses/state-board-courses",
+    icon: lectures_svg,
+  },
+  {
+    name: "Chemistry",
+    path: "/FreeOnlineCourses/state-board-courses",
+    icon: maps_svg,
+  },
+  {
+    name: "Biology",
+    path: "/FreeOnlineCourses/state-board-courses",
+    icon: qbank_svg,
+  },
 ];
 
 const educators = raw_educators.slice().sort(() => Math.random() - 0.5);
@@ -329,4 +575,8 @@ export {
   links,
   books,
   resources,
+  courses,
+  links2,
+  links3,
+  links4,
 };

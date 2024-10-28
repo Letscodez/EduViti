@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 md:px-12">
         <div className="bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333] rounded-3xl p-10 text-white max-w-7xl mx-auto border-solid border-[1px] border-[#06D6A0] -mt-44 place-items-center h-96 ">
           <h2 className="font-bold mb-6 max-w-lg text-center text-4xl sm:text-6xl mt-4 xs:text-96">
-            Script your future with StudySite!
+            Script your future with Eduviti!
           </h2>
           <p className="text-lg text-gray-300 mb-6 max-w-60 text-center">
             Take the advantages of ours to improve yourself !
@@ -28,9 +28,9 @@ const Footer: React.FC = () => {
       <div className="container mx-auto flex flex-row justify-between items-center md:px-32 px-6 mt-32">
         {/* Left Section (Logo and Description) */}
         <div className="sm:w-auto w-1/2 mb-6 md:mb-0">
-          <h2 className="text-2xl font-bold text-primary font-mono">STUDYSITE</h2>
+          <h2 className="text-2xl font-bold text-primary font-mono">EDUVITI</h2>
           <p className="mt-2 max-w-xs">
-            StudySite – All in One Online study platform.
+            Eduviti – All in One Online study platform.
           </p>
         </div>
 
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           <ul className="text-sm text-gray-400 space-y-1">
             <li>
               <a href="mailto:info@learnix.com" className="hover:text-white">
-                Eduvity.Official@gmail.com
+                Eduviti@gmail.com
               </a>
             </li>
             <li>
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
                 href="https://www.instagram.com/Eduvity_official"
                 className="hover:text-white"
               >
-                Instagram - @Eduvity_official
+                Instagram - @Eduviti
               </a>
             </li>
           </ul>

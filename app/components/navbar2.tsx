@@ -1,13 +1,12 @@
 import Image from "next/image";
-import Btn from "@/app/components/btn";
+import React from "react";
 import { navLinks } from "@/data/main";
 import { nav_logo } from "@/images/main";
 import Hamburger from "./hamburger";
 import Dropdown from "./dropdown";
-const Navbar: React.FC = () => {
-  
+const Navbar2: React.FC = () => {
   return (
-    <nav className="bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-10 filter">
+    <nav className="bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-10 right-10 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-10 filter">
       {/* Logo */}
       <a href="/">
       <Image
@@ -30,11 +29,11 @@ const Navbar: React.FC = () => {
         </ul>
       </div>
       <div className="flex flex-row items-center justify-center space-x-3 mr-2">
-        <Btn className="sm:block hidden" />
+        <a href="/" className="text-2xl mr-6 hover:underline hover:text-[#06D6A0]">Home</a>
         <Hamburger />
       </div>
     </nav>
   );
 };
 
-export default Navbar;
+export default Navbar2;

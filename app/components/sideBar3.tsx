@@ -1,10 +1,10 @@
 "use client";
-import { books } from "@/data/main";
+import { courses } from "@/data/main";
 import { nav_logo, title } from "@/images/main";
 import Image from "next/image";
 import React, { useState } from "react";
 
-const Sidebar2: React.FC = () => {
+const Sidebar3: React.FC = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(true);
 
   const toggleSidebar = () => {
@@ -54,20 +54,20 @@ const Sidebar2: React.FC = () => {
           />
         </a>
         <ul className="space-y-2 mt-10">
-          {books.map((book) => (
-            <li key={book.name}>
+          {courses.map((course) => (
+            <li key={course.name}>
               <a
-                href={book.path}
+                href={course.path}
                 className="flex items-center px-4 py-3 hover:bg-white/10 rounded-xl space-x-5 transition"
               >
                 <Image
-                  src={book.icon}
-                  alt={`${book.name} icon`}
+                  src={course.icon}
+                  alt={`${course.name} icon`}
                   height={24}
                   width={24}
                   className="mr-2"
                 />
-                <span>{book.name}</span>
+                <span>{course.name}</span>
               </a>
             </li>
           ))}
@@ -99,4 +99,4 @@ const Sidebar2: React.FC = () => {
   );
 };
 
-export default Sidebar2;
+export default Sidebar3;

@@ -4,7 +4,7 @@ import "./globals.css"; // Importing global styles
 
 // Metadata for the page
 export const metadata: Metadata = {
-  title: "StudySite - All in One Online study platform.",
+  title: "Eduviti - All in One Online study platform.",
   description: "Empower your learning journey with us for brighter futures.",
   keywords: "education, learning, community, study, free, growing",
 };
