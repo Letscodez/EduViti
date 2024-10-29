@@ -1,3 +1,4 @@
+"use client";
 import { nav_logo, title } from "@/images/main";
 import Image from "next/image";
 import React, { useState } from "react";
