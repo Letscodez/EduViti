@@ -44,13 +44,13 @@ const StudyMaterials = () => {
         {materials.map((material, index) => (
           <div
             key={index}
-            className="bg-white/10 border hover:scale-105 border-[#06D6A0] p-4 rounded-xl shadow-2xl hover:shadow-xl duration-100"
+            className="bg-white/10 border hover:scale-105 border-[#06D6A0] p-4 rounded-lg shadow-2xl hover:shadow-xl duration-100"
           >
             <h2 className="text-xl font-semibold">{material.title}</h2>
             <p className="mt-2 text-base">{material.description}</p>
             <a
               href={material.link}
-              className="mt-4 inline-block px-4 hover:scale-95 py-2 bg-primary text-black rounded-xl hover:opacity-85 transition"
+              className="mt-4 inline-block px-4 hover:scale-95 py-2 bg-primary text-black rounded-lg hover:opacity-85 transition"
             >
               View Material
             </a>

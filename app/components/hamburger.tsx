@@ -13,7 +13,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"; // Ensure these components are exported correctly
-import { navLinks } from "@/data/main"; // Your navigation links data
+import { navLinks } from "@/data/navlinks"; // Your navigation links data
 import Image from "next/image";
 import { nav_logo, title } from "@/images/main"; // Make sure nav_logo is imported correctly
 
@@ -44,9 +44,9 @@ const Hamburger = () => {
           <DialogTitle className="flex h-[70px] sm:h-[90px] ">
             <Image src={nav_logo} alt="logo" height={70} className="ml-2 sm:w-[90px] " />
             <Image src={title} alt="title" className=" pl-2 pr-20 py-6 sm:px-6" />
-            {/* <p className="text-white/90 text-xl font-bold ml-2">
+            <p className="text-white/90 text-xl font-bold ml-2">
               Choose a link to navigate.
-            </p> */}
+            </p>
           </DialogTitle>
         </DialogHeader>
 
@@ -58,8 +58,8 @@ const Hamburger = () => {
               </AccordionTrigger>
               <AccordionContent>
                 {link.sublinks.map((sublink) => (
-                  <div className="my-2 text-grey-400">      
-                    <a key={sublink.label} href={sublink.path}>{sublink.label}</a>
+                  <div className="my-2 text-grey-400" key={sublink.label}>      
+                    <a href={sublink.path}>{sublink.label}</a>
                   </div>
                 ))}
               </AccordionContent>

@@ -1,7 +1,7 @@
 import React from "react";
 import Btn from "../components/btn";
 import Image from "next/image";
-import { cardData } from "@/data/main"; // Import cardData
+import { cardData } from "@/data/card"; // Import cardData
 
 const CTA: React.FC = () => {
   return (

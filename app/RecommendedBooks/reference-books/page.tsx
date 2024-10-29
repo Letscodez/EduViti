@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar2 from "@/app/components/sideBar2";
 import ResourceCard from "@/app/components/ResourceCard";
-import { resources } from "@/data/main";
+import { resources } from "@/data/resource";
 // Define the resource data
 
 const StudySection: React.FC = () => {

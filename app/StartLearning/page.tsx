@@ -1,13 +1,11 @@
-"use client";
-
 import React from "react";
 import StudyMaterials from "../components/studyMaterials";
-import Navbar2 from "../components/navbar2";
+import Navbar from "../components/navbar";
 
 const StartLearning = () => {
   return (
     <section className="bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333] min-h-screen text-white px-6 md:px-12 py-16">
-        <Navbar2/>
+        <Navbar isStart={true} />
       <div className="container max-w-5xl mx-auto mt-12 space-y-8">
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">
           Kickstart Your Learning Journey

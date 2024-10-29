@@ -11,7 +11,7 @@ import Footer from "./sections/Footer";
 export default function Home() {
   return (
     <main className="">
-      <Navbar />
+      <Navbar isStart={false}/>
       <HeroSection />
       <CTA />
       <Capabilities />

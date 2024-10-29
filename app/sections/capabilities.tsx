@@ -1,5 +1,5 @@
 import React from "react";
-import { capabilities } from "@/data/main"; // Import capabilities data
+import { capabilities } from "@/data/capabilities"; // Import capabilities data
 
 const Capabilities: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const Capabilities: React.FC = () => {
         {capabilities.map((capability) => (
           <div
             key={capability.id}
-            className="bg-primary text-[#222] p-4 rounded-xl shadow-md hover:bg-primary/70 cursor-pointer duration-100 flex items-center justify-center"
+            className="bg-primary text-[#222] p-4 rounded-lg shadow-md hover:bg-primary/70 cursor-pointer duration-100 flex items-center justify-center"
           >
             <p className="text-md font-medium whitespace-nowrap overflow-hidden text-ellipsis text-center">
               {capability.title}

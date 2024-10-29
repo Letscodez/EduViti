@@ -15,7 +15,7 @@ const Sidebar3: React.FC = () => {
     <div className={`flex flex-col bg-gradient-to-bl from-[#2e4640] to-[#333333] text-white h-screen w-96 p-4 border-r border-white/30 ${isSidebarVisible ? "block" : "hidden"}`}>
       <button
         onClick={toggleSidebar}
-        className="mb-4 rounded-xl bg-white/20 p-2 transition-all duration-300 absolute left-[17rem] top-6"
+        className="mb-4 rounded-lg bg-white/20 p-2 transition-all duration-300 absolute left-[17rem] top-6"
       >
         <svg
           role="button"
@@ -58,7 +58,7 @@ const Sidebar3: React.FC = () => {
             <li key={course.name}>
               <a
                 href={course.path}
-                className="flex items-center px-4 py-3 hover:bg-white/10 rounded-xl space-x-5 transition"
+                className="flex items-center px-4 py-3 hover:bg-white/10 rounded-lg space-x-5 transition"
               >
                 <Image
                   src={course.icon}
@@ -77,7 +77,7 @@ const Sidebar3: React.FC = () => {
       <div className="mt-auto">
         <a
           href="/"
-          className="flex items-center px-4 py-3 hover:bg-white/10 rounded-xl space-x-5 transition"
+          className="flex items-center px-4 py-3 hover:bg-white/10 rounded-lg space-x-5 transition"
         >
           <svg
             width="30"

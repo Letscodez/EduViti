@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           </p>
           <a
             href="#"
-            className="bg-[#06D6A0] text-black font-semibold py-3 px-8 rounded-xl hover:opacity-80 transition-colors inline-flex items-center space-x-2"
+            className="bg-[#06D6A0] text-black font-semibold py-3 px-8 rounded-lg hover:opacity-80 transition-colors inline-flex items-center space-x-2"
           >
             <span>Get Started</span>
             <Image src={vector_svg} alt="img" width={30} height={30} />

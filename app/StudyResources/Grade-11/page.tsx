@@ -1,7 +1,7 @@
 import React from "react";
 import Sidebar1 from "@/app/components/sidebar";
 import ResourceCard from "@/app/components/ResourceCard";
-import { resources } from "@/data/main";
+import { resources } from "@/data/resource";
 import {links} from "@/data/main";
 // Define the resource data
 

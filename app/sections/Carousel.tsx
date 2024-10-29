@@ -6,11 +6,11 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
-import { educators } from "@/data/main";
+import { educators } from "@/data/educator";
 
 const EducatorCarousel = () => {
   return (
-    <section className="lg:w-5/6 md:w-11/12 w-full mx-auto text-white lg:p-20 p-4 rounded-lg  md:h-[100vh] ">
+    <section className="lg:w-5/6 md:w-11/12 w-full mx-auto text-white lg:p-20 p-4 rounded-lg ">
       <h1 className="text-4xl sm:text-5xl font-bold mb-2 text-center">
         Guiding You to <span className="text-[#06D6A0]">Success!</span>
       </h1>

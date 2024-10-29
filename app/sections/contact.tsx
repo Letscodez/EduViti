@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/accordion";
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
-import { FAQs } from "@/data/main";
+import { FAQs } from "@/data/faq";
 import Btn from "@/app/components/btn";
 
 const Contact = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { benefitsData, BenefitType } from "@/data/main"; // Ensure that benefitsData contains 4-5 items
+import { benefitsData, BenefitType } from "@/data/benifit"; // Ensure that benefitsData contains 4-5 items
 import Btn from "../components/btn";
 
 const BenefitsSection = () => {
