@@ -7,7 +7,7 @@ interface ChapterCardProps {
 
 const ChapterCard: React.FC<ChapterCardProps> = ({ title, url }) => {
   return (
-    <div className="w-full p-3 bg-white/10 rounded-lg shadow-md border border-primary/30 hover:scale-[1.01] duration-200 cursor-pointer flex items-center justify-between">
+    <div className="w-full p-3 bg-white/10 rounded-lg shadow-md border border-primary/30 hover:scale-[1.03] duration-200 cursor-pointer flex items-center justify-between">
       <h3 className="text-lg text-white/90">⁍ {title}</h3>
       <a
         href={url}

@@ -5,8 +5,8 @@ import ChapterCard from '@/app/components/chapters';
 const Grade9MathsBooks = () => {
   return (
     <main className="p-6">
-      <h1 className="text-2xl font-bold mb-6 text-white">Grade 9 Maths Books Solutions</h1>
-      <div className="flex flex-wrap -mx-3">
+      <h1 className="text-2xl font-bold mb-6 mt-6 text-white text-center">Grade 9 Maths Books Solutions</h1>
+      <div className="flex flex-wrap mt-14 -mx-3">
         {maths_chapters.map((chapter) => (
           <div key={chapter.name} className="w-1/2 px-3 mb-5">
             <ChapterCard
