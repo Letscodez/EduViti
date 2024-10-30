@@ -4,7 +4,7 @@ import React from "react";
 import Btn from "../components/btn";
 const HeroSection = () => {
   return (
-    <section className="w-screen min-h-screen  pt-32 md:pt-16 flex items-center px-12 flex-col md:flex-row justify-center text-white">
+    <section className="w-screen min-h-screen pt-32 md:pt-16 flex items-center px-4 sm:px-12 flex-col md:flex-row justify-center text-white">
       {/* Left side: Text content */}
       <div className="md:w-1/2 md:mb-0  flex flex-col md:items-start md:justify-start items-center justify-center">
         <Image
@@ -12,7 +12,7 @@ const HeroSection = () => {
           alt="Hero Title"
           height={90}
           width={670}
-          className="sm:ml-0 ml-3 md:w-auto w-[320px] md:h-[54px]"
+          className="sm:ml-0 ml-3 w-[280px] sm:w-[320px] md:w-auto"
           priority
         />
 

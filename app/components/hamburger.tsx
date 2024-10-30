@@ -50,7 +50,7 @@ const Hamburger = () => {
           </DialogTitle>
         </DialogHeader>
 
-        <Accordion type="single" className="flex flex-col p-2">
+        <Accordion type="multiple" className="flex flex-col h-full space-y-4">
           {navLinks.map((link) => (
             <AccordionItem key={link.label} value={link.label}>
               <AccordionTrigger>
@@ -58,8 +58,8 @@ const Hamburger = () => {
               </AccordionTrigger>
               <AccordionContent>
                 {link.sublinks.map((sublink) => (
-                  <div className="my-2 text-grey-400" key={sublink.label}>      
-                    <a href={sublink.path}>{sublink.label}</a>
+                  <div className="my-4 text-grey-400 hover:text-primary" key={sublink.label}>      
+                    <a href={sublink.path}>⁍ {sublink.label}</a>
                   </div>
                 ))}
               </AccordionContent>
