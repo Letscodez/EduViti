@@ -59,7 +59,7 @@ const Sidebar1: React.FC<SidebarProps> = ({links, selected, setSelected }) => {
         </a>
         <ul className="space-y-2 mt-10">
           {links.map((link) => (
-            <li key={link.name} onClick={() => setSelected(link.path)}>
+            <li key={link.name} onClick={() => {setSelected(link.path); toggleSidebar()}}>
               <a
                 className={`flex hover:scale-105 items-center px-4 cursor-pointer py-3 hover:bg-white/10 rounded-lg space-x-5 transition ${
                   link.path === selected
