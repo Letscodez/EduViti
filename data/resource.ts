@@ -46,7 +46,7 @@ export const resources: ResourceType[] = [
     description:
       "All books are available like RD Sharma, RS Aggarwal, HC Verma, etc. ",
     icon: bookdown_svg,
-    linkName: "books-and-solutions",
+    linkName: "books-solutions",
   },
   {
     title: "Preferred Video Lectures",

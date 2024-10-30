@@ -34,9 +34,9 @@ const Navbar: React.FC<NavbarProps> = ({ isStart }) => {
         </ul>
       </div>
       
-      <div className="flex flex-row items-center justify-center space-x-3 mr-2">
+      <div className="flex flex-row items-center justify-center space-x-3 mr-6">
         {isStart ? (
-          <Btn className="sm:block hidden" displayText="Go Back Home" url="/" />
+          <Btn className="sm:block hidden" displayText="Home" url="/" />
         ) : (
           <Btn className="sm:block hidden" />
         )}

@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Fredoka } from "next/font/google";
 import "./globals.css"; // Importing global styles
 
-// Metadata for the page
 export const metadata: Metadata = {
-  title: "Eduviti - All in One Online study platform.",
+  title: "EduViti - All in One Online study platform.",
   description: "Empower your learning journey with us for brighter futures.",
   keywords: "education, learning, community, study, free, growing",
 };
@@ -13,12 +12,10 @@ const fredoka = Fredoka({
   weight: "400",
   subsets: ["latin"],
 });
-
-// Root layout component
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode; // Defining the type of children prop
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
