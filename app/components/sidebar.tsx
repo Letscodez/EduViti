@@ -2,25 +2,25 @@
 import { nav_logo, title } from "@/images/main";
 import Image from "next/image";
 import React, { useState } from "react";
-import { links } from "@/data/main";
 
 // Define the props type
 interface SidebarProps {
+  links : { name: string; path: string; icon: string }[];
   selected: string;
   setSelected: React.Dispatch<React.SetStateAction<string>>;
 }
 
-const Sidebar1: React.FC<SidebarProps> = ({ selected, setSelected }) => {
+const Sidebar1: React.FC<SidebarProps> = ({links, selected, setSelected }) => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(true);
   const toggleSidebar = () => {
     setIsSidebarVisible((prevState) => !prevState);
   };
 
   return (
-    <div className="absolute sm:relative flex">
+    <div className="flex">
       <button
         onClick={toggleSidebar}
-        className={`mb-4 rounded-lg bg-white/20 p-2 transition-all duration-100 absolute top-6 z-20 ${
+        className={`mb-4 rounded-lg text-white hover:text-primary cursor-pointer bg-white/20 p-2 transition-all duration-200 fixed top-6 z-20 hover:scale-105 ${
           isSidebarVisible ? "sm:left-[19rem] left-64" : "left-5"
         }`}
       >
@@ -32,7 +32,7 @@ const Sidebar1: React.FC<SidebarProps> = ({ selected, setSelected }) => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 h-6 text-white hover:text-primary cursor-pointer"
+          className="w-6 h-6"
         >
           <path
             strokeLinecap="round"
@@ -42,11 +42,11 @@ const Sidebar1: React.FC<SidebarProps> = ({ selected, setSelected }) => {
         </svg>
       </button>
       <div
-        className={`flex flex-col duration-200 bg-gradient-to-bl from-[#2e4640] to-[#333333] text-white h-screen w-60 sm:w-72 z-50 p-4 border-r border-white/30 ${
+        className={`flex fixed flex-col duration-200 bg-gradient-to-bl from-[#2e4640] to-[#333333] text-white h-screen w-60 sm:w-72 z-50 p-4 border-r border-white/30 ${
           isSidebarVisible ? "block" : "hidden"
         }`}
       >
-        <a href="/" className="flex items-center mb-4 space-x-3">
+        <a href="/" className="flex duration-200 hover:scale-105 items-center mb-4 space-x-3">
           <Image src={nav_logo} alt="Logo" height={60} width={60} priority />
           <Image
             src={title}
@@ -61,10 +61,9 @@ const Sidebar1: React.FC<SidebarProps> = ({ selected, setSelected }) => {
           {links.map((link) => (
             <li key={link.name} onClick={() => setSelected(link.path)}>
               <a
-                className={`flex items-center px-4 py-3 hover:bg-white/10 rounded-lg space-x-5 transition ${
+                className={`flex hover:scale-105 items-center px-4 cursor-pointer py-3 hover:bg-white/10 rounded-lg space-x-5 transition ${
                   link.path === selected
-                    ? "bg-white/10 border-[1px] border-primary/40"
-                    : ""
+                    && "bg-white/10 border-[1px] border-primary/40"
                 }`}
               >
                 <Image
@@ -82,7 +81,7 @@ const Sidebar1: React.FC<SidebarProps> = ({ selected, setSelected }) => {
         <div className="mt-auto">
           <a
             href="/"
-            className="flex items-center px-4 py-3 mb-2 hover:bg-white/10 rounded-lg space-x-5 transition"
+            className="flex hover:scale-105 items-center px-4 py-3 mb-2 hover:bg-white/10 rounded-lg space-x-5 transition"
           >
             <svg
               width="30"
@@ -103,7 +102,7 @@ const Sidebar1: React.FC<SidebarProps> = ({ selected, setSelected }) => {
       </div>
       {isSidebarVisible && (
         <div
-          className="fixed inset-0 bg-black opacity-75 z-10 sm:hidden"
+          className="fixed inset-0 bg-black opacity-75 z-10 lg:hidden"
           onClick={toggleSidebar}
         ></div>
       )}

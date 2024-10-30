@@ -1,80 +1,5 @@
-import { StaticImageData } from "next/image";
-import { rocket, maps_svg, qbank_svg, lectures_svg } from "@/images/main"; // Import your images
-
-type LinkType = {
-  name: string;
-  path: string;
-  icon: StaticImageData | any;
-};
-
-const links: LinkType[] = [
-  { name: "Maths", path: "/StudyResources/Grade-9/maths", icon: rocket },
-  {
-    name: "Physics",
-    path: "/StudyResources/Grade-9/physics",
-    icon: lectures_svg,
-  },
-  {
-    name: "Chemistry",
-    path: "/StudyResources/Grade-9/chemistry",
-    icon: maps_svg,
-  },
-  { name: "Biology", path: "/StudyResources/Grade-9/biology", icon: qbank_svg },
-];
-const links2: LinkType[] = [
-  { name: "Maths", path: "/StudyResources/Grade-10/maths", icon: rocket },
-  {
-    name: "Physics",
-    path: "/StudyResources/Grade-10/physics",
-    icon: lectures_svg,
-  },
-  {
-    name: "Chemistry",
-    path: "/StudyResources/Grade-10/chemistry",
-    icon: maps_svg,
-  },
-  {
-    name: "Biology",
-    path: "/StudyResources/Grade-10/biology",
-    icon: qbank_svg,
-  },
-];
-const links3: LinkType[] = [
-  { name: "Maths", path: "/StudyResources/Grade-11/maths", icon: rocket },
-  {
-    name: "Physics",
-    path: "/StudyResources/Grade-11/physics",
-    icon: lectures_svg,
-  },
-  {
-    name: "Chemistry",
-    path: "/StudyResources/Grade-11/chemistry",
-    icon: maps_svg,
-  },
-  {
-    name: "Biology",
-    path: "/StudyResources/Grade-11/biology",
-    icon: qbank_svg,
-  },
-];
-const links4: LinkType[] = [
-  { name: "Maths", path: "/StudyResources/Grade-12/maths", icon: rocket },
-  {
-    name: "Physics",
-    path: "/StudyResources/Grade-12/physics",
-    icon: lectures_svg,
-  },
-  {
-    name: "Chemistry",
-    path: "/StudyResources/Grade-12/chemistry",
-    icon: maps_svg,
-  },
-  {
-    name: "Biology",
-    path: "/StudyResources/Grade-12/biology",
-    icon: qbank_svg,
-  },
-];
+import { lectures_svg, maps_svg, qbank_svg, rocket } from "@/images/main";
+import { LinkType } from "./classes/linkType";
 
 const books: LinkType[] = [
   {
@@ -251,4 +176,4 @@ const courses5: LinkType[] = [
   },
 ];
 
-export { links, books, courses, links2, links3, links4 };
+export { books, courses, };

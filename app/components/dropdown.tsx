@@ -51,7 +51,7 @@ const Dropdown = ({ link }: DropdownProps): ReactElement => {
       onMouseLeave={handleMouseLeave}
       key={link.label}
     >
-      <li key={link.label} className="flex items-center space-x-1">
+      <li key={link.label} className="flex items-center space-x-1 ">
         <a className="text-white/90 duration-100 hover:text-[#06d6a0] transition-colors ease-in-out">
           {link.label}
         </a>
@@ -65,7 +65,7 @@ const Dropdown = ({ link }: DropdownProps): ReactElement => {
       {/* Dropdown Menu */}
       {isHovered && (
         <div
-          className="absolute duration-200 mt-2 w-48 rounded-lg shadow-lg bg-gradient-to-bl to-[#333333] from-[#224640] z-10"
+          className="absolute opacity-90 duration-200 border border-primary/20 mt-2 w-48 rounded-lg shadow-lg bg-gradient-to-bl to-[#333333] from-[#224640] z-10"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
