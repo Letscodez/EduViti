@@ -1,23 +1,49 @@
-import React from 'react';
-import { maths_chapters } from '@/data/classes/9';
-import ChapterCard from '@/app/components/chapters';
+import Image from 'next/image';
 
-const Grade9MathsBooks = () => {
+export default function SuggestedBooksPage() {
+  // Sample data structure for book information
+  const books = [
+    {
+      title: 'RD Sharma',
+      thumbnail: '/images/math_book_thumbnail.jpg',
+      link: 'https://example.com/math-book',
+    },
+    {
+      title: 'RS Aggarwal',
+      thumbnail: '/images/science_book_thumbnail.jpg',
+      link: 'https://example.com/science-book',
+    },
+    {
+      title: 'Pearson',
+      thumbnail: '/images/english_book_thumbnail.jpg',
+      link: 'https://example.com/english-book',
+    },
+    // Add more books here as needed
+  ];
+
   return (
-    <main className="p-6">
-      <h1 className="text-2xl font-bold mb-6 mt-6 text-white text-center">Grade 9 Maths Books Solutions</h1>
-      <div className="flex flex-wrap mt-14 -mx-3">
-        {maths_chapters.map((chapter) => (
-          <div key={chapter.name} className="w-1/2 px-3 mb-5">
-            <ChapterCard
-              title={chapter.name}
-              url={chapter.path}
+    <div className="p-6 text-center">
+      <h1 className="text-3xl font-bold text-white mb-8 mt-10 ">Grade 9 Extra Books & Solutions</h1>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center mt-8 ">
+        {books.map((book, index) => (
+          <a
+            key={index}
+            href={book.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-800 rounded-lg p-4 text-white w-40 hover:shadow-lg hover:scale-105 transform transition duration-200"
+          >
+            <Image
+              src={book.thumbnail}
+              alt={book.title}
+              width={120}
+              height={160}
+              className="rounded-md mb-4"
             />
-          </div>
+            <span className="block text-sm font-medium">{book.title}</span>
+          </a>
         ))}
       </div>
-    </main>
+    </div>
   );
 }
-
-export default Grade9MathsBooks;
