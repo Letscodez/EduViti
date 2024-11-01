@@ -24,346 +24,572 @@ export const links: LinkType[] = [
     path: "/StudyResources/Grade-11/chemistry",
     icon: maps_svg,
   },
-  { name: "Biology", path: "/StudyResources/Grade-11/biology", icon: qbank_svg },
+  {
+    name: "Biology",
+    path: "/StudyResources/Grade-11/biology",
+    icon: qbank_svg,
+  },
 ];
 export const maths = {
   notes: [
+    { name: "Sets", path: "/StudyResources/Grade-11/maths/sets" },
     {
       name: "Relations and Functions",
-      path: "/StudyResources/Grade-12/maths/number-systems",
-    },
-    { name: "Inverse Trigonometric Functions", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Matrices",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      path: "/StudyResources/Grade-11/maths/relations-and-functions",
     },
     {
-      name: "Determinants",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Trigonometric Functions",
+      path: "/StudyResources/Grade-11/maths/trigonometric-functions",
     },
     {
-      name: "Continuity and Differentiability",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Complex Numbers and Quadratic Equations",
+      path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
     },
     {
-      name: "Applications of Derivatives",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Integrals", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Application of Integrals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      name: "Linear Inequalities",
+      path: "/StudyResources/Grade-11/maths/linear-inequalities",
     },
     {
-      name: "Differential Equations",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Vector Algebra", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Three Dimensional Geometry",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      name: "Permutations and Combinations",
+      path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
     },
     {
-      name: "Linear Programming",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Binomial Theorem",
+      path: "/StudyResources/Grade-11/maths/binomial-theorem",
     },
     {
-      name: "Probability",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      name: "Sequences and Series",
+      path: "/StudyResources/Grade-11/maths/sequences-and-series",
     },
+    {
+      name: "Straight Lines",
+      path: "/StudyResources/Grade-11/maths/straight-lines",
+    },
+    {
+      name: "Conic Sections",
+      path: "/StudyResources/Grade-11/maths/conic-sections",
+    },
+    {
+      name: "Introduction to Three Dimensional Geometry",
+      path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+    },
+    {
+      name: "Limits and Derivatives",
+      path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+    },
+    { name: "Statistics", path: "/StudyResources/Grade-11/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-11/maths/probability" },
   ],
   pyqp: [
+    { name: "Sets", path: "/StudyResources/Grade-11/maths/sets" },
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      name: "Relations and Functions",
+      path: "/StudyResources/Grade-11/maths/relations-and-functions",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Trigonometric Functions",
+      path: "/StudyResources/Grade-11/maths/trigonometric-functions",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Complex Numbers and Quadratic Equations",
+      path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
     },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      name: "Linear Inequalities",
+      path: "/StudyResources/Grade-11/maths/linear-inequalities",
     },
     {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      name: "Permutations and Combinations",
+      path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
     },
     {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Binomial Theorem",
+      path: "/StudyResources/Grade-11/maths/binomial-theorem",
     },
     {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      name: "Sequences and Series",
+      path: "/StudyResources/Grade-11/maths/sequences-and-series",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Straight Lines",
+      path: "/StudyResources/Grade-11/maths/straight-lines",
+    },
+    {
+      name: "Conic Sections",
+      path: "/StudyResources/Grade-11/maths/conic-sections",
+    },
+    {
+      name: "Introduction to Three Dimensional Geometry",
+      path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+    },
+    {
+      name: "Limits and Derivatives",
+      path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+    },
+    { name: "Statistics", path: "/StudyResources/Grade-11/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-11/maths/probability" },
   ],
   question_banks: [
+    { name: "Sets", path: "/StudyResources/Grade-11/maths/sets" },
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      name: "Relations and Functions",
+      path: "/StudyResources/Grade-11/maths/relations-and-functions",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Trigonometric Functions",
+      path: "/StudyResources/Grade-11/maths/trigonometric-functions",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Complex Numbers and Quadratic Equations",
+      path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
     },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      name: "Linear Inequalities",
+      path: "/StudyResources/Grade-11/maths/linear-inequalities",
     },
     {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      name: "Permutations and Combinations",
+      path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
     },
     {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Binomial Theorem",
+      path: "/StudyResources/Grade-11/maths/binomial-theorem",
     },
     {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      name: "Sequences and Series",
+      path: "/StudyResources/Grade-11/maths/sequences-and-series",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Straight Lines",
+      path: "/StudyResources/Grade-11/maths/straight-lines",
+    },
+    {
+      name: "Conic Sections",
+      path: "/StudyResources/Grade-11/maths/conic-sections",
+    },
+    {
+      name: "Introduction to Three Dimensional Geometry",
+      path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+    },
+    {
+      name: "Limits and Derivatives",
+      path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+    },
+    { name: "Statistics", path: "/StudyResources/Grade-11/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-11/maths/probability" },
   ],
   sample_paper: [
+    { name: "Sets", path: "/StudyResources/Grade-11/maths/sets" },
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      name: "Relations and Functions",
+      path: "/StudyResources/Grade-11/maths/relations-and-functions",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Trigonometric Functions",
+      path: "/StudyResources/Grade-11/maths/trigonometric-functions",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Complex Numbers and Quadratic Equations",
+      path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
     },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      name: "Linear Inequalities",
+      path: "/StudyResources/Grade-11/maths/linear-inequalities",
     },
     {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      name: "Permutations and Combinations",
+      path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
     },
     {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Binomial Theorem",
+      path: "/StudyResources/Grade-11/maths/binomial-theorem",
     },
     {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      name: "Sequences and Series",
+      path: "/StudyResources/Grade-11/maths/sequences-and-series",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Straight Lines",
+      path: "/StudyResources/Grade-11/maths/straight-lines",
+    },
+    {
+      name: "Conic Sections",
+      path: "/StudyResources/Grade-11/maths/conic-sections",
+    },
+    {
+      name: "Introduction to Three Dimensional Geometry",
+      path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+    },
+    {
+      name: "Limits and Derivatives",
+      path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+    },
+    { name: "Statistics", path: "/StudyResources/Grade-11/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-11/maths/probability" },
   ],
   video_lectures: [
+    { name: "Sets", path: "/StudyResources/Grade-11/maths/sets" },
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      name: "Relations and Functions",
+      path: "/StudyResources/Grade-11/maths/relations-and-functions",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Trigonometric Functions",
+      path: "/StudyResources/Grade-11/maths/trigonometric-functions",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Complex Numbers and Quadratic Equations",
+      path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
     },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      name: "Linear Inequalities",
+      path: "/StudyResources/Grade-11/maths/linear-inequalities",
     },
     {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      name: "Permutations and Combinations",
+      path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
     },
     {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Binomial Theorem",
+      path: "/StudyResources/Grade-11/maths/binomial-theorem",
     },
     {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      name: "Sequences and Series",
+      path: "/StudyResources/Grade-11/maths/sequences-and-series",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Straight Lines",
+      path: "/StudyResources/Grade-11/maths/straight-lines",
+    },
+    {
+      name: "Conic Sections",
+      path: "/StudyResources/Grade-11/maths/conic-sections",
+    },
+    {
+      name: "Introduction to Three Dimensional Geometry",
+      path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+    },
+    {
+      name: "Limits and Derivatives",
+      path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+    },
+    { name: "Statistics", path: "/StudyResources/Grade-11/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-11/maths/probability" },
   ],
   books: [
     {
       title: "RD Sharma",
       thumbnail: rd_maths_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://example.com/rd-sharma",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://example.com/rs-aggarwal",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://example.com/pearson",
     },
-    {
-      title: "Manjit Singh",
-      thumbnail: manjit_maths_9,
-      link: "https://example.com/english-book",
-    },
-    // Add more books here as needed
   ],
 };
+
 export const physics = {
   notes: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Physical World",
+      path: "/StudyResources/Grade-11/physics/physical-world",
+    },
+    {
+      name: "Units and Measurements",
+      path: "/StudyResources/Grade-11/physics/units-and-measurements",
+    },
+    {
+      name: "Motion in a Straight Line",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+    },
+    {
+      name: "Motion in a Plane",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+    },
+    {
+      name: "Law of Motion",
+      path: "/StudyResources/Grade-11/physics/law-of-motion",
+    },
+    {
+      name: "Work, Energy and Power",
+      path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+    },
+    {
+      name: "Systems of Particles and Rotational Motion",
+      path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
     },
     {
       name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      path: "/StudyResources/Grade-11/physics/gravitation",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Mechanical Properties of Solids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Mechanical Properties of Fluids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+    },
+    {
+      name: "Thermal Properties of Matter",
+      path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/physics/thermodynamics",
+    },
+    {
+      name: "Kinetic Theory",
+      path: "/StudyResources/Grade-11/physics/kinetic-theory",
+    },
+    {
+      name: "Oscillations",
+      path: "/StudyResources/Grade-11/physics/oscillations",
+    },
+    { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
   ],
   pyq: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Physical World",
+      path: "/StudyResources/Grade-11/physics/physical-world",
+    },
+    {
+      name: "Units and Measurements",
+      path: "/StudyResources/Grade-11/physics/units-and-measurements",
+    },
+    {
+      name: "Motion in a Straight Line",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+    },
+    {
+      name: "Motion in a Plane",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+    },
+    {
+      name: "Law of Motion",
+      path: "/StudyResources/Grade-11/physics/law-of-motion",
+    },
+    {
+      name: "Work, Energy and Power",
+      path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+    },
+    {
+      name: "Systems of Particles and Rotational Motion",
+      path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
     },
     {
       name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      path: "/StudyResources/Grade-11/physics/gravitation",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Mechanical Properties of Solids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Mechanical Properties of Fluids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+    },
+    {
+      name: "Thermal Properties of Matter",
+      path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/physics/thermodynamics",
+    },
+    {
+      name: "Kinetic Theory",
+      path: "/StudyResources/Grade-11/physics/kinetic-theory",
+    },
+    {
+      name: "Oscillations",
+      path: "/StudyResources/Grade-11/physics/oscillations",
+    },
+    { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
   ],
   question_banks: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Physical World",
+      path: "/StudyResources/Grade-11/physics/physical-world",
+    },
+    {
+      name: "Units and Measurements",
+      path: "/StudyResources/Grade-11/physics/units-and-measurements",
+    },
+    {
+      name: "Motion in a Straight Line",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+    },
+    {
+      name: "Motion in a Plane",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+    },
+    {
+      name: "Law of Motion",
+      path: "/StudyResources/Grade-11/physics/law-of-motion",
+    },
+    {
+      name: "Work, Energy and Power",
+      path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+    },
+    {
+      name: "Systems of Particles and Rotational Motion",
+      path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
     },
     {
       name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      path: "/StudyResources/Grade-11/physics/gravitation",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Mechanical Properties of Solids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Mechanical Properties of Fluids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+    },
+    {
+      name: "Thermal Properties of Matter",
+      path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/physics/thermodynamics",
+    },
+    {
+      name: "Kinetic Theory",
+      path: "/StudyResources/Grade-11/physics/kinetic-theory",
+    },
+    {
+      name: "Oscillations",
+      path: "/StudyResources/Grade-11/physics/oscillations",
+    },
+    { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
   ],
   sample_paper: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Physical World",
+      path: "/StudyResources/Grade-11/physics/physical-world",
+    },
+    {
+      name: "Units and Measurements",
+      path: "/StudyResources/Grade-11/physics/units-and-measurements",
+    },
+    {
+      name: "Motion in a Straight Line",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+    },
+    {
+      name: "Motion in a Plane",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+    },
+    {
+      name: "Law of Motion",
+      path: "/StudyResources/Grade-11/physics/law-of-motion",
+    },
+    {
+      name: "Work, Energy and Power",
+      path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+    },
+    {
+      name: "Systems of Particles and Rotational Motion",
+      path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
     },
     {
       name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      path: "/StudyResources/Grade-11/physics/gravitation",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Mechanical Properties of Solids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Mechanical Properties of Fluids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+    },
+    {
+      name: "Thermal Properties of Matter",
+      path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/physics/thermodynamics",
+    },
+    {
+      name: "Kinetic Theory",
+      path: "/StudyResources/Grade-11/physics/kinetic-theory",
+    },
+    {
+      name: "Oscillations",
+      path: "/StudyResources/Grade-11/physics/oscillations",
+    },
+    { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
   ],
   video_lectures: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Physical World",
+      path: "/StudyResources/Grade-11/physics/physical-world",
+    },
+    {
+      name: "Units and Measurements",
+      path: "/StudyResources/Grade-11/physics/units-and-measurements",
+    },
+    {
+      name: "Motion in a Straight Line",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+    },
+    {
+      name: "Motion in a Plane",
+      path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+    },
+    {
+      name: "Law of Motion",
+      path: "/StudyResources/Grade-11/physics/law-of-motion",
+    },
+    {
+      name: "Work, Energy and Power",
+      path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+    },
+    {
+      name: "Systems of Particles and Rotational Motion",
+      path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
     },
     {
       name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      path: "/StudyResources/Grade-11/physics/gravitation",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Mechanical Properties of Solids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Mechanical Properties of Fluids",
+      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+    },
+    {
+      name: "Thermal Properties of Matter",
+      path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/physics/thermodynamics",
+    },
+    {
+      name: "Kinetic Theory",
+      path: "/StudyResources/Grade-11/physics/kinetic-theory",
+    },
+    {
+      name: "Oscillations",
+      path: "/StudyResources/Grade-11/physics/oscillations",
+    },
+    { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
   ],
   books: [
     {
@@ -387,92 +613,297 @@ export const physics = {
 export const chemistry = {
   notes: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Basic Concepts of Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Atomic Structure",
+      path: "/StudyResources/Grade-11/chemistry/atomic-structure",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Classification of Elements & Periodicity in Properties",
+      path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "States of Matter",
+      path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+    },
+    {
+      name: "Chemical Bonding",
+      path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+    },
+    {
+      name: "Chemical Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+    },
+    {
+      name: "Ionic Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+    },
+    {
+      name: "Redox Reactions",
+      path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+    },
+    { name: "Hydrogen", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
+    {
+      name: "S-Block Elements",
+      path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+    },
+    {
+      name: "Carbon Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+    },
+    {
+      name: "Boron Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+    },
+    {
+      name: "General Organic Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+    },
+    {
+      name: "Hydrocarbons",
+      path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
     },
   ],
   pyq: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Basic Concepts of Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Atomic Structure",
+      path: "/StudyResources/Grade-11/chemistry/atomic-structure",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Classification of Elements & Periodicity in Properties",
+      path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "States of Matter",
+      path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+    },
+    {
+      name: "Chemical Bonding",
+      path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+    },
+    {
+      name: "Chemical Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+    },
+    {
+      name: "Ionic Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+    },
+    {
+      name: "Redox Reactions",
+      path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+    },
+    { name: "Hydrogen", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
+    {
+      name: "S-Block Elements",
+      path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+    },
+    {
+      name: "Carbon Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+    },
+    {
+      name: "Boron Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+    },
+    {
+      name: "General Organic Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+    },
+    {
+      name: "Hydrocarbons",
+      path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
     },
   ],
   question_banks: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Basic Concepts of Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Atomic Structure",
+      path: "/StudyResources/Grade-11/chemistry/atomic-structure",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Classification of Elements & Periodicity in Properties",
+      path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "States of Matter",
+      path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+    },
+    {
+      name: "Chemical Bonding",
+      path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+    },
+    {
+      name: "Chemical Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+    },
+    {
+      name: "Ionic Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+    },
+    {
+      name: "Redox Reactions",
+      path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+    },
+    { name: "Hydrogen", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
+    {
+      name: "S-Block Elements",
+      path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+    },
+    {
+      name: "Carbon Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+    },
+    {
+      name: "Boron Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+    },
+    {
+      name: "General Organic Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+    },
+    {
+      name: "Hydrocarbons",
+      path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
     },
   ],
   sample_paper: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Basic Concepts of Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Atomic Structure",
+      path: "/StudyResources/Grade-11/chemistry/atomic-structure",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Classification of Elements & Periodicity in Properties",
+      path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "States of Matter",
+      path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+    },
+    {
+      name: "Chemical Bonding",
+      path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+    },
+    {
+      name: "Chemical Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+    },
+    {
+      name: "Ionic Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+    },
+    {
+      name: "Redox Reactions",
+      path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+    },
+    { name: "Hydrogen", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
+    {
+      name: "S-Block Elements",
+      path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+    },
+    {
+      name: "Carbon Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+    },
+    {
+      name: "Boron Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+    },
+    {
+      name: "General Organic Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+    },
+    {
+      name: "Hydrocarbons",
+      path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
     },
   ],
   video_lectures: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Basic Concepts of Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Atomic Structure",
+      path: "/StudyResources/Grade-11/chemistry/atomic-structure",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Classification of Elements & Periodicity in Properties",
+      path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "States of Matter",
+      path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+    },
+    {
+      name: "Chemical Bonding",
+      path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+    },
+    {
+      name: "Thermodynamics",
+      path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+    },
+    {
+      name: "Chemical Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+    },
+    {
+      name: "Ionic Equilibrium",
+      path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+    },
+    {
+      name: "Redox Reactions",
+      path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+    },
+    { name: "Hydrogen", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
+    {
+      name: "S-Block Elements",
+      path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+    },
+    {
+      name: "Carbon Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+    },
+    {
+      name: "Boron Family p-block Elements",
+      path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+    },
+    {
+      name: "General Organic Chemistry",
+      path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+    },
+    {
+      name: "Hydrocarbons",
+      path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
     },
   ],
   books: [
@@ -497,117 +928,452 @@ export const chemistry = {
 export const biology = {
   notes: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "The Living World",
+      path: "/StudyResources/Grade-11/biology/living-world",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Biological Classification",
+      path: "/StudyResources/Grade-11/biology/biological-classification",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Plant Kingdom",
+      path: "/StudyResources/Grade-11/biology/plant-kingdom",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Animal Kingdom",
+      path: "/StudyResources/Grade-11/biology/animal-kingdom",
+    },
+    {
+      name: "Morphology of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+    },
+    {
+      name: "Anatomy of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+    },
+    {
+      name: "Structural Organisation in Animals",
+      path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+    },
+    {
+      name: "Cell, The Unit of Life",
+      path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-11/biology/biomolecules",
+    },
+    {
+      name: "Cell Cycle and Cell Division",
+      path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+    },
+    {
+      name: "Transport in Plants",
+      path: "/StudyResources/Grade-11/biology/transport-in-plants",
+    },
+    {
+      name: "Mineral Nutrition",
+      path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+    },
+    {
+      name: "Photosynthesis in Higher Plants",
+      path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+    },
+    {
+      name: "Respiration in Plants",
+      path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+    },
+    {
+      name: "Plant Growth and Development",
+      path: "/StudyResources/Grade-11/biology/plant-growth-development",
+    },
+    {
+      name: "Digestion and Absorption",
+      path: "/StudyResources/Grade-11/biology/digestion-absorption",
+    },
+    {
+      name: "Breathing and Exchange of Gases",
+      path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+    },
+    {
+      name: "Body Fluids and Circulation",
+      path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+    },
+    {
+      name: "Excretory Products and their Elimination",
+      path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+    },
+    {
+      name: "Locomotion and Movement",
+      path: "/StudyResources/Grade-11/biology/locomotion-movement",
+    },
+    {
+      name: "Neural Control and Coordination",
+      path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+    },
+    {
+      name: "Chemical Coordination and Integration",
+      path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
     },
   ],
   pyq: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "The Living World",
+      path: "/StudyResources/Grade-11/biology/living-world",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Biological Classification",
+      path: "/StudyResources/Grade-11/biology/biological-classification",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Plant Kingdom",
+      path: "/StudyResources/Grade-11/biology/plant-kingdom",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Animal Kingdom",
+      path: "/StudyResources/Grade-11/biology/animal-kingdom",
+    },
+    {
+      name: "Morphology of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+    },
+    {
+      name: "Anatomy of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+    },
+    {
+      name: "Structural Organisation in Animals",
+      path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+    },
+    {
+      name: "Cell, The Unit of Life",
+      path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-11/biology/biomolecules",
+    },
+    {
+      name: "Cell Cycle and Cell Division",
+      path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+    },
+    {
+      name: "Transport in Plants",
+      path: "/StudyResources/Grade-11/biology/transport-in-plants",
+    },
+    {
+      name: "Mineral Nutrition",
+      path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+    },
+    {
+      name: "Photosynthesis in Higher Plants",
+      path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+    },
+    {
+      name: "Respiration in Plants",
+      path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+    },
+    {
+      name: "Plant Growth and Development",
+      path: "/StudyResources/Grade-11/biology/plant-growth-development",
+    },
+    {
+      name: "Digestion and Absorption",
+      path: "/StudyResources/Grade-11/biology/digestion-absorption",
+    },
+    {
+      name: "Breathing and Exchange of Gases",
+      path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+    },
+    {
+      name: "Body Fluids and Circulation",
+      path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+    },
+    {
+      name: "Excretory Products and their Elimination",
+      path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+    },
+    {
+      name: "Locomotion and Movement",
+      path: "/StudyResources/Grade-11/biology/locomotion-movement",
+    },
+    {
+      name: "Neural Control and Coordination",
+      path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+    },
+    {
+      name: "Chemical Coordination and Integration",
+      path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
     },
   ],
   question_banks: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "The Living World",
+      path: "/StudyResources/Grade-11/biology/living-world",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Biological Classification",
+      path: "/StudyResources/Grade-11/biology/biological-classification",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Plant Kingdom",
+      path: "/StudyResources/Grade-11/biology/plant-kingdom",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Animal Kingdom",
+      path: "/StudyResources/Grade-11/biology/animal-kingdom",
+    },
+    {
+      name: "Morphology of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+    },
+    {
+      name: "Anatomy of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+    },
+    {
+      name: "Structural Organisation in Animals",
+      path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+    },
+    {
+      name: "Cell, The Unit of Life",
+      path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-11/biology/biomolecules",
+    },
+    {
+      name: "Cell Cycle and Cell Division",
+      path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+    },
+    {
+      name: "Transport in Plants",
+      path: "/StudyResources/Grade-11/biology/transport-in-plants",
+    },
+    {
+      name: "Mineral Nutrition",
+      path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+    },
+    {
+      name: "Photosynthesis in Higher Plants",
+      path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+    },
+    {
+      name: "Respiration in Plants",
+      path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+    },
+    {
+      name: "Plant Growth and Development",
+      path: "/StudyResources/Grade-11/biology/plant-growth-development",
+    },
+    {
+      name: "Digestion and Absorption",
+      path: "/StudyResources/Grade-11/biology/digestion-absorption",
+    },
+    {
+      name: "Breathing and Exchange of Gases",
+      path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+    },
+    {
+      name: "Body Fluids and Circulation",
+      path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+    },
+    {
+      name: "Excretory Products and their Elimination",
+      path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+    },
+    {
+      name: "Locomotion and Movement",
+      path: "/StudyResources/Grade-11/biology/locomotion-movement",
+    },
+    {
+      name: "Neural Control and Coordination",
+      path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+    },
+    {
+      name: "Chemical Coordination and Integration",
+      path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
     },
   ],
   sample_paper: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "The Living World",
+      path: "/StudyResources/Grade-11/biology/living-world",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Biological Classification",
+      path: "/StudyResources/Grade-11/biology/biological-classification",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Plant Kingdom",
+      path: "/StudyResources/Grade-11/biology/plant-kingdom",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Animal Kingdom",
+      path: "/StudyResources/Grade-11/biology/animal-kingdom",
+    },
+    {
+      name: "Morphology of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+    },
+    {
+      name: "Anatomy of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+    },
+    {
+      name: "Structural Organisation in Animals",
+      path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+    },
+    {
+      name: "Cell, The Unit of Life",
+      path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-11/biology/biomolecules",
+    },
+    {
+      name: "Cell Cycle and Cell Division",
+      path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+    },
+    {
+      name: "Transport in Plants",
+      path: "/StudyResources/Grade-11/biology/transport-in-plants",
+    },
+    {
+      name: "Mineral Nutrition",
+      path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+    },
+    {
+      name: "Photosynthesis in Higher Plants",
+      path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+    },
+    {
+      name: "Respiration in Plants",
+      path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+    },
+    {
+      name: "Plant Growth and Development",
+      path: "/StudyResources/Grade-11/biology/plant-growth-development",
+    },
+    {
+      name: "Digestion and Absorption",
+      path: "/StudyResources/Grade-11/biology/digestion-absorption",
+    },
+    {
+      name: "Breathing and Exchange of Gases",
+      path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+    },
+    {
+      name: "Body Fluids and Circulation",
+      path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+    },
+    {
+      name: "Excretory Products and their Elimination",
+      path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+    },
+    {
+      name: "Locomotion and Movement",
+      path: "/StudyResources/Grade-11/biology/locomotion-movement",
+    },
+    {
+      name: "Neural Control and Coordination",
+      path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+    },
+    {
+      name: "Chemical Coordination and Integration",
+      path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
     },
   ],
   video_lectures: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "The Living World",
+      path: "/StudyResources/Grade-11/biology/living-world",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Biological Classification",
+      path: "/StudyResources/Grade-11/biology/biological-classification",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Plant Kingdom",
+      path: "/StudyResources/Grade-11/biology/plant-kingdom",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Animal Kingdom",
+      path: "/StudyResources/Grade-11/biology/animal-kingdom",
+    },
+    {
+      name: "Morphology of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+    },
+    {
+      name: "Anatomy of Flowering Plants",
+      path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+    },
+    {
+      name: "Structural Organisation in Animals",
+      path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+    },
+    {
+      name: "Cell, The Unit of Life",
+      path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-11/biology/biomolecules",
+    },
+    {
+      name: "Cell Cycle and Cell Division",
+      path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+    },
+    {
+      name: "Transport in Plants",
+      path: "/StudyResources/Grade-11/biology/transport-in-plants",
+    },
+    {
+      name: "Mineral Nutrition",
+      path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+    },
+    {
+      name: "Photosynthesis in Higher Plants",
+      path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+    },
+    {
+      name: "Respiration in Plants",
+      path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+    },
+    {
+      name: "Plant Growth and Development",
+      path: "/StudyResources/Grade-11/biology/plant-growth-development",
+    },
+    {
+      name: "Digestion and Absorption",
+      path: "/StudyResources/Grade-11/biology/digestion-absorption",
+    },
+    {
+      name: "Breathing and Exchange of Gases",
+      path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+    },
+    {
+      name: "Body Fluids and Circulation",
+      path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+    },
+    {
+      name: "Excretory Products and their Elimination",
+      path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+    },
+    {
+      name: "Locomotion and Movement",
+      path: "/StudyResources/Grade-11/biology/locomotion-movement",
+    },
+    {
+      name: "Neural Control and Coordination",
+      path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+    },
+    {
+      name: "Chemical Coordination and Integration",
+      path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
     },
   ],
   books: [

@@ -19,7 +19,7 @@ const StudySection: React.FC = () => {
               key={link.name}
               className="text-3xl font-bold mb-12 text-white mt-10"
             >
-              Study <span className="text-primary">{link.name}!</span>
+              Grade 11 Study <span className="text-primary">{link.name} !</span>
             </h2>
           )
         )}

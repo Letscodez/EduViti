@@ -4,11 +4,11 @@ import { maths } from '@/data/classes/12';
 import ChapterCard from '@/app/components/chapters';
 import BackButton from '@/app/components/backbtn';
 
-const Grade10MathsNotes = () => {
+export default function Grade12MathsSamplePapers () {
   return (
     <main className="p-6">
       <BackButton />
-      <h1 className="text-2xl sm:text-4xl font-bold mb-6 mt-6 text-white text-center">Grade 10 <span className='text-primary'>Maths</span>  Sample Paper</h1>
+      <h1 className="text-2xl sm:text-4xl font-bold mb-6 mt-6 text-white text-center">Grade 12 <span className='text-primary'>Maths</span>  Sample Papers</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-14">
         {maths.sample_paper.map((chapter) => (
           <div key={chapter.name}>
@@ -23,4 +23,4 @@ const Grade10MathsNotes = () => {
   );
 }
 
-export default Grade10MathsNotes;
+

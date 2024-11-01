@@ -10,7 +10,7 @@ export default function Grade12MathsBooks() {
     <div className="p-6 text-center">
       <BackButton/>
       <h1 className="text-2xl sm:text-4xl font-bold mb-6 mt-6 text-white mx-auto max-w-[450px]">
-        Grade 12 <span className="text-primary">Maths Extra</span> Books &
+        Grade 12 <span className="text-primary">Maths</span> Extra Books &
         Solutions
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-items-center mt-16 gap-6">

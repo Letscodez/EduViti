@@ -4,7 +4,7 @@ import {biology } from '@/data/classes/12';
 import ChapterCard from '@/app/components/chapters';
 import BackButton from '@/app/components/backbtn';
 
-const Grade10MathsNotes = () => {
+export default function Grade12BiologyVideoLectures () {
   return (
     <main className="p-6">
       <BackButton />
@@ -23,4 +23,3 @@ const Grade10MathsNotes = () => {
   );
 }
 
-export default Grade10MathsNotes;

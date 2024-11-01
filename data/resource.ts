@@ -36,8 +36,8 @@ export const resources: ResourceType[] = [
     linkName: "pyqp",
   },
   {
-    title: "Sample Paper",  
-    description: "CBSE released sample paper, solved by experts",
+    title: "Sample Papers",  
+    description: "CBSE released sample papers, solved by experts",
     icon: openbook_svg,
     linkName: "sample-paper",
   },

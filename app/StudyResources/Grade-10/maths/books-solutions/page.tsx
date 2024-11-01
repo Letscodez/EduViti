@@ -1,14 +1,17 @@
+'use client';
 import Image from "next/image";
 
-import { maths } from "@/data/classes/9";
+import { maths } from "@/data/classes/10";
+import BackButton from "@/app/components/backbtn";
 
-export default function MathsBooks() {
+export default function Grade10MathsBooks() {
   // Sample data structure for book information
 
   return (
     <div className="p-6 text-center">
+      <BackButton/>
       <h1 className="text-2xl sm:text-4xl font-bold mb-6 mt-6 text-white mx-auto max-w-[450px]">
-        Grade 9 <span className="text-primary">Maths Extra</span> Books &
+        Grade 10 <span className="text-primary">Maths</span> Extra Books &
         Solutions
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-items-center mt-16 gap-6">

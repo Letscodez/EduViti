@@ -1,14 +1,14 @@
 'use client';
 import React from 'react';
-import { maths } from '@/data/classes/9';
+import { maths } from '@/data/classes/11';
 import ChapterCard from '@/app/components/chapters';
 import BackButton from '@/app/components/backbtn';
 
-const Grade9MathsNotes = () => {
+const Grade11MathsNotes = () => {
   return (
     <main className="p-6">
       <BackButton />
-      <h1 className="text-2xl sm:text-4xl font-bold mb-6 mt-6 text-white text-center">Grade 9 <span className='text-primary'>Maths</span>  Question Banks</h1>
+      <h1 className="text-2xl sm:text-4xl font-bold mb-6 mt-6 text-white text-center">Grade 11 <span className='text-primary'>Maths</span>  Question Banks</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-14">
         {maths.question_banks.map((chapter) => (
           <div key={chapter.name}>
@@ -23,4 +23,4 @@ const Grade9MathsNotes = () => {
   );
 }
 
-export default Grade9MathsNotes;
+export default Grade11MathsNotes;

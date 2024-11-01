@@ -13,252 +13,239 @@ import {
 import { LinkType } from "./linkType";
 
 export const links: LinkType[] = [
-  { name: "Maths", path: "/StudyResources/Grade-11/maths", icon: rocket },
+  { name: "Maths", path: "/StudyResources/Grade-10/maths", icon: rocket },
   {
     name: "Physics",
-    path: "/StudyResources/Grade-11/physics",
+    path: "/StudyResources/Grade-10/physics",
     icon: lectures_svg,
   },
   {
     name: "Chemistry",
-    path: "/StudyResources/Grade-11/chemistry",
+    path: "/StudyResources/Grade-10/chemistry",
     icon: maps_svg,
   },
-  { name: "Biology", path: "/StudyResources/Grade-11/biology", icon: qbank_svg },
+  {
+    name: "Biology",
+    path: "/StudyResources/Grade-10/biology",
+    icon: qbank_svg,
+  },
 ];
 export const maths = {
   notes: [
     {
-      name: "Relations and Functions",
-      path: "/StudyResources/Grade-12/maths/number-systems",
+      name: "Real Numbers",
+      path: "/StudyResources/Grade-10/maths/real-numbers",
     },
-    { name: "Inverse Trigonometric Functions", path: "/StudyResources/Grade-9/maths/polynomials" },
+    { name: "Polynomials", path: "/StudyResources/Grade-10/maths/polynomials" },
     {
-      name: "Matrices",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
-    },
-    {
-      name: "Determinants",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Pair of Linear Equations",
+      path: "/StudyResources/Grade-10/maths/linear-equations",
     },
     {
-      name: "Continuity and Differentiability",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Quadratic Equations",
+      path: "/StudyResources/Grade-10/maths/quadratic-equations",
     },
     {
-      name: "Applications of Derivatives",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
+      name: "Arithmetic Progression",
+      path: "/StudyResources/Grade-10/maths/arithmetic-progression",
     },
-    { name: "Integrals", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Application of Integrals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
-    },
-    {
-      name: "Differential Equations",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Vector Algebra", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Three Dimensional Geometry",
-      path: "/StudyResources/Grade-9/maths/constructions",
-    },
-    {
-      name: "Linear Programming",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
-    },
-    {
-      name: "Probability",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
-    },
-  ],
-  pyqp: [
-    {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
+    { name: "Triangles", path: "/StudyResources/Grade-10/maths/triangles" },
     {
       name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      path: "/StudyResources/Grade-10/maths/coordinate-geometry",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Introduction to Trigonometry",
+      path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Applications of Trigonometry",
+      path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
     },
+    { name: "Circles", path: "/StudyResources/Grade-10/maths/circles" },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
-    },
-    {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
-    },
-    {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Area Related to Circles",
+      path: "/StudyResources/Grade-10/maths/area-related-to-circles",
     },
     {
       name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      path: "/StudyResources/Grade-10/maths/surface-areas-volumes",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    { name: "Statistics", path: "/StudyResources/Grade-10/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-10/maths/probability" },
+  ],
+
+  pyqp: [
+    {
+      name: "Real Numbers",
+      path: "/StudyResources/Grade-10/maths/real-numbers",
+    },
+    { name: "Polynomials", path: "/StudyResources/Grade-10/maths/polynomials" },
+    {
+      name: "Pair of Linear Equations",
+      path: "/StudyResources/Grade-10/maths/linear-equations",
+    },
+    {
+      name: "Quadratic Equations",
+      path: "/StudyResources/Grade-10/maths/quadratic-equations",
+    },
+    {
+      name: "Arithmetic Progression",
+      path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+    },
+    { name: "Triangles", path: "/StudyResources/Grade-10/maths/triangles" },
+    {
+      name: "Coordinate Geometry",
+      path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+    },
+    {
+      name: "Introduction to Trigonometry",
+      path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+    },
+    {
+      name: "Applications of Trigonometry",
+      path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+    },
+    { name: "Circles", path: "/StudyResources/Grade-10/maths/circles" },
+    {
+      name: "Area Related to Circles",
+      path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+    },
+    {
+      name: "Surface Areas and Volumes",
+      path: "/StudyResources/Grade-10/maths/surface-areas-volumes",
+    },
+    { name: "Statistics", path: "/StudyResources/Grade-10/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-10/maths/probability" },
   ],
   question_banks: [
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
+      name: "Real Numbers",
+      path: "/StudyResources/Grade-10/maths/real-numbers",
     },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
+    { name: "Polynomials", path: "/StudyResources/Grade-10/maths/polynomials" },
+    {
+      name: "Pair of Linear Equations",
+      path: "/StudyResources/Grade-10/maths/linear-equations",
+    },
+    {
+      name: "Quadratic Equations",
+      path: "/StudyResources/Grade-10/maths/quadratic-equations",
+    },
+    {
+      name: "Arithmetic Progression",
+      path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+    },
+    { name: "Triangles", path: "/StudyResources/Grade-10/maths/triangles" },
     {
       name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      path: "/StudyResources/Grade-10/maths/coordinate-geometry",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Introduction to Trigonometry",
+      path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Applications of Trigonometry",
+      path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
     },
+    { name: "Circles", path: "/StudyResources/Grade-10/maths/circles" },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
-    },
-    {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
-    },
-    {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Area Related to Circles",
+      path: "/StudyResources/Grade-10/maths/area-related-to-circles",
     },
     {
       name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      path: "/StudyResources/Grade-10/maths/surface-areas-volumes",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    { name: "Statistics", path: "/StudyResources/Grade-10/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-10/maths/probability" },
   ],
   sample_paper: [
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
+      name: "Real Numbers",
+      path: "/StudyResources/Grade-10/maths/real-numbers",
     },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
+    { name: "Polynomials", path: "/StudyResources/Grade-10/maths/polynomials" },
+    {
+      name: "Pair of Linear Equations",
+      path: "/StudyResources/Grade-10/maths/linear-equations",
+    },
+    {
+      name: "Quadratic Equations",
+      path: "/StudyResources/Grade-10/maths/quadratic-equations",
+    },
+    {
+      name: "Arithmetic Progression",
+      path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+    },
+    { name: "Triangles", path: "/StudyResources/Grade-10/maths/triangles" },
     {
       name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      path: "/StudyResources/Grade-10/maths/coordinate-geometry",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Introduction to Trigonometry",
+      path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Applications of Trigonometry",
+      path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
     },
+    { name: "Circles", path: "/StudyResources/Grade-10/maths/circles" },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
-    },
-    {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
-    },
-    {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Area Related to Circles",
+      path: "/StudyResources/Grade-10/maths/area-related-to-circles",
     },
     {
       name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      path: "/StudyResources/Grade-10/maths/surface-areas-volumes",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    { name: "Statistics", path: "/StudyResources/Grade-10/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-10/maths/probability" },
   ],
   video_lectures: [
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
+      name: "Real Numbers",
+      path: "/StudyResources/Grade-10/maths/real-numbers",
     },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
+    { name: "Polynomials", path: "/StudyResources/Grade-10/maths/polynomials" },
+    {
+      name: "Pair of Linear Equations",
+      path: "/StudyResources/Grade-10/maths/linear-equations",
+    },
+    {
+      name: "Quadratic Equations",
+      path: "/StudyResources/Grade-10/maths/quadratic-equations",
+    },
+    {
+      name: "Arithmetic Progression",
+      path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+    },
+    { name: "Triangles", path: "/StudyResources/Grade-10/maths/triangles" },
     {
       name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      path: "/StudyResources/Grade-10/maths/coordinate-geometry",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Introduction to Trigonometry",
+      path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Applications of Trigonometry",
+      path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
     },
+    { name: "Circles", path: "/StudyResources/Grade-10/maths/circles" },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
-    },
-    {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
-    },
-    {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Area Related to Circles",
+      path: "/StudyResources/Grade-10/maths/area-related-to-circles",
     },
     {
       name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      path: "/StudyResources/Grade-10/maths/surface-areas-volumes",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    { name: "Statistics", path: "/StudyResources/Grade-10/maths/statistics" },
+    { name: "Probability", path: "/StudyResources/Grade-10/maths/probability" },
   ],
   books: [
     {
@@ -286,84 +273,114 @@ export const maths = {
 };
 export const physics = {
   notes: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Light Reflection and Refraction",
+      path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Human Eye and Colourful World",
+      path: "/StudyResources/Grade-9/physics/human-eye-and-colourful-world",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Electricity",
+      path: "/StudyResources/Grade-9/physics/electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Magnetic Effects of Electric Current",
+      path: "/StudyResources/Grade-9/physics/magnetic-effects-of-electric-current",
+    },
+    {
+      name: "Sources of Energy",
+      path: "/StudyResources/Grade-9/physics/sources-of-energy",
+    },
   ],
   pyq: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Light Reflection and Refraction",
+      path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Human Eye and Colourful World",
+      path: "/StudyResources/Grade-9/physics/human-eye-and-colourful-world",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Electricity",
+      path: "/StudyResources/Grade-9/physics/electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Magnetic Effects of Electric Current",
+      path: "/StudyResources/Grade-9/physics/magnetic-effects-of-electric-current",
+    },
+    {
+      name: "Sources of Energy",
+      path: "/StudyResources/Grade-9/physics/sources-of-energy",
+    },
   ],
   question_banks: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Light Reflection and Refraction",
+      path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Human Eye and Colourful World",
+      path: "/StudyResources/Grade-9/physics/human-eye-and-colourful-world",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Electricity",
+      path: "/StudyResources/Grade-9/physics/electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Magnetic Effects of Electric Current",
+      path: "/StudyResources/Grade-9/physics/magnetic-effects-of-electric-current",
+    },
+    {
+      name: "Sources of Energy",
+      path: "/StudyResources/Grade-9/physics/sources-of-energy",
+    },
   ],
   sample_paper: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Light Reflection and Refraction",
+      path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Human Eye and Colourful World",
+      path: "/StudyResources/Grade-9/physics/human-eye-and-colourful-world",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Electricity",
+      path: "/StudyResources/Grade-9/physics/electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Magnetic Effects of Electric Current",
+      path: "/StudyResources/Grade-9/physics/magnetic-effects-of-electric-current",
+    },
+    {
+      name: "Sources of Energy",
+      path: "/StudyResources/Grade-9/physics/sources-of-energy",
+    },
   ],
   video_lectures: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Light Reflection and Refraction",
+      path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Human Eye and Colourful World",
+      path: "/StudyResources/Grade-9/physics/human-eye-and-colourful-world",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Electricity",
+      path: "/StudyResources/Grade-9/physics/electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Magnetic Effects of Electric Current",
+      path: "/StudyResources/Grade-9/physics/magnetic-effects-of-electric-current",
+    },
+    {
+      name: "Sources of Energy",
+      path: "/StudyResources/Grade-9/physics/sources-of-energy",
+    },
   ],
   books: [
     {
@@ -387,92 +404,112 @@ export const physics = {
 export const chemistry = {
   notes: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Chemical Reactions and Equations",
+      path: "/StudyResources/Grade-10/chemistry/chemical-reactions-and-equations",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Acids, Bases, and Salts",
+      path: "/StudyResources/Grade-10/chemistry/acids-bases-and-salts",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Metals and Non-Metals",
+      path: "/StudyResources/Grade-10/chemistry/metals-and-non-metals",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Carbon and Its Compounds",
+      path: "/StudyResources/Grade-10/chemistry/carbon-and-its-compounds",
+    },
+    {
+      name: "Periodic Classification of Elements",
+      path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
     },
   ],
   pyq: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Chemical Reactions and Equations",
+      path: "/StudyResources/Grade-10/chemistry/chemical-reactions-and-equations",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Acids, Bases, and Salts",
+      path: "/StudyResources/Grade-10/chemistry/acids-bases-and-salts",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Metals and Non-Metals",
+      path: "/StudyResources/Grade-10/chemistry/metals-and-non-metals",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Carbon and Its Compounds",
+      path: "/StudyResources/Grade-10/chemistry/carbon-and-its-compounds",
+    },
+    {
+      name: "Periodic Classification of Elements",
+      path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
     },
   ],
   question_banks: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Chemical Reactions and Equations",
+      path: "/StudyResources/Grade-10/chemistry/chemical-reactions-and-equations",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Acids, Bases, and Salts",
+      path: "/StudyResources/Grade-10/chemistry/acids-bases-and-salts",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Metals and Non-Metals",
+      path: "/StudyResources/Grade-10/chemistry/metals-and-non-metals",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Carbon and Its Compounds",
+      path: "/StudyResources/Grade-10/chemistry/carbon-and-its-compounds",
+    },
+    {
+      name: "Periodic Classification of Elements",
+      path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
     },
   ],
   sample_paper: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Chemical Reactions and Equations",
+      path: "/StudyResources/Grade-10/chemistry/chemical-reactions-and-equations",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Acids, Bases, and Salts",
+      path: "/StudyResources/Grade-10/chemistry/acids-bases-and-salts",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Metals and Non-Metals",
+      path: "/StudyResources/Grade-10/chemistry/metals-and-non-metals",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Carbon and Its Compounds",
+      path: "/StudyResources/Grade-10/chemistry/carbon-and-its-compounds",
+    },
+    {
+      name: "Periodic Classification of Elements",
+      path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
     },
   ],
   video_lectures: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Chemical Reactions and Equations",
+      path: "/StudyResources/Grade-10/chemistry/chemical-reactions-and-equations",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Acids, Bases, and Salts",
+      path: "/StudyResources/Grade-10/chemistry/acids-bases-and-salts",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Metals and Non-Metals",
+      path: "/StudyResources/Grade-10/chemistry/metals-and-non-metals",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Carbon and Its Compounds",
+      path: "/StudyResources/Grade-10/chemistry/carbon-and-its-compounds",
+    },
+    {
+      name: "Periodic Classification of Elements",
+      path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
     },
   ],
   books: [
@@ -497,119 +534,115 @@ export const chemistry = {
 export const biology = {
   notes: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Life Processes",
+      path: "/StudyResources/Grade-9/biology/life-processes",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Control and Coordination",
+      path: "/StudyResources/Grade-9/biology/control-and-coordination",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "How do Organisms Reproduce?",
+      path: "/StudyResources/Grade-9/biology/how-do-organisms-reproduce",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Heredity and Evolution",
+      path: "/StudyResources/Grade-9/biology/heredity-and-evolution",
+    },
+    {
+      name: "Our Environment",
+      path: "/StudyResources/Grade-9/biology/our-environment",
     },
   ],
   pyq: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Life Processes",
+      path: "/StudyResources/Grade-9/biology/life-processes",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Control and Coordination",
+      path: "/StudyResources/Grade-9/biology/control-and-coordination",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "How do Organisms Reproduce?",
+      path: "/StudyResources/Grade-9/biology/how-do-organisms-reproduce",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Heredity and Evolution",
+      path: "/StudyResources/Grade-9/biology/heredity-and-evolution",
+    },
+    {
+      name: "Our Environment",
+      path: "/StudyResources/Grade-9/biology/our-environment",
     },
   ],
   question_banks: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Life Processes",
+      path: "/StudyResources/Grade-9/biology/life-processes",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Control and Coordination",
+      path: "/StudyResources/Grade-9/biology/control-and-coordination",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "How do Organisms Reproduce?",
+      path: "/StudyResources/Grade-9/biology/how-do-organisms-reproduce",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Heredity and Evolution",
+      path: "/StudyResources/Grade-9/biology/heredity-and-evolution",
+    },
+    {
+      name: "Our Environment",
+      path: "/StudyResources/Grade-9/biology/our-environment",
     },
   ],
   sample_paper: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Life Processes",
+      path: "/StudyResources/Grade-9/biology/life-processes",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Control and Coordination",
+      path: "/StudyResources/Grade-9/biology/control-and-coordination",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "How do Organisms Reproduce?",
+      path: "/StudyResources/Grade-9/biology/how-do-organisms-reproduce",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Heredity and Evolution",
+      path: "/StudyResources/Grade-9/biology/heredity-and-evolution",
+    },
+    {
+      name: "Our Environment",
+      path: "/StudyResources/Grade-9/biology/our-environment",
     },
   ],
   video_lectures: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Life Processes",
+      path: "/StudyResources/Grade-9/biology/life-processes",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Control and Coordination",
+      path: "/StudyResources/Grade-9/biology/control-and-coordination",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "How do Organisms Reproduce?",
+      path: "/StudyResources/Grade-9/biology/how-do-organisms-reproduce",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Heredity and Evolution",
+      path: "/StudyResources/Grade-9/biology/heredity-and-evolution",
+    },
+    {
+      name: "Our Environment",
+      path: "/StudyResources/Grade-9/biology/our-environment",
     },
   ],
+
   books: [
     {
       title: "HC Verma",

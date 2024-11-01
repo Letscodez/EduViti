@@ -1,21 +1,21 @@
 'use client';
 import Image from 'next/image';
 
-import { chemistry } from '@/data/classes/9';
+import { chemistry } from '@/data/classes/11';
 import BackButton from '@/app/components/backbtn';
 
-export default function ChemistryBooks() {
+export default function Grade11ChemistryBooks() {
   // Sample data structure for book information
   
 
   return (
     <div className="p-6 text-center">
       <BackButton/>
-      <h1 className="text-3xl font-bold text-white mb-8 mt-8 ">Grade 9 Chemistry Extra Books & Solutions</h1>
+      <h1 className="text-2xl sm:text-4xl font-bold text-white mb-8 mt-8 ">Grade 11 <span className='text-primary'>Chemistry</span> Extra Books & Solutions</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center mt-14 ">
         {chemistry.books.map((book) => (
           <a
-            
+            key={book.title}
             href={book.link}
             target="_blank"
             rel="noopener noreferrer"

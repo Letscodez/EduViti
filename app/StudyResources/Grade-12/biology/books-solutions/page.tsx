@@ -4,14 +4,14 @@ import Image from "next/image";
 import { biology } from "@/data/classes/12";
 import BackButton from "@/app/components/backbtn";
 
-export default function MathsBooks() {
+export default function Grade12BiologyBooks() {
   // Sample data structure for book information
 
   return (
     <div className="p-6 text-center">
       <BackButton/>
       <h1 className="text-2xl sm:text-4xl font-bold mb-6 mt-6 text-white mx-auto max-w-[450px]">
-        Grade 12 <span className="text-primary">Biology Extra</span> Books &
+        Grade 12 <span className="text-primary">Biology</span> Extra Books &
         Solutions
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-items-center mt-16 gap-6">

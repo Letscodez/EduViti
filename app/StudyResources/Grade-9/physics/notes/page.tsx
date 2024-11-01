@@ -8,7 +8,7 @@ const Grade9PhysicsNotes = () => {
   return (
     <main className="p-6">
       <BackButton />
-      <h1 className="text-2xl font-bold mb-6 text-white text-center mt-6">Grade 9 Physics Notes</h1>
+      <h1 className="text-2xl sm:text-4xl font-bold mb-6 text-white text-center mt-6">Grade 9 <span className="text-primary">Physics</span> Notes</h1>
       <div className="flex flex-wrap mt-14 -mx-3">
         {physics.notes.map((chapter) => (
           <div key={chapter.name} className="w-1/2 px-3 mb-5">

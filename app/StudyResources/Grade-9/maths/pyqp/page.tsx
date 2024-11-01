@@ -3,13 +3,12 @@ import BackButton from '@/app/components/backbtn';
 import Link from 'next/link';
 import { maths } from '@/data/classes/9';
 
-export default function MathsPYQ() {
-  // Sample data structure for subjects and their PYQ links
+export default function Grade9MathsPYQP() {
   
   return (
     <main className="p-6">
       <BackButton/>
-      <h1 className="text-3xl font-bold text-center text-white mb-8 mt-10">Grade 9 Maths <span className='text-primary'>PYQP's</span></h1>
+      <h1 className="text-2xl sm:text-4xl font-bold text-center text-white mb-8 mt-10">Grade 9 <span className='text-primary'>Maths</span> PYQP's</h1>
       <div className="grid grid-cols-2 text-center md:grid-cols-3 lg:grid-cols-4 mt-14 gap-6">
         {maths.pyq.map((link, index) => (
           <Link key={index} href={link.path}>

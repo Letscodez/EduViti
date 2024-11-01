@@ -4,18 +4,18 @@ import Image from 'next/image';
 import { physics } from '@/data/classes/10';
 import BackButton from '@/app/components/backbtn';
 
-export default function PhysicsBooks() {
+export default function Grade10PhysicsBooks() {
   // Sample data structure for book information
   
 
   return (
     <div className="p-6 text-center">
       <BackButton/>
-      <h1 className="text-3xl font-bold text-white mb-8 mt-8 ">Grade 9 Physics Extra Books & Solutions</h1>
+      <h1 className="text-2xl sm:text-4xl font-bold text-white mb-8 mt-8 ">Grade 10 <span className='text-primary'>Physics</span> Extra Books & Solutions</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center mt-14 ">
         {physics.books.map((book) => (
           <a
-            
+            key={book.title}
             href={book.link}
             target="_blank"
             rel="noopener noreferrer"

@@ -24,241 +24,267 @@ export const links: LinkType[] = [
     path: "/StudyResources/Grade-12/chemistry",
     icon: maps_svg,
   },
-  { name: "Biology", path: "/StudyResources/Grade-12/biology", icon: qbank_svg },
+  {
+    name: "Biology",
+    path: "/StudyResources/Grade-12/biology",
+    icon: qbank_svg,
+  },
 ];
 export const maths = {
   notes: [
     {
       name: "Relations and Functions",
-      path: "/StudyResources/Grade-12/maths/number-systems",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
-    { name: "Inverse Trigonometric Functions", path: "/StudyResources/Grade-9/maths/polynomials" },
+    {
+      name: "Inverse Trigonometric Functions",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+    },
     {
       name: "Matrices",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      path: "/StudyResources/Grade-12/maths/matrices",
     },
     {
       name: "Determinants",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      path: "/StudyResources/Grade-12/maths/determinants",
     },
     {
       name: "Continuity and Differentiability",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      path: "/StudyResources/Grade-12/maths/continuity-and-differentiability",
     },
     {
       name: "Applications of Derivatives",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
+      path: "/StudyResources/Grade-12/maths/applications-of-derivatives",
     },
-    { name: "Integrals", path: "/StudyResources/Grade-9/maths/triangles" },
+    { name: "Integrals", path: "/StudyResources/Grade-12/integrals" },
     {
       name: "Application of Integrals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      path: "/StudyResources/Grade-12/maths/application-of-integrals",
     },
     {
       name: "Differential Equations",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
+      path: "/StudyResources/Grade-12/maths/differential-equations",
     },
-    { name: "Vector Algebra", path: "/StudyResources/Grade-9/maths/circles" },
+    {
+      name: "Vector Algebra",
+      path: "/StudyResources/Grade-12/maths/vector-algebra",
+    },
     {
       name: "Three Dimensional Geometry",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      path: "/StudyResources/Grade-12/maths/three-dimensional-geometry",
     },
     {
       name: "Linear Programming",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      path: "/StudyResources/Grade-12/maths/linear-programming",
     },
     {
       name: "Probability",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      path: "/StudyResources/Grade-12/maths/probability",
     },
   ],
   pyqp: [
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      name: "Relations and Functions",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Inverse Trigonometric Functions",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Matrices",
+      path: "/StudyResources/Grade-12/maths/matrices",
     },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      name: "Determinants",
+      path: "/StudyResources/Grade-12/maths/determinants",
     },
     {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      name: "Continuity and Differentiability",
+      path: "/StudyResources/Grade-12/maths/continuity-and-differentiability",
     },
     {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Applications of Derivatives",
+      path: "/StudyResources/Grade-12/maths/applications-of-derivatives",
+    },
+    { name: "Integrals", path: "/StudyResources/Grade-12/integrals" },
+    {
+      name: "Application of Integrals",
+      path: "/StudyResources/Grade-12/maths/application-of-integrals",
     },
     {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      name: "Differential Equations",
+      path: "/StudyResources/Grade-12/maths/differential-equations",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Vector Algebra",
+      path: "/StudyResources/Grade-12/maths/vector-algebra",
+    },
+    {
+      name: "Three Dimensional Geometry",
+      path: "/StudyResources/Grade-12/maths/three-dimensional-geometry",
+    },
+    {
+      name: "Linear Programming",
+      path: "/StudyResources/Grade-12/maths/linear-programming",
+    },
+    {
+      name: "Probability",
+      path: "/StudyResources/Grade-12/maths/probability",
+    },
   ],
   question_banks: [
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      name: "Relations and Functions",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Inverse Trigonometric Functions",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Matrices",
+      path: "/StudyResources/Grade-12/maths/matrices",
     },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      name: "Determinants",
+      path: "/StudyResources/Grade-12/maths/determinants",
     },
     {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      name: "Continuity and Differentiability",
+      path: "/StudyResources/Grade-12/maths/continuity-and-differentiability",
     },
     {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Applications of Derivatives",
+      path: "/StudyResources/Grade-12/maths/applications-of-derivatives",
+    },
+    { name: "Integrals", path: "/StudyResources/Grade-12/integrals" },
+    {
+      name: "Application of Integrals",
+      path: "/StudyResources/Grade-12/maths/application-of-integrals",
     },
     {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      name: "Differential Equations",
+      path: "/StudyResources/Grade-12/maths/differential-equations",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Vector Algebra",
+      path: "/StudyResources/Grade-12/maths/vector-algebra",
+    },
+    {
+      name: "Three Dimensional Geometry",
+      path: "/StudyResources/Grade-12/maths/three-dimensional-geometry",
+    },
+    {
+      name: "Linear Programming",
+      path: "/StudyResources/Grade-12/maths/linear-programming",
+    },
+    {
+      name: "Probability",
+      path: "/StudyResources/Grade-12/maths/probability",
+    },
   ],
   sample_paper: [
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      name: "Relations and Functions",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Inverse Trigonometric Functions",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Matrices",
+      path: "/StudyResources/Grade-12/maths/matrices",
     },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      name: "Determinants",
+      path: "/StudyResources/Grade-12/maths/determinants",
     },
     {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      name: "Continuity and Differentiability",
+      path: "/StudyResources/Grade-12/maths/continuity-and-differentiability",
     },
     {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Applications of Derivatives",
+      path: "/StudyResources/Grade-12/maths/applications-of-derivatives",
+    },
+    { name: "Integrals", path: "/StudyResources/Grade-12/integrals" },
+    {
+      name: "Application of Integrals",
+      path: "/StudyResources/Grade-12/maths/application-of-integrals",
     },
     {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      name: "Differential Equations",
+      path: "/StudyResources/Grade-12/maths/differential-equations",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Vector Algebra",
+      path: "/StudyResources/Grade-12/maths/vector-algebra",
+    },
+    {
+      name: "Three Dimensional Geometry",
+      path: "/StudyResources/Grade-12/maths/three-dimensional-geometry",
+    },
+    {
+      name: "Linear Programming",
+      path: "/StudyResources/Grade-12/maths/linear-programming",
+    },
+    {
+      name: "Probability",
+      path: "/StudyResources/Grade-12/maths/probability",
+    },
   ],
   video_lectures: [
     {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      name: "Relations and Functions",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      name: "Inverse Trigonometric Functions",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      name: "Matrices",
+      path: "/StudyResources/Grade-12/maths/matrices",
     },
     {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      name: "Determinants",
+      path: "/StudyResources/Grade-12/maths/determinants",
     },
     {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      name: "Continuity and Differentiability",
+      path: "/StudyResources/Grade-12/maths/continuity-and-differentiability",
     },
     {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      name: "Applications of Derivatives",
+      path: "/StudyResources/Grade-12/maths/applications-of-derivatives",
+    },
+    { name: "Integrals", path: "/StudyResources/Grade-12/integrals" },
+    {
+      name: "Application of Integrals",
+      path: "/StudyResources/Grade-12/maths/application-of-integrals",
     },
     {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      name: "Differential Equations",
+      path: "/StudyResources/Grade-12/maths/differential-equations",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Vector Algebra",
+      path: "/StudyResources/Grade-12/maths/vector-algebra",
+    },
+    {
+      name: "Three Dimensional Geometry",
+      path: "/StudyResources/Grade-12/maths/three-dimensional-geometry",
+    },
+    {
+      name: "Linear Programming",
+      path: "/StudyResources/Grade-12/maths/linear-programming",
+    },
+    {
+      name: "Probability",
+      path: "/StudyResources/Grade-12/maths/probability",
+    },
   ],
   books: [
     {
@@ -286,84 +312,244 @@ export const maths = {
 };
 export const physics = {
   notes: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Electric Charges and Fields",
+      path: "/StudyResources/Grade-12/physics/electric-charges-and-fields",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Electrostatic Potential and Capacitance",
+      path: "/StudyResources/Grade-12/physics/electrostatic-potential-and-capacitance",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Current Electricity",
+      path: "/StudyResources/Grade-12/physics/current-electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Moving Charges and Magnetism",
+      path: "/StudyResources/Grade-12/physics/moving-charges-and-magnetism",
+    },
+    {
+      name: "Magnetism and Matter",
+      path: "/StudyResources/Grade-12/physics/magnetism-and-matter",
+    },
+    {
+      name: "Electromagnetic Induction",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-induction",
+    },
+    {
+      name: "Alternating Current",
+      path: "/StudyResources/Grade-12/physics/alternating-current",
+    },
+    {
+      name: "Electromagnetic Waves",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-waves",
+    },
+    {
+      name: "Wave Optics",
+      path: "/StudyResources/Grade-12/physics/wave-optics",
+    },
+    {
+      name: "Dual Nature of Radiation and Matter",
+      path: "/StudyResources/Grade-12/physics/dual-nature-of-radiation-and-matter",
+    },
+    { name: "Atoms", path: "/StudyResources/Grade-12/physics/atoms" },
+    { name: "Nuclei", path: "/StudyResources/Grade-12/physics/nuclei" },
+    {
+      name: "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+      path: "/StudyResources/Grade-12/physics/semiconductor-electronics-materials-devices-and-simple-circuits",
+    },
   ],
   pyq: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Electric Charges and Fields",
+      path: "/StudyResources/Grade-12/physics/electric-charges-and-fields",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Electrostatic Potential and Capacitance",
+      path: "/StudyResources/Grade-12/physics/electrostatic-potential-and-capacitance",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Current Electricity",
+      path: "/StudyResources/Grade-12/physics/current-electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Moving Charges and Magnetism",
+      path: "/StudyResources/Grade-12/physics/moving-charges-and-magnetism",
+    },
+    {
+      name: "Magnetism and Matter",
+      path: "/StudyResources/Grade-12/physics/magnetism-and-matter",
+    },
+    {
+      name: "Electromagnetic Induction",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-induction",
+    },
+    {
+      name: "Alternating Current",
+      path: "/StudyResources/Grade-12/physics/alternating-current",
+    },
+    {
+      name: "Electromagnetic Waves",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-waves",
+    },
+    {
+      name: "Wave Optics",
+      path: "/StudyResources/Grade-12/physics/wave-optics",
+    },
+    {
+      name: "Dual Nature of Radiation and Matter",
+      path: "/StudyResources/Grade-12/physics/dual-nature-of-radiation-and-matter",
+    },
+    { name: "Atoms", path: "/StudyResources/Grade-12/physics/atoms" },
+    { name: "Nuclei", path: "/StudyResources/Grade-12/physics/nuclei" },
+    {
+      name: "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+      path: "/StudyResources/Grade-12/physics/semiconductor-electronics-materials-devices-and-simple-circuits",
+    },
   ],
   question_banks: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Electric Charges and Fields",
+      path: "/StudyResources/Grade-12/physics/electric-charges-and-fields",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Electrostatic Potential and Capacitance",
+      path: "/StudyResources/Grade-12/physics/electrostatic-potential-and-capacitance",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Current Electricity",
+      path: "/StudyResources/Grade-12/physics/current-electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Moving Charges and Magnetism",
+      path: "/StudyResources/Grade-12/physics/moving-charges-and-magnetism",
+    },
+    {
+      name: "Magnetism and Matter",
+      path: "/StudyResources/Grade-12/physics/magnetism-and-matter",
+    },
+    {
+      name: "Electromagnetic Induction",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-induction",
+    },
+    {
+      name: "Alternating Current",
+      path: "/StudyResources/Grade-12/physics/alternating-current",
+    },
+    {
+      name: "Electromagnetic Waves",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-waves",
+    },
+    {
+      name: "Wave Optics",
+      path: "/StudyResources/Grade-12/physics/wave-optics",
+    },
+    {
+      name: "Dual Nature of Radiation and Matter",
+      path: "/StudyResources/Grade-12/physics/dual-nature-of-radiation-and-matter",
+    },
+    { name: "Atoms", path: "/StudyResources/Grade-12/physics/atoms" },
+    { name: "Nuclei", path: "/StudyResources/Grade-12/physics/nuclei" },
+    {
+      name: "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+      path: "/StudyResources/Grade-12/physics/semiconductor-electronics-materials-devices-and-simple-circuits",
+    },
   ],
   sample_paper: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Electric Charges and Fields",
+      path: "/StudyResources/Grade-12/physics/electric-charges-and-fields",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Electrostatic Potential and Capacitance",
+      path: "/StudyResources/Grade-12/physics/electrostatic-potential-and-capacitance",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Current Electricity",
+      path: "/StudyResources/Grade-12/physics/current-electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Moving Charges and Magnetism",
+      path: "/StudyResources/Grade-12/physics/moving-charges-and-magnetism",
+    },
+    {
+      name: "Magnetism and Matter",
+      path: "/StudyResources/Grade-12/physics/magnetism-and-matter",
+    },
+    {
+      name: "Electromagnetic Induction",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-induction",
+    },
+    {
+      name: "Alternating Current",
+      path: "/StudyResources/Grade-12/physics/alternating-current",
+    },
+    {
+      name: "Electromagnetic Waves",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-waves",
+    },
+    {
+      name: "Wave Optics",
+      path: "/StudyResources/Grade-12/physics/wave-optics",
+    },
+    {
+      name: "Dual Nature of Radiation and Matter",
+      path: "/StudyResources/Grade-12/physics/dual-nature-of-radiation-and-matter",
+    },
+    { name: "Atoms", path: "/StudyResources/Grade-12/physics/atoms" },
+    { name: "Nuclei", path: "/StudyResources/Grade-12/physics/nuclei" },
+    {
+      name: "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+      path: "/StudyResources/Grade-12/physics/semiconductor-electronics-materials-devices-and-simple-circuits",
+    },
   ],
   video_lectures: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
     {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      name: "Electric Charges and Fields",
+      path: "/StudyResources/Grade-12/physics/electric-charges-and-fields",
     },
     {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      name: "Electrostatic Potential and Capacitance",
+      path: "/StudyResources/Grade-12/physics/electrostatic-potential-and-capacitance",
     },
     {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      name: "Current Electricity",
+      path: "/StudyResources/Grade-12/physics/current-electricity",
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Moving Charges and Magnetism",
+      path: "/StudyResources/Grade-12/physics/moving-charges-and-magnetism",
+    },
+    {
+      name: "Magnetism and Matter",
+      path: "/StudyResources/Grade-12/physics/magnetism-and-matter",
+    },
+    {
+      name: "Electromagnetic Induction",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-induction",
+    },
+    {
+      name: "Alternating Current",
+      path: "/StudyResources/Grade-12/physics/alternating-current",
+    },
+    {
+      name: "Electromagnetic Waves",
+      path: "/StudyResources/Grade-12/physics/electromagnetic-waves",
+    },
+    {
+      name: "Wave Optics",
+      path: "/StudyResources/Grade-12/physics/wave-optics",
+    },
+    {
+      name: "Dual Nature of Radiation and Matter",
+      path: "/StudyResources/Grade-12/physics/dual-nature-of-radiation-and-matter",
+    },
+    { name: "Atoms", path: "/StudyResources/Grade-12/physics/atoms" },
+    { name: "Nuclei", path: "/StudyResources/Grade-12/physics/nuclei" },
+    {
+      name: "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+      path: "/StudyResources/Grade-12/physics/semiconductor-electronics-materials-devices-and-simple-circuits",
+    },
   ],
   books: [
     {
@@ -387,92 +573,272 @@ export const physics = {
 export const chemistry = {
   notes: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Solid State",
+      path: "/StudyResources/Grade-12/chemistry/solid-state",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Solutions",
+      path: "/StudyResources/Grade-12/chemistry/solutions",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Electrochemistry",
+      path: "/StudyResources/Grade-12/chemistry/electrochemistry",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Chemical Kinetics",
+      path: "/StudyResources/Grade-12/chemistry/chemical-kinetics",
+    },
+    {
+      name: "Surface Chemistry",
+      path: "/StudyResources/Grade-12/chemistry/surface-chemistry",
+    },
+    {
+      name: "p ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/p-block-elements",
+    },
+    {
+      name: "d ‐and f ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/d-and-f-block-elements",
+    },
+    {
+      name: "Coordination Compounds",
+      path: "/StudyResources/Grade-12/chemistry/coordination-compounds",
+    },
+    {
+      name: "Haloalkanes and Haloarenes",
+      path: "/StudyResources/Grade-12/chemistry/haloalkanes-and-haloarenes",
+    },
+    {
+      name: "Alcohols, Phenols and Ethers",
+      path: "/StudyResources/Grade-12/chemistry/alcohols-phenols-ethers",
+    },
+    {
+      name: "Aldehydes, Ketones and Carboxylic Acids",
+      path: "/StudyResources/Grade-12/chemistry/aldehydes-ketons-and-carboxylic-acids",
+    },
+    {
+      name: "Amines",
+      path: "/StudyResources/Grade-12/chemistry/amines",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-12/chemistry/biomolecules",
     },
   ],
   pyq: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Solid State",
+      path: "/StudyResources/Grade-12/chemistry/solid-state",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Solutions",
+      path: "/StudyResources/Grade-12/chemistry/solutions",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Electrochemistry",
+      path: "/StudyResources/Grade-12/chemistry/electrochemistry",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Chemical Kinetics",
+      path: "/StudyResources/Grade-12/chemistry/chemical-kinetics",
+    },
+    {
+      name: "Surface Chemistry",
+      path: "/StudyResources/Grade-12/chemistry/surface-chemistry",
+    },
+    {
+      name: "p ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/p-block-elements",
+    },
+    {
+      name: "d ‐and f ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/d-and-f-block-elements",
+    },
+    {
+      name: "Coordination Compounds",
+      path: "/StudyResources/Grade-12/chemistry/coordination-compounds",
+    },
+    {
+      name: "Haloalkanes and Haloarenes",
+      path: "/StudyResources/Grade-12/chemistry/haloalkanes-and-haloarenes",
+    },
+    {
+      name: "Alcohols, Phenols and Ethers",
+      path: "/StudyResources/Grade-12/chemistry/alcohols-phenols-ethers",
+    },
+    {
+      name: "Aldehydes, Ketones and Carboxylic Acids",
+      path: "/StudyResources/Grade-12/chemistry/aldehydes-ketons-and-carboxylic-acids",
+    },
+    {
+      name: "Amines",
+      path: "/StudyResources/Grade-12/chemistry/amines",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-12/chemistry/biomolecules",
     },
   ],
   question_banks: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Solid State",
+      path: "/StudyResources/Grade-12/chemistry/solid-state",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Solutions",
+      path: "/StudyResources/Grade-12/chemistry/solutions",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Electrochemistry",
+      path: "/StudyResources/Grade-12/chemistry/electrochemistry",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Chemical Kinetics",
+      path: "/StudyResources/Grade-12/chemistry/chemical-kinetics",
+    },
+    {
+      name: "Surface Chemistry",
+      path: "/StudyResources/Grade-12/chemistry/surface-chemistry",
+    },
+    {
+      name: "p ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/p-block-elements",
+    },
+    {
+      name: "d ‐and f ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/d-and-f-block-elements",
+    },
+    {
+      name: "Coordination Compounds",
+      path: "/StudyResources/Grade-12/chemistry/coordination-compounds",
+    },
+    {
+      name: "Haloalkanes and Haloarenes",
+      path: "/StudyResources/Grade-12/chemistry/haloalkanes-and-haloarenes",
+    },
+    {
+      name: "Alcohols, Phenols and Ethers",
+      path: "/StudyResources/Grade-12/chemistry/alcohols-phenols-ethers",
+    },
+    {
+      name: "Aldehydes, Ketones and Carboxylic Acids",
+      path: "/StudyResources/Grade-12/chemistry/aldehydes-ketons-and-carboxylic-acids",
+    },
+    {
+      name: "Amines",
+      path: "/StudyResources/Grade-12/chemistry/amines",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-12/chemistry/biomolecules",
     },
   ],
   sample_paper: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Solid State",
+      path: "/StudyResources/Grade-12/chemistry/solid-state",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Solutions",
+      path: "/StudyResources/Grade-12/chemistry/solutions",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Electrochemistry",
+      path: "/StudyResources/Grade-12/chemistry/electrochemistry",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Chemical Kinetics",
+      path: "/StudyResources/Grade-12/chemistry/chemical-kinetics",
+    },
+    {
+      name: "Surface Chemistry",
+      path: "/StudyResources/Grade-12/chemistry/surface-chemistry",
+    },
+    {
+      name: "p ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/p-block-elements",
+    },
+    {
+      name: "d ‐and f ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/d-and-f-block-elements",
+    },
+    {
+      name: "Coordination Compounds",
+      path: "/StudyResources/Grade-12/chemistry/coordination-compounds",
+    },
+    {
+      name: "Haloalkanes and Haloarenes",
+      path: "/StudyResources/Grade-12/chemistry/haloalkanes-and-haloarenes",
+    },
+    {
+      name: "Alcohols, Phenols and Ethers",
+      path: "/StudyResources/Grade-12/chemistry/alcohols-phenols-ethers",
+    },
+    {
+      name: "Aldehydes, Ketones and Carboxylic Acids",
+      path: "/StudyResources/Grade-12/chemistry/aldehydes-ketons-and-carboxylic-acids",
+    },
+    {
+      name: "Amines",
+      path: "/StudyResources/Grade-12/chemistry/amines",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-12/chemistry/biomolecules",
     },
   ],
   video_lectures: [
     {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      name: "Solid State",
+      path: "/StudyResources/Grade-12/chemistry/solid-state",
     },
     {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      name: "Solutions",
+      path: "/StudyResources/Grade-12/chemistry/solutions",
     },
     {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      name: "Electrochemistry",
+      path: "/StudyResources/Grade-12/chemistry/electrochemistry",
     },
     {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      name: "Chemical Kinetics",
+      path: "/StudyResources/Grade-12/chemistry/chemical-kinetics",
+    },
+    {
+      name: "Surface Chemistry",
+      path: "/StudyResources/Grade-12/chemistry/surface-chemistry",
+    },
+    {
+      name: "p ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/p-block-elements",
+    },
+    {
+      name: "d ‐and f ‐Block Elements",
+      path: "/StudyResources/Grade-12/chemistry/d-and-f-block-elements",
+    },
+    {
+      name: "Coordination Compounds",
+      path: "/StudyResources/Grade-12/chemistry/coordination-compounds",
+    },
+    {
+      name: "Haloalkanes and Haloarenes",
+      path: "/StudyResources/Grade-12/chemistry/haloalkanes-and-haloarenes",
+    },
+    {
+      name: "Alcohols, Phenols and Ethers",
+      path: "/StudyResources/Grade-12/chemistry/alcohols-phenols-ethers",
+    },
+    {
+      name: "Aldehydes, Ketones and Carboxylic Acids",
+      path: "/StudyResources/Grade-12/chemistry/aldehydes-ketons-and-carboxylic-acids",
+    },
+    {
+      name: "Amines",
+      path: "/StudyResources/Grade-12/chemistry/amines",
+    },
+    {
+      name: "Biomolecules",
+      path: "/StudyResources/Grade-12/chemistry/biomolecules",
     },
   ],
   books: [
@@ -497,117 +863,112 @@ export const chemistry = {
 export const biology = {
   notes: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Reproduction",
+      path: "/StudyResources/Grade-12/biology/reproduction",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Genetics and Evolution",
+      path: "/StudyResources/Grade-12/biology/genetics-and-evolution",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Biology and Human Welfare",
+      path: "/StudyResources/Grade-12/biology/biology-and-human-welfare",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Biotechnology and its Applications",
+      path: "/StudyResources/Grade-12/biology/biotechnology-and-its-applications",
+    },
+    {
+      name: "Ecology and Environment",
+      path: "/StudyResources/Grade-12/biology/ecology-and-environment",
     },
   ],
   pyq: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Reproduction",
+      path: "/StudyResources/Grade-12/biology/reproduction",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Genetics and Evolution",
+      path: "/StudyResources/Grade-12/biology/genetics-and-evolution",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Biology and Human Welfare",
+      path: "/StudyResources/Grade-12/biology/biology-and-human-welfare",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Biotechnology and its Applications",
+      path: "/StudyResources/Grade-12/biology/biotechnology-and-its-applications",
+    },
+    {
+      name: "Ecology and Environment",
+      path: "/StudyResources/Grade-12/biology/ecology-and-environment",
     },
   ],
   question_banks: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Reproduction",
+      path: "/StudyResources/Grade-12/biology/reproduction",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Genetics and Evolution",
+      path: "/StudyResources/Grade-12/biology/genetics-and-evolution",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Biology and Human Welfare",
+      path: "/StudyResources/Grade-12/biology/biology-and-human-welfare",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Biotechnology and its Applications",
+      path: "/StudyResources/Grade-12/biology/biotechnology-and-its-applications",
+    },
+    {
+      name: "Ecology and Environment",
+      path: "/StudyResources/Grade-12/biology/ecology-and-environment",
     },
   ],
   sample_paper: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Reproduction",
+      path: "/StudyResources/Grade-12/biology/reproduction",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Genetics and Evolution",
+      path: "/StudyResources/Grade-12/biology/genetics-and-evolution",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Biology and Human Welfare",
+      path: "/StudyResources/Grade-12/biology/biology-and-human-welfare",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Biotechnology and its Applications",
+      path: "/StudyResources/Grade-12/biology/biotechnology-and-its-applications",
+    },
+    {
+      name: "Ecology and Environment",
+      path: "/StudyResources/Grade-12/biology/ecology-and-environment",
     },
   ],
   video_lectures: [
     {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      name: "Reproduction",
+      path: "/StudyResources/Grade-12/biology/reproduction",
     },
     {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      name: "Genetics and Evolution",
+      path: "/StudyResources/Grade-12/biology/genetics-and-evolution",
     },
     {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      name: "Biology and Human Welfare",
+      path: "/StudyResources/Grade-12/biology/biology-and-human-welfare",
     },
     {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      name: "Biotechnology and its Applications",
+      path: "/StudyResources/Grade-12/biology/biotechnology-and-its-applications",
+    },
+    {
+      name: "Ecology and Environment",
+      path: "/StudyResources/Grade-12/biology/ecology-and-environment",
     },
   ],
   books: [

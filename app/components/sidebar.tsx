@@ -100,7 +100,7 @@ const Sidebar1: React.FC<SidebarProps> = ({links, selected, setSelected }) => {
                 fill="currentColor"
               />
             </svg>
-            <span className="text-white text-xl">Home</span>
+            <span className="text-white text-xl">Back</span>
           </a>
         </div>
       </div>
