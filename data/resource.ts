@@ -29,14 +29,14 @@ export const resources: ResourceType[] = [
     linkName : "question-banks"
   },
   {
-    title: "PYQ's",
+    title: "PYQP's",
     description:
-      "Get access to free CBSE Previous Year Question Papers (PYQs) right here!",
+      "Get access to free CBSE Previous Year Question Papers (PYQPs) right here!",
     icon: maps_svg,
-    linkName: "pyq",
+    linkName: "pyqp",
   },
   {
-    title: "Sample Paper",
+    title: "Sample Paper",  
     description: "CBSE released sample paper, solved by experts",
     icon: openbook_svg,
     linkName: "sample-paper",

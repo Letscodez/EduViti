@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { maths } from "@/data/classes/9";
 
-export default function MathsBooks() {
+export default function Grade9MathsBooks() {
   // Sample data structure for book information
 
   return (

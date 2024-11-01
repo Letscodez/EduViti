@@ -1,9 +1,27 @@
-import React from 'react'
+'use client'
+import React from 'react';
+import { biology } from '@/data/classes/9';
+import ChapterCard from '@/app/components/chapters';
+import BackButton from '@/app/components/backbtn';
 
-const page = () => {
+
+const Grade9BiologyNotes = () => {
   return (
-    <div>page</div>
-  )
+    <main className="p-6">
+      <BackButton />
+      <h1 className="text-2xl font-bold mb-6 text-white text-center mt-6"> Grade 9 Biology Notes</h1>
+      <div className="flex flex-wrap mt-14 -mx-3">
+        {biology.notes.map((chapter) => (
+          <div key={chapter.name} className="w-1/2 px-3 mb-5">
+            <ChapterCard
+              title={chapter.name}
+              url={chapter.path}
+            />
+          </div>
+        ))}
+      </div>
+    </main>
+  );
 }
 
-export default page
+export default Grade9BiologyNotes;

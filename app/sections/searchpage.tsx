@@ -13,7 +13,7 @@ const SearchPage = () => {
         Search through our vast library of study materials and find the
         resources that fit your goals.
       </p>
-      <div className="w-full max-w-lg flex flex-row hover:scale-105 animate-bounce duration-[1000ms] rounded-lg shadow-bg shadow text-white justify-center bg-white/10 items-center">
+      <div className="w-full max-w-lg flex flex-row hover:scale-105 animate-bounce duration-1000 rounded-lg shadow-bg shadow text-white justify-center bg-white/10 items-center">
         <input
           type="text"
           placeholder="Search for Courses, Topics, or Materials.."

@@ -1,4 +1,4 @@
-// pages/StudySection.tsx
+
 "use client";
 import React, { useState } from "react";
 import ResourceCard from "@/app/components/ResourceCard";

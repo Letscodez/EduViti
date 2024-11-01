@@ -3,7 +3,7 @@ import React from 'react';
 import { physics } from '@/data/classes/9';
 import ChapterCard from '@/app/components/chapters';
 import BackButton from '@/app/components/backbtn';
-// yhe toh lekin pyq hi hai vo vala meme
+
 const Grade9physicsNotes = () => {
   return (
     <main className="p-6">
