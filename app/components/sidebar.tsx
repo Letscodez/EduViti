@@ -2,6 +2,7 @@
 import { nav_logo, title } from "@/images/main";
 import Image from "next/image";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 // Define the props type
 interface SidebarProps {
@@ -15,7 +16,10 @@ const Sidebar1: React.FC<SidebarProps> = ({links, selected, setSelected }) => {
   const toggleSidebar = () => {
     setIsSidebarVisible((prevState) => !prevState);
   };
-
+  const router = useRouter();
+  const back = () => {
+    router.back();
+  }
   return (
     <div className="flex">
       <button
@@ -80,8 +84,8 @@ const Sidebar1: React.FC<SidebarProps> = ({links, selected, setSelected }) => {
         </ul>
         <div className="mt-auto">
           <a
-            href="/"
-            className="flex hover:scale-105 items-center px-4 py-3 mb-2 hover:bg-white/10 rounded-lg space-x-5 transition"
+            onClick={back}
+            className="flex hover:scale-105 cursor-pointer items-center px-4 py-3 mb-2 hover:bg-white/10 rounded-lg space-x-5 transition"
           >
             <svg
               width="30"

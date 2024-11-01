@@ -6,16 +6,24 @@ const BackButton = () => {
   const router = useRouter();
 
   const handleBack = () => {
-    router.back(); // Navigates to the previous page
+    router.back();
   };
 
   return (
     <button
       onClick={handleBack}
-      className="bg-primary pl-4 rotate-180 w-16 h-12 rounded-lg hover:opacity-80"
+      className="flex items-center gap-2 bg-primary text-white rounded-lg p-2 hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-all duration-200"
     >
-      <Image src={vector_svg} alt="back" width={30} height={20} className="" />
+      <Image
+        src={vector_svg}
+        alt="back"
+        width={30}
+        height={20}
+        className="rotate-180 w-6"
+      />
+      <span className="text-bg text-lg font-black">Back</span>
     </button>
   );
 };
+
 export default BackButton;

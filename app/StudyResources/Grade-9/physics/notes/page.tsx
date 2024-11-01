@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import { physics_chapters } from '@/data/classes/9';
+import { physics } from '@/data/classes/9';
 import ChapterCard from '@/app/components/chapters';
 import BackButton from '@/app/components/backbtn';
 
@@ -10,7 +10,7 @@ const Grade9PhysicsNotes = () => {
       <BackButton />
       <h1 className="text-2xl font-bold mb-6 text-white text-center mt-6">Grade 9 Physics Notes</h1>
       <div className="flex flex-wrap mt-14 -mx-3">
-        {physics_chapters.map((chapter) => (
+        {physics.notes.map((chapter) => (
           <div key={chapter.name} className="w-1/2 px-3 mb-5">
             <ChapterCard
               title={chapter.name}

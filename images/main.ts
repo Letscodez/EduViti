@@ -22,6 +22,12 @@ import mohitsir from './mohitsir.webp';
 import khansir from './khan_sir.webp';
 import vector_svg from './Vector.svg';
 import insta_svg from './insta_svg.svg';
+import rd_maths_9 from './rd_maths_9.webp';
+import rs_maths_9 from './rs_maths_9.webp';
+import pearson from './pearson_maths_9.webp';
+import lakhmir_chem_9 from './lakhmir_chem_9.webp';
+import hc_phy_9 from './hc_phy_9.webp';
+import manjit_maths_9 from './manjit_maths_9.webp';
 
 export {
   title,
@@ -46,6 +52,12 @@ export {
   khansir,
   vector_svg,
   insta_svg,
+  rd_maths_9,
+  rs_maths_9,
+  pearson,
+  lakhmir_chem_9,
+  hc_phy_9,
+  manjit_maths_9,
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -55,6 +67,7 @@ export type ImageAssets = {
   pen: StaticImageData;
   rocket: StaticImageData;
   reload: StaticImageData;
+  lakhmir_chem_9: StaticImageData;
   book_svg: any;
   bookdown_svg: any;
   openbook_svg: any;
@@ -69,6 +82,11 @@ export type ImageAssets = {
   rajwantsir: StaticImageData;
   mohitsir: StaticImageData;
   khansir: StaticImageData;
+  rd_maths_9: StaticImageData;
+  rs_maths_9: StaticImageData;
+  pearson: StaticImageData;
+  hc_phy_9: StaticImageData;
+  manjit_maths_9: StaticImageData;
   vector_svg: any;
   insta_svg: any;
 };
@@ -96,6 +114,12 @@ const images: ImageAssets = {
   khansir,
   vector_svg,
   insta_svg,
+  rd_maths_9,
+  rs_maths_9,
+  pearson,
+  lakhmir_chem_9,
+  hc_phy_9,
+  manjit_maths_9,
 };
 
 export default images; // Default export
