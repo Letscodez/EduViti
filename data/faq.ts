@@ -7,7 +7,7 @@ type FAQType = {
 export const FAQs: FAQType[] = [
   {
     id: 1,
-    question: "How can I contribute to StudySite?",
+    question: "How can I contribute to EduViti?",
     answer:
       "We welcome contributions in the form of study materials, video lectures, or offering guidance to students. You can be part of our vision for a better academic future!",
   },

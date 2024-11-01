@@ -28,6 +28,7 @@ import pearson from './pearson_maths_9.webp';
 import lakhmir_chem_9 from './lakhmir_chem_9.webp';
 import hc_phy_9 from './hc_phy_9.webp';
 import manjit_maths_9 from './manjit_maths_9.webp';
+import search_svg from './searchbtn.svg';
 
 export {
   title,
@@ -58,6 +59,7 @@ export {
   lakhmir_chem_9,
   hc_phy_9,
   manjit_maths_9,
+  search_svg,
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -89,6 +91,7 @@ export type ImageAssets = {
   manjit_maths_9: StaticImageData;
   vector_svg: any;
   insta_svg: any;
+  search_svg: any;
 };
 // Default export of images for better structure
 const images: ImageAssets = {
@@ -120,6 +123,7 @@ const images: ImageAssets = {
   lakhmir_chem_9,
   hc_phy_9,
   manjit_maths_9,
+  search_svg,
 };
 
 export default images; // Default export

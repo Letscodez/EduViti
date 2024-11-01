@@ -14,3 +14,33 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+@keyframes back-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.back-in-left {
+  animation: back-in-left 1s forwards; /* Adjust duration as needed */
+}
+
+@keyframes back-in-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.back-in-down {
+  animation: back-in-down 0.75s forwards; /* Adjust duration as needed */
+}
