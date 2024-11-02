@@ -3,7 +3,7 @@ import { maths } from '@/data/classes/9';
 import SetsCard from '@/app/components/sets';
 import BackButton from '@/app/components/backbtn';
 
-const Grade9MathsNotes = () => {
+export default function Grade9MathsQuestionBanks () {
   return (
     <main className="p-6">
       <BackButton />
@@ -23,4 +23,3 @@ const Grade9MathsNotes = () => {
   );
 }
 
-export default Grade9MathsNotes;

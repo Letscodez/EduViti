@@ -2,14 +2,9 @@
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 import React from "react";
 
-type Set = {
-  name: string;
-  path: string;
-};
-
 type SetsCardProps = {
   title: string;
-  sets: Set[];
+  sets: { name: string; path: string }[];
 };
 
 const SetsCard: React.FC<SetsCardProps> = ({ title, sets }) => {

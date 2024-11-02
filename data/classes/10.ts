@@ -100,88 +100,200 @@ export const maths = {
   question_banks: [
     {
       name: "Real Numbers",
-      path: "/StudyResources/Grade-10/maths/real-numbers",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/real-numbers" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/real-numbers" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/real-numbers" },
+      ],
     },
-    { name: "Polynomials", path: "/StudyResources/Grade-10/maths/polynomials" },
+    { name: "Polynomials", sets: [
+      { name: "Set 1", path: "/StudyResources/Grade-10/maths/polynomials" },
+      { name: "Set 2", path: "/StudyResources/Grade-10/maths/polynomials" },
+      { name: "Set 3", path: "/StudyResources/Grade-10/maths/polynomials" },
+    ], },
     {
       name: "Pair of Linear Equations",
-      path: "/StudyResources/Grade-10/maths/linear-equations",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/pair-of-linear-equations" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/pair-of-linear-equations" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/pair-of-linear-equations" },
+      ],
     },
     {
       name: "Quadratic Equations",
-      path: "/StudyResources/Grade-10/maths/quadratic-equations",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/quadratic-equations" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/quadratic-equations" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/quadratic-equations" },
+      ],
     },
     {
       name: "Arithmetic Progression",
-      path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/arithmetic-progression" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/arithmetic-progression" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/arithmetic-progression" },
+      ],
     },
-    { name: "Triangles", path: "/StudyResources/Grade-10/maths/triangles" },
+    { name: "Triangles", sets: [
+      { name: "Set 1", path: "/StudyResources/Grade-10/maths/triangles" },
+      { name: "Set 2", path: "/StudyResources/Grade-10/maths/triangles" },
+      { name: "Set 3", path: "/StudyResources/Grade-10/maths/triangles" },
+    ], },
     {
       name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/coordinate-geometry" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/coordinate-geometry" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/coordinate-geometry" },
+      ],
     },
     {
       name: "Introduction to Trigonometry",
-      path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry" },
+      ],
     },
     {
       name: "Applications of Trigonometry",
-      path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/applications-of-trigonometry" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/applications-of-trigonometry" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/applications-of-trigonometry" },
+      ],
     },
-    { name: "Circles", path: "/StudyResources/Grade-10/maths/circles" },
+    { name: "Circles", sets: [
+      { name: "Set 1", path: "/StudyResources/Grade-10/maths/circles" },
+      { name: "Set 2", path: "/StudyResources/Grade-10/maths/circles" },
+      { name: "Set 3", path: "/StudyResources/Grade-10/maths/circles" },
+    ], },
     {
       name: "Area Related to Circles",
-      path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/area-related-to-circles" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/area-related-to-circles" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/area-related-to-circles" },
+      ],
     },
     {
       name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-10/maths/surface-areas-volumes",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes" },
+      ],
     },
-    { name: "Statistics", path: "/StudyResources/Grade-10/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-10/maths/probability" },
+    { name: "Statistics", sets: [
+      { name: "Set 1", path: "/StudyResources/Grade-10/maths/statistics" },
+      { name: "Set 2", path: "/StudyResources/Grade-10/maths/statistics" },
+      { name: "Set 3", path: "/StudyResources/Grade-10/maths/statistics" },
+    ], },
+    { name: "Probability", sets: [
+      { name: "Set 1", path: "/StudyResources/Grade-10/maths/probability" },
+      { name: "Set 2", path: "/StudyResources/Grade-10/maths/probability" },
+      { name: "Set 3", path: "/StudyResources/Grade-10/maths/probability" },
+    ], },
   ],
   sample_paper: [
     {
       name: "Real Numbers",
-      path: "/StudyResources/Grade-10/maths/real-numbers",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
-    { name: "Polynomials", path: "/StudyResources/Grade-10/maths/polynomials" },
+    { name: "Polynomials", sets: [
+      { name: "Set 1", path: "" },
+      { name: "Set 2", path: "" },
+      { name: "Set 3", path: "" },
+    ], },
     {
       name: "Pair of Linear Equations",
-      path: "/StudyResources/Grade-10/maths/linear-equations",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Quadratic Equations",
-      path: "/StudyResources/Grade-10/maths/quadratic-equations",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Arithmetic Progression",
-      path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
-    { name: "Triangles", path: "/StudyResources/Grade-10/maths/triangles" },
+    { name: "Triangles", sets: [
+      { name: "Set 1", path: "" },
+      { name: "Set 2", path: "" },
+      { name: "Set 3", path: "" },
+    ], },
     {
       name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Introduction to Trigonometry",
-      path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Applications of Trigonometry",
-      path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
-    { name: "Circles", path: "/StudyResources/Grade-10/maths/circles" },
+    { name: "Circles", sets: [
+      { name: "Set 1", path: "" },
+      { name: "Set 2", path: "" },
+      { name: "Set 3", path: "" },
+    ], },
     {
       name: "Area Related to Circles",
-      path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-10/maths/surface-areas-volumes",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
-    { name: "Statistics", path: "/StudyResources/Grade-10/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-10/maths/probability" },
+    { name: "Statistics", sets: [
+      { name: "Set 1", path: "" },
+      { name: "Set 2", path: "" },
+      { name: "Set 3", path: "" },
+    ], },
+    { name: "Probability", sets: [
+      { name: "Set 1", path: "" },
+      { name: "Set 2", path: "" },
+      { name: "Set 3", path: "" },
+    ], },
   ],
   video_lectures: [
     {
@@ -298,45 +410,85 @@ export const physics = {
   question_banks: [
     {
       name: "Light Reflection and Refraction",
-      path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Human Eye and Colourful World",
-      path: "/StudyResources/Grade-9/physics/human-eye-and-colourful-world",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Electricity",
-      path: "/StudyResources/Grade-9/physics/electricity",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Magnetic Effects of Electric Current",
-      path: "/StudyResources/Grade-9/physics/magnetic-effects-of-electric-current",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Sources of Energy",
-      path: "/StudyResources/Grade-9/physics/sources-of-energy",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
   ],
   sample_paper: [
     {
       name: "Light Reflection and Refraction",
-      path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Human Eye and Colourful World",
-      path: "/StudyResources/Grade-9/physics/human-eye-and-colourful-world",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Electricity",
-      path: "/StudyResources/Grade-9/physics/electricity",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Magnetic Effects of Electric Current",
-      path: "/StudyResources/Grade-9/physics/magnetic-effects-of-electric-current",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Sources of Energy",
-      path: "/StudyResources/Grade-9/physics/sources-of-energy",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
   ],
   video_lectures: [
@@ -428,45 +580,85 @@ export const chemistry = {
   question_banks: [
     {
       name: "Chemical Reactions and Equations",
-      path: "/StudyResources/Grade-10/chemistry/chemical-reactions-and-equations",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Acids, Bases, and Salts",
-      path: "/StudyResources/Grade-10/chemistry/acids-bases-and-salts",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Metals and Non-Metals",
-      path: "/StudyResources/Grade-10/chemistry/metals-and-non-metals",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Carbon and Its Compounds",
-      path: "/StudyResources/Grade-10/chemistry/carbon-and-its-compounds",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Periodic Classification of Elements",
-      path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
   ],
   sample_paper: [
     {
       name: "Chemical Reactions and Equations",
-      path: "/StudyResources/Grade-10/chemistry/chemical-reactions-and-equations",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Acids, Bases, and Salts",
-      path: "/StudyResources/Grade-10/chemistry/acids-bases-and-salts",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Metals and Non-Metals",
-      path: "/StudyResources/Grade-10/chemistry/metals-and-non-metals",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Carbon and Its Compounds",
-      path: "/StudyResources/Grade-10/chemistry/carbon-and-its-compounds",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Periodic Classification of Elements",
-      path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
   ],
   video_lectures: [
@@ -558,45 +750,85 @@ export const biology = {
   question_banks: [
     {
       name: "Life Processes",
-      path: "/StudyResources/Grade-9/biology/life-processes",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Control and Coordination",
-      path: "/StudyResources/Grade-9/biology/control-and-coordination",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "How do Organisms Reproduce?",
-      path: "/StudyResources/Grade-9/biology/how-do-organisms-reproduce",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Heredity and Evolution",
-      path: "/StudyResources/Grade-9/biology/heredity-and-evolution",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Our Environment",
-      path: "/StudyResources/Grade-9/biology/our-environment",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
   ],
   sample_paper: [
     {
       name: "Life Processes",
-      path: "/StudyResources/Grade-9/biology/life-processes",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Control and Coordination",
-      path: "/StudyResources/Grade-9/biology/control-and-coordination",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "How do Organisms Reproduce?",
-      path: "/StudyResources/Grade-9/biology/how-do-organisms-reproduce",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Heredity and Evolution",
-      path: "/StudyResources/Grade-9/biology/heredity-and-evolution",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
     {
       name: "Our Environment",
-      path: "/StudyResources/Grade-9/biology/our-environment",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
     },
   ],
   video_lectures: [

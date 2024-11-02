@@ -16,6 +16,7 @@ export default function Grade9MathsBooks() {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-items-center mt-16 gap-6">
         {maths.books.map((book) => (
           <a
+            key={book.title}
             href={book.link}
             target="_blank"
             rel="noopener noreferrer"

@@ -471,36 +471,124 @@ export const physics = {
     { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
   ],
   question_banks: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
+    {
+      name: "Motion",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/physics/motion" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/physics/motion" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/physics/motion" },
+      ],
+    },
     {
       name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
+        },
+      ],
     },
     {
       name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/physics/gravitation" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/physics/gravitation" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/physics/gravitation" },
+      ],
     },
     {
       name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/physics/work-and-energy",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/physics/work-and-energy",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/physics/work-and-energy",
+        },
+      ],
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Sound",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/physics/sound" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/physics/sound" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/physics/sound" },
+      ],
+    },
   ],
   sample_paper: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
+    {
+      name: "Motion",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/physics/motion" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/physics/motion" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/physics/motion" },
+      ],
+    },
     {
       name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
+        },
+      ],
     },
     {
       name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/physics/gravitation" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/physics/gravitation" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/physics/gravitation" },
+      ],
     },
     {
       name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/physics/work-and-energy",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/physics/work-and-energy",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/physics/work-and-energy",
+        },
+      ],
     },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
+    {
+      name: "Sound",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/physics/sound" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/physics/sound" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/physics/sound" },
+      ],
+    },
   ],
   video_lectures: [
     { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
@@ -577,37 +665,141 @@ export const chemistry = {
   question_banks: [
     {
       name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+        },
+      ],
     },
     {
       name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+        },
+      ],
     },
     {
       name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+        },
+      ],
     },
     {
       name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+        },
+      ],
     },
   ],
   sample_paper: [
     {
       name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+        },
+      ],
     },
     {
       name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+        },
+      ],
     },
     {
       name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+        },
+      ],
     },
     {
       name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+        },
+      ],
     },
   ],
   video_lectures: [
@@ -697,47 +889,209 @@ export const biology = {
   question_banks: [
     {
       name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
+        },
+      ],
     },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
+    {
+      name: "Tissues",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/tissues",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/tissues",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/tissues",
+        },
+      ],
+    },
     {
       name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+        },
+      ],
     },
     {
       name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+        },
+      ],
     },
     {
       name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/natural-resources",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/natural-resources",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/natural-resources",
+        },
+      ],
     },
     {
       name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+        },
+      ],
     },
   ],
   sample_paper: [
     {
       name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
+        },
+      ],
     },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
+    {
+      name: "Tissues",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/tissues",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/tissues",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/tissues",
+        },
+      ],
+    },
     {
       name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
+        },
+      ],
     },
     {
       name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+        },
+      ],
     },
     {
       name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/natural-resources",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/natural-resources",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/natural-resources",
+        },
+      ],
     },
     {
       name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+      sets: [
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+        },
+      ],
     },
   ],
   video_lectures: [

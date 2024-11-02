@@ -2,6 +2,7 @@ import Image from "next/image";
 import Btn from "@/app/components/btn";
 import { navLinks } from "@/data/navlinks";
 import { nav_logo } from "@/images/main";
+import { title } from "@/images/main";
 import Hamburger from "./hamburger";
 import Dropdown from "./dropdown";
 import SearchBar from "./searchBar";
