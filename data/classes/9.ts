@@ -132,108 +132,239 @@ export const maths = {
     },
     {
       name: "Polynomials",
-      sets: [], // Empty array for chapters without specific sets
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ], // Empty array for chapters without specific sets
     },
     {
       name: "Coordinate Geometry",
-      sets: [], // Ensure this is an empty array as well
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Linear Equations in Two Variables",
-      sets: [], // Same here
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Euclid’s Geometry",
-      sets: [], // Ensure all chapters have sets
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Lines and Angles",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Triangles",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Quadrilaterals",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Areas of Parallelograms and Triangles",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Circles",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Constructions",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Heron’s Formula",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Surface Areas and Volumes",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Statistics",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Probability",
-      sets: [],
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
   ],
 
-  sample_paper: [
+  sample_papers: [
     {
       name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
+    {
+      name: "Polynomials",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ], // Empty array for chapters without specific sets
+    },
     {
       name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
+    {
+      name: "Triangles",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
+    },
     {
       name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
+    {
+      name: "Circles",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
+    },
     {
       name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
     {
       name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Statistics",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
+    },
+    {
+      name: "Probability",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
+    },
   ],
   video_lectures: [
     {

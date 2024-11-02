@@ -37,7 +37,7 @@ export default function RootLayout({
       <body
         className={`${fredoka.className} overflow-y-scroll overflow-x-hidden`}
       >
-        <div className="bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333] min-h-screen">
+        <div className="bg-gradient-to-r from-bg via-[#2e4640] to-bg min-h-screen">
           {children} {/* Rendering children */}
         </div>
       </body>
