@@ -2,18 +2,17 @@ import React from "react";
 import { search_svg } from "@/images/main";
 
 const SearchPage = () => {
-  return ( 
+  return (
     <section className="flex flex-col items-center w-screen pt-32 justify-end text-white px-6 space-y-12">
-  
-      <h2 className="text-4xl md:text-5xl max-w-[500px] font-bold text-center">
+      <h2 className="text-4xl md:text-5xl mt-5 back-in-left max-w-[500px] font-bold text-center">
         Discover New Learning{" "}
         <span className="text-primary">Opportunities</span>
       </h2>
-      <p className="text-lg md:text-xl text-center text-white/80 max-w-xl leading-relaxed">
+      <p className="text-lg md:text-xl back-in-right text-center text-white/80 max-w-xl leading-relaxed">
         Search through our vast library of study materials and find the
         resources that fit your goals.
       </p>
-      <div className="w-full max-w-lg flex flex-row hover:scale-105 animate-bounce duration-1000 rounded-lg shadow-bg shadow text-white justify-center bg-white/10 items-center">
+      <div className="w-full max-w-lg flex flex-row hover:scale-105 back-in-up rounded-lg shadow-bg shadow text-white justify-center bg-white/10 items-center">
         <input
           type="text"
           placeholder="Search for Courses, Topics, or Materials.."
@@ -31,11 +30,10 @@ const SearchPage = () => {
       </div>
       <a
         href="#discover"
-        className="text-md max-w-96 text-centerc  text-gray-300 font-medium hover:text-white transition duration-100"
+        className="text-md max-w-96 text-center back-in-up text-gray-300 font-medium hover:text-white transition duration-100"
       >
         Discover new possibilities!
       </a>
-      
     </section>
   );
 };

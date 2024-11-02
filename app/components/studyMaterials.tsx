@@ -1,61 +1,75 @@
-'use client';
+"use client";
 import React from "react";
 import Image from "next/image";
-import maths_guide from "@/images/maths_guide.webp";
+import { courses, essentials, notes, qbanks, researchbooks, vlectures } from "@/images/main";
 
 const StudyMaterials = () => {
   const materials = [
     {
+      title: "Learning Essentials",
+      subtitle: "Top Study Resources, Just a Click Away",
+      description: "Find the best online lectures and study materials, gathered from top educators and available to you for free.",
+      image: essentials,
+    },
+    {
       title: "Notes",
-      description: "Unlock high-impact learning with notes that make complex topics simple.",
-      image: maths_guide,
+      subtitle: "Quick and Powerful Notes",
+      description:
+        "Unlock high-impact learning with notes that make complex topics simple.",
+      image: notes,
     },
     {
       title: "Question Banks",
-      description: "Prepare smarter with question banks designed to challenge, reinforce, and boost your confidence.",
-      image: "/images/biology_flashcards.webp",
+      subtitle: "Master Topics with Dedicated Practice Sets",
+      description:
+        "Prepare smarter with question banks designed to challenge, reinforce, and boost your confidence.",
+      image: qbanks ,
     },
     {
       title: "Video Lectures",
-      description: "Preferred Video Lectures of top teachers available online.",
-      image: "/images/history_timeline.webp",
+      subtitle: "Bringing You the Best of Online Learning",
+      description: "Access a curated selection of video lectures from top educators worldwide, offering valuable insights and knowledge at no cost.",
+      image: vlectures,
     },
     {
       title: "Research Books",
-      description: "Research books provide in-depth analysis,advancing knowledge in various fields.",
-      image: "/images/physics_problem_sets.webp",
+      subtitle: "Dive Deep into the World of Research",
+      description:
+        "Research books provide in-depth analysis, advancing knowledge in various fields.",
+      image: researchbooks,
     },
     {
       title: "Free Courses",
-      description: "Explore a curated selection of free online courses from top institutions worldwide, designed to enhance your skills and knowledge without any cost.",
-      image: "/images/literature_reading_list.webp",
-    },
-    {
-      title: "Chemistry Lab Manual",
-      description: "Step-by-step guide for chemistry experiments.",
-      image: "/images/chemistry_lab_manual.webp",
+      subtitle: "Learn from the Best for Free",
+      description:
+        "Explore a curated selection of free online courses from top institutions worldwide, designed to enhance your skills and knowledge without any cost.",
+      image: courses,
     },
   ];
 
   return (
-    <div className="p-6 text-white">
-      <h1 className="text-4xl font-bold mb-6 mt-8 text-center text-primary">
+    <div className="p-6 text-white min-h-screen">
+      <h1 className="text-4xl font-bold mb-8 mt-8 text-center text-primary">
         Study Materials
       </h1>
-      <div className="flex flex-wrap justify-center gap-6 md:mx-40">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 mt-12 gap-8 md:mx-2 xl:mx-28">
         {materials.map((material, index) => (
           <div
             key={index}
-            className="bg-white/10 border border-primary/50 p-4 mt-8 rounded-lg shadow-2xl hover:shadow-xl transition-transform duration-100 hover:scale-105 flex flex-col items-center justify-evenly h-60 min-w-72 max-w-72 md:max-w-full md:min-w-full "
+            className="bg-white/5 border border-primary/50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex flex-col md:flex-col xl:flex-row items-center"
           >
             <Image
               src={material.image}
-              height={100}
-              width={100}
+              height={200}
+              width={200}
               alt={material.title}
+              className="h-full rounded-lg object-cover mb-4"
             />
-            <h2 className="text-xl font-semibold mt-4">{material.title}</h2>
-            <p className="mt-2 text-base text-center">{material.description}</p>
+            <div className="ml-5 h-full">
+              <h2 className="text-xl text-primary font-semibold mb-2">{material.title}</h2>
+              <h3 className="text-lg mb-4">{material.subtitle}</h3>
+              <p className="text-sm ">{material.description}</p>
+            </div>
           </div>
         ))}
       </div>

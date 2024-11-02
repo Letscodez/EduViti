@@ -29,7 +29,12 @@ import lakhmir_chem_9 from './lakhmir_chem_9.webp';
 import hc_phy_9 from './hc_phy_9.webp';
 import manjit_maths_9 from './manjit_maths_9.webp';
 import search_svg from './searchbtn.svg';
-import maths_guide from './maths_guide.webp';
+import notes from './notes.webp';
+import essentials from './essentials.webp';
+import qbanks from './qbanks.webp';
+import vlectures from './vlectures.webp';
+import researchbooks from './researchbooks.webp';
+import courses from './courses.webp';
 
 export {
   title,
@@ -61,7 +66,12 @@ export {
   hc_phy_9,
   manjit_maths_9,
   search_svg,
-  maths_guide,
+  notes,
+  essentials,
+  qbanks,
+  vlectures,
+  researchbooks,
+  courses,
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -91,7 +101,12 @@ export type ImageAssets = {
   pearson: StaticImageData;
   hc_phy_9: StaticImageData;
   manjit_maths_9: StaticImageData;
-  maths_guide: StaticImageData;
+  notes: StaticImageData;
+  essentials: StaticImageData;
+  qbanks: StaticImageData;
+  vlectures: StaticImageData;
+  researchbooks: StaticImageData;
+  courses: StaticImageData;
   vector_svg: any;
   insta_svg: any;
   search_svg: any;
@@ -127,7 +142,12 @@ const images: ImageAssets = {
   hc_phy_9,
   manjit_maths_9,
   search_svg,
-  maths_guide,
+  notes,
+  essentials,
+  qbanks,
+  vlectures,
+  researchbooks,
+  courses,
 };
 
 export default images; 

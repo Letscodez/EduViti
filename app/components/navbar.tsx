@@ -14,7 +14,7 @@ type NavbarProps = {
 
 const Navbar: React.FC<NavbarProps> = ({ homeBtn }) => {
   return (
-    <nav className="bg-teal-100/30 back-in-down backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-10 filter">
+    <nav className="bg-teal-100/30 back-in-down backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-50 filter">
       {/* Logo */}
       <a href="/">
         <Image

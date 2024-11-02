@@ -106,95 +106,182 @@ export const maths = {
         { name: "Set 3", path: "/StudyResources/Grade-10/maths/real-numbers" },
       ],
     },
-    { name: "Polynomials", sets: [
-      { name: "Set 1", path: "/StudyResources/Grade-10/maths/polynomials" },
-      { name: "Set 2", path: "/StudyResources/Grade-10/maths/polynomials" },
-      { name: "Set 3", path: "/StudyResources/Grade-10/maths/polynomials" },
-    ], },
+    {
+      name: "Polynomials",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/polynomials" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/polynomials" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/polynomials" },
+      ],
+    },
     {
       name: "Pair of Linear Equations",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/pair-of-linear-equations" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/pair-of-linear-equations" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/pair-of-linear-equations" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-10/maths/pair-of-linear-equations",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-10/maths/pair-of-linear-equations",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-10/maths/pair-of-linear-equations",
+        },
       ],
     },
     {
       name: "Quadratic Equations",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/quadratic-equations" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/quadratic-equations" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/quadratic-equations" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-10/maths/quadratic-equations",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-10/maths/quadratic-equations",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-10/maths/quadratic-equations",
+        },
       ],
     },
     {
       name: "Arithmetic Progression",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/arithmetic-progression" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/arithmetic-progression" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/arithmetic-progression" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+        },
       ],
     },
-    { name: "Triangles", sets: [
-      { name: "Set 1", path: "/StudyResources/Grade-10/maths/triangles" },
-      { name: "Set 2", path: "/StudyResources/Grade-10/maths/triangles" },
-      { name: "Set 3", path: "/StudyResources/Grade-10/maths/triangles" },
-    ], },
+    {
+      name: "Triangles",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/triangles" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/triangles" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/triangles" },
+      ],
+    },
     {
       name: "Coordinate Geometry",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/coordinate-geometry" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/coordinate-geometry" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/coordinate-geometry" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+        },
       ],
     },
     {
       name: "Introduction to Trigonometry",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+        },
       ],
     },
     {
       name: "Applications of Trigonometry",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/applications-of-trigonometry" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/applications-of-trigonometry" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/applications-of-trigonometry" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+        },
       ],
     },
-    { name: "Circles", sets: [
-      { name: "Set 1", path: "/StudyResources/Grade-10/maths/circles" },
-      { name: "Set 2", path: "/StudyResources/Grade-10/maths/circles" },
-      { name: "Set 3", path: "/StudyResources/Grade-10/maths/circles" },
-    ], },
+    {
+      name: "Circles",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/circles" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/circles" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/circles" },
+      ],
+    },
     {
       name: "Area Related to Circles",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/area-related-to-circles" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/area-related-to-circles" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/area-related-to-circles" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+        },
       ],
     },
     {
       name: "Surface Areas and Volumes",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes",
+        },
       ],
     },
-    { name: "Statistics", sets: [
-      { name: "Set 1", path: "/StudyResources/Grade-10/maths/statistics" },
-      { name: "Set 2", path: "/StudyResources/Grade-10/maths/statistics" },
-      { name: "Set 3", path: "/StudyResources/Grade-10/maths/statistics" },
-    ], },
-    { name: "Probability", sets: [
-      { name: "Set 1", path: "/StudyResources/Grade-10/maths/probability" },
-      { name: "Set 2", path: "/StudyResources/Grade-10/maths/probability" },
-      { name: "Set 3", path: "/StudyResources/Grade-10/maths/probability" },
-    ], },
+    {
+      name: "Statistics",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/statistics" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/statistics" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/statistics" },
+      ],
+    },
+    {
+      name: "Probability",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-10/maths/probability" },
+        { name: "Set 2", path: "/StudyResources/Grade-10/maths/probability" },
+        { name: "Set 3", path: "/StudyResources/Grade-10/maths/probability" },
+      ],
+    },
   ],
   sample_paper: [
     {
@@ -205,11 +292,14 @@ export const maths = {
         { name: "Set 3", path: "" },
       ],
     },
-    { name: "Polynomials", sets: [
-      { name: "Set 1", path: "" },
-      { name: "Set 2", path: "" },
-      { name: "Set 3", path: "" },
-    ], },
+    {
+      name: "Polynomials",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
+    },
     {
       name: "Pair of Linear Equations",
       sets: [
@@ -234,11 +324,14 @@ export const maths = {
         { name: "Set 3", path: "" },
       ],
     },
-    { name: "Triangles", sets: [
-      { name: "Set 1", path: "" },
-      { name: "Set 2", path: "" },
-      { name: "Set 3", path: "" },
-    ], },
+    {
+      name: "Triangles",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
+    },
     {
       name: "Coordinate Geometry",
       sets: [
@@ -263,11 +356,14 @@ export const maths = {
         { name: "Set 3", path: "" },
       ],
     },
-    { name: "Circles", sets: [
-      { name: "Set 1", path: "" },
-      { name: "Set 2", path: "" },
-      { name: "Set 3", path: "" },
-    ], },
+    {
+      name: "Circles",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
+    },
     {
       name: "Area Related to Circles",
       sets: [
@@ -284,16 +380,22 @@ export const maths = {
         { name: "Set 3", path: "" },
       ],
     },
-    { name: "Statistics", sets: [
-      { name: "Set 1", path: "" },
-      { name: "Set 2", path: "" },
-      { name: "Set 3", path: "" },
-    ], },
-    { name: "Probability", sets: [
-      { name: "Set 1", path: "" },
-      { name: "Set 2", path: "" },
-      { name: "Set 3", path: "" },
-    ], },
+    {
+      name: "Statistics",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
+    },
+    {
+      name: "Probability",
+      sets: [
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
+      ],
+    },
   ],
   video_lectures: [
     {
@@ -872,4 +974,4 @@ export const biology = {
     },
     // Add more books here as needed
   ],
-};
+}; //

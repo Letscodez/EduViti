@@ -7,7 +7,6 @@ body {
   @apply bg-gradient-to-r from-bg via-primary to-bg;
 }
 
-
 .outfit {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -29,10 +28,95 @@ body {
 .back-in-left {
   animation: back-in-left 1s forwards; /* Adjust duration as needed */
 }
+@keyframes back-in-left2 {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.back-in-left2 {
+  animation: back-in-left2 1.5s forwards; /* Adjust duration as needed */
+}
+@keyframes back-in-left3 {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.back-in-left3 {
+  animation: back-in-left3 1.5s forwards; /* Adjust duration as needed */
+}
+@keyframes back-in-left4 {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.back-in-left4 {
+  animation: back-in-left4 1.5s forwards; /* Adjust duration as needed */
+}
+@keyframes back-in-left5 {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.back-in-left5 {
+  animation: back-in-left5 1.5s forwards; /* Adjust duration as needed */
+}
+@keyframes back-in-left6 {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.back-in-left6 {
+  animation: back-in-left6 1.5s forwards; /* Adjust duration as needed */
+}
+
+@keyframes back-in-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.back-in-right {
+  animation: back-in-right 1.5s forwards; /* Adjust duration as needed */
+}
 
 @keyframes back-in-down {
   0% {
-    transform: translateY(-100%);
+    transform: translateY(-400%);
     opacity: 0;
   }
   100% {
@@ -42,5 +126,19 @@ body {
 }
 
 .back-in-down {
-  animation: back-in-down 0.75s forwards; /* Adjust duration as needed */
+  animation: back-in-down 1s forwards; /* Adjust duration as needed */
+}
+@keyframes back-in-up {
+  0% {
+    transform: translateY(800%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.back-in-up {
+  animation: back-in-up 1.3s forwards; /* Adjust duration as needed */
 }

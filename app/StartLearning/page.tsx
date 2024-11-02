@@ -22,7 +22,6 @@ const StartLearning = () => {
         <Navbar homeBtn={true} />
         <div className="container max-w-5xl mx-auto mt-12 space-y-8">
           <div className="space-y-3">
-
           <h1 className="text-4xl md:text-5xl font-bold text-center">
             Kickstart Your Learning Journey
           </h1>
