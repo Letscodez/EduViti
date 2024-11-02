@@ -84,54 +84,26 @@ export const maths = {
   ],
   pyqp: [
     {
-      name: "Relations and Functions",
+      name: "Session 2024-2025",
       path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Inverse Trigonometric Functions",
+      name: "Session 2023-2024",
       path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Matrices",
-      path: "/StudyResources/Grade-12/maths/matrices",
+      name: "Session 2022-2023",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Determinants",
-      path: "/StudyResources/Grade-12/maths/determinants",
+      name: "Session 2021-2022",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Continuity and Differentiability",
-      path: "/StudyResources/Grade-12/maths/continuity-and-differentiability",
+      name: "Session 2020-2021",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
-    {
-      name: "Applications of Derivatives",
-      path: "/StudyResources/Grade-12/maths/applications-of-derivatives",
-    },
-    { name: "Integrals", path: "/StudyResources/Grade-12/integrals" },
-    {
-      name: "Application of Integrals",
-      path: "/StudyResources/Grade-12/maths/application-of-integrals",
-    },
-    {
-      name: "Differential Equations",
-      path: "/StudyResources/Grade-12/maths/differential-equations",
-    },
-    {
-      name: "Vector Algebra",
-      path: "/StudyResources/Grade-12/maths/vector-algebra",
-    },
-    {
-      name: "Three Dimensional Geometry",
-      path: "/StudyResources/Grade-12/maths/three-dimensional-geometry",
-    },
-    {
-      name: "Linear Programming",
-      path: "/StudyResources/Grade-12/maths/linear-programming",
-    },
-    {
-      name: "Probability",
-      path: "/StudyResources/Grade-12/maths/probability",
-    },
+    
   ],
   question_banks: [
     {
@@ -359,52 +331,26 @@ export const physics = {
       path: "/StudyResources/Grade-12/physics/semiconductor-electronics-materials-devices-and-simple-circuits",
     },
   ],
-  pyq: [
+  pyqp: [
     {
-      name: "Electric Charges and Fields",
-      path: "/StudyResources/Grade-12/physics/electric-charges-and-fields",
+      name: "Session 2024-2025",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Electrostatic Potential and Capacitance",
-      path: "/StudyResources/Grade-12/physics/electrostatic-potential-and-capacitance",
+      name: "Session 2023-2024",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Current Electricity",
-      path: "/StudyResources/Grade-12/physics/current-electricity",
+      name: "Session 2022-2023",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Moving Charges and Magnetism",
-      path: "/StudyResources/Grade-12/physics/moving-charges-and-magnetism",
+      name: "Session 2021-2022",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Magnetism and Matter",
-      path: "/StudyResources/Grade-12/physics/magnetism-and-matter",
-    },
-    {
-      name: "Electromagnetic Induction",
-      path: "/StudyResources/Grade-12/physics/electromagnetic-induction",
-    },
-    {
-      name: "Alternating Current",
-      path: "/StudyResources/Grade-12/physics/alternating-current",
-    },
-    {
-      name: "Electromagnetic Waves",
-      path: "/StudyResources/Grade-12/physics/electromagnetic-waves",
-    },
-    {
-      name: "Wave Optics",
-      path: "/StudyResources/Grade-12/physics/wave-optics",
-    },
-    {
-      name: "Dual Nature of Radiation and Matter",
-      path: "/StudyResources/Grade-12/physics/dual-nature-of-radiation-and-matter",
-    },
-    { name: "Atoms", path: "/StudyResources/Grade-12/physics/atoms" },
-    { name: "Nuclei", path: "/StudyResources/Grade-12/physics/nuclei" },
-    {
-      name: "Semiconductor Electronics: Materials, Devices and Simple Circuits",
-      path: "/StudyResources/Grade-12/physics/semiconductor-electronics-materials-devices-and-simple-circuits",
+      name: "Session 2020-2021",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
   ],
   question_banks: [
@@ -625,58 +571,26 @@ export const chemistry = {
       path: "/StudyResources/Grade-12/chemistry/biomolecules",
     },
   ],
-  pyq: [
+  pyqp: [
     {
-      name: "Solid State",
-      path: "/StudyResources/Grade-12/chemistry/solid-state",
+      name: "Session 2024-2025",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Solutions",
-      path: "/StudyResources/Grade-12/chemistry/solutions",
+      name: "Session 2023-2024",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Electrochemistry",
-      path: "/StudyResources/Grade-12/chemistry/electrochemistry",
+      name: "Session 2022-2023",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Chemical Kinetics",
-      path: "/StudyResources/Grade-12/chemistry/chemical-kinetics",
+      name: "Session 2021-2022",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Surface Chemistry",
-      path: "/StudyResources/Grade-12/chemistry/surface-chemistry",
-    },
-    {
-      name: "p ‐Block Elements",
-      path: "/StudyResources/Grade-12/chemistry/p-block-elements",
-    },
-    {
-      name: "d ‐and f ‐Block Elements",
-      path: "/StudyResources/Grade-12/chemistry/d-and-f-block-elements",
-    },
-    {
-      name: "Coordination Compounds",
-      path: "/StudyResources/Grade-12/chemistry/coordination-compounds",
-    },
-    {
-      name: "Haloalkanes and Haloarenes",
-      path: "/StudyResources/Grade-12/chemistry/haloalkanes-and-haloarenes",
-    },
-    {
-      name: "Alcohols, Phenols and Ethers",
-      path: "/StudyResources/Grade-12/chemistry/alcohols-phenols-ethers",
-    },
-    {
-      name: "Aldehydes, Ketones and Carboxylic Acids",
-      path: "/StudyResources/Grade-12/chemistry/aldehydes-ketons-and-carboxylic-acids",
-    },
-    {
-      name: "Amines",
-      path: "/StudyResources/Grade-12/chemistry/amines",
-    },
-    {
-      name: "Biomolecules",
-      path: "/StudyResources/Grade-12/chemistry/biomolecules",
+      name: "Session 2020-2021",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
   ],
   question_banks: [
@@ -883,26 +797,26 @@ export const biology = {
       path: "/StudyResources/Grade-12/biology/ecology-and-environment",
     },
   ],
-  pyq: [
+  pyqp: [
     {
-      name: "Reproduction",
-      path: "/StudyResources/Grade-12/biology/reproduction",
+      name: "Session 2024-2025",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Genetics and Evolution",
-      path: "/StudyResources/Grade-12/biology/genetics-and-evolution",
+      name: "Session 2023-2024",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Biology and Human Welfare",
-      path: "/StudyResources/Grade-12/biology/biology-and-human-welfare",
+      name: "Session 2022-2023",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Biotechnology and its Applications",
-      path: "/StudyResources/Grade-12/biology/biotechnology-and-its-applications",
+      name: "Session 2021-2022",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Ecology and Environment",
-      path: "/StudyResources/Grade-12/biology/ecology-and-environment",
+      name: "Session 2020-2021",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
   ],
   question_banks: [

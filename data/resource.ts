@@ -29,11 +29,46 @@ export const resources: ResourceType[] = [
     linkName : "question-banks"
   },
   {
-    title: "PYQP's",
+    title: "Board PYQP's",
     description:
-      "Get access to free CBSE Previous Year Question Papers (PYQPs) right here!",
+      "Get access to free CBSE Previous Year Board Question Papers (PYQPs) right here!",
     icon: maps_svg,
     linkName: "pyqp",
+  },
+  {
+    title: "Sample Papers",  
+    description: "CBSE released sample papers, solved by experts",
+    icon: openbook_svg,
+    linkName: "sample-paper",
+  },
+  {
+    title: "Books & Solutions",
+    description:
+      "All books are available like RD Sharma, RS Aggarwal, HC Verma, etc. ",
+    icon: bookdown_svg,
+    linkName: "books-solutions",
+  },
+  {
+    title: "Preferred Video Lectures",
+    description:
+      "Dedicated Preferred Video Lectures on specific Chapter & Topics.",
+    icon: book_svg,
+    linkName: "video-lectures",
+  },
+];
+export const resources2: ResourceType[] = [
+  {
+    title: "Notes",
+    description: "Iconic notes, easy to understand and download",
+    icon: concise_svg,
+    linkName: "notes",
+  },
+  {
+    title: "Question Banks",
+    description:
+      "Explore Question Banks packed with curated questions across all key subjects.",
+    icon: qbank_svg,
+    linkName : "question-banks"
   },
   {
     title: "Sample Papers",  

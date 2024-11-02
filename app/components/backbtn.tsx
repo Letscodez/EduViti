@@ -1,3 +1,4 @@
+"use client";
 import { vector_svg } from "@/images/main";
 import Image from "next/image";
 import { useRouter } from "next/navigation";

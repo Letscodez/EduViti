@@ -4,7 +4,6 @@ import { maths } from "@/data/classes/12";
 import BackButton from "@/app/components/backbtn";
 
 export default function Grade12MathsBooks() {
-  // Sample data structure for book information
 
   return (
     <div className="p-6 text-center">

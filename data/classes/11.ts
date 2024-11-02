@@ -80,55 +80,6 @@ export const maths = {
     { name: "Statistics", path: "/StudyResources/Grade-11/maths/statistics" },
     { name: "Probability", path: "/StudyResources/Grade-11/maths/probability" },
   ],
-  pyqp: [
-    { name: "Sets", path: "/StudyResources/Grade-11/maths/sets" },
-    {
-      name: "Relations and Functions",
-      path: "/StudyResources/Grade-11/maths/relations-and-functions",
-    },
-    {
-      name: "Trigonometric Functions",
-      path: "/StudyResources/Grade-11/maths/trigonometric-functions",
-    },
-    {
-      name: "Complex Numbers and Quadratic Equations",
-      path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
-    },
-    {
-      name: "Linear Inequalities",
-      path: "/StudyResources/Grade-11/maths/linear-inequalities",
-    },
-    {
-      name: "Permutations and Combinations",
-      path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
-    },
-    {
-      name: "Binomial Theorem",
-      path: "/StudyResources/Grade-11/maths/binomial-theorem",
-    },
-    {
-      name: "Sequences and Series",
-      path: "/StudyResources/Grade-11/maths/sequences-and-series",
-    },
-    {
-      name: "Straight Lines",
-      path: "/StudyResources/Grade-11/maths/straight-lines",
-    },
-    {
-      name: "Conic Sections",
-      path: "/StudyResources/Grade-11/maths/conic-sections",
-    },
-    {
-      name: "Introduction to Three Dimensional Geometry",
-      path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
-    },
-    {
-      name: "Limits and Derivatives",
-      path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
-    },
-    { name: "Statistics", path: "/StudyResources/Grade-11/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-11/maths/probability" },
-  ],
   question_banks: [
     { name: "Sets", path: "/StudyResources/Grade-11/maths/sets" },
     {

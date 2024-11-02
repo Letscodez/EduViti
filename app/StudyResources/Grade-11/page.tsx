@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import ResourceCard from "@/app/components/ResourceCard";
 import Sidebar from "@/app/components/sidebar";
-import { resources } from "@/data/resource";
+import { resources2 } from "@/data/resource";
 import { links } from "@/data/classes/11";
 
 const StudySection: React.FC = () => {
@@ -24,7 +24,7 @@ const StudySection: React.FC = () => {
           )
         )}
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6 gap-y-16">
-          {resources.map((resource) => (
+          {resources2.map((resource) => (
             <ResourceCard
               key={resource.title}
               title={resource.title}

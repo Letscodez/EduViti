@@ -124,50 +124,70 @@ export const maths = {
   question_banks: [
     {
       name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+      ],
     },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
+    {
+      name: "Polynomials",
+      sets: [], // Empty array for chapters without specific sets
+    },
     {
       name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
+      sets: [], // Ensure this is an empty array as well
     },
     {
       name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
+      sets: [], // Same here
     },
     {
       name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
+      sets: [], // Ensure all chapters have sets
     },
     {
       name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
+      sets: [],
     },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
+    {
+      name: "Triangles",
+      sets: [],
+    },
     {
       name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
+      sets: [],
     },
     {
       name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
+      sets: [],
     },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
+    {
+      name: "Circles",
+      sets: [],
+    },
     {
       name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
+      sets: [],
     },
     {
       name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
+      sets: [],
     },
     {
       name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
+      sets: [],
     },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    {
+      name: "Statistics",
+      sets: [],
+    },
+    {
+      name: "Probability",
+      sets: [],
+    },
   ],
+
   sample_paper: [
     {
       name: "Number Systems",

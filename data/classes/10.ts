@@ -77,46 +77,25 @@ export const maths = {
 
   pyqp: [
     {
-      name: "Real Numbers",
-      path: "/StudyResources/Grade-10/maths/real-numbers",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-10/maths/polynomials" },
-    {
-      name: "Pair of Linear Equations",
-      path: "/StudyResources/Grade-10/maths/linear-equations",
+      name: "Session 2024-2025",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Quadratic Equations",
-      path: "/StudyResources/Grade-10/maths/quadratic-equations",
+      name: "Session 2023-2024",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Arithmetic Progression",
-      path: "/StudyResources/Grade-10/maths/arithmetic-progression",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-10/maths/triangles" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+      name: "Session 2022-2023",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Introduction to Trigonometry",
-      path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+      name: "Session 2021-2022",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Applications of Trigonometry",
-      path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+      name: "Session 2020-2021",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
-    { name: "Circles", path: "/StudyResources/Grade-10/maths/circles" },
-    {
-      name: "Area Related to Circles",
-      path: "/StudyResources/Grade-10/maths/area-related-to-circles",
-    },
-    {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-10/maths/surface-areas-volumes",
-    },
-    { name: "Statistics", path: "/StudyResources/Grade-10/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-10/maths/probability" },
   ],
   question_banks: [
     {
@@ -294,26 +273,26 @@ export const physics = {
       path: "/StudyResources/Grade-9/physics/sources-of-energy",
     },
   ],
-  pyq: [
+  pyqp: [
     {
-      name: "Light Reflection and Refraction",
-      path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
+      name: "Session 2024-2025",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Human Eye and Colourful World",
-      path: "/StudyResources/Grade-9/physics/human-eye-and-colourful-world",
+      name: "Session 2023-2024",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Electricity",
-      path: "/StudyResources/Grade-9/physics/electricity",
+      name: "Session 2022-2023",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Magnetic Effects of Electric Current",
-      path: "/StudyResources/Grade-9/physics/magnetic-effects-of-electric-current",
+      name: "Session 2021-2022",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Sources of Energy",
-      path: "/StudyResources/Grade-9/physics/sources-of-energy",
+      name: "Session 2020-2021",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
   ],
   question_banks: [
@@ -424,26 +403,26 @@ export const chemistry = {
       path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
     },
   ],
-  pyq: [
+  pyqp: [
     {
-      name: "Chemical Reactions and Equations",
-      path: "/StudyResources/Grade-10/chemistry/chemical-reactions-and-equations",
+      name: "Session 2024-2025",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Acids, Bases, and Salts",
-      path: "/StudyResources/Grade-10/chemistry/acids-bases-and-salts",
+      name: "Session 2023-2024",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Metals and Non-Metals",
-      path: "/StudyResources/Grade-10/chemistry/metals-and-non-metals",
+      name: "Session 2022-2023",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Carbon and Its Compounds",
-      path: "/StudyResources/Grade-10/chemistry/carbon-and-its-compounds",
+      name: "Session 2021-2022",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Periodic Classification of Elements",
-      path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
+      name: "Session 2020-2021",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
   ],
   question_banks: [
@@ -554,26 +533,26 @@ export const biology = {
       path: "/StudyResources/Grade-9/biology/our-environment",
     },
   ],
-  pyq: [
+  pyqp: [
     {
-      name: "Life Processes",
-      path: "/StudyResources/Grade-9/biology/life-processes",
+      name: "Session 2024-2025",
+      path: "/StudyResources/Grade-12/maths/relations-and-functions",
     },
     {
-      name: "Control and Coordination",
-      path: "/StudyResources/Grade-9/biology/control-and-coordination",
+      name: "Session 2023-2024",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "How do Organisms Reproduce?",
-      path: "/StudyResources/Grade-9/biology/how-do-organisms-reproduce",
+      name: "Session 2022-2023",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Heredity and Evolution",
-      path: "/StudyResources/Grade-9/biology/heredity-and-evolution",
+      name: "Session 2021-2022",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
     {
-      name: "Our Environment",
-      path: "/StudyResources/Grade-9/biology/our-environment",
+      name: "Session 2020-2021",
+      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
     },
   ],
   question_banks: [
