@@ -6,7 +6,7 @@ type SetsCardProps = {
   title: string;
   sets: { name: string; path: string }[];
 };
-
+// ruk dekhta hu 
 const SetsCard: React.FC<SetsCardProps> = ({ title, sets }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (

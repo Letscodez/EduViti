@@ -7,9 +7,9 @@ type FooterProps = {
 
 const Footer: React.FC<FooterProps> = ({isLearning }) => {
   return (
-    <footer className="bg-[#353535] text-white py-10 min-h-auto">
+    <footer className={ ` ${isLearning ? "bg-none" : "bg-[#353535]"} text-white py-10 min-h-auto`}>
       {/* <section className="bg-gray-900 py-16 text-center"> */}
-      <div className={ `${isLearning ? "bg-gradient-to-r from-bg via-[#2e4640] to-bg" : "bg-white"} max-w-screen h-96 -mt-40`}></div>
+      <div className={ `${isLearning ? "bg-gradient-to-r from-bg via-[#2e4640] to-bg" : "bg-white"} max-w-screen border-b border-primary/50 h-96 -mt-40`}></div>
       <div className="container mx-auto px-6 md:px-12">
         <div className="bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333] rounded-3xl p-10 text-white max-w-7xl mx-auto border-solid border-[1px] border-[#06D6A0] -mt-44 place-items-center h-96 ">
           <h2 className="font-bold mb-6 max-w-lg text-center text-4xl sm:text-6xl mt-4 xs:text-96">
@@ -19,7 +19,7 @@ const Footer: React.FC<FooterProps> = ({isLearning }) => {
             Take the advantages of ours to improve yourself !
           </p>
           <a
-            href="#"
+            href="/StartLearning"
             className="bg-[#06D6A0] text-black font-semibold py-3 px-8 rounded-lg hover:opacity-80 transition-colors inline-flex items-center space-x-2"
           >
             <span>Get Started</span>

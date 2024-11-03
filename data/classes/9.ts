@@ -367,51 +367,12 @@ export const maths = {
     },
   ],
   video_lectures: [
-    {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
-    },
-    {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
-    },
-    {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
-    },
-    {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
-    },
-    {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
-    },
-    {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
-    },
-    {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
-    },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
+    { id: 1, title: 'Introduction to Algebra', description: 'Learn the basics of algebra, including variables, expressions, and equations.' },
+  { id: 2, title: 'Understanding Linear Equations', description: 'Explore linear equations and their solutions with practical examples.' },
+  { id: 3, title: 'Polynomials Explained', description: 'Dive into the world of polynomials, terms, and their applications.' },
+  { id: 4, title: 'Coordinate Geometry Basics', description: 'Understand the fundamentals of coordinate geometry and plotting points on a graph.' },
+  { id: 5, title: 'Introduction to Triangles', description: 'A complete guide to triangles, their properties, and types.' },
+  { id: 6, title: 'Quadrilaterals and Their Properties', description: 'Study quadrilaterals, their angles, and properties.' },
   ],
   books: [
     {

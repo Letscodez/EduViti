@@ -3,6 +3,7 @@ import StudyMaterials from "../components/studyMaterials";
 import Navbar from "../components/navbar";
 import SearchPage from "../sections/searchpage";
 import Footer from "../sections/Footer";
+import Navigate from "../sections/navigate";
 
 const StartLearning = () => {
   return (
@@ -16,6 +17,7 @@ const StartLearning = () => {
           ></path>
         </svg>
       </section>
+      <Navigate />
       <section
         id="discover"
         className="bg-white/5 min-h-screen text-white px-6 md:px-12 py-16"
