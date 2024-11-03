@@ -52,23 +52,23 @@ const StudyMaterials = () => {
       <h1 className="text-4xl font-bold mb-8 mt-8 text-center text-primary">
         Study Materials
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 mt-12 gap-8 md:mx-2 xl:mx-28">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 my-auto gap-8 md:mx-2 xl:mx-28">
         {materials.map((material, index) => (
           <div
             key={index}
-            className="bg-white/5 border border-primary/50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex flex-col md:flex-col xl:flex-row items-center"
+            className="bg-white/5 border border-primary/50 p-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex flex-col md:flex-col xl:flex-row items-center lg:mb-0 mb-2"
           >
             <Image
               src={material.image}
               height={200}
               width={200}
               alt={material.title}
-              className="h-full rounded-lg object-cover mb-4"
+              className="h-full rounded-lg object-cover border border-primary/50 my-auto"
             />
-            <div className="ml-5 h-full">
-              <h2 className="text-xl text-primary font-semibold mb-2">{material.title}</h2>
-              <h3 className="text-lg mb-4">{material.subtitle}</h3>
-              <p className="text-sm ">{material.description}</p>
+            <div className="lg:ml-5 h-full lg:mt-0 lg:text-start text-center mt-2 space-y-2">
+              <h2 className="text-md text-primary font-semibold ">{material.title}</h2>
+              <h3 className="text-lg">{material.subtitle}</h3>
+              <p className="text-sm text-gray-200">{material.description}</p>
             </div>
           </div>
         ))}

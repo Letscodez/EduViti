@@ -1,12 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import { vector_svg } from "@/images/main";
+type FooterProps = {
+  isLearning?: boolean;
+}
 
-const Footer: React.FC = () => {
+const Footer: React.FC<FooterProps> = ({isLearning }) => {
   return (
     <footer className="bg-[#353535] text-white py-10 min-h-auto">
       {/* <section className="bg-gray-900 py-16 text-center"> */}
-      <div className="bg-white max-w-screen h-96 -mt-40"></div>
+      <div className={ `${isLearning ? "bg-gradient-to-r from-bg via-[#2e4640] to-bg" : "bg-white"} max-w-screen h-96 -mt-40`}></div>
       <div className="container mx-auto px-6 md:px-12">
         <div className="bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333] rounded-3xl p-10 text-white max-w-7xl mx-auto border-solid border-[1px] border-[#06D6A0] -mt-44 place-items-center h-96 ">
           <h2 className="font-bold mb-6 max-w-lg text-center text-4xl sm:text-6xl mt-4 xs:text-96">

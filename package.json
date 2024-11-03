@@ -22,9 +22,7 @@
     "lucide-react": "^0.453.0",
     "next": "^15.0.1",
     "react": "^18",
-    "react-alice-carousel": "^2.9.1",
     "react-dom": "^18",
-    "swiper": "^11.1.14",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
   },
