@@ -482,54 +482,201 @@ export const maths = {
   video_lectures: [
     {
       name: "Relations and Functions",
-      path: "/StudyResources/Grade-12/maths/relations-and-functions",
+      options: [
+        {
+          path: "/dummy/path/relations-and-functions/opt1",
+          thumbnail: "/images/relations_and_functions_thumbnail1.jpg",
+          channel: "Math Channel 1",
+        },
+        {
+          path: "/dummy/path/relations-and-functions/opt2",
+          thumbnail: "/images/relations_and_functions_thumbnail2.jpg",
+          channel: "Math Channel 2",
+        },
+      ],
     },
     {
       name: "Inverse Trigonometric Functions",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      options: [
+        {
+          path: "/dummy/path/inverse-trigonometric-functions/opt1",
+          thumbnail: "/images/inverse_trigonometric_functions_thumbnail1.jpg",
+          channel: "Math Channel 3",
+        },
+        {
+          path: "/dummy/path/inverse-trigonometric-functions/opt2",
+          thumbnail: "/images/inverse_trigonometric_functions_thumbnail2.jpg",
+          channel: "Math Channel 4",
+        },
+      ],
     },
     {
       name: "Matrices",
-      path: "/StudyResources/Grade-12/maths/matrices",
+      options: [
+        {
+          path: "/dummy/path/matrices/opt1",
+          thumbnail: "/images/matrices_thumbnail1.jpg",
+          channel: "Math Channel 5",
+        },
+        {
+          path: "/dummy/path/matrices/opt2",
+          thumbnail: "/images/matrices_thumbnail2.jpg",
+          channel: "Math Channel 6",
+        },
+      ],
     },
     {
       name: "Determinants",
-      path: "/StudyResources/Grade-12/maths/determinants",
+      options: [
+        {
+          path: "/dummy/path/determinants/opt1",
+          thumbnail: "/images/determinants_thumbnail1.jpg",
+          channel: "Math Channel 7",
+        },
+        {
+          path: "/dummy/path/determinants/opt2",
+          thumbnail: "/images/determinants_thumbnail2.jpg",
+          channel: "Math Channel 8",
+        },
+      ],
     },
     {
       name: "Continuity and Differentiability",
-      path: "/StudyResources/Grade-12/maths/continuity-and-differentiability",
+      options: [
+        {
+          path: "/dummy/path/continuity-and-differentiability/opt1",
+          thumbnail: "/images/continuity_and_differentiability_thumbnail1.jpg",
+          channel: "Math Channel 9",
+        },
+        {
+          path: "/dummy/path/continuity-and-differentiability/opt2",
+          thumbnail: "/images/continuity_and_differentiability_thumbnail2.jpg",
+          channel: "Math Channel 10",
+        },
+      ],
     },
     {
       name: "Applications of Derivatives",
-      path: "/StudyResources/Grade-12/maths/applications-of-derivatives",
+      options: [
+        {
+          path: "/dummy/path/applications-of-derivatives/opt1",
+          thumbnail: "/images/applications_of_derivatives_thumbnail1.jpg",
+          channel: "Math Channel 11",
+        },
+        {
+          path: "/dummy/path/applications-of-derivatives/opt2",
+          thumbnail: "/images/applications_of_derivatives_thumbnail2.jpg",
+          channel: "Math Channel 12",
+        },
+      ],
     },
-    { name: "Integrals", path: "/StudyResources/Grade-12/integrals" },
+    {
+      name: "Integrals",
+      options: [
+        {
+          path: "/dummy/path/integrals/opt1",
+          thumbnail: "/images/integrals_thumbnail1.jpg",
+          channel: "Math Channel 13",
+        },
+        {
+          path: "/dummy/path/integrals/opt2",
+          thumbnail: "/images/integrals_thumbnail2.jpg",
+          channel: "Math Channel 14",
+        },
+      ],
+    },
     {
       name: "Application of Integrals",
-      path: "/StudyResources/Grade-12/maths/application-of-integrals",
+      options: [
+        {
+          path: "/dummy/path/application-of-integrals/opt1",
+          thumbnail: "/images/application_of_integrals_thumbnail1.jpg",
+          channel: "Math Channel 15",
+        },
+        {
+          path: "/dummy/path/application-of-integrals/opt2",
+          thumbnail: "/images/application_of_integrals_thumbnail2.jpg",
+          channel: "Math Channel 16",
+        },
+      ],
     },
     {
       name: "Differential Equations",
-      path: "/StudyResources/Grade-12/maths/differential-equations",
+      options: [
+        {
+          path: "/dummy/path/differential-equations/opt1",
+          thumbnail: "/images/differential_equations_thumbnail1.jpg",
+          channel: "Math Channel 17",
+        },
+        {
+          path: "/dummy/path/differential-equations/opt2",
+          thumbnail: "/images/differential_equations_thumbnail2.jpg",
+          channel: "Math Channel 18",
+        },
+      ],
     },
     {
       name: "Vector Algebra",
-      path: "/StudyResources/Grade-12/maths/vector-algebra",
+      options: [
+        {
+          path: "/dummy/path/vector-algebra/opt1",
+          thumbnail: "/images/vector_algebra_thumbnail1.jpg",
+          channel: "Math Channel 19",
+        },
+        {
+          path: "/dummy/path/vector-algebra/opt2",
+          thumbnail: "/images/vector_algebra_thumbnail2.jpg",
+          channel: "Math Channel 20",
+        },
+      ],
     },
     {
       name: "Three Dimensional Geometry",
-      path: "/StudyResources/Grade-12/maths/three-dimensional-geometry",
+      options: [
+        {
+          path: "/dummy/path/three-dimensional-geometry/opt1",
+          thumbnail: "/images/three_dimensional_geometry_thumbnail1.jpg",
+          channel: "Math Channel 21",
+        },
+        {
+          path: "/dummy/path/three-dimensional-geometry/opt2",
+          thumbnail: "/images/three_dimensional_geometry_thumbnail2.jpg",
+          channel: "Math Channel 22",
+        },
+      ],
     },
     {
       name: "Linear Programming",
-      path: "/StudyResources/Grade-12/maths/linear-programming",
+      options: [
+        {
+          path: "/dummy/path/linear-programming/opt1",
+          thumbnail: "/images/linear_programming_thumbnail1.jpg",
+          channel: "Math Channel 23",
+        },
+        {
+          path: "/dummy/path/linear-programming/opt2",
+          thumbnail: "/images/linear_programming_thumbnail2.jpg",
+          channel: "Math Channel 24",
+        },
+      ],
     },
     {
       name: "Probability",
-      path: "/StudyResources/Grade-12/maths/probability",
+      options: [
+        {
+          path: "/dummy/path/probability/opt1",
+          thumbnail: "/images/probability_thumbnail1.jpg",
+          channel: "Math Channel 25",
+        },
+        {
+          path: "/dummy/path/probability/opt2",
+          thumbnail: "/images/probability_thumbnail2.jpg",
+          channel: "Math Channel 26",
+        },
+      ],
     },
   ],
+
   books: [
     {
       title: "RD Sharma",
@@ -1021,49 +1168,198 @@ export const physics = {
   video_lectures: [
     {
       name: "Electric Charges and Fields",
-      path: "/StudyResources/Grade-12/physics/electric-charges-and-fields",
+      options: [
+        {
+          path: "/dummy/path/electric-charges-and-fields/opt1",
+          thumbnail: "/images/electric_charges_and_fields_thumbnail1.jpg",
+          channel: "Physics Channel 1",
+        },
+        {
+          path: "/dummy/path/electric-charges-and-fields/opt2",
+          thumbnail: "/images/electric_charges_and_fields_thumbnail2.jpg",
+          channel: "Physics Channel 2",
+        },
+      ],
     },
     {
       name: "Electrostatic Potential and Capacitance",
-      path: "/StudyResources/Grade-12/physics/electrostatic-potential-and-capacitance",
+      options: [
+        {
+          path: "/dummy/path/electrostatic-potential-and-capacitance/opt1",
+          thumbnail: "/images/electrostatic_potential_thumbnail1.jpg",
+          channel: "Physics Channel 3",
+        },
+        {
+          path: "/dummy/path/electrostatic-potential-and-capacitance/opt2",
+          thumbnail: "/images/electrostatic_potential_thumbnail2.jpg",
+          channel: "Physics Channel 4",
+        },
+      ],
     },
     {
       name: "Current Electricity",
-      path: "/StudyResources/Grade-12/physics/current-electricity",
+      options: [
+        {
+          path: "/dummy/path/current-electricity/opt1",
+          thumbnail: "/images/current_electricity_thumbnail1.jpg",
+          channel: "Physics Channel 5",
+        },
+        {
+          path: "/dummy/path/current-electricity/opt2",
+          thumbnail: "/images/current_electricity_thumbnail2.jpg",
+          channel: "Physics Channel 6",
+        },
+      ],
     },
     {
       name: "Moving Charges and Magnetism",
-      path: "/StudyResources/Grade-12/physics/moving-charges-and-magnetism",
+      options: [
+        {
+          path: "/dummy/path/moving-charges-and-magnetism/opt1",
+          thumbnail: "/images/moving_charges_and_magnetism_thumbnail1.jpg",
+          channel: "Physics Channel 7",
+        },
+        {
+          path: "/dummy/path/moving-charges-and-magnetism/opt2",
+          thumbnail: "/images/moving_charges_and_magnetism_thumbnail2.jpg",
+          channel: "Physics Channel 8",
+        },
+      ],
     },
     {
       name: "Magnetism and Matter",
-      path: "/StudyResources/Grade-12/physics/magnetism-and-matter",
+      options: [
+        {
+          path: "/dummy/path/magnetism-and-matter/opt1",
+          thumbnail: "/images/magnetism_and_matter_thumbnail1.jpg",
+          channel: "Physics Channel 9",
+        },
+        {
+          path: "/dummy/path/magnetism-and-matter/opt2",
+          thumbnail: "/images/magnetism_and_matter_thumbnail2.jpg",
+          channel: "Physics Channel 10",
+        },
+      ],
     },
     {
       name: "Electromagnetic Induction",
-      path: "/StudyResources/Grade-12/physics/electromagnetic-induction",
+      options: [
+        {
+          path: "/dummy/path/electromagnetic-induction/opt1",
+          thumbnail: "/images/electromagnetic_induction_thumbnail1.jpg",
+          channel: "Physics Channel 11",
+        },
+        {
+          path: "/dummy/path/electromagnetic-induction/opt2",
+          thumbnail: "/images/electromagnetic_induction_thumbnail2.jpg",
+          channel: "Physics Channel 12",
+        },
+      ],
     },
     {
       name: "Alternating Current",
-      path: "/StudyResources/Grade-12/physics/alternating-current",
+      options: [
+        {
+          path: "/dummy/path/alternating-current/opt1",
+          thumbnail: "/images/alternating_current_thumbnail1.jpg",
+          channel: "Physics Channel 13",
+        },
+        {
+          path: "/dummy/path/alternating-current/opt2",
+          thumbnail: "/images/alternating_current_thumbnail2.jpg",
+          channel: "Physics Channel 14",
+        },
+      ],
     },
     {
       name: "Electromagnetic Waves",
-      path: "/StudyResources/Grade-12/physics/electromagnetic-waves",
+      options: [
+        {
+          path: "/dummy/path/electromagnetic-waves/opt1",
+          thumbnail: "/images/electromagnetic_waves_thumbnail1.jpg",
+          channel: "Physics Channel 15",
+        },
+        {
+          path: "/dummy/path/electromagnetic-waves/opt2",
+          thumbnail: "/images/electromagnetic_waves_thumbnail2.jpg",
+          channel: "Physics Channel 16",
+        },
+      ],
     },
     {
       name: "Wave Optics",
-      path: "/StudyResources/Grade-12/physics/wave-optics",
+      options: [
+        {
+          path: "/dummy/path/wave-optics/opt1",
+          thumbnail: "/images/wave_optics_thumbnail1.jpg",
+          channel: "Physics Channel 17",
+        },
+        {
+          path: "/dummy/path/wave-optics/opt2",
+          thumbnail: "/images/wave_optics_thumbnail2.jpg",
+          channel: "Physics Channel 18",
+        },
+      ],
     },
     {
       name: "Dual Nature of Radiation and Matter",
-      path: "/StudyResources/Grade-12/physics/dual-nature-of-radiation-and-matter",
+      options: [
+        {
+          path: "/dummy/path/dual-nature-of-radiation-and-matter/opt1",
+          thumbnail: "/images/dual_nature_of_radiation_thumbnail1.jpg",
+          channel: "Physics Channel 19",
+        },
+        {
+          path: "/dummy/path/dual-nature-of-radiation-and-matter/opt2",
+          thumbnail: "/images/dual_nature_of_radiation_thumbnail2.jpg",
+          channel: "Physics Channel 20",
+        },
+      ],
     },
-    { name: "Atoms", path: "/StudyResources/Grade-12/physics/atoms" },
-    { name: "Nuclei", path: "/StudyResources/Grade-12/physics/nuclei" },
+    {
+      name: "Atoms",
+      options: [
+        {
+          path: "/dummy/path/atoms/opt1",
+          thumbnail: "/images/atoms_thumbnail1.jpg",
+          channel: "Physics Channel 21",
+        },
+        {
+          path: "/dummy/path/atoms/opt2",
+          thumbnail: "/images/atoms_thumbnail2.jpg",
+          channel: "Physics Channel 22",
+        },
+      ],
+    },
+    {
+      name: "Nuclei",
+      options: [
+        {
+          path: "/dummy/path/nuclei/opt1",
+          thumbnail: "/images/nuclei_thumbnail1.jpg",
+          channel: "Physics Channel 23",
+        },
+        {
+          path: "/dummy/path/nuclei/opt2",
+          thumbnail: "/images/nuclei_thumbnail2.jpg",
+          channel: "Physics Channel 24",
+        },
+      ],
+    },
     {
       name: "Semiconductor Electronics: Materials, Devices and Simple Circuits",
-      path: "/StudyResources/Grade-12/physics/semiconductor-electronics-materials-devices-and-simple-circuits",
+      options: [
+        {
+          path: "/dummy/path/semiconductor-electronics-materials-devices-and-simple-circuits/opt1",
+          thumbnail: "/images/semiconductor_electronics_thumbnail1.jpg",
+          channel: "Physics Channel 25",
+        },
+        {
+          path: "/dummy/path/semiconductor-electronics-materials-devices-and-simple-circuits/opt2",
+          thumbnail: "/images/semiconductor_electronics_thumbnail2.jpg",
+          channel: "Physics Channel 26",
+        },
+      ],
     },
   ],
   books: [
@@ -1378,57 +1674,203 @@ export const chemistry = {
   video_lectures: [
     {
       name: "Solid State",
-      path: "/StudyResources/Grade-12/chemistry/solid-state",
+      options: [
+        {
+          path: "/dummy/path/solid-state/opt1",
+          thumbnail: "/images/solid_state_thumbnail1.jpg",
+          channel: "Chemistry Channel 1",
+        },
+        {
+          path: "/dummy/path/solid-state/opt2",
+          thumbnail: "/images/solid_state_thumbnail2.jpg",
+          channel: "Chemistry Channel 2",
+        },
+      ],
     },
     {
       name: "Solutions",
-      path: "/StudyResources/Grade-12/chemistry/solutions",
+      options: [
+        {
+          path: "/dummy/path/solutions/opt1",
+          thumbnail: "/images/solutions_thumbnail1.jpg",
+          channel: "Chemistry Channel 3",
+        },
+        {
+          path: "/dummy/path/solutions/opt2",
+          thumbnail: "/images/solutions_thumbnail2.jpg",
+          channel: "Chemistry Channel 4",
+        },
+      ],
     },
     {
       name: "Electrochemistry",
-      path: "/StudyResources/Grade-12/chemistry/electrochemistry",
+      options: [
+        {
+          path: "/dummy/path/electrochemistry/opt1",
+          thumbnail: "/images/electrochemistry_thumbnail1.jpg",
+          channel: "Chemistry Channel 5",
+        },
+        {
+          path: "/dummy/path/electrochemistry/opt2",
+          thumbnail: "/images/electrochemistry_thumbnail2.jpg",
+          channel: "Chemistry Channel 6",
+        },
+      ],
     },
     {
       name: "Chemical Kinetics",
-      path: "/StudyResources/Grade-12/chemistry/chemical-kinetics",
+      options: [
+        {
+          path: "/dummy/path/chemical-kinetics/opt1",
+          thumbnail: "/images/chemical_kinetics_thumbnail1.jpg",
+          channel: "Chemistry Channel 7",
+        },
+        {
+          path: "/dummy/path/chemical-kinetics/opt2",
+          thumbnail: "/images/chemical_kinetics_thumbnail2.jpg",
+          channel: "Chemistry Channel 8",
+        },
+      ],
     },
     {
       name: "Surface Chemistry",
-      path: "/StudyResources/Grade-12/chemistry/surface-chemistry",
+      options: [
+        {
+          path: "/dummy/path/surface-chemistry/opt1",
+          thumbnail: "/images/surface_chemistry_thumbnail1.jpg",
+          channel: "Chemistry Channel 9",
+        },
+        {
+          path: "/dummy/path/surface-chemistry/opt2",
+          thumbnail: "/images/surface_chemistry_thumbnail2.jpg",
+          channel: "Chemistry Channel 10",
+        },
+      ],
     },
     {
-      name: "p ‐Block Elements",
-      path: "/StudyResources/Grade-12/chemistry/p-block-elements",
+      name: "p-Block Elements",
+      options: [
+        {
+          path: "/dummy/path/p-block-elements/opt1",
+          thumbnail: "/images/p_block_elements_thumbnail1.jpg",
+          channel: "Chemistry Channel 11",
+        },
+        {
+          path: "/dummy/path/p-block-elements/opt2",
+          thumbnail: "/images/p_block_elements_thumbnail2.jpg",
+          channel: "Chemistry Channel 12",
+        },
+      ],
     },
     {
-      name: "d ‐and f ‐Block Elements",
-      path: "/StudyResources/Grade-12/chemistry/d-and-f-block-elements",
+      name: "d-and f-Block Elements",
+      options: [
+        {
+          path: "/dummy/path/d-and-f-block-elements/opt1",
+          thumbnail: "/images/d_and_f_block_elements_thumbnail1.jpg",
+          channel: "Chemistry Channel 13",
+        },
+        {
+          path: "/dummy/path/d-and-f-block-elements/opt2",
+          thumbnail: "/images/d_and_f_block_elements_thumbnail2.jpg",
+          channel: "Chemistry Channel 14",
+        },
+      ],
     },
     {
       name: "Coordination Compounds",
-      path: "/StudyResources/Grade-12/chemistry/coordination-compounds",
+      options: [
+        {
+          path: "/dummy/path/coordination-compounds/opt1",
+          thumbnail: "/images/coordination_compounds_thumbnail1.jpg",
+          channel: "Chemistry Channel 15",
+        },
+        {
+          path: "/dummy/path/coordination-compounds/opt2",
+          thumbnail: "/images/coordination_compounds_thumbnail2.jpg",
+          channel: "Chemistry Channel 16",
+        },
+      ],
     },
     {
       name: "Haloalkanes and Haloarenes",
-      path: "/StudyResources/Grade-12/chemistry/haloalkanes-and-haloarenes",
+      options: [
+        {
+          path: "/dummy/path/haloalkanes-and-haloarenes/opt1",
+          thumbnail: "/images/haloalkanes_haloarenes_thumbnail1.jpg",
+          channel: "Chemistry Channel 17",
+        },
+        {
+          path: "/dummy/path/haloalkanes-and-haloarenes/opt2",
+          thumbnail: "/images/haloalkanes_haloarenes_thumbnail2.jpg",
+          channel: "Chemistry Channel 18",
+        },
+      ],
     },
     {
       name: "Alcohols, Phenols and Ethers",
-      path: "/StudyResources/Grade-12/chemistry/alcohols-phenols-ethers",
+      options: [
+        {
+          path: "/dummy/path/alcohols-phenols-ethers/opt1",
+          thumbnail: "/images/alcohols_phenols_ethers_thumbnail1.jpg",
+          channel: "Chemistry Channel 19",
+        },
+        {
+          path: "/dummy/path/alcohols-phenols-ethers/opt2",
+          thumbnail: "/images/alcohols_phenols_ethers_thumbnail2.jpg",
+          channel: "Chemistry Channel 20",
+        },
+      ],
     },
     {
       name: "Aldehydes, Ketones and Carboxylic Acids",
-      path: "/StudyResources/Grade-12/chemistry/aldehydes-ketons-and-carboxylic-acids",
+      options: [
+        {
+          path: "/dummy/path/aldehydes-ketons-and-carboxylic-acids/opt1",
+          thumbnail:
+            "/images/aldehydes_ketones_carboxylic_acids_thumbnail1.jpg",
+          channel: "Chemistry Channel 21",
+        },
+        {
+          path: "/dummy/path/aldehydes-ketons-and-carboxylic-acids/opt2",
+          thumbnail:
+            "/images/aldehydes_ketones_carboxylic_acids_thumbnail2.jpg",
+          channel: "Chemistry Channel 22",
+        },
+      ],
     },
     {
       name: "Amines",
-      path: "/StudyResources/Grade-12/chemistry/amines",
+      options: [
+        {
+          path: "/dummy/path/amines/opt1",
+          thumbnail: "/images/amines_thumbnail1.jpg",
+          channel: "Chemistry Channel 23",
+        },
+        {
+          path: "/dummy/path/amines/opt2",
+          thumbnail: "/images/amines_thumbnail2.jpg",
+          channel: "Chemistry Channel 24",
+        },
+      ],
     },
     {
       name: "Biomolecules",
-      path: "/StudyResources/Grade-12/chemistry/biomolecules",
+      options: [
+        {
+          path: "/dummy/path/biomolecules/opt1",
+          thumbnail: "/images/biomolecules_thumbnail1.jpg",
+          channel: "Chemistry Channel 25",
+        },
+        {
+          path: "/dummy/path/biomolecules/opt2",
+          thumbnail: "/images/biomolecules_thumbnail2.jpg",
+          channel: "Chemistry Channel 26",
+        },
+      ],
     },
   ],
+
   books: [
     {
       title: "Lakhmir Singh",
@@ -1625,25 +2067,81 @@ export const biology = {
   video_lectures: [
     {
       name: "Reproduction",
-      path: "/StudyResources/Grade-12/biology/reproduction",
+      options: [
+        {
+          path: "/dummy/path/reproduction/opt1",
+          thumbnail: "/images/reproduction_thumbnail1.jpg",
+          channel: "Biology Channel 1",
+        },
+        {
+          path: "/dummy/path/reproduction/opt2",
+          thumbnail: "/images/reproduction_thumbnail2.jpg",
+          channel: "Biology Channel 2",
+        },
+      ],
     },
     {
       name: "Genetics and Evolution",
-      path: "/StudyResources/Grade-12/biology/genetics-and-evolution",
+      options: [
+        {
+          path: "/dummy/path/genetics-and-evolution/opt1",
+          thumbnail: "/images/genetics_and_evolution_thumbnail1.jpg",
+          channel: "Biology Channel 3",
+        },
+        {
+          path: "/dummy/path/genetics-and-evolution/opt2",
+          thumbnail: "/images/genetics_and_evolution_thumbnail2.jpg",
+          channel: "Biology Channel 4",
+        },
+      ],
     },
     {
       name: "Biology and Human Welfare",
-      path: "/StudyResources/Grade-12/biology/biology-and-human-welfare",
+      options: [
+        {
+          path: "/dummy/path/biology-and-human-welfare/opt1",
+          thumbnail: "/images/biology_and_human_welfare_thumbnail1.jpg",
+          channel: "Biology Channel 5",
+        },
+        {
+          path: "/dummy/path/biology-and-human-welfare/opt2",
+          thumbnail: "/images/biology_and_human_welfare_thumbnail2.jpg",
+          channel: "Biology Channel 6",
+        },
+      ],
     },
     {
       name: "Biotechnology and its Applications",
-      path: "/StudyResources/Grade-12/biology/biotechnology-and-its-applications",
+      options: [
+        {
+          path: "/dummy/path/biotechnology-and-its-applications/opt1",
+          thumbnail: "/images/biotechnology_applications_thumbnail1.jpg",
+          channel: "Biology Channel 7",
+        },
+        {
+          path: "/dummy/path/biotechnology-and-its-applications/opt2",
+          thumbnail: "/images/biotechnology_applications_thumbnail2.jpg",
+          channel: "Biology Channel 8",
+        },
+      ],
     },
     {
       name: "Ecology and Environment",
-      path: "/StudyResources/Grade-12/biology/ecology-and-environment",
+      options: [
+        {
+          path: "/dummy/path/ecology-and-environment/opt1",
+          thumbnail: "/images/ecology_environment_thumbnail1.jpg",
+          channel: "Biology Channel 9",
+        },
+        {
+          path: "/dummy/path/ecology-and-environment/opt2",
+          thumbnail: "/images/ecology_environment_thumbnail2.jpg",
+          channel: "Biology Channel 10",
+        },
+      ],
     },
   ],
+
   books: [
     {
       title: "HC Verma",

@@ -12,15 +12,15 @@ const Navigate = () => {
         {navLinks.map((navItem, index) => (
           <div
             key={index}
-            className="p-4 bg-white/10 mt-10 rounded-lg shadow-lg transition-shadow duration-200 hover:shadow-xl"
+            className="p-4 bg-white/10 mt-10 rounded-lg shadow-lg transition-shadow duration-200 text-center hover:shadow-xl"
           >
-            <h2 className="text-lg tt-me mb-3 text-white text-center">{navItem.label}</h2>
+            <h2 className="text-lg tt-me mb-3 text-white">{navItem.label}</h2>
             <ul className="space-y-2">
               {navItem.sublinks.map((sublink, subIndex) => (
                 <li key={subIndex}>
                   <a
                     href={sublink.path}
-                    className="text-blue-600 hover:text-blue-800 transition-colors"
+                    className="text-gray-200 hover:text-gray-300 transition-colors"
                   >
                     {sublink.label}
                   </a>

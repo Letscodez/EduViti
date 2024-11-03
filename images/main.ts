@@ -1,41 +1,45 @@
-import { StaticImageData } from 'next/image'; // Import StaticImageData for TypeScript typing
+import { StaticImageData } from "next/image"; // Import StaticImageData for TypeScript typing
 // Import images
-import title from './title.webp';
-import nav_logo from './nav-logo.webp';
-import heroImage from './heroImage.webp';
-import pen from './pen.webp';
-import rocket from './rocket.webp';
-import reload from './reload.webp';
-import book_svg from './BookUp.svg';
-import bookdown_svg from './BookDown.svg';
-import openbook_svg from './Openbook.svg';
-import templates_svg from './Templates.svg';
-import focused_svg from './focused.svg';
-import support_svg from './support.svg';
-import maps_svg from './maps.svg';
-import concise_svg from './concise.svg';
-import qbank_svg from './qbank.svg';
-import lectures_svg from './lectures.svg';
-import sachinsir from './sachinsir.webp';
-import rajwantsir from './rajwantsir.webp';
-import mohitsir from './mohitsir.webp';
-import khansir from './khan_sir.webp';
-import vector_svg from './Vector.svg';
-import insta_svg from './insta_svg.svg';
-import rd_maths_9 from './rd_maths_9.webp';
-import rs_maths_9 from './rs_maths_9.webp';
-import pearson from './pearson_maths_9.webp';
-import lakhmir_chem_9 from './lakhmir_chem_9.webp';
-import hc_phy_9 from './hc_phy_9.webp';
-import manjit_maths_9 from './manjit_maths_9.webp';
-import search_svg from './searchbtn.svg';
-import notes from './notes.webp';
-import essentials from './essentials.webp';
-import qbanks from './qbanks.webp';
-import vlectures from './vlectures.webp';
-import researchbooks from './researchbooks.webp';
-import courses from './courses.webp';
-
+import title from "./title.webp";
+import nav_logo from "./nav-logo.webp";
+import heroImage from "./heroImage.webp";
+import pen from "./pen.webp";
+import rocket from "./rocket.webp";
+import reload from "./reload.webp";
+import book_svg from "./BookUp.svg";
+import bookdown_svg from "./BookDown.svg";
+import openbook_svg from "./Openbook.svg";
+import templates_svg from "./Templates.svg";
+import focused_svg from "./focused.svg";
+import support_svg from "./support.svg";
+import maps_svg from "./maps.svg";
+import concise_svg from "./concise.svg";
+import qbank_svg from "./qbank.svg";
+import lectures_svg from "./lectures.svg";
+import sachinsir from "./sachinsir.webp";
+import rajwantsir from "./rajwantsir.webp";
+import mohitsir from "./mohitsir.webp";
+import khansir from "./khan_sir.webp";
+import vector_svg from "./Vector.svg";
+import insta_svg from "./insta_svg.svg";
+import rd_maths_9 from "./rd_maths_9.webp";
+import rs_maths_9 from "./rs_maths_9.webp";
+import pearson from "./pearson_maths_9.webp";
+import lakhmir_chem_9 from "./lakhmir_chem_9.webp";
+import hc_phy_9 from "./hc_phy_9.webp";
+import manjit_maths_9 from "./manjit_maths_9.webp";
+import search_svg from "./searchbtn.svg";
+import notes from "./notes.webp";
+import essentials from "./essentials.webp";
+import qbanks from "./qbanks.webp";
+import vlectures from "./vlectures.webp";
+import researchbooks from "./researchbooks.webp";
+import courses from "./courses.webp";
+import biology from "./biology.webp";
+import chemistry from "./chemistry.webp";
+import physics from "./physics.webp";
+import maths from "./maths.webp";
+import cs from "./cs.webp";
 export {
   title,
   nav_logo,
@@ -72,6 +76,11 @@ export {
   vlectures,
   researchbooks,
   courses,
+  biology,
+  chemistry,
+  physics,
+  maths,
+  cs,
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -110,6 +119,11 @@ export type ImageAssets = {
   vector_svg: any;
   insta_svg: any;
   search_svg: any;
+  biology: StaticImageData;
+  chemistry: StaticImageData;
+  physics: StaticImageData;
+  maths: StaticImageData;
+  cs : StaticImageData;
 };
 // Default export of images for better structure
 const images: ImageAssets = {
@@ -148,6 +162,11 @@ const images: ImageAssets = {
   vlectures,
   researchbooks,
   courses,
+  biology,
+  chemistry,
+  physics,
+  maths,
+  cs,
 };
 
-export default images; 
+export default images;

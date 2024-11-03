@@ -1,39 +1,73 @@
-import React, { useState } from 'react';
-import { maths } from '@/data/classes/9';
+"use client";
+import { ChevronDownIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
+import React from "react";
 
+type LecturesCardProps = {
+  list: {
+    name: string;
+    options: {
+      path: string;
+      thumbnail: string;
+      channel: string;
+    }[];
+  }[];
+};
 
-const DropdownLectures: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const LecturesCard: React.FC<LecturesCardProps> = ({ list }) => {
+  const [activeIndex, setActiveIndex] = React.useState<number | null>(null);
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
+  const handleToggle = (index: number) => {
+    setActiveIndex(activeIndex === index ? null : index);
   };
 
   return (
-    <div className="bg-gray-900 text-white p-4 rounded-lg shadow-md">
-      <button
-        onClick={toggleDropdown}
-        className="w-full bg-teal-500 px-4 py-2 text-left font-semibold text-white rounded-lg hover:bg-teal-600"
-      >
-        {isOpen ? 'Hide Video Lectures' : 'Show Video Lectures'}
-      </button>
-
-      {isOpen && (
-        <div className="mt-4">
-          {maths.video_lectures.map((lecture) => (
-            <div key={lecture.id} className="bg-gray-800 p-4 mb-4 rounded-lg shadow-md hover:shadow-lg transition duration-300">
-              <div className="bg-gray-600 h-32 rounded-lg mb-4">
-                <img src={`/videos/grade9-maths-${lecture.id}.jpg`} alt={`${lecture.title} thumbnail`} className="w-full h-full object-cover rounded-lg" />
-              </div>
-              <h2 className="text-lg font-semibold">{lecture.title}</h2>
-              <p className="text-gray-300 text-sm mb-2">{lecture.description}</p>
-              <button className="mt-2 bg-teal-500 px-4 py-2 rounded-lg hover:bg-teal-600">Watch Now</button>
-            </div>
-          ))}
+    <div className="space-y-4">
+      {list.map((chapter, index) => (
+        <div
+          key={index}
+          className="bg-[#5a776b]/20 border border-primary/30 cursor-pointer p-4 rounded-lg shadow-lg"
+          onClick={() => handleToggle(index)}
+        >
+          <h2 className="text-xl font-medium text-white flex items-center justify-between">
+            ⁍ {chapter.name}
+            <ChevronDownIcon
+              className={`duration-200 ${activeIndex === index ? "rotate-180" : "rotate-0"}`}
+            />
+          </h2>
+          {activeIndex === index && (
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+              {chapter.options.map((option, idx) => (
+                <li
+                  key={idx}
+                  className="bg-white/10 border border-primary/30 rounded-md flex flex-col items-center p-4"
+                >
+                  <div className="relative w-full h-0 pb-[56.25%] mb-4"> 
+                    <Image
+                      src={option.thumbnail}
+                      alt={`${chapter.name} thumbnail`}
+                      layout="fill" 
+                      objectFit="cover" 
+                      className="rounded-md"
+                    />
+                  </div>
+                  <div className="flex items-center justify-between w-full mt-2">
+                    <p className="text-gray-300 font-semibold">{option.channel}</p>
+                    <a
+                      href={option.path}
+                      className="bg-primary text-bg px-4 py-2 rounded-lg hover:bg-primary/80 transition"
+                    >
+                      Watch Now
+                    </a>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
-      )}
+      ))}
     </div>
   );
 };
 
-export default DropdownLectures;
+export default LecturesCard;

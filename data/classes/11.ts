@@ -508,54 +508,220 @@ export const maths = {
     },
   ],
   video_lectures: [
-    { name: "Sets", path: "/StudyResources/Grade-11/maths/sets" },
+    {
+      name: "Sets",
+      options: [
+        {
+          path: "/dummy/path/sets/opt1",
+          thumbnail: "/images/sets_thumbnail1.jpg",
+          channel: "Math Channel 1",
+        },
+        {
+          path: "/dummy/path/sets/opt2",
+          thumbnail: "/images/sets_thumbnail2.jpg",
+          channel: "Math Channel 2",
+        },
+      ],
+    },
     {
       name: "Relations and Functions",
-      path: "/StudyResources/Grade-11/maths/relations-and-functions",
+      options: [
+        {
+          path: "/dummy/path/relations-and-functions/opt1",
+          thumbnail: "/images/relations_functions_thumbnail1.jpg",
+          channel: "Math Channel 3",
+        },
+        {
+          path: "/dummy/path/relations-and-functions/opt2",
+          thumbnail: "/images/relations_functions_thumbnail2.jpg",
+          channel: "Math Channel 4",
+        },
+      ],
     },
     {
       name: "Trigonometric Functions",
-      path: "/StudyResources/Grade-11/maths/trigonometric-functions",
+      options: [
+        {
+          path: "/dummy/path/trigonometric-functions/opt1",
+          thumbnail: "/images/trigonometric_functions_thumbnail1.jpg",
+          channel: "Math Channel 5",
+        },
+        {
+          path: "/dummy/path/trigonometric-functions/opt2",
+          thumbnail: "/images/trigonometric_functions_thumbnail2.jpg",
+          channel: "Math Channel 6",
+        },
+      ],
     },
     {
       name: "Complex Numbers and Quadratic Equations",
-      path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
+      options: [
+        {
+          path: "/dummy/path/complex-numbers-and-quadratic-equations/opt1",
+          thumbnail:
+            "/images/complex_numbers_quadratic_equations_thumbnail1.jpg",
+          channel: "Math Channel 7",
+        },
+        {
+          path: "/dummy/path/complex-numbers-and-quadratic-equations/opt2",
+          thumbnail:
+            "/images/complex_numbers_quadratic_equations_thumbnail2.jpg",
+          channel: "Math Channel 8",
+        },
+      ],
     },
     {
       name: "Linear Inequalities",
-      path: "/StudyResources/Grade-11/maths/linear-inequalities",
+      options: [
+        {
+          path: "/dummy/path/linear-inequalities/opt1",
+          thumbnail: "/images/linear_inequalities_thumbnail1.jpg",
+          channel: "Math Channel 9",
+        },
+        {
+          path: "/dummy/path/linear-inequalities/opt2",
+          thumbnail: "/images/linear_inequalities_thumbnail2.jpg",
+          channel: "Math Channel 10",
+        },
+      ],
     },
     {
       name: "Permutations and Combinations",
-      path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
+      options: [
+        {
+          path: "/dummy/path/permutations-and-combinations/opt1",
+          thumbnail: "/images/permutations_combinations_thumbnail1.jpg",
+          channel: "Math Channel 11",
+        },
+        {
+          path: "/dummy/path/permutations-and-combinations/opt2",
+          thumbnail: "/images/permutations_combinations_thumbnail2.jpg",
+          channel: "Math Channel 12",
+        },
+      ],
     },
     {
       name: "Binomial Theorem",
-      path: "/StudyResources/Grade-11/maths/binomial-theorem",
+      options: [
+        {
+          path: "/dummy/path/binomial-theorem/opt1",
+          thumbnail: "/images/binomial_theorem_thumbnail1.jpg",
+          channel: "Math Channel 13",
+        },
+        {
+          path: "/dummy/path/binomial-theorem/opt2",
+          thumbnail: "/images/binomial_theorem_thumbnail2.jpg",
+          channel: "Math Channel 14",
+        },
+      ],
     },
     {
       name: "Sequences and Series",
-      path: "/StudyResources/Grade-11/maths/sequences-and-series",
+      options: [
+        {
+          path: "/dummy/path/sequences-and-series/opt1",
+          thumbnail: "/images/sequences_series_thumbnail1.jpg",
+          channel: "Math Channel 15",
+        },
+        {
+          path: "/dummy/path/sequences-and-series/opt2",
+          thumbnail: "/images/sequences_series_thumbnail2.jpg",
+          channel: "Math Channel 16",
+        },
+      ],
     },
     {
       name: "Straight Lines",
-      path: "/StudyResources/Grade-11/maths/straight-lines",
+      options: [
+        {
+          path: "/dummy/path/straight-lines/opt1",
+          thumbnail: "/images/straight_lines_thumbnail1.jpg",
+          channel: "Math Channel 17",
+        },
+        {
+          path: "/dummy/path/straight-lines/opt2",
+          thumbnail: "/images/straight_lines_thumbnail2.jpg",
+          channel: "Math Channel 18",
+        },
+      ],
     },
     {
       name: "Conic Sections",
-      path: "/StudyResources/Grade-11/maths/conic-sections",
+      options: [
+        {
+          path: "/dummy/path/conic-sections/opt1",
+          thumbnail: "/images/conic_sections_thumbnail1.jpg",
+          channel: "Math Channel 19",
+        },
+        {
+          path: "/dummy/path/conic-sections/opt2",
+          thumbnail: "/images/conic_sections_thumbnail2.jpg",
+          channel: "Math Channel 20",
+        },
+      ],
     },
     {
       name: "Introduction to Three Dimensional Geometry",
-      path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+      options: [
+        {
+          path: "/dummy/path/introduction-to-three-dimensional-geometry/opt1",
+          thumbnail: "/images/3d_geometry_thumbnail1.jpg",
+          channel: "Math Channel 21",
+        },
+        {
+          path: "/dummy/path/introduction-to-three-dimensional-geometry/opt2",
+          thumbnail: "/images/3d_geometry_thumbnail2.jpg",
+          channel: "Math Channel 22",
+        },
+      ],
     },
     {
       name: "Limits and Derivatives",
-      path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+      options: [
+        {
+          path: "/dummy/path/limits-and-derivatives/opt1",
+          thumbnail: "/images/limits_derivatives_thumbnail1.jpg",
+          channel: "Math Channel 23",
+        },
+        {
+          path: "/dummy/path/limits-and-derivatives/opt2",
+          thumbnail: "/images/limits_derivatives_thumbnail2.jpg",
+          channel: "Math Channel 24",
+        },
+      ],
     },
-    { name: "Statistics", path: "/StudyResources/Grade-11/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-11/maths/probability" },
+    {
+      name: "Statistics",
+      options: [
+        {
+          path: "/dummy/path/statistics/opt1",
+          thumbnail: "/images/statistics_thumbnail1.jpg",
+          channel: "Math Channel 25",
+        },
+        {
+          path: "/dummy/path/statistics/opt2",
+          thumbnail: "/images/statistics_thumbnail2.jpg",
+          channel: "Math Channel 26",
+        },
+      ],
+    },
+    {
+      name: "Probability",
+      options: [
+        {
+          path: "/dummy/path/probability/opt1",
+          thumbnail: "/images/probability_thumbnail1.jpg",
+          channel: "Math Channel 27",
+        },
+        {
+          path: "/dummy/path/probability/opt2",
+          thumbnail: "/images/probability_thumbnail2.jpg",
+          channel: "Math Channel 28",
+        },
+      ],
+    },
   ],
+
   books: [
     {
       title: "RD Sharma",
@@ -1176,62 +1342,233 @@ export const physics = {
   video_lectures: [
     {
       name: "Physical World",
-      path: "/StudyResources/Grade-11/physics/physical-world",
+      options: [
+        {
+          path: "/dummy/path/physical-world/opt1",
+          thumbnail: "/images/physical_world_thumbnail1.jpg",
+          channel: "Physics Channel 1",
+        },
+        {
+          path: "/dummy/path/physical-world/opt2",
+          thumbnail: "/images/physical_world_thumbnail2.jpg",
+          channel: "Physics Channel 2",
+        },
+      ],
     },
     {
       name: "Units and Measurements",
-      path: "/StudyResources/Grade-11/physics/units-and-measurements",
+      options: [
+        {
+          path: "/dummy/path/units-and-measurements/opt1",
+          thumbnail: "/images/units_measurements_thumbnail1.jpg",
+          channel: "Physics Channel 3",
+        },
+        {
+          path: "/dummy/path/units-and-measurements/opt2",
+          thumbnail: "/images/units_measurements_thumbnail2.jpg",
+          channel: "Physics Channel 4",
+        },
+      ],
     },
     {
       name: "Motion in a Straight Line",
-      path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+      options: [
+        {
+          path: "/dummy/path/motion-in-a-straight-line/opt1",
+          thumbnail: "/images/motion_straight_line_thumbnail1.jpg",
+          channel: "Physics Channel 5",
+        },
+        {
+          path: "/dummy/path/motion-in-a-straight-line/opt2",
+          thumbnail: "/images/motion_straight_line_thumbnail2.jpg",
+          channel: "Physics Channel 6",
+        },
+      ],
     },
     {
       name: "Motion in a Plane",
-      path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+      options: [
+        {
+          path: "/dummy/path/motion-in-a-plane/opt1",
+          thumbnail: "/images/motion_plane_thumbnail1.jpg",
+          channel: "Physics Channel 7",
+        },
+        {
+          path: "/dummy/path/motion-in-a-plane/opt2",
+          thumbnail: "/images/motion_plane_thumbnail2.jpg",
+          channel: "Physics Channel 8",
+        },
+      ],
     },
     {
       name: "Law of Motion",
-      path: "/StudyResources/Grade-11/physics/law-of-motion",
+      options: [
+        {
+          path: "/dummy/path/law-of-motion/opt1",
+          thumbnail: "/images/law_motion_thumbnail1.jpg",
+          channel: "Physics Channel 9",
+        },
+        {
+          path: "/dummy/path/law-of-motion/opt2",
+          thumbnail: "/images/law_motion_thumbnail2.jpg",
+          channel: "Physics Channel 10",
+        },
+      ],
     },
     {
       name: "Work, Energy and Power",
-      path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+      options: [
+        {
+          path: "/dummy/path/work-energy-and-power/opt1",
+          thumbnail: "/images/work_energy_power_thumbnail1.jpg",
+          channel: "Physics Channel 11",
+        },
+        {
+          path: "/dummy/path/work-energy-and-power/opt2",
+          thumbnail: "/images/work_energy_power_thumbnail2.jpg",
+          channel: "Physics Channel 12",
+        },
+      ],
     },
     {
       name: "Systems of Particles and Rotational Motion",
-      path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
+      options: [
+        {
+          path: "/dummy/path/systems-of-particles-and-rotational-motion/opt1",
+          thumbnail:
+            "/images/systems_particles_rotational_motion_thumbnail1.jpg",
+          channel: "Physics Channel 13",
+        },
+        {
+          path: "/dummy/path/systems-of-particles-and-rotational-motion/opt2",
+          thumbnail:
+            "/images/systems_particles_rotational_motion_thumbnail2.jpg",
+          channel: "Physics Channel 14",
+        },
+      ],
     },
     {
       name: "Gravitation",
-      path: "/StudyResources/Grade-11/physics/gravitation",
+      options: [
+        {
+          path: "/dummy/path/gravitation/opt1",
+          thumbnail: "/images/gravitation_thumbnail1.jpg",
+          channel: "Physics Channel 15",
+        },
+        {
+          path: "/dummy/path/gravitation/opt2",
+          thumbnail: "/images/gravitation_thumbnail2.jpg",
+          channel: "Physics Channel 16",
+        },
+      ],
     },
     {
       name: "Mechanical Properties of Solids",
-      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
+      options: [
+        {
+          path: "/dummy/path/mechanical-properties-of-solids/opt1",
+          thumbnail: "/images/mechanical_properties_solids_thumbnail1.jpg",
+          channel: "Physics Channel 17",
+        },
+        {
+          path: "/dummy/path/mechanical-properties-of-solids/opt2",
+          thumbnail: "/images/mechanical_properties_solids_thumbnail2.jpg",
+          channel: "Physics Channel 18",
+        },
+      ],
     },
     {
       name: "Mechanical Properties of Fluids",
-      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+      options: [
+        {
+          path: "/dummy/path/mechanical-properties-of-fluids/opt1",
+          thumbnail: "/images/mechanical_properties_fluids_thumbnail1.jpg",
+          channel: "Physics Channel 19",
+        },
+        {
+          path: "/dummy/path/mechanical-properties-of-fluids/opt2",
+          thumbnail: "/images/mechanical_properties_fluids_thumbnail2.jpg",
+          channel: "Physics Channel 20",
+        },
+      ],
     },
     {
       name: "Thermal Properties of Matter",
-      path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+      options: [
+        {
+          path: "/dummy/path/thermal-properties-of-matter/opt1",
+          thumbnail: "/images/thermal_properties_matter_thumbnail1.jpg",
+          channel: "Physics Channel 21",
+        },
+        {
+          path: "/dummy/path/thermal-properties-of-matter/opt2",
+          thumbnail: "/images/thermal_properties_matter_thumbnail2.jpg",
+          channel: "Physics Channel 22",
+        },
+      ],
     },
     {
       name: "Thermodynamics",
-      path: "/StudyResources/Grade-11/physics/thermodynamics",
+      options: [
+        {
+          path: "/dummy/path/thermodynamics/opt1",
+          thumbnail: "/images/thermodynamics_thumbnail1.jpg",
+          channel: "Physics Channel 23",
+        },
+        {
+          path: "/dummy/path/thermodynamics/opt2",
+          thumbnail: "/images/thermodynamics_thumbnail2.jpg",
+          channel: "Physics Channel 24",
+        },
+      ],
     },
     {
       name: "Kinetic Theory",
-      path: "/StudyResources/Grade-11/physics/kinetic-theory",
+      options: [
+        {
+          path: "/dummy/path/kinetic-theory/opt1",
+          thumbnail: "/images/kinetic_theory_thumbnail1.jpg",
+          channel: "Physics Channel 25",
+        },
+        {
+          path: "/dummy/path/kinetic-theory/opt2",
+          thumbnail: "/images/kinetic_theory_thumbnail2.jpg",
+          channel: "Physics Channel 26",
+        },
+      ],
     },
     {
       name: "Oscillations",
-      path: "/StudyResources/Grade-11/physics/oscillations",
+      options: [
+        {
+          path: "/dummy/path/oscillations/opt1",
+          thumbnail: "/images/oscillations_thumbnail1.jpg",
+          channel: "Physics Channel 27",
+        },
+        {
+          path: "/dummy/path/oscillations/opt2",
+          thumbnail: "/images/oscillations_thumbnail2.jpg",
+          channel: "Physics Channel 28",
+        },
+      ],
     },
-    { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
+    {
+      name: "Waves",
+      options: [
+        {
+          path: "/dummy/path/waves/opt1",
+          thumbnail: "/images/waves_thumbnail1.jpg",
+          channel: "Physics Channel 29",
+        },
+        {
+          path: "/dummy/path/waves/opt2",
+          thumbnail: "/images/waves_thumbnail2.jpg",
+          channel: "Physics Channel 30",
+        },
+      ],
+    },
   ],
+
   books: [
     {
       title: "HC Verma",
@@ -1869,62 +2206,231 @@ export const chemistry = {
   video_lectures: [
     {
       name: "Basic Concepts of Chemistry",
-      path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
+      options: [
+        {
+          path: "/dummy/path/basic-concepts-of-chemistry/opt1",
+          thumbnail: "/images/basic_concepts_thumbnail1.jpg",
+          channel: "Chemistry Channel 1",
+        },
+        {
+          path: "/dummy/path/basic-concepts-of-chemistry/opt2",
+          thumbnail: "/images/basic_concepts_thumbnail2.jpg",
+          channel: "Chemistry Channel 2",
+        },
+      ],
     },
     {
       name: "Atomic Structure",
-      path: "/StudyResources/Grade-11/chemistry/atomic-structure",
+      options: [
+        {
+          path: "/dummy/path/atomic-structure/opt1",
+          thumbnail: "/images/atomic_structure_thumbnail1.jpg",
+          channel: "Chemistry Channel 3",
+        },
+        {
+          path: "/dummy/path/atomic-structure/opt2",
+          thumbnail: "/images/atomic_structure_thumbnail2.jpg",
+          channel: "Chemistry Channel 4",
+        },
+      ],
     },
     {
       name: "Classification of Elements & Periodicity in Properties",
-      path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
+      options: [
+        {
+          path: "/dummy/path/classification-elements-periodicity/opt1",
+          thumbnail: "/images/classification_periodicity_thumbnail1.jpg",
+          channel: "Chemistry Channel 5",
+        },
+        {
+          path: "/dummy/path/classification-elements-periodicity/opt2",
+          thumbnail: "/images/classification_periodicity_thumbnail2.jpg",
+          channel: "Chemistry Channel 6",
+        },
+      ],
     },
     {
       name: "States of Matter",
-      path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+      options: [
+        {
+          path: "/dummy/path/states-of-matter/opt1",
+          thumbnail: "/images/states_of_matter_thumbnail1.jpg",
+          channel: "Chemistry Channel 7",
+        },
+        {
+          path: "/dummy/path/states-of-matter/opt2",
+          thumbnail: "/images/states_of_matter_thumbnail2.jpg",
+          channel: "Chemistry Channel 8",
+        },
+      ],
     },
     {
       name: "Chemical Bonding",
-      path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+      options: [
+        {
+          path: "/dummy/path/chemical-bonding/opt1",
+          thumbnail: "/images/chemical_bonding_thumbnail1.jpg",
+          channel: "Chemistry Channel 9",
+        },
+        {
+          path: "/dummy/path/chemical-bonding/opt2",
+          thumbnail: "/images/chemical_bonding_thumbnail2.jpg",
+          channel: "Chemistry Channel 10",
+        },
+      ],
     },
     {
       name: "Thermodynamics",
-      path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+      options: [
+        {
+          path: "/dummy/path/thermodynamics/opt1",
+          thumbnail: "/images/thermodynamics_thumbnail1.jpg",
+          channel: "Chemistry Channel 11",
+        },
+        {
+          path: "/dummy/path/thermodynamics/opt2",
+          thumbnail: "/images/thermodynamics_thumbnail2.jpg",
+          channel: "Chemistry Channel 12",
+        },
+      ],
     },
     {
       name: "Chemical Equilibrium",
-      path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+      options: [
+        {
+          path: "/dummy/path/chemical-equilibrium/opt1",
+          thumbnail: "/images/chemical_equilibrium_thumbnail1.jpg",
+          channel: "Chemistry Channel 13",
+        },
+        {
+          path: "/dummy/path/chemical-equilibrium/opt2",
+          thumbnail: "/images/chemical_equilibrium_thumbnail2.jpg",
+          channel: "Chemistry Channel 14",
+        },
+      ],
     },
     {
       name: "Ionic Equilibrium",
-      path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+      options: [
+        {
+          path: "/dummy/path/ionic-equilibrium/opt1",
+          thumbnail: "/images/ionic_equilibrium_thumbnail1.jpg",
+          channel: "Chemistry Channel 15",
+        },
+        {
+          path: "/dummy/path/ionic-equilibrium/opt2",
+          thumbnail: "/images/ionic_equilibrium_thumbnail2.jpg",
+          channel: "Chemistry Channel 16",
+        },
+      ],
     },
     {
       name: "Redox Reactions",
-      path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+      options: [
+        {
+          path: "/dummy/path/redox-reactions/opt1",
+          thumbnail: "/images/redox_reactions_thumbnail1.jpg",
+          channel: "Chemistry Channel 17",
+        },
+        {
+          path: "/dummy/path/redox-reactions/opt2",
+          thumbnail: "/images/redox_reactions_thumbnail2.jpg",
+          channel: "Chemistry Channel 18",
+        },
+      ],
     },
-    { name: "Hydrogen", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
+    {
+      name: "Hydrogen",
+      options: [
+        {
+          path: "/dummy/path/hydrogen/opt1",
+          thumbnail: "/images/hydrogen_thumbnail1.jpg",
+          channel: "Chemistry Channel 19",
+        },
+        {
+          path: "/dummy/path/hydrogen/opt2",
+          thumbnail: "/images/hydrogen_thumbnail2.jpg",
+          channel: "Chemistry Channel 20",
+        },
+      ],
+    },
     {
       name: "S-Block Elements",
-      path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+      options: [
+        {
+          path: "/dummy/path/s-block-elements/opt1",
+          thumbnail: "/images/s_block_elements_thumbnail1.jpg",
+          channel: "Chemistry Channel 21",
+        },
+        {
+          path: "/dummy/path/s-block-elements/opt2",
+          thumbnail: "/images/s_block_elements_thumbnail2.jpg",
+          channel: "Chemistry Channel 22",
+        },
+      ],
     },
     {
       name: "Carbon Family p-block Elements",
-      path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+      options: [
+        {
+          path: "/dummy/path/carbon-family-p-block-elements/opt1",
+          thumbnail: "/images/carbon_family_p_block_thumbnail1.jpg",
+          channel: "Chemistry Channel 23",
+        },
+        {
+          path: "/dummy/path/carbon-family-p-block-elements/opt2",
+          thumbnail: "/images/carbon_family_p_block_thumbnail2.jpg",
+          channel: "Chemistry Channel 24",
+        },
+      ],
     },
     {
       name: "Boron Family p-block Elements",
-      path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+      options: [
+        {
+          path: "/dummy/path/boron-family-p-block-elements/opt1",
+          thumbnail: "/images/boron_family_p_block_thumbnail1.jpg",
+          channel: "Chemistry Channel 25",
+        },
+        {
+          path: "/dummy/path/boron-family-p-block-elements/opt2",
+          thumbnail: "/images/boron_family_p_block_thumbnail2.jpg",
+          channel: "Chemistry Channel 26",
+        },
+      ],
     },
     {
       name: "General Organic Chemistry",
-      path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+      options: [
+        {
+          path: "/dummy/path/general-organic-chemistry/opt1",
+          thumbnail: "/images/general_organic_chemistry_thumbnail1.jpg",
+          channel: "Chemistry Channel 27",
+        },
+        {
+          path: "/dummy/path/general-organic-chemistry/opt2",
+          thumbnail: "/images/general_organic_chemistry_thumbnail2.jpg",
+          channel: "Chemistry Channel 28",
+        },
+      ],
     },
     {
       name: "Hydrocarbons",
-      path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
+      options: [
+        {
+          path: "/dummy/path/hydrocarbons/opt1",
+          thumbnail: "/images/hydrocarbons_thumbnail1.jpg",
+          channel: "Chemistry Channel 29",
+        },
+        {
+          path: "/dummy/path/hydrocarbons/opt2",
+          thumbnail: "/images/hydrocarbons_thumbnail2.jpg",
+          channel: "Chemistry Channel 30",
+        },
+      ],
     },
   ],
+
   books: [
     {
       title: "Lakhmir Singh",
@@ -2129,449 +2635,1088 @@ export const biology = {
     {
       name: "The Living World",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/living-world" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/living-world" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/living-world" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/living-world",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/living-world",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/living-world",
+        },
       ],
     },
     {
       name: "Biological Classification",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/biological-classification" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/biological-classification" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/biological-classification" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/biological-classification",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/biological-classification",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/biological-classification",
+        },
       ],
     },
     {
       name: "Plant Kingdom",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/plant-kingdom" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/plant-kingdom" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/plant-kingdom" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+        },
       ],
     },
     {
       name: "Animal Kingdom",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/animal-kingdom" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/animal-kingdom" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/animal-kingdom" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+        },
       ],
     },
     {
       name: "Morphology of Flowering Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/morphology-flowering-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/morphology-flowering-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/morphology-flowering-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+        },
       ],
     },
     {
       name: "Anatomy of Flowering Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+        },
       ],
     },
     {
       name: "Structural Organisation in Animals",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/structural-organisation-animals" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/structural-organisation-animals" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/structural-organisation-animals" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+        },
       ],
     },
     {
       name: "Cell, The Unit of Life",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/cell-unit-of-life" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/cell-unit-of-life" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/cell-unit-of-life" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+        },
       ],
     },
     {
       name: "Biomolecules",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/biomolecules" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/biomolecules" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/biomolecules" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/biomolecules",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/biomolecules",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/biomolecules",
+        },
       ],
     },
     {
       name: "Cell Cycle and Cell Division",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+        },
       ],
     },
     {
       name: "Transport in Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/transport-in-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/transport-in-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/transport-in-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+        },
       ],
     },
     {
       name: "Mineral Nutrition",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/mineral-nutrition" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/mineral-nutrition" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/mineral-nutrition" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+        },
       ],
     },
     {
       name: "Photosynthesis in Higher Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+        },
       ],
     },
     {
       name: "Respiration in Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/respiration-in-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/respiration-in-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/respiration-in-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+        },
       ],
     },
     {
       name: "Plant Growth and Development",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/plant-growth-development" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/plant-growth-development" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/plant-growth-development" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+        },
       ],
     },
     {
       name: "Digestion and Absorption",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/digestion-absorption" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/digestion-absorption" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/digestion-absorption" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+        },
       ],
     },
     {
       name: "Breathing and Exchange of Gases",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/breathing-exchange-gases" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/breathing-exchange-gases" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/breathing-exchange-gases" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+        },
       ],
     },
     {
       name: "Body Fluids and Circulation",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/body-fluids-circulation" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/body-fluids-circulation" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/body-fluids-circulation" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+        },
       ],
     },
     {
       name: "Excretory Products and their Elimination",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/excretory-products-elimination" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/excretory-products-elimination" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/excretory-products-elimination" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+        },
       ],
     },
     {
       name: "Locomotion and Movement",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/locomotion-movement" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/locomotion-movement" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/locomotion-movement" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+        },
       ],
     },
     {
       name: "Neural Control and Coordination",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/neural-control-coordination" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/neural-control-coordination" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/neural-control-coordination" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+        },
       ],
     },
     {
       name: "Chemical Coordination and Integration",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/chemical-coordination-integration" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/chemical-coordination-integration" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/chemical-coordination-integration" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+        },
       ],
     },
   ],
-  
+
   sample_paper: [
     {
       name: "The Living World",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/living-world" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/living-world" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/living-world" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/living-world",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/living-world",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/living-world",
+        },
       ],
     },
     {
       name: "Biological Classification",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/biological-classification" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/biological-classification" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/biological-classification" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/biological-classification",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/biological-classification",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/biological-classification",
+        },
       ],
     },
     {
       name: "Plant Kingdom",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/plant-kingdom" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/plant-kingdom" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/plant-kingdom" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+        },
       ],
     },
     {
       name: "Animal Kingdom",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/animal-kingdom" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/animal-kingdom" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/animal-kingdom" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+        },
       ],
     },
     {
       name: "Morphology of Flowering Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/morphology-flowering-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/morphology-flowering-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/morphology-flowering-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+        },
       ],
     },
     {
       name: "Anatomy of Flowering Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+        },
       ],
     },
     {
       name: "Structural Organisation in Animals",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/structural-organisation-animals" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/structural-organisation-animals" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/structural-organisation-animals" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+        },
       ],
     },
     {
       name: "Cell, The Unit of Life",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/cell-unit-of-life" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/cell-unit-of-life" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/cell-unit-of-life" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+        },
       ],
     },
     {
       name: "Biomolecules",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/biomolecules" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/biomolecules" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/biomolecules" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/biomolecules",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/biomolecules",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/biomolecules",
+        },
       ],
     },
     {
       name: "Cell Cycle and Cell Division",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+        },
       ],
     },
     {
       name: "Transport in Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/transport-in-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/transport-in-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/transport-in-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+        },
       ],
     },
     {
       name: "Mineral Nutrition",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/mineral-nutrition" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/mineral-nutrition" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/mineral-nutrition" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+        },
       ],
     },
     {
       name: "Photosynthesis in Higher Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+        },
       ],
     },
     {
       name: "Respiration in Plants",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/respiration-in-plants" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/respiration-in-plants" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/respiration-in-plants" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+        },
       ],
     },
     {
       name: "Plant Growth and Development",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/plant-growth-development" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/plant-growth-development" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/plant-growth-development" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+        },
       ],
     },
     {
       name: "Digestion and Absorption",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/digestion-absorption" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/digestion-absorption" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/digestion-absorption" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+        },
       ],
     },
     {
       name: "Breathing and Exchange of Gases",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/breathing-exchange-gases" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/breathing-exchange-gases" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/breathing-exchange-gases" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+        },
       ],
     },
     {
       name: "Body Fluids and Circulation",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/body-fluids-circulation" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/body-fluids-circulation" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/body-fluids-circulation" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+        },
       ],
     },
     {
       name: "Excretory Products and their Elimination",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/excretory-products-elimination" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/excretory-products-elimination" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/excretory-products-elimination" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+        },
       ],
     },
     {
       name: "Locomotion and Movement",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/locomotion-movement" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/locomotion-movement" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/locomotion-movement" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+        },
       ],
     },
     {
       name: "Neural Control and Coordination",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/neural-control-coordination" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/neural-control-coordination" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/neural-control-coordination" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+        },
       ],
     },
     {
       name: "Chemical Coordination and Integration",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/biology/chemical-coordination-integration" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/biology/chemical-coordination-integration" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/biology/chemical-coordination-integration" },
+        {
+          name: "Set 1",
+          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+        },
+        {
+          name: "Set 2",
+          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+        },
+        {
+          name: "Set 3",
+          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+        },
       ],
     },
   ],
   video_lectures: [
     {
       name: "The Living World",
-      path: "/StudyResources/Grade-11/biology/living-world",
+      options: [
+        {
+          path: "/dummy/path/living-world/opt1",
+          thumbnail: "/images/living_world_thumbnail1.jpg",
+          channel: "Biology Channel 1",
+        },
+        {
+          path: "/dummy/path/living-world/opt2",
+          thumbnail: "/images/living_world_thumbnail2.jpg",
+          channel: "Biology Channel 2",
+        },
+      ],
     },
     {
       name: "Biological Classification",
-      path: "/StudyResources/Grade-11/biology/biological-classification",
+      options: [
+        {
+          path: "/dummy/path/biological-classification/opt1",
+          thumbnail: "/images/biological_classification_thumbnail1.jpg",
+          channel: "Biology Channel 3",
+        },
+        {
+          path: "/dummy/path/biological-classification/opt2",
+          thumbnail: "/images/biological_classification_thumbnail2.jpg",
+          channel: "Biology Channel 4",
+        },
+      ],
     },
     {
       name: "Plant Kingdom",
-      path: "/StudyResources/Grade-11/biology/plant-kingdom",
+      options: [
+        {
+          path: "/dummy/path/plant-kingdom/opt1",
+          thumbnail: "/images/plant_kingdom_thumbnail1.jpg",
+          channel: "Biology Channel 5",
+        },
+        {
+          path: "/dummy/path/plant-kingdom/opt2",
+          thumbnail: "/images/plant_kingdom_thumbnail2.jpg",
+          channel: "Biology Channel 6",
+        },
+      ],
     },
     {
       name: "Animal Kingdom",
-      path: "/StudyResources/Grade-11/biology/animal-kingdom",
+      options: [
+        {
+          path: "/dummy/path/animal-kingdom/opt1",
+          thumbnail: "/images/animal_kingdom_thumbnail1.jpg",
+          channel: "Biology Channel 7",
+        },
+        {
+          path: "/dummy/path/animal-kingdom/opt2",
+          thumbnail: "/images/animal_kingdom_thumbnail2.jpg",
+          channel: "Biology Channel 8",
+        },
+      ],
     },
     {
       name: "Morphology of Flowering Plants",
-      path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+      options: [
+        {
+          path: "/dummy/path/morphology-flowering-plants/opt1",
+          thumbnail: "/images/morphology_flowering_plants_thumbnail1.jpg",
+          channel: "Biology Channel 9",
+        },
+        {
+          path: "/dummy/path/morphology-flowering-plants/opt2",
+          thumbnail: "/images/morphology_flowering_plants_thumbnail2.jpg",
+          channel: "Biology Channel 10",
+        },
+      ],
     },
     {
       name: "Anatomy of Flowering Plants",
-      path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+      options: [
+        {
+          path: "/dummy/path/anatomy-flowering-plants/opt1",
+          thumbnail: "/images/anatomy_flowering_plants_thumbnail1.jpg",
+          channel: "Biology Channel 11",
+        },
+        {
+          path: "/dummy/path/anatomy-flowering-plants/opt2",
+          thumbnail: "/images/anatomy_flowering_plants_thumbnail2.jpg",
+          channel: "Biology Channel 12",
+        },
+      ],
     },
     {
       name: "Structural Organisation in Animals",
-      path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+      options: [
+        {
+          path: "/dummy/path/structural-organisation-animals/opt1",
+          thumbnail: "/images/structural_organisation_animals_thumbnail1.jpg",
+          channel: "Biology Channel 13",
+        },
+        {
+          path: "/dummy/path/structural-organisation-animals/opt2",
+          thumbnail: "/images/structural_organisation_animals_thumbnail2.jpg",
+          channel: "Biology Channel 14",
+        },
+      ],
     },
     {
       name: "Cell, The Unit of Life",
-      path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+      options: [
+        {
+          path: "/dummy/path/cell-unit-of-life/opt1",
+          thumbnail: "/images/cell_unit_of_life_thumbnail1.jpg",
+          channel: "Biology Channel 15",
+        },
+        {
+          path: "/dummy/path/cell-unit-of-life/opt2",
+          thumbnail: "/images/cell_unit_of_life_thumbnail2.jpg",
+          channel: "Biology Channel 16",
+        },
+      ],
     },
     {
       name: "Biomolecules",
-      path: "/StudyResources/Grade-11/biology/biomolecules",
+      options: [
+        {
+          path: "/dummy/path/biomolecules/opt1",
+          thumbnail: "/images/biomolecules_thumbnail1.jpg",
+          channel: "Biology Channel 17",
+        },
+        {
+          path: "/dummy/path/biomolecules/opt2",
+          thumbnail: "/images/biomolecules_thumbnail2.jpg",
+          channel: "Biology Channel 18",
+        },
+      ],
     },
     {
       name: "Cell Cycle and Cell Division",
-      path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+      options: [
+        {
+          path: "/dummy/path/cell-cycle-cell-division/opt1",
+          thumbnail: "/images/cell_cycle_cell_division_thumbnail1.jpg",
+          channel: "Biology Channel 19",
+        },
+        {
+          path: "/dummy/path/cell-cycle-cell-division/opt2",
+          thumbnail: "/images/cell_cycle_cell_division_thumbnail2.jpg",
+          channel: "Biology Channel 20",
+        },
+      ],
     },
     {
       name: "Transport in Plants",
-      path: "/StudyResources/Grade-11/biology/transport-in-plants",
+      options: [
+        {
+          path: "/dummy/path/transport-in-plants/opt1",
+          thumbnail: "/images/transport_in_plants_thumbnail1.jpg",
+          channel: "Biology Channel 21",
+        },
+        {
+          path: "/dummy/path/transport-in-plants/opt2",
+          thumbnail: "/images/transport_in_plants_thumbnail2.jpg",
+          channel: "Biology Channel 22",
+        },
+      ],
     },
     {
       name: "Mineral Nutrition",
-      path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+      options: [
+        {
+          path: "/dummy/path/mineral-nutrition/opt1",
+          thumbnail: "/images/mineral_nutrition_thumbnail1.jpg",
+          channel: "Biology Channel 23",
+        },
+        {
+          path: "/dummy/path/mineral-nutrition/opt2",
+          thumbnail: "/images/mineral_nutrition_thumbnail2.jpg",
+          channel: "Biology Channel 24",
+        },
+      ],
     },
     {
       name: "Photosynthesis in Higher Plants",
-      path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+      options: [
+        {
+          path: "/dummy/path/photosynthesis-higher-plants/opt1",
+          thumbnail: "/images/photosynthesis_higher_plants_thumbnail1.jpg",
+          channel: "Biology Channel 25",
+        },
+        {
+          path: "/dummy/path/photosynthesis-higher-plants/opt2",
+          thumbnail: "/images/photosynthesis_higher_plants_thumbnail2.jpg",
+          channel: "Biology Channel 26",
+        },
+      ],
     },
     {
       name: "Respiration in Plants",
-      path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+      options: [
+        {
+          path: "/dummy/path/respiration-in-plants/opt1",
+          thumbnail: "/images/respiration_in_plants_thumbnail1.jpg",
+          channel: "Biology Channel 27",
+        },
+        {
+          path: "/dummy/path/respiration-in-plants/opt2",
+          thumbnail: "/images/respiration_in_plants_thumbnail2.jpg",
+          channel: "Biology Channel 28",
+        },
+      ],
     },
     {
       name: "Plant Growth and Development",
-      path: "/StudyResources/Grade-11/biology/plant-growth-development",
+      options: [
+        {
+          path: "/dummy/path/plant-growth-development/opt1",
+          thumbnail: "/images/plant_growth_development_thumbnail1.jpg",
+          channel: "Biology Channel 29",
+        },
+        {
+          path: "/dummy/path/plant-growth-development/opt2",
+          thumbnail: "/images/plant_growth_development_thumbnail2.jpg",
+          channel: "Biology Channel 30",
+        },
+      ],
     },
     {
       name: "Digestion and Absorption",
-      path: "/StudyResources/Grade-11/biology/digestion-absorption",
+      options: [
+        {
+          path: "/dummy/path/digestion-absorption/opt1",
+          thumbnail: "/images/digestion_absorption_thumbnail1.jpg",
+          channel: "Biology Channel 31",
+        },
+        {
+          path: "/dummy/path/digestion-absorption/opt2",
+          thumbnail: "/images/digestion_absorption_thumbnail2.jpg",
+          channel: "Biology Channel 32",
+        },
+      ],
     },
     {
       name: "Breathing and Exchange of Gases",
-      path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+      options: [
+        {
+          path: "/dummy/path/breathing-exchange-gases/opt1",
+          thumbnail: "/images/breathing_exchange_gases_thumbnail1.jpg",
+          channel: "Biology Channel 33",
+        },
+        {
+          path: "/dummy/path/breathing-exchange-gases/opt2",
+          thumbnail: "/images/breathing_exchange_gases_thumbnail2.jpg",
+          channel: "Biology Channel 34",
+        },
+      ],
     },
     {
       name: "Body Fluids and Circulation",
-      path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+      options: [
+        {
+          path: "/dummy/path/body-fluids-circulation/opt1",
+          thumbnail: "/images/body_fluids_circulation_thumbnail1.jpg",
+          channel: "Biology Channel 35",
+        },
+        {
+          path: "/dummy/path/body-fluids-circulation/opt2",
+          thumbnail: "/images/body_fluids_circulation_thumbnail2.jpg",
+          channel: "Biology Channel 36",
+        },
+      ],
     },
     {
       name: "Excretory Products and their Elimination",
-      path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+      options: [
+        {
+          path: "/dummy/path/excretory-products-elimination/opt1",
+          thumbnail: "/images/excretory_products_elimination_thumbnail1.jpg",
+          channel: "Biology Channel 37",
+        },
+        {
+          path: "/dummy/path/excretory-products-elimination/opt2",
+          thumbnail: "/images/excretory_products_elimination_thumbnail2.jpg",
+          channel: "Biology Channel 38",
+        },
+      ],
     },
     {
       name: "Locomotion and Movement",
-      path: "/StudyResources/Grade-11/biology/locomotion-movement",
+      options: [
+        {
+          path: "/dummy/path/locomotion-movement/opt1",
+          thumbnail: "/images/locomotion_movement_thumbnail1.jpg",
+          channel: "Biology Channel 39",
+        },
+        {
+          path: "/dummy/path/locomotion-movement/opt2",
+          thumbnail: "/images/locomotion_movement_thumbnail2.jpg",
+          channel: "Biology Channel 40",
+        },
+      ],
     },
     {
       name: "Neural Control and Coordination",
-      path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+      options: [
+        {
+          path: "/dummy/path/neural-control-coordination/opt1",
+          thumbnail: "/images/neural_control_coordination_thumbnail1.jpg",
+          channel: "Biology Channel 41",
+        },
+        {
+          path: "/dummy/path/neural-control-coordination/opt2",
+          thumbnail: "/images/neural_control_coordination_thumbnail2.jpg",
+          channel: "Biology Channel 42",
+        },
+      ],
     },
     {
       name: "Chemical Coordination and Integration",
-      path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+      options: [
+        {
+          path: "/dummy/path/chemical-coordination-integration/opt1",
+          thumbnail: "/images/chemical_coordination_integration_thumbnail1.jpg",
+          channel: "Biology Channel 43",
+        },
+        {
+          path: "/dummy/path/chemical-coordination-integration/opt2",
+          thumbnail: "/images/chemical_coordination_integration_thumbnail2.jpg",
+          channel: "Biology Channel 44",
+        },
+      ],
     },
   ],
+
   books: [
     {
       title: "HC Verma",
