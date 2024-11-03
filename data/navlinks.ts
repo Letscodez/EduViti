@@ -11,16 +11,14 @@ export const navLinks = [
   {
     label: "Recommended Books",
     sublinks: [
-      {
-        label: "Conceptual & Theory Books",
-        path: "/RecommendedBooks/conceptual&theory-books",
-      },
-      { label: "Reference Books", path: "/RecommendedBooks/reference-books" },
-      { label: "Sample Papers", path: "/RecommendedBooks/sample-papers" },
-      {
-        label: "Previous Year Questions",
-        path: "/RecommendedBooks/previous-year-questions",
-      },
+      { label: "Maths", path: "/books/Maths" },
+      { label: "Fundamental Science", path: "/books/FundamentalScience" },
+      { label: "Quantum Physics", path: "/books/QuantumPhysics" },
+      { label: "Astronomy", path: "/books/Astronomy" },
+      { label: "Engineering Physics", path: "/books/EngineeringPhysics" },
+      { label: "Computer Science", path: "/books/ComputerScience", },
+      { label: "Data Science", path: "/books/DataScience", },
+      
     ],
   },
   {

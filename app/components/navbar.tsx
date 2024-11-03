@@ -1,11 +1,13 @@
+"use client";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Btn from "@/app/components/btn";
 import { navLinks } from "@/data/navlinks";
 import { nav_logo } from "@/images/main";
-import { title } from "@/images/main";
 import Hamburger from "./hamburger";
 import Dropdown from "./dropdown";
 import SearchBar from "./searchBar";
+import { motion } from "framer-motion";
 
 // Define props type with homeBtn
 type NavbarProps = {
@@ -13,10 +15,47 @@ type NavbarProps = {
 };
 
 const Navbar: React.FC<NavbarProps> = ({ homeBtn }) => {
+  const [hidden, setHidden] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0); // Store last scroll position
+
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+    if (currentScrollY > lastScrollY && currentScrollY > 60) {
+      setHidden(true);
+    } else {
+      setHidden(false);
+    }
+    setLastScrollY(currentScrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [lastScrollY]);
+
   return (
-    <nav className="bg-teal-100/30 back-in-down backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-50 filter">
+    <motion.nav
+      initial={{ y: -100 }}
+      animate={hidden ? "hidden" : "visible"}
+      whileTap={{ scale: 0.99, transition: { duration: 0.1 } }}
+      variants={{
+        hidden: {
+          opacity: 0,
+          y: -100,
+          transition: { duration: 0.6, ease: "easeInOut" }, // Custom duration for hidden
+        },
+        visible: {
+          opacity: 1,
+          y: 0,
+          transition: { duration: 0.3, ease: "easeInOut" }, // Custom duration for visible
+        },
+      }}
+      className="bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 mx-12 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-50 filter"
+    >
       {/* Logo */}
-      <a href="/">
+      <motion.a href="/">
         <Image
           src={nav_logo}
           alt="Logo"
@@ -25,7 +64,7 @@ const Navbar: React.FC<NavbarProps> = ({ homeBtn }) => {
           className="ml-4"
           priority
         />
-      </a>
+      </motion.a>
 
       {/* Navigation Links */}
       <div className="relative flex items-center mx-2 md:mx-0">
@@ -43,16 +82,15 @@ const Navbar: React.FC<NavbarProps> = ({ homeBtn }) => {
         {homeBtn && (
           <Btn className="sm:block hidden" displayText="Home" url="/" />
         )}
-        {homeBtn ? (
-          ""
-        ) : (
+        {!homeBtn && (
           <div className="hidden sm:block">
             <SearchBar />
           </div>
         )}
         <Hamburger />
       </div>
-    </nav>
+    </motion.nav>
   );
 };
+
 export default Navbar;

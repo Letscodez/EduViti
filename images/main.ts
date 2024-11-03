@@ -40,6 +40,8 @@ import chemistry from "./chemistry.webp";
 import physics from "./physics.webp";
 import maths from "./maths.webp";
 import cs from "./cs.webp";
+import space from "./space.webp";
+
 export {
   title,
   nav_logo,
@@ -81,6 +83,7 @@ export {
   physics,
   maths,
   cs,
+  space,
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -124,6 +127,7 @@ export type ImageAssets = {
   physics: StaticImageData;
   maths: StaticImageData;
   cs : StaticImageData;
+  space : StaticImageData;
 };
 // Default export of images for better structure
 const images: ImageAssets = {
@@ -167,6 +171,7 @@ const images: ImageAssets = {
   physics,
   maths,
   cs,
+  space,
 };
 
 export default images;

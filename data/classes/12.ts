@@ -740,6 +740,10 @@ export const physics = {
       path: "/StudyResources/Grade-12/physics/wave-optics",
     },
     {
+      name: "Ray Optics and Optical Instruments",
+      path: "/StudyResources/Grade-12/physics/wave-optics",
+    },
+    {
       name: "Dual Nature of Radiation and Matter",
       path: "/StudyResources/Grade-12/physics/dual-nature-of-radiation-and-matter",
     },
@@ -911,6 +915,14 @@ export const physics = {
     },
     {
       name: "Wave Optics",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-12/physics/wave-optics" },
+        { name: "Set 2", path: "/StudyResources/Grade-12/physics/wave-optics" },
+        { name: "Set 3", path: "/StudyResources/Grade-12/physics/wave-optics" },
+      ],
+    },
+    {
+      name: "Ray Optics and Optical Instruments",
       sets: [
         { name: "Set 1", path: "/StudyResources/Grade-12/physics/wave-optics" },
         { name: "Set 2", path: "/StudyResources/Grade-12/physics/wave-optics" },
@@ -1115,6 +1127,14 @@ export const physics = {
       ],
     },
     {
+      name: "Ray Optics and Optical Instruments",
+      sets: [
+        { name: "Set 1", path: "/StudyResources/Grade-12/physics/wave-optics" },
+        { name: "Set 2", path: "/StudyResources/Grade-12/physics/wave-optics" },
+        { name: "Set 3", path: "/StudyResources/Grade-12/physics/wave-optics" },
+      ],
+    },
+    {
       name: "Dual Nature of Radiation and Matter",
       sets: [
         {
@@ -1298,6 +1318,21 @@ export const physics = {
           path: "/dummy/path/wave-optics/opt2",
           thumbnail: "/images/wave_optics_thumbnail2.jpg",
           channel: "Physics Channel 18",
+        },
+      ],
+    },
+    {
+      name: "Ray Optics and Optical Instruments",
+      options: [
+        {
+          path: "/dummy/path/wave-optics/opt1",
+          thumbnail: "/images/wave_optics_thumbnail1.jpg",
+          channel: "Physics Channel 19",
+        },
+        {
+          path: "/dummy/path/wave-optics/opt2",
+          thumbnail: "/images/wave_optics_thumbnail2.jpg",
+          channel: "Physics Channel 20",
         },
       ],
     },

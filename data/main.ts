@@ -1,6 +1,6 @@
 import { lectures_svg, maps_svg, qbank_svg, rocket } from "@/images/main";
 import { LinkType } from "./classes/linkType";
-
+// ok
 const books: LinkType[] = [
   {
     name: "Maths",
