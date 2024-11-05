@@ -24,16 +24,15 @@ export const navLinks = [
   {
     label: "Free Online Courses",
     sublinks: [
-      { label: "JEE Preparation", path: "/FreeOnlineCourses/JEE-preparation" },
+      { label: "JEE", path: "/FreeOnlineCourses/JEE" },
       {
-        label: "NEET Preparation",
-        path: "/FreeOnlineCourses/NEET-preparation",
+        label: "NEET",
+        path: "/FreeOnlineCourses/NEET",
       },
-      { label: "CBSE Courses", path: "/FreeOnlineCourses/CBSE-courses" },
-      { label: "ICSE Courses", path: "/FreeOnlineCourses/ICSE-courses" },
+      { label: "CBSE", path: "/FreeOnlineCourses/CBSE" },
       {
-        label: "State Board Courses",
-        path: "/FreeOnlineCourses/state-board-courses",
+        label: "Computer Science",
+        path: "/FreeOnlineCourses/ComputerScience",
       },
     ],
   },

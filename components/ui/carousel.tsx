@@ -1,4 +1,5 @@
 "use client";
+import { ChevronRightIcon, ChevronLeftIcon } from "@radix-ui/react-icons";
 
 import * as React from "react";
 import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
@@ -232,20 +233,25 @@ CarouselItem.displayName = "CarouselItem";
 const CarouselPrevious = React.forwardRef<
   HTMLButtonElement,
   React.ComponentProps<typeof Button>
->(({ className, variant = "secondary", size = "icon", ...props }, ref) => {
-  const { orientation, scrollPrev, canScrollPrev } = useCarousel();
+>(({ className, variant = "ghost", size = "icon", ...props }, ref) => {
+  const { scrollPrev, canScrollPrev } = useCarousel();
 
   return (
     <Button
       ref={ref}
       variant={variant}
       size={size}
-      className={cn("absolute h-8 w-8 rounded-full", className)}
+      // Add background and cursor styles
+      className={cn(
+        "absolute rounded-full bg-white/5 cursor-pointer",
+        "top-1/2 -translate-y-1/2 shadow-md shadow-primary/20 border border-primary/10",
+        className
+      )}
       disabled={!canScrollPrev}
       onClick={scrollPrev}
       {...props}
     >
-      <ArrowLeftIcon className="h-8 w-8 mx-auto" />
+      <ChevronLeftIcon className="h-6 w-6 m-2" />
       <span className="sr-only">Previous slide</span>
     </Button>
   );
@@ -255,29 +261,31 @@ CarouselPrevious.displayName = "CarouselPrevious";
 const CarouselNext = React.forwardRef<
   HTMLButtonElement,
   React.ComponentProps<typeof Button>
->(({ className, variant = "secondary", size = "icon", ...props }, ref) => {
-  const { orientation, scrollNext, canScrollNext } = useCarousel();
+>(({ className, variant = "ghost", size = "icon", ...props }, ref) => {
+  const { scrollNext, canScrollNext } = useCarousel();
 
   return (
     <Button
       ref={ref}
       variant={variant}
       size={size}
+      // Add background and cursor styles
       className={cn(
-        "absolute h-8 w-8 rounded-full",
-        "top-1/2 -translate-y-1/2",
+        "absolute rounded-full bg-white/5 cursor-pointer",
+        "top-1/2 -translate-y-1/2 shadow-md shadow-primary/20 border border-primary/10",
         className
       )}
       disabled={!canScrollNext}
       onClick={scrollNext}
       {...props}
     >
-      <ArrowRightIcon className="h-4 w-4 mx-auto" />
+      <ChevronRightIcon className="h-6 w-6 m-2" />
       <span className="sr-only">Next slide</span>
     </Button>
   );
 });
 CarouselNext.displayName = "CarouselNext";
+
 
 export {
   type CarouselApi,

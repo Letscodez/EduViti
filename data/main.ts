@@ -89,57 +89,57 @@ const books4: LinkType[] = [
     icon: qbank_svg,
   },
 ];
-const courses: LinkType[] = [
-  { name: "Maths", path: "/FreeOnlineCourses/JEE-preparation", icon: rocket },
+const coursesjee: LinkType[] = [
+  { name: "One-Shot Courses", path: "/FreeOnlineCourses/JEE/one-shot-courses", icon: rocket },
   {
-    name: "Physics",
-    path: "/FreeOnlineCourses/JEE-preparation",
+    name: "Revision Series",
+    path: "/FreeOnlineCourses/JEE/revision-series",
     icon: lectures_svg,
   },
   {
-    name: "Chemistry",
-    path: "/FreeOnlineCourses/JEE-preparation",
+    name: "Mock Test Series",
+    path: "/FreeOnlineCourses/JEE/mock-test-series",
     icon: maps_svg,
   },
   {
-    name: "Biology",
-    path: "/FreeOnlineCourses/JEE-preparation",
+    name: "Problem-Solving Workshops",
+    path: "/FreeOnlineCourses/JEE/problem-solving-workshops",
     icon: qbank_svg,
   },
 ];
-const courses2: LinkType[] = [
-  { name: "Maths", path: "/FreeOnlineCourses/NEET-preparation", icon: rocket },
+const coursesneet: LinkType[] = [
+  { name: "One-Shot Courses", path: "/FreeOnlineCourses/NEET/one-shot-courses", icon: rocket },
   {
-    name: "Physics",
-    path: "/FreeOnlineCourses/NEET-preparation",
+    name: "Revision Series",
+    path: "/FreeOnlineCourses/NEET/revision-series",
     icon: lectures_svg,
   },
   {
-    name: "Chemistry",
-    path: "/FreeOnlineCourses/NEET-preparation",
+    name: "Mock Test Series",
+    path: "/FreeOnlineCourses/NEET/mock-test-series",
     icon: maps_svg,
   },
   {
-    name: "Biology",
-    path: "/FreeOnlineCourses/NEET-preparation",
+    name: "Problem-Solving Workshops",
+    path: "/FreeOnlineCourses/NEET/problem-solving-workshops",
     icon: qbank_svg,
   },
 ];
-const courses3: LinkType[] = [
-  { name: "Maths", path: "/FreeOnlineCourses/CBSE-courses", icon: rocket },
+const coursescbse: LinkType[] = [
+  { name: "Class 9", path: "/FreeOnlineCourses/CBSE/class-9", icon: rocket },
   {
-    name: "Physics",
-    path: "/FreeOnlineCourses/CBSE-courses",
+    name: "Class 10",
+    path: "/FreeOnlineCourses/CBSE/class-10",
     icon: lectures_svg,
   },
   {
-    name: "Chemistry",
-    path: "/FreeOnlineCourses/CBSE-courses",
+    name: "Class 11",
+    path: "/FreeOnlineCourses/CBSE/class-11",
     icon: maps_svg,
   },
-  { name: "Biology", path: "/FreeOnlineCourses/CBSE-courses", icon: qbank_svg },
+  { name: "Class 12", path: "/FreeOnlineCourses/CBSE/class-12", icon: qbank_svg },
 ];
-const courses4: LinkType[] = [
+const coursescomputerscience: LinkType[] = [
   { name: "Maths", path: "/FreeOnlineCourses/ICSE-courses", icon: rocket },
   {
     name: "Physics",
@@ -176,4 +176,4 @@ const courses5: LinkType[] = [
   },
 ];
 
-export { books, courses, };
+export { books, coursesjee, coursesneet, coursescbse, coursescomputerscience, };

@@ -10,7 +10,7 @@ import {
 
 type ResourceType = {
   title: string;
-  description: string;
+  description?: string;
   icon: StaticImageData | any;
   linkName: string;
 };
@@ -89,5 +89,27 @@ export const resources2: ResourceType[] = [
       "Dedicated Preferred Video Lectures on specific Chapter & Topics.",
     icon: book_svg,
     linkName: "video-lectures",
+  },
+];
+export const cbse: ResourceType[] = [
+  {
+    title: "Maths",
+    icon: concise_svg,
+    linkName: "maths",
+  },
+  {
+    title: "Physics",
+    icon: qbank_svg,
+    linkName : "physics"
+  },
+  {
+    title: "Chemistry",  
+    icon: openbook_svg,
+    linkName: "chemistry",
+  },
+  {
+    title: "Biology",
+    icon: bookdown_svg,
+    linkName: "biology",
   },
 ];

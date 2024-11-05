@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 interface ResourceCardProps {
   title: string;
-  description: string;
+  description?: string;
   icon: string;
   url  ?: string;
 }
