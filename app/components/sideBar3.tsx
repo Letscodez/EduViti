@@ -11,7 +11,7 @@ interface SidebarProps {
   setSelected: React.Dispatch<React.SetStateAction<string>>;
 }
 
-const Sidebar1: React.FC<SidebarProps> = ({links, selected, setSelected }) => {
+const Sidebar: React.FC<SidebarProps> = ({links, selected, setSelected }) => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(true);
   const toggleSidebar = () => {
     setIsSidebarVisible((prevState) => !prevState);
@@ -114,4 +114,4 @@ const Sidebar1: React.FC<SidebarProps> = ({links, selected, setSelected }) => {
   );
 };
 
-export default Sidebar1;
+export default Sidebar;

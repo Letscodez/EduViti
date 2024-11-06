@@ -90,38 +90,38 @@ const books4: LinkType[] = [
   },
 ];
 const coursesjee: LinkType[] = [
-  { name: "One-Shot Courses", path: "/FreeOnlineCourses/JEE/one-shot-courses", icon: rocket },
+  { name: "One-Shot Courses", path: "one-shot", icon: rocket },
   {
     name: "Revision Series",
-    path: "/FreeOnlineCourses/JEE/revision-series",
+    path: "revision",
     icon: lectures_svg,
   },
   {
     name: "Mock Test Series",
-    path: "/FreeOnlineCourses/JEE/mock-test-series",
+    path: "test",
     icon: maps_svg,
   },
   {
     name: "Problem-Solving Workshops",
-    path: "/FreeOnlineCourses/JEE/problem-solving-workshops",
+    path: "workshops",
     icon: qbank_svg,
   },
 ];
 const coursesneet: LinkType[] = [
-  { name: "One-Shot Courses", path: "/FreeOnlineCourses/NEET/one-shot-courses", icon: rocket },
+  { name: "One-Shot Courses", path: "one-shot", icon: rocket },
   {
     name: "Revision Series",
-    path: "/FreeOnlineCourses/NEET/revision-series",
+    path: "revision",
     icon: lectures_svg,
   },
   {
     name: "Mock Test Series",
-    path: "/FreeOnlineCourses/NEET/mock-test-series",
+    path: "test",
     icon: maps_svg,
   },
   {
     name: "Problem-Solving Workshops",
-    path: "/FreeOnlineCourses/NEET/problem-solving-workshops",
+    path: "workshops",
     icon: qbank_svg,
   },
 ];

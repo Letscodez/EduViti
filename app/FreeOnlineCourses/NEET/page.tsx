@@ -1,25 +1,43 @@
-'use client';
-import React, {useState} from "react";
-import ResourceCard from "@/app/components/ResourceCard";
-import { resources } from "@/data/resource";
+"use client";
+import React, { useState } from "react";
+import CourseCard from "@/app/components/course"; // Import the CourseCard component
+import { neet } from "@/data/courses/neet";
+import Sidebar from "@/app/components/sidebar";
 import { coursesneet } from "@/data/main";
-import Sidebar1 from "@/app/components/sidebar";
 
 const StudySection: React.FC = () => {
-  const [selected, setSelected] = useState(coursesneet[0].path);
+  const [selected, setSelected] = useState(coursesneet[0].path); // Initialize with the first course name from coursesjee
+  const [isSidebarVisible, setIsSidebarVisible] = useState(true);
+
+  // Filter and map courses based on the selected course name from coursesjee
+  const filteredCourses = neet.filter((course) => course.category === selected);
 
   return (
     <section className="flex bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333]">
-      <Sidebar1 links={coursesneet} selected={selected} setSelected={setSelected} />
-      <div className={`lg:ml-72 py-8 flex-grow px-6 min-h-screen flex flex-col items-center space-y-14`}>
-        <h2 className="text-3xl font-bold mb-12 text-white mt-10">Our Resources</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-16">
-          {resources.map((resource) => (
-            <ResourceCard
-              key={resource.title} // Use a unique key for each card
-              title={resource.title}
-              description={resource.description}
-              icon={resource.icon}
+      <Sidebar
+        links={coursesneet} // Passing the links to the sidebar (the main course sections)
+        selected={selected}
+        setSelected={setSelected}
+        isSidebarVisible={isSidebarVisible}
+        setIsSidebarVisible={setIsSidebarVisible}
+      />
+      <div
+        className={`${
+          isSidebarVisible ? "lg:ml-72" : "ml-0"
+        } py-8 flex-grow px-6 min-h-screen flex flex-col items-center space-y-14`}
+      >
+        <h2 className="text-3xl font-bold mb-6 text-white mt-6">
+          Our Video Lectures
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {filteredCourses.map((course, index) => (
+            <CourseCard
+              key={index}
+              name={course.name}
+              description={course.description}
+              thumbnail={course.thumbnail}
+              channel={course.channel}
+              path={course.path}
             />
           ))}
         </div>

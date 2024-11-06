@@ -3,14 +3,14 @@ import React, {useState} from "react";
 import ResourceCard from "@/app/components/ResourceCard";
 import { cbse } from "@/data/resource";
 import { coursescbse } from "@/data/main";
-import Sidebar1 from "@/app/components/sidebar";
+import Sidebar from "@/app/components/sidebar";
 const StudySection: React.FC = () => {
   const [selected, setSelected] = useState(coursescbse[0].path);
-
+  const [isSidebarVisible, setIsSidebarVisible] = useState(true);  
   return (
     <section className="flex bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333]">
-      <Sidebar1 links={coursescbse} selected={selected} setSelected={setSelected} />
-      <div className="lg:ml-72 py-8 flex-grow px-6 min-h-screen flex flex-col items-center space-y-14">
+      <Sidebar links={coursescbse} selected={selected} setSelected={setSelected} isSidebarVisible={isSidebarVisible} setIsSidebarVisible={setIsSidebarVisible} />
+      <div className={`${isSidebarVisible ? "lg:ml-72" : "ml-0"} py-8 flex-grow px-6 min-h-screen flex flex-col items-center space-y-14`}>
         {coursescbse.map((link) =>
           selected === link.path && (
             <h2

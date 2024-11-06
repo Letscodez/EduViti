@@ -8,11 +8,13 @@ import { links } from "@/data/classes/10";
 
 const StudySection: React.FC = () => {
   const [selected, setSelected] = useState(links[0].path);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(true);
+
 
   return (
     <section className="flex bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333]">
-      <Sidebar links={links} selected={selected} setSelected={setSelected} />
-      <div className="lg:ml-72 py-8 flex-grow px-6 min-h-screen flex flex-col items-center space-y-14">
+      <Sidebar links={links} selected={selected} setSelected={setSelected} isSidebarVisible={isSidebarVisible} setIsSidebarVisible={setIsSidebarVisible}/>
+      <div className={`${isSidebarVisible ? "lg:ml-72" : "ml-0"} py-8 flex-grow px-6 min-h-screen flex flex-col items-center space-y-14`}>
         {links.map((link) =>
           selected === link.path && (
             <h2

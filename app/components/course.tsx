@@ -12,14 +12,12 @@ type CourseCardProps = {
 const CourseCard: React.FC<CourseCardProps> = ({ name, description, thumbnail, channel, path }) => {
   return (
     <div className="bg-white/10 border border-primary/30 rounded-md flex flex-col p-4">
-      <div className="relative w-full h-0 pb-[56.25%] mb-4">
+      <div className="relative w-full mb-4" style={{ aspectRatio: '16/9' }}>
         <Image
           src={thumbnail}
           alt={`${name} thumbnail`}
-          layout="responsive"  // New approach for aspect ratio in Next.js 13
-          width={100}           // Set width for the image
-          height={56.25}        // Set height for the aspect ratio
-          className="rounded-md"
+          fill
+          className="rounded-lg object-cover border border-primary/40"
         />
       </div>
 
