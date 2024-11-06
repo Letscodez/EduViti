@@ -1,11 +1,9 @@
 'use client';
 import React, {useState} from "react";
-import Sidebar1 from "@/app/components/sideBar";
 import ResourceCard from "@/app/components/ResourceCard";
 import { cbse } from "@/data/resource";
 import { coursescbse } from "@/data/main";
-// Define the resource data
-// whatsapp dekhle ohh noti ni aaya toh merko laga msg ni kiyaa
+import Sidebar1 from "@/app/components/sidebar";
 const StudySection: React.FC = () => {
   const [selected, setSelected] = useState(coursescbse[0].path);
 
