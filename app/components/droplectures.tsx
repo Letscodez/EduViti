@@ -55,7 +55,8 @@ const LecturesCard: React.FC<LecturesCardProps> = ({ list }) => {
                     <p className="text-gray-300 font-semibold">{option.channel}</p>
                     <a
                       href={option.path}
-                      className="bg-primary text-bg px-4 py-2 rounded-lg hover:bg-primary/80 transition"
+                      className="bg-primary text-bg px-4 py-2 rounded-lg hover:scale-105 hover:bg-primary/80 transition"
+                      target="blank"
                     >
                       Watch Now
                     </a>

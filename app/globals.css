@@ -14,7 +14,7 @@ body {
   font-style: normal;
 }
 
-/* @keyframes back-in-left {
+@keyframes back-in-left {
   0% {
     transform: translateX(-100%);
     opacity: 0;
@@ -142,4 +142,4 @@ body {
 .back-in-up {
   animation: back-in-up 1.3s forwards; 
 }
- */
+

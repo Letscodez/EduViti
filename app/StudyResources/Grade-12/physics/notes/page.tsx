@@ -14,7 +14,7 @@ const Grade12PhysicsNotes = () => {
           <div key={chapter.name} className="w-1/2 px-3 mb-5">
             <ChapterCard
               title={chapter.name}
-              url={chapter.path}
+              fileId={chapter.path}
             />
           </div>
         ))}

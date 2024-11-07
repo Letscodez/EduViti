@@ -14,7 +14,7 @@ export default function Grade12PhysicsPYQP () {
           <div key={chapter.name}>
             <ChapterCard
               title={chapter.name}
-              url={chapter.path}
+              fileId={chapter.path}
             />
           </div>
         ))}

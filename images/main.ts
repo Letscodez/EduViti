@@ -41,6 +41,25 @@ import physics from "./physics.webp";
 import maths from "./maths.webp";
 import cs from "./cs.webp";
 import space from "./space.webp";
+import number_system from "./number_system.webp";
+import number_system2 from "./number_system2.webp";
+import number_system3 from "./number_system3.webp";
+import polynomials from "./polynomials.webp";
+import polynomials2 from "./polynomials2.webp";
+import polynomials3 from "./polynomials3.webp";
+import polynomials4 from "./polynomials4.webp";
+import coordinate_geo from "./coordinate_geo.webp";
+import coordinate_geo2 from "./coordinate_geo2.webp";
+import coordinate_geo3 from "./coordinate_geo3.webp";
+import coordinate_geo4 from "./coordinate_geo4.webp";
+import linear_equation from "./linear_equation.webp";
+import linear_equation2 from "./linear_equation2.webp";
+import linear_equation3 from "./linear_equation3.webp";
+import linear_equation4 from "./linear_equation4.webp";
+import motion from "./motion.webp";
+import motion2 from "./motion2.webp";
+import motion3 from "./motion3.webp";
+import motion4 from "./motion4.webp";
 
 export {
   title,
@@ -84,6 +103,25 @@ export {
   maths,
   cs,
   space,
+  number_system,
+  number_system2,
+  number_system3,
+  polynomials,
+  polynomials2,
+  polynomials3,
+  polynomials4,
+  coordinate_geo,
+  coordinate_geo2,
+  coordinate_geo3,
+  coordinate_geo4,
+  linear_equation,
+  linear_equation2,
+  linear_equation3,
+  linear_equation4,
+  motion,
+  motion2,
+  motion3,
+  motion4,
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -128,6 +166,25 @@ export type ImageAssets = {
   maths: StaticImageData;
   cs : StaticImageData;
   space : StaticImageData;
+  number_system: StaticImageData;
+  number_system2: StaticImageData;
+  number_system3: StaticImageData;
+  polynomials: StaticImageData;
+  polynomials2: StaticImageData;
+  polynomials3: StaticImageData;
+  polynomials4: StaticImageData;
+  coordinate_geo: StaticImageData;
+  coordinate_geo2: StaticImageData;
+  coordinate_geo3: StaticImageData;
+  coordinate_geo4: StaticImageData;
+  linear_equation: StaticImageData;
+  linear_equation2: StaticImageData;
+  linear_equation3: StaticImageData;
+  linear_equation4: StaticImageData;
+  motion: StaticImageData;
+  motion2: StaticImageData;
+  motion3: StaticImageData;
+  motion4: StaticImageData;
 };
 // Default export of images for better structure
 const images: ImageAssets = {
@@ -171,7 +228,26 @@ const images: ImageAssets = {
   physics,
   maths,
   cs,
+  number_system,
   space,
+  number_system2,
+  number_system3,
+  polynomials,
+  polynomials2,
+  polynomials3,
+  polynomials4,
+  coordinate_geo,
+  coordinate_geo2,
+  coordinate_geo3,
+  coordinate_geo4,
+  linear_equation,
+  linear_equation2,
+  linear_equation3,
+  linear_equation4,
+  motion,
+  motion2,
+  motion3,
+  motion4,
 };
 
 export default images;
