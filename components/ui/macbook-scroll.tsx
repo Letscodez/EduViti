@@ -33,21 +33,36 @@ export const MacbookScroll = () => {
     offset: ["start start", "end start"],
   });
 
+  // State to store window width
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  // Effect to set the window width after mount
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setWindowWidth(window.innerWidth);
+    }
+  }, []);
+
+  // Transform values based on scroll progress
   const scaleX = useTransform(scrollYProgress, [0, 0.3], [1.2, 1.5]);
   const scaleY = useTransform(scrollYProgress, [0, 0.3], [0.6, 1.5]);
+
+  // Handle translate based on windowWidth (only client side)
   const translate = useTransform(
     scrollYProgress,
     [0, 1],
     [
       0,
-      window.innerWidth < 1500
-        ? window.innerWidth * 0.35
-        : window.innerWidth - 1000,
+      windowWidth < 1500
+        ? windowWidth * 0.35
+        : windowWidth - 1000,
     ]
   );
+
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.3], [-28, -28, 0]);
   const textTransform = useTransform(scrollYProgress, [0, 0.3], [0, 100]);
   const textOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
+
   return (
     <div
       ref={ref}
@@ -73,20 +88,16 @@ export const MacbookScroll = () => {
       />
       {/* Base area */}
       <div className="w-[32rem] bg-white/70 rounded-2xl -z-10">
-        {/* above keyboard bar */}
+        {/* Above keyboard bar */}
         <div className="h-10 w-full relative">
           <div className="absolute inset-x-0 mx-auto w-[80%] h-4 bg-[#050505]" />
         </div>
         <div className="flex relative">
-          <div className="mx-auto w-[10%] overflow-hidden h-full">
-            <SpeakerGrid />
-          </div>
+          <div className="mx-auto w-[10%] overflow-hidden h-full"></div>
           <div className="mx-auto w-[80%] h-full">
             <Keypad />
           </div>
-          <div className="mx-auto w-[10%] overflow-hidden h-full">
-            <SpeakerGrid />
-          </div>
+          <div className="mx-auto w-[10%] overflow-hidden h-full"></div>
         </div>
         <Trackpad />
       </div>
@@ -573,19 +584,6 @@ export const Row = ({ children }: { children: React.ReactNode }) => {
     <div className="flex gap-[2px] mb-[2px] w-full flex-shrink-0">
       {children}
     </div>
-  );
-};
-
-export const SpeakerGrid = () => {
-  return (
-    <div
-      className="flex px-[0.5px] gap-[2px] mt-2 h-40"
-      style={{
-        backgroundImage:
-          "radial-gradient(circle, #08080A 0.5px, transparent 0.5px)",
-        backgroundSize: "3px 3px",
-      }}
-    ></div>
   );
 };
 
