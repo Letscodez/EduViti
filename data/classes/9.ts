@@ -9,25 +9,6 @@ import {
   lakhmir_chem_9,
   hc_phy_9,
   manjit_maths_9,
-  number_system,
-  number_system2,
-  number_system3,
-  polynomials,
-  polynomials2,
-  polynomials3,
-  polynomials4,
-  coordinate_geo,
-  coordinate_geo2,
-  coordinate_geo3,
-  coordinate_geo4,
-  linear_equation,
-  linear_equation2,
-  linear_equation3,
-  linear_equation4,
-  motion,
-  motion2,
-  motion3,
-  motion4,
 } from "@/images/main";
 import { LinkType } from "./linkType";
 
@@ -391,17 +372,17 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/mvJNnu5cLVQ?si=TLOwdOmH5Lv_z26E",
-          thumbnail: number_system,
+          thumbnail: "https://img.youtube.com/vi/mvJNnu5cLVQ/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/xn2HskGqSkI?si=mLdxfuxau9-oPdGc",
-          thumbnail: number_system3,
+          thumbnail: "https://img.youtube.com/vi/xn2HskGqSkI/hqdefault.jpg", 
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/IMnSIaPcqiE?si=rd2E2CU5RdwpWVWB",
-          thumbnail: number_system2,
+          thumbnail : "https://img.youtube.com/vi/IMnSIaPcqiE/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
       ],
@@ -411,22 +392,22 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/piVBy9DRPOw?si=bqPVq2bKwHhP9X-c",
-          thumbnail: polynomials,
+          thumbnail : "https://img.youtube.com/vi/piVBy9DRPOw/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/HrWVcpxxG-E?si=DGEFqoX9zJncRY4p",
-          thumbnail: polynomials2,
+          thumbnail : "https://img.youtube.com/vi/HrWVcpxxG-E/hqdefault.jpg",
           channel: "Just Padhle",
         },
         {
           path: "https://youtu.be/roFOxpZtiV4?si=sSAVnjx0LTx7Rleg",
-          thumbnail: polynomials3,
+          thumbnail : "https://img.youtube.com/vi/roFOxpZtiV4/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/4VHrvMutJQw?si=ssfRhRJuhBC8rCYa",
-          thumbnail: polynomials4,
+          thumbnail : "https://img.youtube.com/vi/4VHrvMutJQw/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
       ],
@@ -436,22 +417,22 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/CEF-IN3HMgk?si=bQ4LKReCRBC1V13m",
-          thumbnail: coordinate_geo,
+          thumbnail : "https://img.youtube.com/vi/CEF-IN3HMgk/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/xy5-dN_F1EY?si=1lUFPgtiygEQ3DvQ",
-          thumbnail: coordinate_geo3,
+          thumbnail : "https://img.youtube.com/vi/xy5-dN_F1EY/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/C5YdatNlzXg?si=_ijF6aHaRFZoD2hp",
-          thumbnail: coordinate_geo2,
+          thumbnail : "https://img.youtube.com/vi/C5YdatNlzXg/hqdefault.jpg",
           channel: "Just Padhle",
         },
         {
           path: "https://youtu.be/3MIZUl6bWxY?si=Q1-ohWFYcKEdeTc9",
-          thumbnail: coordinate_geo4,
+          thumbnail : "https://img.youtube.com/vi/3MIZUl6bWxY/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
       ],
@@ -461,22 +442,22 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/WgwGkAxG1OM?si=Fvuuzh-BL2q-lG_C",
-          thumbnail: linear_equation,
+          thumbnail : "https://img.youtube.com/vi/WgwGkAxG1OM/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/mYrKse4WKsQ?si=-hO36HfMHQAtBJVP",
-          thumbnail: linear_equation2,
+          thumbnail : "https://img.youtube.com/vi/mYrKse4WKsQ/hqdefault.jpg",
           channel: "Just Padhle",
         },
         {
           path: "https://youtu.be/rnudiJxVXxM?si=5LyW-RtczekCwWRp",
-          thumbnail: linear_equation3,
+          thumbnail : "https://img.youtube.com/vi/rnudiJxVXxM/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
         {
           path: "https://youtu.be/s6DFsuvWl-4?si=12lZlGmC-RgZF6co",
-          thumbnail: linear_equation4,
+          thumbnail : "https://img.youtube.com/vi/s6DFsuvWl-4/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
       ],
@@ -485,14 +466,19 @@ export const maths = {
       name: "Euclid’s Geometry",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/euclids_geometry/opt1",
-          thumbnail: "/images/euclids_geometry_thumbnail1.jpg",
-          channel: "Classic Geometry",
+          path: "https://youtu.be/TN4yzAvyTyA?si=rCkk7JgvgM1-dXdS",
+          thumbnail : "https://img.youtube.com/vi/TN4yzAvyTyA/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/StudyResources/Grade-9/maths/euclids_geometry/opt2",
-          thumbnail: "/images/euclids_geometry_thumbnail2.jpg",
-          channel: "Geometry Channel",
+          path: "https://youtu.be/mxeXcTjQiuM?si=7GUd5ubFJuH9JIZu",
+          thumbnail : "https://img.youtube.com/vi/mxeXcTjQiuM/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
+        },
+        {
+          path: "https://youtu.be/V3OaMQDynpw?si=A1WVOoYuiHexChFW",
+          thumbnail : "https://img.youtube.com/vi/V3OaMQDynpw/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
       ],
     },
@@ -500,14 +486,24 @@ export const maths = {
       name: "Lines and Angles",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/lines_and_angles/opt1",
-          thumbnail: "/images/lines_and_angles_thumbnail1.jpg",
-          channel: "Angles Explained",
+          path: "https://youtu.be/nEYldznpZmk?si=n9ooQSGPPHsf-JL1",
+          thumbnail : "https://img.youtube.com/vi/nEYldznpZmk/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
         },
         {
-          path: "/StudyResources/Grade-9/maths/lines_and_angles/opt2",
-          thumbnail: "/images/lines_and_angles_thumbnail2.jpg",
-          channel: "Line Learners",
+          path: "https://youtu.be/Ab85MNomGrk?si=Bu1oCYHlHYaSzHVS",
+          thumbnail : "https://img.youtube.com/vi/Ab85MNomGrk/hqdefault.jpg",
+          channel: "Neev",
+        },
+        {
+          path: "https://youtu.be/Ew3vnuclMj0?si=KwSehnjJyuC7Oirb",
+          thumbnail : "https://img.youtube.com/vi/Ew3vnuclMj0/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/fTu41yTrvLQ?si=r73YJuwhmUxTEXsi",
+          thumbnail : "https://img.youtube.com/vi/fTu41yTrvLQ/hqdefault.jpg",
+          channel: "E Saral",
         },
       ],
     },
@@ -515,14 +511,19 @@ export const maths = {
       name: "Triangles",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/triangles/opt1",
-          thumbnail: "/images/triangles_thumbnail1.jpg",
-          channel: "Triangle Tutors",
+          path: "https://youtu.be/wIeiqvdVCJI?si=IRGUz5PHEaWL0Hfs",
+          thumbnail : "https://img.youtube.com/vi/wIeiqvdVCJI/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
         },
         {
-          path: "/StudyResources/Grade-9/maths/triangles/opt2",
-          thumbnail: "/images/triangles_thumbnail2.jpg",
-          channel: "Math Mastery",
+          path: "https://youtu.be/JchrIviEP-k?si=e0-ZrNJ6s_O4wW-X",
+          thumbnail : "https://img.youtube.com/vi/JchrIviEP-k/hqdefault.jpg",
+          channel: "Neev",
+        },
+        {
+          path: "https://youtu.be/opM7P7qbxBc?si=yjOaoRA-aqBuaaL2",
+          thumbnail : "https://img.youtube.com/vi/opM7P7qbxBc/hqdefault.jpg",
+          channel: "E Saral",
         },
       ],
     },
@@ -530,14 +531,19 @@ export const maths = {
       name: "Quadrilaterals",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/quadrilaterals/opt1",
-          thumbnail: "/images/quadrilaterals_thumbnail1.jpg",
-          channel: "Quad Geometrics",
+          path: "https://youtu.be/STrfPXdTzUA?si=ErbBls5HYvkRHjZL",
+          thumbnail : "https://img.youtube.com/vi/STrfPXdTzUA/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
         },
         {
-          path: "/StudyResources/Grade-9/maths/quadrilaterals/opt2",
-          thumbnail: "/images/quadrilaterals_thumbnail2.jpg",
-          channel: "Shape Explorers",
+          path: "https://youtu.be/gRnugEmmMwY?si=tOdMeP99ABoNt6WO",
+          thumbnail : "https://img.youtube.com/vi/gRnugEmmMwY/hqdefault.jpg",
+          channel: "E Saral",
+        },
+        {
+          path: "https://youtu.be/i4YkXbppbJE?si=nzK7ZoaZfogfQtmx",
+          thumbnail : "https://img.youtube.com/vi/i4YkXbppbJE/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
       ],
     },
@@ -545,29 +551,40 @@ export const maths = {
       name: "Areas of Parallelograms and Triangles",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/areas_parallelograms_triangles/opt1",
-          thumbnail: "/images/areas_thumbnail1.jpg",
-          channel: "Area Experts",
+          path: "https://youtu.be/q1TP_HOI3PU?si=oDr_RyyP3ceS6fHS",
+          thumbnail : "https://img.youtube.com/vi/q1TP_HOI3PU/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/StudyResources/Grade-9/maths/areas_parallelograms_triangles/opt2",
-          thumbnail: "/images/areas_thumbnail2.jpg",
-          channel: "Math Visuals",
+          path: "https://youtu.be/STrfPXdTzUA?si=Xuu4RLO0dl-iVPVm",
+          thumbnail : "https://img.youtube.com/vi/STrfPXdTzUA/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
         },
+        {
+          path: "https://youtu.be/2wxOtjqcKME?si=rZ6eXDRrU_QH5zHB",
+          thumbnail : "https://img.youtube.com/vi/2wxOtjqcKME/hqdefault.jpg",
+          channel: "Neev",
+        },
+       
       ],
     },
     {
       name: "Circles",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/circles/opt1",
-          thumbnail: "/images/circles_thumbnail1.jpg",
-          channel: "Circle Insights",
+          path: "https://youtu.be/mCWjZ5q58u8?si=e3r0QLonwPcPerGV",
+          thumbnail : "https://img.youtube.com/vi/mCWjZ5q58u8/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
         },
         {
-          path: "/StudyResources/Grade-9/maths/circles/opt2",
-          thumbnail: "/images/circles_thumbnail2.jpg",
-          channel: "Round Math",
+          path: "https://youtu.be/eU3TKYrdAmU?si=QrHB0j1DEqPLAxne",
+          thumbnail : "https://img.youtube.com/vi/eU3TKYrdAmU/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/5ZKPUljCgnA?si=5mpe-LhGIOXvnbxU",
+          thumbnail : "https://img.youtube.com/vi/5ZKPUljCgnA/hqdefault.jpg",
+          channel: "E Saral",
         },
       ],
     },
@@ -575,14 +592,9 @@ export const maths = {
       name: "Constructions",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/constructions/opt1",
-          thumbnail: "/images/constructions_thumbnail1.jpg",
-          channel: "Constructive Math",
-        },
-        {
-          path: "/StudyResources/Grade-9/maths/constructions/opt2",
-          thumbnail: "/images/constructions_thumbnail2.jpg",
-          channel: "Build Geometrics",
+          path: "https://youtu.be/Xh71XjC_tzc?si=YRblVoNF5yMa8l4S",
+          thumbnail : "https://img.youtube.com/vi/Xh71XjC_tzc/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
       ],
     },
@@ -590,14 +602,19 @@ export const maths = {
       name: "Heron’s Formula",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/herons_formula/opt1",
-          thumbnail: "/images/herons_formula_thumbnail1.jpg",
-          channel: "Formula Experts",
+          path: "https://youtu.be/xovtUr4TN6Y?si=d8NUAsuzqgJRjy3c",
+          thumbnail : "https://img.youtube.com/vi/xovtUr4TN6Y/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
         },
         {
-          path: "/StudyResources/Grade-9/maths/herons_formula/opt2",
-          thumbnail: "/images/herons_formula_thumbnail2.jpg",
-          channel: "Area Calculators",
+          path: "https://youtu.be/5NgoP7d-Nmo?si=nRKBPnByahyp4nRR",
+          thumbnail : "https://img.youtube.com/vi/5NgoP7d-Nmo/hqdefault.jpg",
+          channel: "Just Padhle",
+        },
+        {
+          path: "https://youtu.be/TR6LgGf1hw4?si=gxcT5wsgnmNPWB_i",
+          thumbnail : "https://img.youtube.com/vi/TR6LgGf1hw4/hqdefault.jpg",
+          channel: "Neev",
         },
       ],
     },
@@ -605,14 +622,14 @@ export const maths = {
       name: "Surface Areas and Volumes",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/surface_areas_volumes/opt1",
-          thumbnail: "/images/surface_areas_volumes_thumbnail1.jpg",
-          channel: "Volume Vault",
+          path: "https://youtu.be/DDr1vzPtBzM?si=jSvWd7XazLytT4UO",
+          thumbnail : "https://img.youtube.com/vi/DDr1vzPtBzM/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/StudyResources/Grade-9/maths/surface_areas_volumes/opt2",
-          thumbnail: "/images/surface_areas_volumes_thumbnail2.jpg",
-          channel: "Geometry Warehouse",
+          path: "https://youtu.be/Zdr7z5F8Tsg?si=mUOFZlhSSsByFiUK",
+          thumbnail : "https://img.youtube.com/vi/Zdr7z5F8Tsg/hqdefault.jpg",
+          channel: "Neev",
         },
       ],
     },
@@ -620,14 +637,19 @@ export const maths = {
       name: "Statistics",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/statistics/opt1",
-          thumbnail: "/images/statistics_thumbnail1.jpg",
+          path: "https://youtu.be/I14-2s24_JI?si=6ei-m_sSyH46dtgx",
+          thumbnail : "https://img.youtube.com/vi/I14-2s24_JI/hqdefault.jpg",
           channel: "Data Insight",
         },
         {
-          path: "/StudyResources/Grade-9/maths/statistics/opt2",
-          thumbnail: "/images/statistics_thumbnail2.jpg",
-          channel: "Number Crunchers",
+          path: "https://youtu.be/z0CtovThIr0?si=ktXFJD3_4rMJLwe3",
+          thumbnail : "https://img.youtube.com/vi/z0CtovThIr0/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/6PDGSCB0RFQ?si=QfKQ3o4lnswqYACA",
+          thumbnail : "https://img.youtube.com/vi/6PDGSCB0RFQ/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
       ],
     },
@@ -635,14 +657,14 @@ export const maths = {
       name: "Probability",
       options: [
         {
-          path: "/StudyResources/Grade-9/maths/probability/opt1",
-          thumbnail: "/images/probability_thumbnail1.jpg",
-          channel: "Chance Makers",
+          path: "https://youtu.be/_XT6d6k8J5Q?si=GvqdxiJG2vsjOrNb",
+          thumbnail : "https://img.youtube.com/vi/_XT6d6k8J5Q/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/StudyResources/Grade-9/maths/probability/opt2",
-          thumbnail: "/images/probability_thumbnail2.jpg",
-          channel: "Probabilistic Learners",
+          path: "https://youtu.be/LZf-LjUXYzk?si=vnhyVyCivTPZ89LO",
+          thumbnail : "https://img.youtube.com/vi/LZf-LjUXYzk/hqdefault.jpg",
+          channel: "Neev",
         },
       ],
     },
@@ -830,22 +852,22 @@ export const physics = {
       options: [
         {
           path: "https://youtu.be/Hu4aP4m00ks?si=W9yCAM1qKrb2wxCq",
-          thumbnail: motion,
+          thumbnail: "https://img.youtube.com/vi/Hu4aP4m00ks/hqdefault.jpg",
           channel: "Science and Fun Education",
         },
         {
           path: "https://youtu.be/jC6MW9KOQvU?si=yH0efVt-LoVXP0W6",
-          thumbnail: motion2,
+          thumbnail: "https://img.youtube.com/vi/jC6MW9KOQvU/hqdefault.jpg",
           channel: "Exphub 9th & 10th",
         },
         {
           path: "https://youtu.be/kBq6HCRNqa8?si=V_2KYBM2K__lXWfM",
-          thumbnail: motion3,
+          thumbnail: "https://img.youtube.com/vi/kBq6HCRNqa8/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/UNaOc4pXoUM?si=qMjqtq1FYk8Cz5RQ",
-          thumbnail: motion4,
+          thumbnail: "https://img.youtube.com/vi/UNaOc4pXoUM/hqdefault.jpg",
           channel: "Just Padhle",
         },
       ],
