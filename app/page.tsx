@@ -14,7 +14,7 @@ export default function Home() {
       <HeroSection />
       <CTA />
       <Capabilities />
-      <section className="py-12 md:min-h-[200vh] overflow-hidden">
+      <section className="md:min-h-[350vh] overflow-hidden">
         <MacbookScroll />
       </section>
       <EducatorCarousel />
