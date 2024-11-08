@@ -40,6 +40,7 @@ import chemistry from "./chemistry.webp";
 import physics from "./physics.webp";
 import maths from "./maths.webp";
 import cs from "./cs.webp";
+import mac from "./mac.png";
 
 export {
   title,
@@ -82,6 +83,7 @@ export {
   physics,
   maths,
   cs,
+  mac,
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -125,6 +127,7 @@ export type ImageAssets = {
   physics: StaticImageData;
   maths: StaticImageData;
   cs : StaticImageData;
+  // mac: StaticImageData;
 };
 // Default export of images for better structure
 const images: ImageAssets = {
@@ -168,6 +171,7 @@ const images: ImageAssets = {
   physics,
   maths,
   cs,
+  // mac,
 };
 
 export default images;

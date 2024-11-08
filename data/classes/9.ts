@@ -377,12 +377,12 @@ export const maths = {
         },
         {
           path: "https://youtu.be/xn2HskGqSkI?si=mLdxfuxau9-oPdGc",
-          thumbnail: "https://img.youtube.com/vi/xn2HskGqSkI/hqdefault.jpg", 
+          thumbnail: "https://img.youtube.com/vi/xn2HskGqSkI/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/IMnSIaPcqiE?si=rd2E2CU5RdwpWVWB",
-          thumbnail : "https://img.youtube.com/vi/IMnSIaPcqiE/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/IMnSIaPcqiE/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
       ],
@@ -392,22 +392,22 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/piVBy9DRPOw?si=bqPVq2bKwHhP9X-c",
-          thumbnail : "https://img.youtube.com/vi/piVBy9DRPOw/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/piVBy9DRPOw/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/HrWVcpxxG-E?si=DGEFqoX9zJncRY4p",
-          thumbnail : "https://img.youtube.com/vi/HrWVcpxxG-E/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/HrWVcpxxG-E/hqdefault.jpg",
           channel: "Just Padhle",
         },
         {
           path: "https://youtu.be/roFOxpZtiV4?si=sSAVnjx0LTx7Rleg",
-          thumbnail : "https://img.youtube.com/vi/roFOxpZtiV4/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/roFOxpZtiV4/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/4VHrvMutJQw?si=ssfRhRJuhBC8rCYa",
-          thumbnail : "https://img.youtube.com/vi/4VHrvMutJQw/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/4VHrvMutJQw/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
       ],
@@ -417,22 +417,22 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/CEF-IN3HMgk?si=bQ4LKReCRBC1V13m",
-          thumbnail : "https://img.youtube.com/vi/CEF-IN3HMgk/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/CEF-IN3HMgk/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/xy5-dN_F1EY?si=1lUFPgtiygEQ3DvQ",
-          thumbnail : "https://img.youtube.com/vi/xy5-dN_F1EY/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/xy5-dN_F1EY/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/C5YdatNlzXg?si=_ijF6aHaRFZoD2hp",
-          thumbnail : "https://img.youtube.com/vi/C5YdatNlzXg/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/C5YdatNlzXg/hqdefault.jpg",
           channel: "Just Padhle",
         },
         {
           path: "https://youtu.be/3MIZUl6bWxY?si=Q1-ohWFYcKEdeTc9",
-          thumbnail : "https://img.youtube.com/vi/3MIZUl6bWxY/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/3MIZUl6bWxY/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
       ],
@@ -442,22 +442,22 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/WgwGkAxG1OM?si=Fvuuzh-BL2q-lG_C",
-          thumbnail : "https://img.youtube.com/vi/WgwGkAxG1OM/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/WgwGkAxG1OM/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/mYrKse4WKsQ?si=-hO36HfMHQAtBJVP",
-          thumbnail : "https://img.youtube.com/vi/mYrKse4WKsQ/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/mYrKse4WKsQ/hqdefault.jpg",
           channel: "Just Padhle",
         },
         {
           path: "https://youtu.be/rnudiJxVXxM?si=5LyW-RtczekCwWRp",
-          thumbnail : "https://img.youtube.com/vi/rnudiJxVXxM/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/rnudiJxVXxM/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
         {
           path: "https://youtu.be/s6DFsuvWl-4?si=12lZlGmC-RgZF6co",
-          thumbnail : "https://img.youtube.com/vi/s6DFsuvWl-4/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/s6DFsuvWl-4/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
       ],
@@ -467,17 +467,17 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/TN4yzAvyTyA?si=rCkk7JgvgM1-dXdS",
-          thumbnail : "https://img.youtube.com/vi/TN4yzAvyTyA/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/TN4yzAvyTyA/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/mxeXcTjQiuM?si=7GUd5ubFJuH9JIZu",
-          thumbnail : "https://img.youtube.com/vi/mxeXcTjQiuM/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/mxeXcTjQiuM/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
         {
           path: "https://youtu.be/V3OaMQDynpw?si=A1WVOoYuiHexChFW",
-          thumbnail : "https://img.youtube.com/vi/V3OaMQDynpw/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/V3OaMQDynpw/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
       ],
@@ -486,23 +486,23 @@ export const maths = {
       name: "Lines and Angles",
       options: [
         {
-          path: "https://youtu.be/nEYldznpZmk?si=n9ooQSGPPHsf-JL1",
-          thumbnail : "https://img.youtube.com/vi/nEYldznpZmk/hqdefault.jpg",
-          channel: "Shobhit Nirwan",
-        },
-        {
           path: "https://youtu.be/Ab85MNomGrk?si=Bu1oCYHlHYaSzHVS",
-          thumbnail : "https://img.youtube.com/vi/Ab85MNomGrk/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/Ab85MNomGrk/hqdefault.jpg",
           channel: "Neev",
         },
         {
           path: "https://youtu.be/Ew3vnuclMj0?si=KwSehnjJyuC7Oirb",
-          thumbnail : "https://img.youtube.com/vi/Ew3vnuclMj0/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/Ew3vnuclMj0/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
+          path: "https://youtu.be/nEYldznpZmk?si=n9ooQSGPPHsf-JL1",
+          thumbnail: "https://img.youtube.com/vi/nEYldznpZmk/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
+        },
+        {
           path: "https://youtu.be/fTu41yTrvLQ?si=r73YJuwhmUxTEXsi",
-          thumbnail : "https://img.youtube.com/vi/fTu41yTrvLQ/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/fTu41yTrvLQ/hqdefault.jpg",
           channel: "E Saral",
         },
       ],
@@ -511,18 +511,18 @@ export const maths = {
       name: "Triangles",
       options: [
         {
-          path: "https://youtu.be/wIeiqvdVCJI?si=IRGUz5PHEaWL0Hfs",
-          thumbnail : "https://img.youtube.com/vi/wIeiqvdVCJI/hqdefault.jpg",
-          channel: "Shobhit Nirwan",
-        },
-        {
           path: "https://youtu.be/JchrIviEP-k?si=e0-ZrNJ6s_O4wW-X",
-          thumbnail : "https://img.youtube.com/vi/JchrIviEP-k/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/JchrIviEP-k/hqdefault.jpg",
           channel: "Neev",
         },
         {
+          path: "https://youtu.be/wIeiqvdVCJI?si=IRGUz5PHEaWL0Hfs",
+          thumbnail: "https://img.youtube.com/vi/wIeiqvdVCJI/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
+        },
+        {
           path: "https://youtu.be/opM7P7qbxBc?si=yjOaoRA-aqBuaaL2",
-          thumbnail : "https://img.youtube.com/vi/opM7P7qbxBc/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/opM7P7qbxBc/hqdefault.jpg",
           channel: "E Saral",
         },
       ],
@@ -532,17 +532,17 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/STrfPXdTzUA?si=ErbBls5HYvkRHjZL",
-          thumbnail : "https://img.youtube.com/vi/STrfPXdTzUA/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/STrfPXdTzUA/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
         {
           path: "https://youtu.be/gRnugEmmMwY?si=tOdMeP99ABoNt6WO",
-          thumbnail : "https://img.youtube.com/vi/gRnugEmmMwY/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/gRnugEmmMwY/hqdefault.jpg",
           channel: "E Saral",
         },
         {
           path: "https://youtu.be/i4YkXbppbJE?si=nzK7ZoaZfogfQtmx",
-          thumbnail : "https://img.youtube.com/vi/i4YkXbppbJE/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/i4YkXbppbJE/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
       ],
@@ -552,20 +552,14 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/q1TP_HOI3PU?si=oDr_RyyP3ceS6fHS",
-          thumbnail : "https://img.youtube.com/vi/q1TP_HOI3PU/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/q1TP_HOI3PU/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
-          path: "https://youtu.be/STrfPXdTzUA?si=Xuu4RLO0dl-iVPVm",
-          thumbnail : "https://img.youtube.com/vi/STrfPXdTzUA/hqdefault.jpg",
-          channel: "Shobhit Nirwan",
-        },
-        {
           path: "https://youtu.be/2wxOtjqcKME?si=rZ6eXDRrU_QH5zHB",
-          thumbnail : "https://img.youtube.com/vi/2wxOtjqcKME/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/2wxOtjqcKME/hqdefault.jpg",
           channel: "Neev",
         },
-       
       ],
     },
     {
@@ -573,17 +567,17 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/mCWjZ5q58u8?si=e3r0QLonwPcPerGV",
-          thumbnail : "https://img.youtube.com/vi/mCWjZ5q58u8/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/mCWjZ5q58u8/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
         {
           path: "https://youtu.be/eU3TKYrdAmU?si=QrHB0j1DEqPLAxne",
-          thumbnail : "https://img.youtube.com/vi/eU3TKYrdAmU/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/eU3TKYrdAmU/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/5ZKPUljCgnA?si=5mpe-LhGIOXvnbxU",
-          thumbnail : "https://img.youtube.com/vi/5ZKPUljCgnA/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/5ZKPUljCgnA/hqdefault.jpg",
           channel: "E Saral",
         },
       ],
@@ -593,7 +587,7 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/Xh71XjC_tzc?si=YRblVoNF5yMa8l4S",
-          thumbnail : "https://img.youtube.com/vi/Xh71XjC_tzc/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/Xh71XjC_tzc/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
       ],
@@ -602,19 +596,19 @@ export const maths = {
       name: "Heron’s Formula",
       options: [
         {
+          path: "https://youtu.be/TR6LgGf1hw4?si=gxcT5wsgnmNPWB_i",
+          thumbnail: "https://img.youtube.com/vi/TR6LgGf1hw4/hqdefault.jpg",
+          channel: "Neev",
+        },
+        {
           path: "https://youtu.be/xovtUr4TN6Y?si=d8NUAsuzqgJRjy3c",
-          thumbnail : "https://img.youtube.com/vi/xovtUr4TN6Y/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/xovtUr4TN6Y/hqdefault.jpg",
           channel: "Shobhit Nirwan",
         },
         {
           path: "https://youtu.be/5NgoP7d-Nmo?si=nRKBPnByahyp4nRR",
-          thumbnail : "https://img.youtube.com/vi/5NgoP7d-Nmo/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/5NgoP7d-Nmo/hqdefault.jpg",
           channel: "Just Padhle",
-        },
-        {
-          path: "https://youtu.be/TR6LgGf1hw4?si=gxcT5wsgnmNPWB_i",
-          thumbnail : "https://img.youtube.com/vi/TR6LgGf1hw4/hqdefault.jpg",
-          channel: "Neev",
         },
       ],
     },
@@ -623,12 +617,12 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/DDr1vzPtBzM?si=jSvWd7XazLytT4UO",
-          thumbnail : "https://img.youtube.com/vi/DDr1vzPtBzM/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/DDr1vzPtBzM/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/Zdr7z5F8Tsg?si=mUOFZlhSSsByFiUK",
-          thumbnail : "https://img.youtube.com/vi/Zdr7z5F8Tsg/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/Zdr7z5F8Tsg/hqdefault.jpg",
           channel: "Neev",
         },
       ],
@@ -638,17 +632,17 @@ export const maths = {
       options: [
         {
           path: "https://youtu.be/I14-2s24_JI?si=6ei-m_sSyH46dtgx",
-          thumbnail : "https://img.youtube.com/vi/I14-2s24_JI/hqdefault.jpg",
-          channel: "Data Insight",
+          thumbnail: "https://img.youtube.com/vi/I14-2s24_JI/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/z0CtovThIr0?si=ktXFJD3_4rMJLwe3",
-          thumbnail : "https://img.youtube.com/vi/z0CtovThIr0/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/z0CtovThIr0/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
         {
           path: "https://youtu.be/6PDGSCB0RFQ?si=QfKQ3o4lnswqYACA",
-          thumbnail : "https://img.youtube.com/vi/6PDGSCB0RFQ/hqdefault.jpg",
+          thumbnail: "https://img.youtube.com/vi/6PDGSCB0RFQ/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
       ],
@@ -657,14 +651,14 @@ export const maths = {
       name: "Probability",
       options: [
         {
-          path: "https://youtu.be/_XT6d6k8J5Q?si=GvqdxiJG2vsjOrNb",
-          thumbnail : "https://img.youtube.com/vi/_XT6d6k8J5Q/hqdefault.jpg",
-          channel: "Physics Wallah Foundation",
+          path: "https://youtu.be/LZf-LjUXYzk?si=vnhyVyCivTPZ89LO",
+          thumbnail: "https://img.youtube.com/vi/LZf-LjUXYzk/hqdefault.jpg",
+          channel: "Neev",
         },
         {
-          path: "https://youtu.be/LZf-LjUXYzk?si=vnhyVyCivTPZ89LO",
-          thumbnail : "https://img.youtube.com/vi/LZf-LjUXYzk/hqdefault.jpg",
-          channel: "Neev",
+          path: "https://youtu.be/_XT6d6k8J5Q?si=GvqdxiJG2vsjOrNb",
+          thumbnail: "https://img.youtube.com/vi/_XT6d6k8J5Q/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
       ],
     },
@@ -877,22 +871,22 @@ export const physics = {
       options: [
         {
           path: "https://youtu.be/CfxfW64P04s?si=axw-9EPneSmCDD5J",
-          thumbnail: "/images/force_thumbnail1.jpg",
+          thumbnail: "https://img.youtube.com/vi/CfxfW64P04s/hqdefault.jpg",
           channel: "Exphub 9th & 10th",
         },
         {
           path: "https://youtu.be/4tVLGfVf1JY?si=I3UE-rsFZ4Bj82Cd",
-          thumbnail: "/images/force_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/4tVLGfVf1JY/hqdefault.jpg",
           channel: "Just Padhle",
         },
         {
           path: "https://youtu.be/gAwBg9sQz0M?si=CPdcngRYvDv7llWC",
-          thumbnail: "/images/force_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/gAwBg9sQz0M/hqdefault.jpg",
           channel: "Science and Fun Education",
         },
         {
           path: "https://youtu.be/yhyMVW8vhlw?si=Boeti5Xzy2_e0wJb",
-          thumbnail: "/images/force_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/yhyMVW8vhlw/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
       ],
@@ -902,22 +896,22 @@ export const physics = {
       options: [
         {
           path: "https://youtu.be/cWNh0yGdXvg?si=O8V4HNh0L7H2TbBi",
-          thumbnail: "/images/gravitation_thumbnail1.jpg",
+          thumbnail: "https://img.youtube.com/vi/cWNh0yGdXvg/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/MwDnfa3puhA?si=Bb5IOV3zJezEt6tA",
-          thumbnail: "/images/gravitation_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/MwDnfa3puhA/hqdefault.jpg",
           channel: "Science and Fun Education",
         },
         {
           path: "https://youtu.be/yeFQ2Ce_nKo?si=HrP96HKeGIvFBcaN",
-          thumbnail: "/images/gravitation_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/yeFQ2Ce_nKo/hqdefault.jpg",
           channel: "Exphub 9th & 10th",
         },
         {
           path: "https://youtu.be/VcACFEy97o0?si=pIq_a9EBbeSqooYO",
-          thumbnail: "/images/gravitation_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/VcACFEy97o0/hqdefault.jpg",
           channel: "Just Padhle",
         },
       ],
@@ -927,22 +921,22 @@ export const physics = {
       options: [
         {
           path: "https://youtu.be/bGFE2Z-VVM8?si=Kzj_85ycz4VbJFaA",
-          thumbnail: "/images/work_energy_thumbnail1.jpg",
+          thumbnail: "https://img.youtube.com/vi/bGFE2Z-VVM8/hqdefault.jpg",
           channel: "Exphub 9th & 10th",
         },
         {
           path: "https://youtu.be/bf0VndcVIdA?si=Z-LefXTDohw3LZBL",
-          thumbnail: "/images/work_energy_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/bf0VndcVIdA/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/DaSbG6oxcUs?si=9QPsLaWlQtcRkIuy",
-          thumbnail: "/images/work_energy_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/DaSbG6oxcUs/hqdefault.jpg",
           channel: "Science and Fun Education",
         },
         {
           path: "https://youtu.be/kUDTV32U98s?si=OPmJcefxDnACKtKt",
-          thumbnail: "/images/work_energy_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/kUDTV32U98s/hqdefault.jpg",
           channel: "Just Padhle",
         },
       ],
@@ -952,22 +946,22 @@ export const physics = {
       options: [
         {
           path: "https://youtu.be/0582DSZbGrY?si=B4RtqNElW5jcPjVH",
-          thumbnail: "/images/sound_thumbnail1.jpg",
+          thumbnail: "https://img.youtube.com/vi/0582DSZbGrY/hqdefault.jpg",
           channel: "NEEV",
         },
         {
           path: "https://youtu.be/BD0pQ9EH4_8?si=tVUwBlzoboNqFBoS",
-          thumbnail: "/images/sound_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/BD0pQ9EH4_8/hqdefault.jpg",
           channel: "Science and Fun Education",
         },
         {
           path: "https://youtu.be/yWa-n2xTIH8?si=1_BksL_GEn_3_8Gj",
-          thumbnail: "/images/sound_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/yWa-n2xTIH8/hqdefault.jpg",
           channel: "Just Padhle",
         },
         {
           path: "https://youtu.be/1lOvAIx73vM?si=5MSUCbdt2Exw4gu4",
-          thumbnail: "/images/sound_thumbnail2.jpg",
+          thumbnail: "https://img.youtube.com/vi/1lOvAIx73vM/hqdefault.jpg",
           channel: "Physics Wallah Foundation",
         },
       ],
@@ -1175,14 +1169,29 @@ export const chemistry = {
       name: "Matter in Our Surroundings",
       options: [
         {
-          path: "/dummy/path/matter-in-our-surroundings/opt1",
-          thumbnail: "/images/matter_thumbnail1.jpg",
-          channel: "Chemistry Channel 1",
+          path: "https://youtu.be/Ltr3IROAD0E?si=TEKbxwESr5Vgldjy",
+          thumbnail: "https://img.youtube.com/vi/Ltr3IROAD0E/hqdefault.jpg",
+          channel: "NEEV",
         },
         {
-          path: "/dummy/path/matter-in-our-surroundings/opt2",
-          thumbnail: "/images/matter_thumbnail2.jpg",
-          channel: "Chemistry Channel 2",
+          path: "https://youtu.be/xjP2CwCLKsE?si=7jbazPmRbx37W_lF",
+          thumbnail: "https://img.youtube.com/vi/xjP2CwCLKsE/hqdefault.jpg",
+          channel: "EduMantra- Sanjiv Pandey",
+        },
+        {
+          path: "https://youtu.be/bmzDsWMSCTk?si=yyUHQV9ehbmDQ2Sq",
+          thumbnail: "https://img.youtube.com/vi/bmzDsWMSCTk/hqdefault.jpg",
+          channel: "Exphub 9th & 10th",
+        },
+        {
+          path: "https://youtu.be/ddkOJ95g7Ro?si=Kf9hB2YC-D0hvUy8",
+          thumbnail: "https://img.youtube.com/vi/ddkOJ95g7Ro/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/vtnGL7sPNJc?si=r1wziHbZ8m_t1ft_",
+          thumbnail: "https://img.youtube.com/vi/vtnGL7sPNJc/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -1190,14 +1199,24 @@ export const chemistry = {
       name: "Is Matter Around Us Pure",
       options: [
         {
-          path: "/dummy/path/is-matter-around-us-pure/opt1",
-          thumbnail: "/images/pure_matter_thumbnail1.jpg",
-          channel: "Chemistry Channel 3",
+          path: "https://youtu.be/dRIKuLVW3-s?si=0j4qoCpc5cda7bCG",
+          thumbnail: "https://img.youtube.com/vi/dRIKuLVW3-s/hqdefault.jpg",
+          channel: "EduMantra- Sanjiv Pandey",
         },
         {
-          path: "/dummy/path/is-matter-around-us-pure/opt2",
-          thumbnail: "/images/pure_matter_thumbnail2.jpg",
-          channel: "Chemistry Channel 4",
+          path: "https://youtu.be/KXlgr9CNfM8?si=RXbHYaGIQSxpos3j",
+          thumbnail: "https://img.youtube.com/vi/KXlgr9CNfM8/hqdefault.jpg",
+          channel: "Just Padhle",
+        },
+        {
+          path: "https://youtu.be/fDTLrhcIWx0?si=PJkWWR2lUpEK8FyM",
+          thumbnail: "https://img.youtube.com/vi/fDTLrhcIWx0/hqdefault.jpg",
+          channel: "Exphub 9th & 10th",
+        },
+        {
+          path: "https://youtu.be/jELZR724itY?si=nBIf7rZFc_t3Ouyv",
+          thumbnail: "https://img.youtube.com/vi/jELZR724itY/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -1205,14 +1224,24 @@ export const chemistry = {
       name: "Atoms and Molecules",
       options: [
         {
-          path: "/dummy/path/atoms-and-molecules/opt1",
-          thumbnail: "/images/atoms_thumbnail1.jpg",
-          channel: "Chemistry Channel 5",
+          path: "https://youtu.be/jG3MHvLQmU8?si=T08MJvegSdac_xoq",
+          thumbnail: "https://img.youtube.com/vi/jG3MHvLQmU8/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/atoms-and-molecules/opt2",
-          thumbnail: "/images/atoms_thumbnail2.jpg",
-          channel: "Chemistry Channel 6",
+          path: "https://youtu.be/lz6az1x-QME?si=ZKVUzLXWp-KmSpbi",
+          thumbnail: "https://img.youtube.com/vi/lz6az1x-QME/hqdefault.jpg",
+          channel: "Bhai Ki Padhai",
+        },
+        {
+          path: "https://youtu.be/dHlIHgqdYJM?si=ITpHXVvnuSwVNrDO",
+          thumbnail: "https://img.youtube.com/vi/dHlIHgqdYJM/hqdefault.jpg",
+          channel: "EduMantra- Sanjiv Pandey",
+        },
+        {
+          path: "https://youtu.be/Jy2bLuZU8ps?si=V11Y8mae5ZOi4YA8",
+          thumbnail: "https://img.youtube.com/vi/Jy2bLuZU8ps/hqdefault.jpg",
+          channel: "Exphub 9th & 10th",
         },
       ],
     },
@@ -1220,14 +1249,24 @@ export const chemistry = {
       name: "Structure of The Atom",
       options: [
         {
-          path: "/dummy/path/structure-of-the-atom/opt1",
-          thumbnail: "/images/structure_thumbnail1.jpg",
-          channel: "Chemistry Channel 7",
+          path: "https://youtu.be/IvY7IR2Kh-E?si=73azBJsf0gOCEveD",
+          thumbnail: "https://img.youtube.com/vi/IvY7IR2Kh-E/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "/dummy/path/structure-of-the-atom/opt2",
-          thumbnail: "/images/structure_thumbnail2.jpg",
-          channel: "Chemistry Channel 8",
+          path: "https://youtu.be/g8EgBvENBr4?si=1GcQBJOxvcExi0qC",
+          thumbnail: "https://img.youtube.com/vi/g8EgBvENBr4/hqdefault.jpg",
+          channel: "Just Padhle",
+        },
+        {
+          path: "https://youtu.be/d3BMmdZsI5Q?si=q-5q8AWxr2fZG4YU",
+          thumbnail: "https://img.youtube.com/vi/d3BMmdZsI5Q/hqdefault.jpg",
+          channel: "Bhai Ki Padhai",
+        },
+        {
+          path: "https://youtu.be/gFMHM6FUl40?si=rjCsmv7Be57oLYNG",
+          thumbnail: "https://img.youtube.com/vi/gFMHM6FUl40/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
       ],
     },
@@ -1512,14 +1551,24 @@ export const biology = {
       name: "The Fundamental Unit of Life",
       options: [
         {
-          path: "/dummy/path/fundamental-unit-of-life/opt1",
-          thumbnail: "/images/fundamental_unit_thumbnail1.jpg",
-          channel: "Biology Channel 1",
+          path: "https://youtu.be/2_zk9rG0k0w?si=iWWEwCmwBAOFA7CG",
+          thumbnail: "https://img.youtube.com/vi/2_zk9rG0k0w/hqdefault.jpg",
+          channel: "NEEV",
         },
         {
-          path: "/dummy/path/fundamental-unit-of-life/opt2",
-          thumbnail: "/images/fundamental_unit_thumbnail2.jpg",
-          channel: "Biology Channel 2",
+          path: "https://youtu.be/iEryaOfAcBA?si=gMS2tG7yRBPDo-Iy",
+          thumbnail: "https://img.youtube.com/vi/iEryaOfAcBA/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/E2zJYiZQoWc?si=ryBwyD4fOUHAC_1r",
+          thumbnail: "https://img.youtube.com/vi/E2zJYiZQoWc/hqdefault.jpg",
+          channel: "EduMantra- Sanjiv Pandey",
+        },
+        {
+          path: "https://youtu.be/mVZlfxM5ih4?si=kqekdgAi3K9QQSYZ",
+          thumbnail: "https://img.youtube.com/vi/mVZlfxM5ih4/hqdefault.jpg",
+          channel: "Just Padhle",
         },
       ],
     },
@@ -1527,14 +1576,19 @@ export const biology = {
       name: "Tissues",
       options: [
         {
-          path: "/dummy/path/tissues/opt1",
-          thumbnail: "/images/tissues_thumbnail1.jpg",
-          channel: "Biology Channel 3",
+          path: "https://youtu.be/zQbIU6utPJ4?si=I8BGbAjAYOMVmElU",
+          thumbnail: "https://img.youtube.com/vi/zQbIU6utPJ4/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/tissues/opt2",
-          thumbnail: "/images/tissues_thumbnail2.jpg",
-          channel: "Biology Channel 4",
+          path: "https://youtu.be/RJsLw5cmbP8?si=P2XjyvtbQfki7P7Z",
+          thumbnail: "https://img.youtube.com/vi/RJsLw5cmbP8/hqdefault.jpg",
+          channel: "Exphub 9th & 10th",
+        },
+        {
+          path: "https://www.youtube.com/live/HyyaSl9dKqI?si=HrnDUPyl6QIIShWf",
+          thumbnail: "https://img.youtube.com/vi/HyyaSl9dKqI/hqdefault.jpg",
+          channel: "Vedantu9&10",
         },
       ],
     },

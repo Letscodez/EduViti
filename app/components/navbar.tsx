@@ -52,7 +52,7 @@ const Navbar: React.FC<NavbarProps> = ({ homeBtn }) => {
           transition: { duration: 0.3, ease: "easeInOut" }, // Custom duration for visible
         },
       }}
-      className="bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 mx-12 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-50 filter"
+      className="bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 lg:mx-12 mx-4 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-50 filter"
     >
       {/* Logo */}
       <motion.a href="/">

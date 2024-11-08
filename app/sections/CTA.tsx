@@ -9,12 +9,12 @@ const CTA: React.FC = () => {
       {/* Main CTA Section */}
       <div className="max-w-7xl mx-auto text-start flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 mb-6 md:mb-0 md:pr-10">
-          <h1 className="sm:text-start text-center text-4xl md:text-5xl font-bold mb-4 leading-tight ml-0">
+          <h1 className="md:text-start text-center text-4xl md:text-5xl font-bold mb-4 leading-tight ml-0">
             Explore Knowledge and Elevate Your Learning with EduViti !
           </h1>
         </div>
-        <div className="w-full md:w-1/2 md:pl-10 flex flex-col items-center sm:items-start">
-          <p className="sm:text-start text-center mb-8 text-white/80 text-lg md:text-xl leading-relaxed">
+        <div className="w-full md:w-1/2 md:pl-10 flex flex-col items-center sm:items-start justify-center">
+          <p className="md:text-start text-center mb-8 text-white/80 text-lg md:text-xl leading-relaxed">
             Join our vibrant community to access exclusive resources,
             knowledgeable books, and free courses that will drive you to explore
             everything.

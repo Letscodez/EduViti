@@ -3,8 +3,7 @@ import BackButton from '@/app/components/backbtn';
 import React from 'react';
 import Image from 'next/image';
 import { StaticImageData } from 'next/image';
-import { physics, space } from '@/images/main'; // Replace with the actual image import for Astronomy
-
+import { physics } from '@/images/main'; // Replace with the actual image import for Astronomy
 type Book = {
   title: string;
   author: string;

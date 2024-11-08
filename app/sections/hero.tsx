@@ -26,11 +26,11 @@ const HeroSection = () => {
           Discover an all-in-one platform for curated modules,
           textbooks,recommended books, and free courses.
         </p>
-        <div className="sm:hidden block back-in-left5">
-          <SearchBar/>
+        <div className="sm:hidden block back-in-left ">
+          <SearchBar />
         </div>
         {/* LET'S GROW TOGETHER section */}
-        <div className="invisible md:visible sm:back-in-left5 back-in-left6 flex items-center  justify-center md:justify-start mb-8 max-w-[480px] w-full">
+        <div className="back-in-left flex items-center justify-center md:justify-start my-8 max-w-[480px] w-full">
           <div className="flex-grow bg-[#06d6a0] h-[1px]" />
           <p className="text-md 2xl:text-xl text-white font-semibold text-center mx-4 tracking-wider">
             LET'S GROW TOGETHER

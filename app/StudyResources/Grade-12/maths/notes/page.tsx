@@ -14,7 +14,7 @@ export default function Grade12MathsNotes () {
           <div key={ch.name}>
             <ChapterCard
               title={ch.name}
-              url={ch.path}
+              fileId={ch.path}
             />
           </div>
         ))}

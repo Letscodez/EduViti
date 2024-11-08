@@ -2,7 +2,7 @@ import React from "react";
 
 interface ChapterCardProps {
   title: string;
-  fileId: string; // URL for the download
+  fileId: string; 
 }
 
 const ChapterCard: React.FC<ChapterCardProps> = ({ title, fileId }) => {
