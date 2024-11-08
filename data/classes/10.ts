@@ -402,14 +402,19 @@ export const maths = {
       name: "Real Numbers",
       options: [
         {
-          path: "/dummy/path/real-numbers/opt1",
-          thumbnail: "/images/real_numbers_thumbnail1.jpg",
-          channel: "Math Channel 1",
+          path: "https://www.youtube.com/live/h3KiqBOpqdE?si=L-3MWi04RKrCJ-iQ",
+          thumbnail: "https://img.youtube.com/vi/h3KiqBOpqdE/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/real-numbers/opt2",
-          thumbnail: "/images/real_numbers_thumbnail2.jpg",
-          channel: "Math Channel 2",
+          path: "https://www.youtube.com/live/6yYg64NzEK4?si=K8bXKxaAB4yMgoaN",
+          thumbnail: "https://img.youtube.com/vi/6yYg64NzEK4/hqdefault.jpg",
+          channel: "Next Toppers",
+        },
+        {
+          path: "https://www.youtube.com/live/KD1LI_y_iH4?si=SL4HLxIHefP4oZaX",
+          thumbnail: "https://img.youtube.com/vi/KD1LI_y_iH4/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
       ],
     },
@@ -417,29 +422,49 @@ export const maths = {
       name: "Polynomials",
       options: [
         {
-          path: "/dummy/path/polynomials/opt1",
-          thumbnail: "/images/polynomials_thumbnail1.jpg",
-          channel: "Math Channel 3",
+          path: "https://www.youtube.com/live/M437dqOxJcs?si=DMBsiwE9FmitSTuW",
+          thumbnail: "https://img.youtube.com/vi/M437dqOxJcs/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/polynomials/opt2",
-          thumbnail: "/images/polynomials_thumbnail2.jpg",
-          channel: "Math Channel 4",
+          path: "https://youtu.be/jRDsIkdHg60?si=Bugbp-rkOPwDfZTt",
+          thumbnail: "https://img.youtube.com/vi/jRDsIkdHg60/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/28QvDgfaEts?si=9ctbiau1qa6-dHc3",
+          thumbnail: "https://img.youtube.com/vi/28QvDgfaEts/hqdefault.jpg",
+          channel: "UDAAN",
+        },
+        {
+          path: "https://www.youtube.com/live/vE2_xjLC76E?si=X2-q4W2rYe_wi1iX",
+          thumbnail: "https://img.youtube.com/vi/vE2_xjLC76E/hqdefault.jpg",
+          channel: "Maths By Shobhit Nirwan",
         },
       ],
     },
     {
-      name: "Pair of Linear Equations",
+      name: "Pair of Linear Equations in Two Variables",
       options: [
         {
-          path: "/dummy/path/linear-equations/opt1",
-          thumbnail: "/images/linear_equations_thumbnail1.jpg",
-          channel: "Math Channel 5",
+          path: "https://youtu.be/S7zqZ7xSpjs?si=JG37wryfTGTFZPI1",
+          thumbnail: "https://img.youtube.com/vi/S7zqZ7xSpjs/hqdefault.jpg",
+          channel: "UDAAN",
         },
         {
-          path: "/dummy/path/linear-equations/opt2",
-          thumbnail: "/images/linear_equations_thumbnail2.jpg",
-          channel: "Math Channel 6",
+          path: "https://www.youtube.com/live/TR2xZlHRk8Y?si=8NMQraUS06sDdnAy",
+          thumbnail: "https://img.youtube.com/vi/TR2xZlHRk8Y/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/9VBe_-9cHso?si=teYJBq420lIHi0ph",
+          thumbnail: "https://img.youtube.com/vi/9VBe_-9cHso/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/aD-V0OT1_C4?si=_HOVEH71V0vIpu9_",
+          thumbnail: "https://img.youtube.com/vi/aD-V0OT1_C4/hqdefault.jpg",
+          channel: "Vedantu 9,10 &11",
         },
       ],
     },
@@ -447,14 +472,24 @@ export const maths = {
       name: "Quadratic Equations",
       options: [
         {
-          path: "/dummy/path/quadratic-equations/opt1",
-          thumbnail: "/images/quadratic_equations_thumbnail1.jpg",
-          channel: "Math Channel 7",
+          path: "https://www.youtube.com/live/YdQ8MtghPBc?si=RLVbIrJ_9ItymWo0",
+          thumbnail: "https://img.youtube.com/vi/YdQ8MtghPBc/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/quadratic-equations/opt2",
-          thumbnail: "/images/quadratic_equations_thumbnail2.jpg",
-          channel: "Math Channel 8",
+          path: "https://www.youtube.com/live/U0VRshYj9yQ?si=pjK9uXSZGX4DJKB-",
+          thumbnail: "https://img.youtube.com/vi/U0VRshYj9yQ/hqdefault.jpg",
+          channel: "Maths By Shobhit Nirwan",
+        },
+        {
+          path: "https://youtu.be/GtKXeWrZeuk?si=kdDOEk1YCFppHfoU",
+          thumbnail: "https://img.youtube.com/vi/GtKXeWrZeuk/hqdefault.jpg",
+          channel: "UDAAN",
+        },
+        {
+          path: "https://youtu.be/zNOKESrtK_M?si=9hWSOnXep9iZrjwc",
+          thumbnail: "https://img.youtube.com/vi/zNOKESrtK_M/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -462,14 +497,19 @@ export const maths = {
       name: "Arithmetic Progression",
       options: [
         {
-          path: "/dummy/path/arithmetic-progression/opt1",
-          thumbnail: "/images/arithmetic_progression_thumbnail1.jpg",
-          channel: "Math Channel 9",
+          path: "https://www.youtube.com/live/n82bjaGiMEY?si=Zg8plvk48kjGgxWB",
+          thumbnail: "https://img.youtube.com/vi/n82bjaGiMEY/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/arithmetic-progression/opt2",
-          thumbnail: "/images/arithmetic_progression_thumbnail2.jpg",
-          channel: "Math Channel 10",
+          path: "https://youtu.be/zPKdZKBG4oQ?si=8REra0wB6tKduYB8",
+          thumbnail: "https://img.youtube.com/vi/zPKdZKBG4oQ/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
+        },
+        {
+          path: "https://youtu.be/24aTejFcRPQ?si=NLvNP5c_vfxaCMM-",
+          thumbnail: "https://img.youtube.com/vi/24aTejFcRPQ/hqdefault.jpg",
+          channel: "UDAAN",
         },
       ],
     },
@@ -477,14 +517,19 @@ export const maths = {
       name: "Triangles",
       options: [
         {
-          path: "/dummy/path/triangles/opt1",
-          thumbnail: "/images/triangles_thumbnail1.jpg",
-          channel: "Math Channel 11",
+          path: "https://www.youtube.com/live/fVeIXpjNO1g?si=29C9UGEua_z8M-Ko",
+          thumbnail: "https://img.youtube.com/vi/fVeIXpjNO1g/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/triangles/opt2",
-          thumbnail: "/images/triangles_thumbnail2.jpg",
-          channel: "Math Channel 12",
+          path: "https://youtu.be/7PYxhxkqyM8?si=AyMg81llyrnCboyh",
+          thumbnail: "https://img.youtube.com/vi/7PYxhxkqyM8/hqdefault.jpg",
+          channel: "Dear Sir",
+        },
+        {
+          path: "https://www.youtube.com/live/eEIhXYPYq1Q?si=4F0T0mB-jcuKO1kH",
+          thumbnail: "https://img.youtube.com/vi/eEIhXYPYq1Q/hqdefault.jpg",
+          channel: "Next Toppers",
         },
       ],
     },
@@ -492,14 +537,19 @@ export const maths = {
       name: "Coordinate Geometry",
       options: [
         {
-          path: "/dummy/path/coordinate-geometry/opt1",
-          thumbnail: "/images/coordinate_geometry_thumbnail1.jpg",
-          channel: "Math Channel 13",
+          path: "https://www.youtube.com/live/aC_vFD0I2Qk?si=lOd74nKfi4_kb_9z",
+          thumbnail: "https://img.youtube.com/vi/aC_vFD0I2Qk/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/coordinate-geometry/opt2",
-          thumbnail: "/images/coordinate_geometry_thumbnail2.jpg",
-          channel: "Math Channel 14",
+          path: "https://www.youtube.com/live/tZ7tNWRGj7k?si=hzBDWFVU0ozUe8JE",
+          thumbnail: "https://img.youtube.com/vi/tZ7tNWRGj7k/hqdefault.jpg",
+          channel: "Maths By Shobhit Nirwan",
+        },
+        {
+          path: "https://www.youtube.com/live/MGj4LumxENc?si=rHbs2nfkLDiETeyx",
+          thumbnail: "https://img.youtube.com/vi/MGj4LumxENc/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -507,14 +557,19 @@ export const maths = {
       name: "Introduction to Trigonometry",
       options: [
         {
-          path: "/dummy/path/introduction-to-trigonometry/opt1",
-          thumbnail: "/images/trigonometry_intro_thumbnail1.jpg",
-          channel: "Math Channel 15",
+          path: "https://www.youtube.com/live/2pCpA50rylw?si=cLgZhEFXRTY9jGJW",
+          thumbnail: "https://img.youtube.com/vi/2pCpA50rylw/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/introduction-to-trigonometry/opt2",
-          thumbnail: "/images/trigonometry_intro_thumbnail2.jpg",
-          channel: "Math Channel 16",
+          path: "https://youtu.be/6AImCqiv7UY?si=-NhzN9-2Pw5jXmxB",
+          thumbnail: "https://img.youtube.com/vi/6AImCqiv7UY/hqdefault.jpg",
+          channel: "Shobhit Nirwan",
+        },
+        {
+          path: "https://youtu.be/dsA7VvRD24o?si=NYKd4hrEpcRN_Dd5",
+          thumbnail: "https://img.youtube.com/vi/dsA7VvRD24o/hqdefault.jpg",
+          channel: "UDAAN",
         },
       ],
     },
@@ -522,14 +577,19 @@ export const maths = {
       name: "Applications of Trigonometry",
       options: [
         {
-          path: "/dummy/path/applications-of-trigonometry/opt1",
-          thumbnail: "/images/trigonometry_applications_thumbnail1.jpg",
-          channel: "Math Channel 17",
+          path: "https://www.youtube.com/live/Zg1OguVfvR0?si=AoCQavXSGp9XHenl",
+          thumbnail: "https://img.youtube.com/vi/Zg1OguVfvR0/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/applications-of-trigonometry/opt2",
-          thumbnail: "/images/trigonometry_applications_thumbnail2.jpg",
-          channel: "Math Channel 18",
+          path: "https://youtu.be/o589uRU9txM?si=zrm3wQBg7nKaQWl5",
+          thumbnail: "https://img.youtube.com/vi/o589uRU9txM/hqdefault.jpg",
+          channel: "UDAAN",
+        },
+        {
+          path: "https://youtu.be/QWu6V0QHQ2g?si=e55tTwDSlwQR74Au",
+          thumbnail: "https://img.youtube.com/vi/QWu6V0QHQ2g/hqdefault.jpg",
+          channel: "Shobhit Nirwan-10th",
         },
       ],
     },
@@ -537,14 +597,19 @@ export const maths = {
       name: "Circles",
       options: [
         {
-          path: "/dummy/path/circles/opt1",
-          thumbnail: "/images/circles_thumbnail1.jpg",
-          channel: "Math Channel 19",
+          path: "https://www.youtube.com/live/ezsF7bQKnwA?si=fKTjtQKgJ9aCPobq",
+          thumbnail: "https://img.youtube.com/vi/ezsF7bQKnwA/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/circles/opt2",
-          thumbnail: "/images/circles_thumbnail2.jpg",
-          channel: "Math Channel 20",
+          path: "https://www.youtube.com/live/c3PMCzQNf2U?si=816TvtlWjIdz8D26",
+          thumbnail: "https://img.youtube.com/vi/c3PMCzQNf2U/hqdefault.jpg",
+          channel: "Maths By Shobhit Nirwan",
+        },
+        {
+          path: "https://youtu.be/QcGisbb6P5Y?si=15bSV0NH5UEtY0uX",
+          thumbnail: "https://img.youtube.com/vi/QcGisbb6P5Y/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -552,14 +617,19 @@ export const maths = {
       name: "Area Related to Circles",
       options: [
         {
-          path: "/dummy/path/area-related-to-circles/opt1",
-          thumbnail: "/images/area_circles_thumbnail1.jpg",
-          channel: "Math Channel 21",
+          path: "https://www.youtube.com/live/q1bAZBes1Cw?si=6NhST_h1N8fcOHyr",
+          thumbnail: "https://img.youtube.com/vi/q1bAZBes1Cw/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/area-related-to-circles/opt2",
-          thumbnail: "/images/area_circles_thumbnail2.jpg",
-          channel: "Math Channel 22",
+          path: "https://youtu.be/qV-UkkusGWc?si=flLzuRZ3aR6maqLM",
+          thumbnail: "https://img.youtube.com/vi/qV-UkkusGWc/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://www.youtube.com/live/wMdoUnl5VVQ?si=fxZlXKLeFx3BSehG",
+          thumbnail: "https://img.youtube.com/vi/wMdoUnl5VVQ/hqdefault.jpg",
+          channel: "Maths By Shobhit Nirwan",
         },
       ],
     },
@@ -567,29 +637,40 @@ export const maths = {
       name: "Surface Areas and Volumes",
       options: [
         {
-          path: "/dummy/path/surface-areas-volumes/opt1",
-          thumbnail: "/images/surface_areas_volumes_thumbnail1.jpg",
-          channel: "Math Channel 23",
+          path: "https://www.youtube.com/live/xa7_-txJ51c?si=isNve8bB7oNiwAVZ",
+          thumbnail: "https://img.youtube.com/vi/xa7_-txJ51c/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/surface-areas-volumes/opt2",
-          thumbnail: "/images/surface_areas_volumes_thumbnail2.jpg",
-          channel: "Math Channel 24",
+          path: "https://www.youtube.com/live/17co-M2NrAM?si=oXwmmeMbocSCNFa1",
+          thumbnail: "https://img.youtube.com/vi/17co-M2NrAM/hqdefault.jpg",
+          channel: "Maths By Shobhit Nirwan",
+        },
+        {
+          path: "https://youtu.be/cFio6AdD9FU?si=vyQhAZEmgUuMuffT",
+          thumbnail: "https://img.youtube.com/vi/cFio6AdD9FU/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
+    
     {
       name: "Statistics",
       options: [
         {
-          path: "/dummy/path/statistics/opt1",
-          thumbnail: "/images/statistics_thumbnail1.jpg",
-          channel: "Math Channel 25",
+          path: "https://youtu.be/7rRoPmFdCkc?si=btJa-h7DS-CtnEav",
+          thumbnail: "https://img.youtube.com/vi/7rRoPmFdCkc/hqdefault.jpg",
+          channel: "UDAAN",
         },
         {
-          path: "/dummy/path/statistics/opt2",
-          thumbnail: "/images/statistics_thumbnail2.jpg",
-          channel: "Math Channel 26",
+          path: "https://www.youtube.com/live/WQrK8qiB_v4?si=3l53WT_zZbxpz3OM",
+          thumbnail: "https://img.youtube.com/vi/WQrK8qiB_v4/hqdefault.jpg",
+          channel: "Maths By Shobhit Nirwan",
+        },
+        {
+          path: "https://youtu.be/xKr_GcdrmwM?si=jF-60sDcaUkfrKKP",
+          thumbnail: "https://img.youtube.com/vi/xKr_GcdrmwM/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -597,14 +678,19 @@ export const maths = {
       name: "Probability",
       options: [
         {
-          path: "/dummy/path/probability/opt1",
-          thumbnail: "/images/probability_thumbnail1.jpg",
-          channel: "Math Channel 27",
+          path: "https://www.youtube.com/live/yCC8x4fLd30?si=niDNa55jYk64TtW-",
+          thumbnail: "https://img.youtube.com/vi/yCC8x4fLd30/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/probability/opt2",
-          thumbnail: "/images/probability_thumbnail2.jpg",
-          channel: "Math Channel 28",
+          path: "https://www.youtube.com/live/Ozu7wYzxb6I?si=yBv_HK0xnbm9j5fQ",
+          thumbnail: "https://img.youtube.com/vi/Ozu7wYzxb6I/hqdefault.jpg",
+          channel: "Maths By Shobhit Nirwan",
+        },
+        {
+          path: "https://youtu.be/bAgkFDvofTc?si=CFvExIXnUxb0qUmq",
+          thumbnail: "https://img.youtube.com/vi/bAgkFDvofTc/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -768,14 +854,24 @@ export const physics = {
       name: "Light Reflection and Refraction",
       options: [
         {
-          path: "/dummy/path/light-reflection-and-refraction/opt1",
-          thumbnail: "/images/light_reflection_thumbnail1.jpg",
-          channel: "Physics Channel 1",
+          path: "https://youtu.be/J-c-3Dl3cPg?si=oq-oHkcOGMWixyCG",
+          thumbnail: "https://img.youtube.com/vi/J-c-3Dl3cPg/hqdefault.jpg",
+          channel: "Physics Wallah - Alakh Pandey",
         },
         {
-          path: "/dummy/path/light-reflection-and-refraction/opt2",
-          thumbnail: "/images/light_reflection_thumbnail2.jpg",
-          channel: "Physics Channel 2",
+          path: "https://www.youtube.com/live/y1JB5QaobTQ?si=L8EpkoY2t2ALH6Sc",
+          thumbnail: "https://img.youtube.com/vi/y1JB5QaobTQ/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://www.youtube.com/live/lSwHHn-FVOA?si=zTgbUyi8eIDJtgXi",
+          thumbnail: "https://img.youtube.com/vi/lSwHHn-FVOA/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://www.youtube.com/live/MQkNZIsZ2jw?si=Vu4bnHoM22MOG8Rf",
+          thumbnail: "https://img.youtube.com/vi/MQkNZIsZ2jw/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
         },
       ],
     },
@@ -783,14 +879,24 @@ export const physics = {
       name: "Human Eye and Colourful World",
       options: [
         {
-          path: "/dummy/path/human-eye-and-colourful-world/opt1",
-          thumbnail: "/images/human_eye_thumbnail1.jpg",
-          channel: "Physics Channel 3",
+          path: "https://www.youtube.com/live/ZuXx7Voxzsg?si=FX89VMCEmwmPjCie",
+          thumbnail: "https://img.youtube.com/vi/ZuXx7Voxzsg/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/human-eye-and-colourful-world/opt2",
-          thumbnail: "/images/human_eye_thumbnail2.jpg",
-          channel: "Physics Channel 4",
+          path: "https://www.youtube.com/live/IuiBlPNI39k?si=ce5Bfpv7MBmUrM7m",
+          thumbnail: "https://img.youtube.com/vi/IuiBlPNI39k/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/DnPXqHu3lCc?si=p13lDaKaYlcqd1ZC",
+          thumbnail: "https://img.youtube.com/vi/DnPXqHu3lCc/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
+        },
+        {
+          path: "https://youtu.be/lCHuG8SxWNE?si=XOtNX0qla5F0fCop",
+          thumbnail: "https://img.youtube.com/vi/lCHuG8SxWNE/hqdefault.jpg",
+          channel: "UDAAN",
         },
       ],
     },
@@ -798,14 +904,19 @@ export const physics = {
       name: "Electricity",
       options: [
         {
-          path: "/dummy/path/electricity/opt1",
-          thumbnail: "/images/electricity_thumbnail1.jpg",
-          channel: "Physics Channel 5",
+          path: "https://www.youtube.com/live/K0jogJhwxXE?si=o_XUtnxC_nTj0OBH",
+          thumbnail: "https://img.youtube.com/vi/K0jogJhwxXE/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/electricity/opt2",
-          thumbnail: "/images/electricity_thumbnail2.jpg",
-          channel: "Physics Channel 6",
+          path: "https://youtu.be/3jAz3HyCdTM?si=y2SxRNTphyNt_Evd",
+          thumbnail: "https://img.youtube.com/vi/3jAz3HyCdTM/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://www.youtube.com/live/ducAISrzA58?si=D78qgQSATdyyvuy8",
+          thumbnail: "https://img.youtube.com/vi/ducAISrzA58/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
         },
       ],
     },
@@ -813,14 +924,24 @@ export const physics = {
       name: "Magnetic Effects of Electric Current",
       options: [
         {
-          path: "/dummy/path/magnetic-effects-of-electric-current/opt1",
-          thumbnail: "/images/magnetic_effects_thumbnail1.jpg",
-          channel: "Physics Channel 7",
+          path: "https://youtu.be/NUwIVaT9mRI?si=QynM4p0kQPwWrGZF",
+          thumbnail: "https://img.youtube.com/vi/NUwIVaT9mRI/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "/dummy/path/magnetic-effects-of-electric-current/opt2",
-          thumbnail: "/images/magnetic_effects_thumbnail2.jpg",
-          channel: "Physics Channel 8",
+          path: "https://youtu.be/gHhOqFCgSWE?si=e_7S4kpZJIHx7hDN",
+          thumbnail: "https://img.youtube.com/vi/gHhOqFCgSWE/hqdefault.jpg",
+          channel: "Bhai Ki Padhai",
+        },
+        {
+          path: "https://youtu.be/DugfjpGoOVs?si=Z_lGDKN2jIwEgCUJ",
+          thumbnail: "https://img.youtube.com/vi/DugfjpGoOVs/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
+        },
+        {
+          path: "https://youtu.be/MHNK09lnKuw?si=eTSIa3gGuMq8g-tP",
+          thumbnail: "https://img.youtube.com/vi/MHNK09lnKuw/hqdefault.jpg",
+          channel: "UDAAN",
         },
       ],
     },
@@ -828,14 +949,19 @@ export const physics = {
       name: "Sources of Energy",
       options: [
         {
-          path: "/dummy/path/sources-of-energy/opt1",
-          thumbnail: "/images/sources_of_energy_thumbnail1.jpg",
-          channel: "Physics Channel 9",
+          path: "https://youtu.be/iYKkU542nwY?si=REdP0QuxXu3-VQ0f",
+          thumbnail: "https://img.youtube.com/vi/iYKkU542nwY/hqdefault.jpg",
+          channel: "Bhai Ki Padhai",
         },
         {
-          path: "/dummy/path/sources-of-energy/opt2",
-          thumbnail: "/images/sources_of_energy_thumbnail2.jpg",
-          channel: "Physics Channel 10",
+          path: "https://youtu.be/qxeLv49wvmU?si=7hejJvV6QIsyxtFe",
+          thumbnail: "https://img.youtube.com/vi/qxeLv49wvmU/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/NskqOujKVHA?si=qloRZyoOZ8nmN134",
+          thumbnail: "https://img.youtube.com/vi/NskqOujKVHA/hqdefault.jpg",
+          channel: "Magnet Brains",
         },
       ],
     },
@@ -994,14 +1120,19 @@ export const chemistry = {
       name: "Chemical Reactions and Equations",
       options: [
         {
-          path: "/dummy/path/chemical-reactions-and-equations/opt1",
-          thumbnail: "/images/chemical_reactions_thumbnail1.jpg",
-          channel: "Chemistry Channel 1",
+          path: "https://www.youtube.com/live/vkMC5JbMFAU?si=UimEh5j5gZWoS2bO",
+          thumbnail: "https://img.youtube.com/vi/vkMC5JbMFAU/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/chemical-reactions-and-equations/opt2",
-          thumbnail: "/images/chemical_reactions_thumbnail2.jpg",
-          channel: "Chemistry Channel 2",
+          path: "https://youtu.be/Hejfjq9RtNc?si=hWfnRYV_VXysQ-lc",
+          thumbnail: "https://img.youtube.com/vi/Hejfjq9RtNc/hqdefault.jpg",
+          channel: "UDAAN",
+        },
+        {
+          path: "https://youtu.be/ruHwWNLgBV4?si=AQCq-3TTbXuBGtO6",
+          thumbnail: "https://img.youtube.com/vi/ruHwWNLgBV4/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
         },
       ],
     },
@@ -1009,14 +1140,19 @@ export const chemistry = {
       name: "Acids, Bases, and Salts",
       options: [
         {
-          path: "/dummy/path/acids-bases-and-salts/opt1",
-          thumbnail: "/images/acids_bases_thumbnail1.jpg",
-          channel: "Chemistry Channel 3",
+          path: "https://youtu.be/6YG4LQPxDbE?si=76Jb-XkQng6C2dAz",
+          thumbnail: "https://img.youtube.com/vi/6YG4LQPxDbE/hqdefault.jpg",
+          channel: "UDAAN",
         },
         {
-          path: "/dummy/path/acids-bases-and-salts/opt2",
-          thumbnail: "/images/acids_bases_thumbnail2.jpg",
-          channel: "Chemistry Channel 4",
+          path: "https://youtu.be/Qeio612rA_8?si=jZnPfmq7KJlMKsUk",
+          thumbnail: "https://img.youtube.com/vi/Qeio612rA_8/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/7xWFGMt5VeM?si=jcVHD2RuIBtpb7jB",
+          thumbnail: "https://img.youtube.com/vi/7xWFGMt5VeM/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
         },
       ],
     },
@@ -1024,14 +1160,19 @@ export const chemistry = {
       name: "Metals and Non-Metals",
       options: [
         {
-          path: "/dummy/path/metals-and-non-metals/opt1",
-          thumbnail: "/images/metals_nonmetals_thumbnail1.jpg",
-          channel: "Chemistry Channel 5",
+          path: "https://youtu.be/r9U0I9ZxQOs?si=z9rroQ_bAj73qx7e",
+          thumbnail: "https://img.youtube.com/vi/r9U0I9ZxQOs/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "/dummy/path/metals-and-non-metals/opt2",
-          thumbnail: "/images/metals_nonmetals_thumbnail2.jpg",
-          channel: "Chemistry Channel 6",
+          path: "https://youtu.be/A334Tskpl2Q?si=KXA9LGAIHPZ35AOM",
+          thumbnail: "https://img.youtube.com/vi/A334Tskpl2Q/hqdefault.jpg",
+          channel: "UDAAN",
+        },
+        {
+          path: "https://youtu.be/JvKw85fiOco?si=qMYEmltdlgkOSYk8",
+          thumbnail: "https://img.youtube.com/vi/JvKw85fiOco/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
         },
       ],
     },
@@ -1039,14 +1180,19 @@ export const chemistry = {
       name: "Carbon and Its Compounds",
       options: [
         {
-          path: "/dummy/path/carbon-and-its-compounds/opt1",
-          thumbnail: "/images/carbon_compounds_thumbnail1.jpg",
-          channel: "Chemistry Channel 7",
+          path: "https://youtu.be/dNnleJPcI6s?si=QC2I_YBylOW2TNM7",
+          thumbnail: "https://img.youtube.com/vi/dNnleJPcI6s/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
         },
         {
-          path: "/dummy/path/carbon-and-its-compounds/opt2",
-          thumbnail: "/images/carbon_compounds_thumbnail2.jpg",
-          channel: "Chemistry Channel 8",
+          path: "https://youtu.be/QaquxG7xflE?si=q1y4Ikcd0A_laFut",
+          thumbnail: "https://img.youtube.com/vi/QaquxG7xflE/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/J2THFRrYHYI?si=fu9tjjCljSPLtkFn",
+          thumbnail: "https://img.youtube.com/vi/J2THFRrYHYI/hqdefault.jpg",
+          channel: "UDAAN",
         },
       ],
     },
@@ -1054,14 +1200,19 @@ export const chemistry = {
       name: "Periodic Classification of Elements",
       options: [
         {
-          path: "/dummy/path/periodic-classification-of-elements/opt1",
-          thumbnail: "/images/periodic_classification_thumbnail1.jpg",
-          channel: "Chemistry Channel 9",
+          path: "https://youtu.be/94DXmFeY4rY?si=6dAprCAdfwjzVzTC",
+          thumbnail: "https://img.youtube.com/vi/94DXmFeY4rY/hqdefault.jpg",
+          channel: "Physics Wallah - Alakh Pandey",
         },
         {
-          path: "/dummy/path/periodic-classification-of-elements/opt2",
-          thumbnail: "/images/periodic_classification_thumbnail2.jpg",
-          channel: "Chemistry Channel 10",
+          path: "https://youtu.be/TM04CP9FL0k?si=2_OxFMGtAr4YjksU",
+          thumbnail: "https://img.youtube.com/vi/TM04CP9FL0k/hqdefault.jpg",
+          channel: "EduMantra- Sanjiv Pandey",
+        },
+        {
+          path: "https://youtu.be/c5aPf3xyQkg?si=zYGMmPRzQfGKxp1d",
+          thumbnail: "https://img.youtube.com/vi/c5aPf3xyQkg/hqdefault.jpg",
+          channel: "Doubtnut Learn and Fun Class 10th & 11th",
         },
       ],
     },
@@ -1219,76 +1370,106 @@ export const biology = {
     {
         name: "Life Processes",
         options: [
-            {
-                path: "/dummy/path/life-processes/opt1",
-                thumbnail: "/images/life_processes_thumbnail1.jpg",
-                channel: "Biology Channel 1",
-            },
-            {
-                path: "/dummy/path/life-processes/opt2",
-                thumbnail: "/images/life_processes_thumbnail2.jpg",
-                channel: "Biology Channel 2",
-            },
+          {
+            path: "https://www.youtube.com/live/zBNAk9thu70?si=zGB39dZHcczMjq_a",
+            thumbnail: "https://img.youtube.com/vi/zBNAk9thu70/hqdefault.jpg",
+            channel: "Physics Wallah Foundation",
+          },
+          {
+            path: "https://youtu.be/T9DgvXpCnwo?si=bYLLc43UvrUhdJsb",
+            thumbnail: "https://img.youtube.com/vi/T9DgvXpCnwo/hqdefault.jpg",
+            channel: "Exphub 9th &10th",
+          },
+          {
+            path: "https://youtu.be/YUI7uPbSIQc?si=6ojfSgNk5vYSEGmN",
+            thumbnail: "https://img.youtube.com/vi/YUI7uPbSIQc/hqdefault.jpg",
+            channel: "UDAAN",
+          },
         ],
     },
     {
         name: "Control and Coordination",
         options: [
-            {
-                path: "/dummy/path/control-and-coordination/opt1",
-                thumbnail: "/images/control_coordination_thumbnail1.jpg",
-                channel: "Biology Channel 3",
-            },
-            {
-                path: "/dummy/path/control-and-coordination/opt2",
-                thumbnail: "/images/control_coordination_thumbnail2.jpg",
-                channel: "Biology Channel 4",
-            },
+          {
+            path: "https://www.youtube.com/live/Hm9UA8KnDo4?si=kTzduVHZTSDoWDBT",
+            thumbnail: "https://img.youtube.com/vi/Hm9UA8KnDo4/hqdefault.jpg",
+            channel: "Physics Wallah Foundation",
+          },
+          {
+            path: "https://youtu.be/uVEYi--kPwM?si=cK0OM8wdtEHDSnwh",
+            thumbnail: "https://img.youtube.com/vi/uVEYi--kPwM/hqdefault.jpg",
+            channel: "UDAAN",
+          },
+          {
+            path: "https://youtu.be/1o7IuDldhRQ?si=3VCbNyRO5ySGBzgT",
+            thumbnail: "https://img.youtube.com/vi/1o7IuDldhRQ/hqdefault.jpg",
+            channel: "Exphub 9th &10th",
+          },
+          {
+            path: "https://youtu.be/DWvAXUGTnS8?si=R3jT_HwqNWD3DZQ4",
+            thumbnail: "https://img.youtube.com/vi/DWvAXUGTnS8/hqdefault.jpg",
+            channel: "Science and Fun Education",
+          },
         ],
     },
     {
         name: "How do Organisms Reproduce?",
         options: [
-            {
-                path: "/dummy/path/how-do-organisms-reproduce/opt1",
-                thumbnail: "/images/reproduction_thumbnail1.jpg",
-                channel: "Biology Channel 5",
-            },
-            {
-                path: "/dummy/path/how-do-organisms-reproduce/opt2",
-                thumbnail: "/images/reproduction_thumbnail2.jpg",
-                channel: "Biology Channel 6",
-            },
+          {
+            path: "https://www.youtube.com/live/nIbZOBAV1as?si=Z8xFKFdrOdbqRRZs",
+            thumbnail: "https://img.youtube.com/vi/nIbZOBAV1as/hqdefault.jpg",
+            channel: "Physics Wallah Foundation",
+          },
+          {
+            path: "https://youtu.be/UoFHsD-HHK8?si=_okzXQNjV6dunGiP",
+            thumbnail: "https://img.youtube.com/vi/UoFHsD-HHK8/hqdefault.jpg",
+            channel: "Science and Fun Education",
+          },
+          {
+            path: "https://youtu.be/aR3Fe1ZDkqU?si=mYJRsC5XiIaAqBAz",
+            thumbnail: "https://img.youtube.com/vi/aR3Fe1ZDkqU/hqdefault.jpg",
+            channel: "Exphub 9th &10th",
+          },
         ],
     },
     {
         name: "Heredity and Evolution",
         options: [
-            {
-                path: "/dummy/path/heredity-and-evolution/opt1",
-                thumbnail: "/images/heredity_evolution_thumbnail1.jpg",
-                channel: "Biology Channel 7",
-            },
-            {
-                path: "/dummy/path/heredity-and-evolution/opt2",
-                thumbnail: "/images/heredity_evolution_thumbnail2.jpg",
-                channel: "Biology Channel 8",
-            },
+          {
+            path: "https://youtu.be/PeoNpqD73aU?si=f6qy9IjgRA5oYqZt",
+            thumbnail: "https://img.youtube.com/vi/PeoNpqD73aU/hqdefault.jpg",
+            channel: "Exphub 9th &10th",
+          },
+          {
+            path: "https://youtu.be/cmhT2q0l_NQ?si=7wwxL4JMaQImH0Pk",
+            thumbnail: "https://img.youtube.com/vi/cmhT2q0l_NQ/hqdefault.jpg",
+            channel: "UDAAN",
+          },
+          {
+            path: "https://youtu.be/ZiTIToDFaFQ?si=iOVjP1p_SgqeO42C",
+            thumbnail: "https://img.youtube.com/vi/ZiTIToDFaFQ/hqdefault.jpg",
+            channel: "Exphub 9th &10th",
+          },
         ],
     },
     {
         name: "Our Environment",
         options: [
-            {
-                path: "/dummy/path/our-environment/opt1",
-                thumbnail: "/images/environment_thumbnail1.jpg",
-                channel: "Biology Channel 9",
-            },
-            {
-                path: "/dummy/path/our-environment/opt2",
-                thumbnail: "/images/environment_thumbnail2.jpg",
-                channel: "Biology Channel 10",
-            },
+          {
+            path: "https://www.youtube.com/live/k-uteM3JcyI?si=PH0n_jhllikEbZCV",
+            thumbnail: "https://img.youtube.com/vi/k-uteM3JcyI/hqdefault.jpg",
+            channel: "Physics Wallah Foundation",
+          },
+          {
+            path: "https://youtu.be/fKZDHRTbu8Q?si=BxJIRZlKxS74T26w",
+            thumbnail: "https://img.youtube.com/vi/fKZDHRTbu8Q/hqdefault.jpg",
+            channel: "Exphub 9th &10th",
+          },
+          {
+            path: "https://youtu.be/Os_oNOoNH7s?si=Y_7IgteHsoBsJ2f-",
+            thumbnail: "https://img.youtube.com/vi/Os_oNOoNH7s/hqdefault.jpg",
+            channel: "Science and Fun Education",
+          },
         ],
     },
 ],

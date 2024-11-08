@@ -41,7 +41,7 @@ const QuantumPhysicsBooksList: React.FC = () => {
       <h1 className="text-4xl font-bold mb-12 mt-8 text-center text-white">
         Recommended Books for <span className='text-primary'>Quantum Physics</span>
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-auto gap-8 md:mx-2 xl:mx-28">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-auto gap-8 md:mx-2 xl:mx-28 ">
         {books.map((book, index) => (
           <div
             key={index}

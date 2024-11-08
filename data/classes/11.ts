@@ -512,14 +512,19 @@ export const maths = {
       name: "Sets",
       options: [
         {
-          path: "/dummy/path/sets/opt1",
-          thumbnail: "/images/sets_thumbnail1.jpg",
-          channel: "Math Channel 1",
+          path: "https://www.youtube.com/live/XYJyV48ijms?si=tvXd4LJgaythARc_",
+          thumbnail: "https://img.youtube.com/vi/XYJyV48ijms/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/sets/opt2",
-          thumbnail: "/images/sets_thumbnail2.jpg",
-          channel: "Math Channel 2",
+          path: "https://youtu.be/1rr6yrqhskg?si=gZnFoi5iArAkae1m",
+          thumbnail: "https://img.youtube.com/vi/1rr6yrqhskg/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
+        },
+        {
+          path: "https://youtu.be/F_7WUK7htRg?si=PrmJspI1as8WOfQm",
+          thumbnail: "https://img.youtube.com/vi/F_7WUK7htRg/hqdefault.jpg",
+          channel: "Uday - Class 11",
         },
       ],
     },
@@ -527,14 +532,19 @@ export const maths = {
       name: "Relations and Functions",
       options: [
         {
-          path: "/dummy/path/relations-and-functions/opt1",
-          thumbnail: "/images/relations_functions_thumbnail1.jpg",
-          channel: "Math Channel 3",
+          path: "hhttps://youtu.be/SWjh91DSVbk?si=JSY2k6MtoeH6wV9R",
+          thumbnail: "https://img.youtube.com/vi/SWjh91DSVbk/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
         {
-          path: "/dummy/path/relations-and-functions/opt2",
-          thumbnail: "/images/relations_functions_thumbnail2.jpg",
-          channel: "Math Channel 4",
+          path: "https://youtu.be/zdIdeR2lWHc?si=b-cTibZHavXx9vUL",
+          thumbnail: "https://img.youtube.com/vi/zdIdeR2lWHc/hqdefault.jpg",
+          channel: "Arjuna JEE",
+        },
+        {
+          path: "hhttps://youtu.be/4VXUlNRlT3c?si=_EUeueMDZiSSRxFo",
+          thumbnail: "https://img.youtube.com/vi/4VXUlNRlT3c/hqdefault.jpg",
+          channel: "Uday - Class 11",
         },
       ],
     },
@@ -542,31 +552,59 @@ export const maths = {
       name: "Trigonometric Functions",
       options: [
         {
-          path: "/dummy/path/trigonometric-functions/opt1",
-          thumbnail: "/images/trigonometric_functions_thumbnail1.jpg",
-          channel: "Math Channel 5",
+          path: "https://youtu.be/8tuX-lUKXhg?si=Ak_QWsUziwC1ms7G",
+          thumbnail: "https://img.youtube.com/vi/8tuX-lUKXhg/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
         {
-          path: "/dummy/path/trigonometric-functions/opt2",
-          thumbnail: "/images/trigonometric_functions_thumbnail2.jpg",
-          channel: "Math Channel 6",
+          path: "https://www.youtube.com/live/0DgG7LxiYzk?si=gQ07nI5HiZBmg7ne",
+          thumbnail: "https://img.youtube.com/vi/0DgG7LxiYzk/hqdefault.jpg",
+          channel: "JEE Wallah",
+        },
+        {
+          path: "https://youtu.be/7lg3Mehc0gk?si=7_VeJj3sJSBfipab",
+          thumbnail: "https://img.youtube.com/vi/7lg3Mehc0gk/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
       ],
     },
     {
-      name: "Complex Numbers and Quadratic Equations",
+      name: "Complex Numbers",
       options: [
         {
-          path: "/dummy/path/complex-numbers-and-quadratic-equations/opt1",
-          thumbnail:
-            "/images/complex_numbers_quadratic_equations_thumbnail1.jpg",
-          channel: "Math Channel 7",
+          path: "https://www.youtube.com/live/XGFPDkR4-dg?si=ahZuoTB1YM_OB1K_",
+          thumbnail: "https://img.youtube.com/vi/XGFPDkR4-dg/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/complex-numbers-and-quadratic-equations/opt2",
-          thumbnail:
-            "/images/complex_numbers_quadratic_equations_thumbnail2.jpg",
-          channel: "Math Channel 8",
+          path: "https://youtu.be/o8T4ZG08q8g?si=yuCRZUzxftMS6c6l",
+          thumbnail: "https://img.youtube.com/vi/o8T4ZG08q8g/hqdefault.jpg",
+          channel: "Arjuna JEE",
+        },
+        {
+          path: "https://youtu.be/XoPTYrhGdew?si=3F1Cm-3UOgL47V-U",
+          thumbnail: "https://img.youtube.com/vi/XoPTYrhGdew/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+      ],
+    },
+    {
+      name: "Quadratic Equations",
+      options: [
+        {
+          path: "https://www.youtube.com/live/iOwi85y9oSE?si=ysdcGZKKrOd2AtP7",
+          thumbnail: "https://img.youtube.com/vi/iOwi85y9oSE/hqdefault.jpg",
+          channel: "JEE Wallah",
+        },
+        {
+          path: "https://youtu.be/aXfgyf8AYnA?si=vyN1oozjImG-bQ_j",
+          thumbnail: "https://img.youtube.com/vi/aXfgyf8AYnA/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
+        },
+        {
+          path: "https://youtu.be/QeecXIDYtiw?si=j-Nj822AvpfELAwc",
+          thumbnail: "https://img.youtube.com/vi/QeecXIDYtiw/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
       ],
     },
@@ -574,14 +612,14 @@ export const maths = {
       name: "Linear Inequalities",
       options: [
         {
-          path: "/dummy/path/linear-inequalities/opt1",
-          thumbnail: "/images/linear_inequalities_thumbnail1.jpg",
-          channel: "Math Channel 9",
+          path: "https://youtu.be/otz_2spIgq8?si=EbxMK0dcbyU5NVbD",
+          thumbnail: "https://img.youtube.com/vi/otz_2spIgq8/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "/dummy/path/linear-inequalities/opt2",
-          thumbnail: "/images/linear_inequalities_thumbnail2.jpg",
-          channel: "Math Channel 10",
+          path: "https://youtu.be/6Jwf1u7Q75M?si=ARyzgaJbHw3YkVcZ",
+          thumbnail: "https://img.youtube.com/vi/6Jwf1u7Q75M/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -589,14 +627,19 @@ export const maths = {
       name: "Permutations and Combinations",
       options: [
         {
-          path: "/dummy/path/permutations-and-combinations/opt1",
-          thumbnail: "/images/permutations_combinations_thumbnail1.jpg",
-          channel: "Math Channel 11",
+          path: "https://www.youtube.com/live/THHeijYTfKs?si=YC7ksHo9sD86fadN",
+          thumbnail: "https://img.youtube.com/vi/THHeijYTfKs/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/permutations-and-combinations/opt2",
-          thumbnail: "/images/permutations_combinations_thumbnail2.jpg",
-          channel: "Math Channel 12",
+          path: "https://youtu.be/UoJh42eQU8I?si=10ro83gDtf5wrCJu",
+          thumbnail: "https://img.youtube.com/vi/UoJh42eQU8I/hqdefault.jpg",
+          channel: "Arjuna JEE",
+        },
+        {
+          path: "https://youtu.be/VXbKZURwYfU?si=LcPHHawdKM_gu5QN",
+          thumbnail: "https://img.youtube.com/vi/VXbKZURwYfU/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -604,14 +647,19 @@ export const maths = {
       name: "Binomial Theorem",
       options: [
         {
-          path: "/dummy/path/binomial-theorem/opt1",
-          thumbnail: "/images/binomial_theorem_thumbnail1.jpg",
-          channel: "Math Channel 13",
+          path: "https://www.youtube.com/live/jEtgJutEGBM?si=ZD-bTlwLgft33jUa",
+          thumbnail: "https://img.youtube.com/vi/jEtgJutEGBM/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/binomial-theorem/opt2",
-          thumbnail: "/images/binomial_theorem_thumbnail2.jpg",
-          channel: "Math Channel 14",
+          path: "https://youtu.be/macZAq0DNSk?si=-I4hLdUZ_kRZR5hH",
+          thumbnail: "https://img.youtube.com/vi/macZAq0DNSk/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
+        },
+        {
+          path: "https://youtu.be/Ar3TH7MEVTQ?si=9cXQBXTf1KcME444",
+          thumbnail: "https://img.youtube.com/vi/Ar3TH7MEVTQ/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
       ],
     },
@@ -619,14 +667,19 @@ export const maths = {
       name: "Sequences and Series",
       options: [
         {
-          path: "/dummy/path/sequences-and-series/opt1",
-          thumbnail: "/images/sequences_series_thumbnail1.jpg",
-          channel: "Math Channel 15",
+          path: "https://www.youtube.com/live/kjc8k5Ia8V0?si=8XBuMCrRw2Ddcn1o",
+          thumbnail: "https://img.youtube.com/vi/kjc8k5Ia8V0/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/sequences-and-series/opt2",
-          thumbnail: "/images/sequences_series_thumbnail2.jpg",
-          channel: "Math Channel 16",
+          path: "https://youtu.be/ub4LDdjCauQ?si=W_OSB6-BmFSqeQZz",
+          thumbnail: "https://img.youtube.com/vi/ub4LDdjCauQ/hqdefault.jpg",
+          channel: "Arjuna JEE",
+        },
+        {
+          path: "https://www.youtube.com/live/R8Jo5Ed2KrY?si=DBU-gMlzldfnKfoS",
+          thumbnail: "https://img.youtube.com/vi/R8Jo5Ed2KrY/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -634,14 +687,19 @@ export const maths = {
       name: "Straight Lines",
       options: [
         {
-          path: "/dummy/path/straight-lines/opt1",
-          thumbnail: "/images/straight_lines_thumbnail1.jpg",
-          channel: "Math Channel 17",
+          path: "https://youtu.be/4ddGqKZIIvs?si=Yk23B2Dtl4fp3Hlu",
+          thumbnail: "https://img.youtube.com/vi/4ddGqKZIIvs/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
         {
-          path: "/dummy/path/straight-lines/opt2",
-          thumbnail: "/images/straight_lines_thumbnail2.jpg",
-          channel: "Math Channel 18",
+          path: "https://youtu.be/kKm_EOHmJl8?si=C7_Z_ZmqzOrEgutF",
+          thumbnail: "https://img.youtube.com/vi/kKm_EOHmJl8/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
+        },
+        {
+          path: "https://youtu.be/mby6spyt_U4?si=YEKLN2zMXKbhQF6H",
+          thumbnail: "https://img.youtube.com/vi/mby6spyt_U4/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -649,14 +707,19 @@ export const maths = {
       name: "Conic Sections",
       options: [
         {
-          path: "/dummy/path/conic-sections/opt1",
-          thumbnail: "/images/conic_sections_thumbnail1.jpg",
-          channel: "Math Channel 19",
+          path: "https://youtu.be/CF1AK1uZF1U?si=5Qd72CxEG_rtbQ2i",
+          thumbnail: "https://img.youtube.com/vi/CF1AK1uZF1U/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
         {
-          path: "/dummy/path/conic-sections/opt2",
-          thumbnail: "/images/conic_sections_thumbnail2.jpg",
-          channel: "Math Channel 20",
+          path: "https://youtu.be/U2ukhDk69ro?si=l4tewxhTAE8ekfsS",
+          thumbnail: "https://img.youtube.com/vi/U2ukhDk69ro/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/1VQXjxDN-Zs?si=PjwNIm2TKekpcvCI",
+          thumbnail: "https://img.youtube.com/vi/1VQXjxDN-Zs/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -664,14 +727,19 @@ export const maths = {
       name: "Introduction to Three Dimensional Geometry",
       options: [
         {
-          path: "/dummy/path/introduction-to-three-dimensional-geometry/opt1",
-          thumbnail: "/images/3d_geometry_thumbnail1.jpg",
-          channel: "Math Channel 21",
+          path: "https://youtu.be/6RQELNCZD1Q?si=ZrJCybruFOt2FjYX",
+          thumbnail: "https://img.youtube.com/vi/6RQELNCZD1Q/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "/dummy/path/introduction-to-three-dimensional-geometry/opt2",
-          thumbnail: "/images/3d_geometry_thumbnail2.jpg",
-          channel: "Math Channel 22",
+          path: "https://youtu.be/I0ETRAwTBvY?si=pxrZiolK89yxQ7CU",
+          thumbnail: "https://img.youtube.com/vi/I0ETRAwTBvY/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/6JzqNqxqQ90?si=x54WC1xt1W1apbz7",
+          thumbnail: "https://img.youtube.com/vi/6JzqNqxqQ90/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -679,14 +747,19 @@ export const maths = {
       name: "Limits and Derivatives",
       options: [
         {
-          path: "/dummy/path/limits-and-derivatives/opt1",
-          thumbnail: "/images/limits_derivatives_thumbnail1.jpg",
-          channel: "Math Channel 23",
+          path: "https://youtu.be/aAty1dmP6iI?si=MkgHrA1M5WsaACV0",
+          thumbnail: "https://img.youtube.com/vi/aAty1dmP6iI/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
         {
-          path: "/dummy/path/limits-and-derivatives/opt2",
-          thumbnail: "/images/limits_derivatives_thumbnail2.jpg",
-          channel: "Math Channel 24",
+          path: "https://youtu.be/7cCYGq8Hz74?si=0rqqjQXiSqwLl4-V",
+          thumbnail: "https://img.youtube.com/vi/7cCYGq8Hz74/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/ANdOxOWNoLk?si=gOxymtN1mStrVV62",
+          thumbnail: "https://img.youtube.com/vi/ANdOxOWNoLk/hqdefault.jpg",
+          channel: "Anurag Chauhan - EduMitra",
         },
       ],
     },
@@ -694,14 +767,19 @@ export const maths = {
       name: "Statistics",
       options: [
         {
-          path: "/dummy/path/statistics/opt1",
-          thumbnail: "/images/statistics_thumbnail1.jpg",
-          channel: "Math Channel 25",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/statistics/opt2",
-          thumbnail: "/images/statistics_thumbnail2.jpg",
-          channel: "Math Channel 26",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -709,14 +787,19 @@ export const maths = {
       name: "Probability",
       options: [
         {
-          path: "/dummy/path/probability/opt1",
-          thumbnail: "/images/probability_thumbnail1.jpg",
-          channel: "Math Channel 27",
+          path: "https://youtu.be/o801dvs3FZw?si=A428OzwXX0Avyk8Y",
+          thumbnail: "https://img.youtube.com/vi/o801dvs3FZw/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "/dummy/path/probability/opt2",
-          thumbnail: "/images/probability_thumbnail2.jpg",
-          channel: "Math Channel 28",
+          path: "https://youtu.be/lO5sRK0c_A8?si=1p_WK08AgNILKUIc",
+          thumbnail: "https://img.youtube.com/vi/lO5sRK0c_A8/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://www.youtube.com/live/c96DhWvJJso?si=gEc5MFl-5fqRKOXB",
+          thumbnail: "https://img.youtube.com/vi/c96DhWvJJso/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },

@@ -24,84 +24,92 @@ import { IconCommand } from "@tabler/icons-react";
 import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
 import Image, { StaticImageData } from "next/image";
-import { nav_logo, mac } from "@/images/main";
+import { mac, nav_logo } from "@/images/main";
 
-export const MacbookScroll = () => {
+export const MacbookScroll = ({
+  showGradient,
+  badge,
+}: {
+  showGradient?: boolean;
+  title?: string | React.ReactNode;
+  badge?: React.ReactNode;
+}) => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
   });
 
-  // State to store window width
-  const [windowWidth, setWindowWidth] = useState(0);
-
-  // Effect to set the window width after mount
+  const [isMobile, setIsMobile] = useState(false);
+  const [deviceWidth, setDeviceWidth] = useState(0);
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      setWindowWidth(window.innerWidth);
+    if (window && window.innerWidth < 768) {
+      setIsMobile(true);
+    }
+  }, []);
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const handleResize = () => setDeviceWidth(window.innerWidth);
+      setDeviceWidth(window.innerWidth); // Set initial width
+      window.addEventListener('resize', handleResize);
+      
+      return () => window.removeEventListener('resize', handleResize);
     }
   }, []);
 
-  // Transform values based on scroll progress
-  const scaleX = useTransform(scrollYProgress, [0, 0.3], [1.2, 1.5]);
-  const scaleY = useTransform(scrollYProgress, [0, 0.3], [0.6, 1.5]);
-
-  // Handle translate based on windowWidth (only client side)
-  const translate = useTransform(
+  const scaleX = useTransform(
     scrollYProgress,
-    [0, 1],
-    [
-      0,
-      windowWidth < 1500
-        ? windowWidth * 0.35
-        : windowWidth - 1000,
-    ]
+    [0, 0.3],
+    [1.2, isMobile ? 1.25 : 1.5]
   );
-
+  const scaleY = useTransform(
+    scrollYProgress,
+    [0, 0.3],
+    [0.6, isMobile ? 1.25 : 1.5]
+  );
+  const translate = useTransform(scrollYProgress, [0, 1], [0, deviceWidth - 200 ]);
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.3], [-28, -28, 0]);
-  const textTransform = useTransform(scrollYProgress, [0, 0.3], [0, 100]);
-  const textOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
-
   return (
-    <div
-      ref={ref}
-      className="md:min-h-[200vh] flex flex-col items-center py-12 transform md:scale-100 scale-50"
-    >
-      <motion.h2
-        style={{
-          translateY: textTransform,
-          opacity: textOpacity,
-        }}
-        className="text-white text-3xl sm:text-4xl font-bold mb-32 text-center"
+    <section className="min-h-[300vh] overflow-hidden">
+      <div
+        ref={ref}
+        className="md:min-h-[200vh] h-screen flex flex-col max-h-max items-center py-12 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-50 sm:scale-75"
       >
-        Why choose <span className="text-[#06D6A0]">EduViti</span> <br /> for
-        your learning journey?
-      </motion.h2>
-      {/* Lid */}
-      <Lid
-        src={mac}
-        scaleX={scaleX}
-        scaleY={scaleY}
-        rotate={rotate}
-        translate={translate}
-      />
-      {/* Base area */}
-      <div className="w-[32rem] bg-white/70 rounded-2xl -z-10">
-        {/* Above keyboard bar */}
-        <div className="h-10 w-full relative">
-          <div className="absolute inset-x-0 mx-auto w-[80%] h-4 bg-[#050505]" />
-        </div>
-        <div className="flex relative">
-          <div className="mx-auto w-[10%] overflow-hidden h-full"></div>
-          <div className="mx-auto w-[80%] h-full">
-            <Keypad />
+
+        {/* Lid */}
+        <Lid
+          src={mac}
+          scaleX={scaleX}
+          scaleY={scaleY}
+          rotate={rotate}
+          translate={translate}
+        />
+        {/* Base area */}
+        <div className="h-[22rem] w-[32rem] bg-[#4e4e50] rounded-2xl overflow-hidden relative -z-10">
+          {/* above keyboard bar */}
+          <div className="h-10 w-full relative">
+            <div className="absolute inset-x-0 mx-auto w-[80%] h-4 bg-[#050505]" />
           </div>
-          <div className="mx-auto w-[10%] overflow-hidden h-full"></div>
+          <div className="flex relative">
+            <div className="mx-auto w-[10%] overflow-hidden  h-full">
+              <SpeakerGrid />
+            </div>
+            <div className="mx-auto w-[80%] h-full">
+              <Keypad />
+            </div>
+            <div className="mx-auto w-[10%] overflow-hidden  h-full">
+              <SpeakerGrid />
+            </div>
+          </div>
+          <Trackpad />
+          <div className="h-2 w-20 mx-auto inset-x-0 absolute bottom-0 bg-gradient-to-t from-[#272729] to-[#050505] rounded-tr-3xl rounded-tl-3xl" />
+          {showGradient && (
+            <div className="h-40 w-full absolute bottom-0 inset-x-0 bg-gradient-to-t dark:from-black from-white via-white dark:via-black to-transparent z-50"></div>
+          )}
+          {badge && <div className="absolute bottom-4 left-4">{badge}</div>}
         </div>
-        <Trackpad />
       </div>
-    </div>
+    </section>
   );
 };
 
@@ -153,13 +161,12 @@ export const Lid = ({
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
         <Image
           src={mac}
-          width={670}
-          height={480}
-          quality={100}
           alt="Eduviti"
-          className="object-cover object-left-top absolute z-50 rounded-lg inset-0 border border-primary/40 h-full w-full opacity-90 backdrop-blur-xl"
+          fill
+          priority
+          className="object-cover border border-primary/20 object-left-top absolute rounded-lg inset-0 h-full w-full"
         />
-        <div className="absolute inset-x-0 h-full w-full scale-125 -z-50 rounded-full bg-[#60a5fa06] to-transparent blur-md" />
+        <div className="absolute inset-x-0 h-full w-full scale-150 -z-50 rounded-full bg-[#60a5fa09] to-transparent blur-3xl" />
       </motion.div>
     </div>
   );
@@ -587,6 +594,19 @@ export const Row = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
+export const SpeakerGrid = () => {
+  return (
+    <div
+      className="flex px-[0.5px] gap-[2px] mt-2 h-40 opacity-25"
+      style={{
+        backgroundImage:
+          "radial-gradient(circle, #08080A 0.5px, transparent 0.5px)",
+        backgroundSize: "3px 3px",
+      }}
+    ></div>
+  );
+};
+
 export const OptionKey = ({ className }: { className: string }) => {
   return (
     <svg
@@ -623,23 +643,26 @@ export const OptionKey = ({ className }: { className: string }) => {
 
 const AceternityLogo = () => {
   return (
-    <div
-      className="relative"
-      style={{
-        perspective: "800px",
+    <motion.div
+      className="top-0 left-0 w-full h-full flex justify-center items-center"
+      initial={{ x: 0, y: 0 }}
+      animate={{
+        y: [5, -5, 5, -5, 5],
+      }}
+      transition={{
+        duration: 5,
+        repeat: Infinity,
+        ease: "linear",
       }}
     >
       <Image
         src={nav_logo}
-        height={65}
-        width={65}
-        alt="Eduviti"
-        className="opacity-25"
-        style={{
-          transform: "rotateX(-20deg)",
-          transformOrigin: "center",
-        }}
+        alt="Eduvity Logo"
+        width={150}
+        height={150}
+        style={{ transform: "rotateX(-25deg)" }}
+        className="object-contain shadow-lg rounded-lg h-24 w-24 opacity-25"
       />
-    </div>
+    </motion.div>
   );
 };

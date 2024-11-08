@@ -74,173 +74,66 @@ export const maths = {
     { name: "Statistics", path: "1s5kkmko5BwLopT6HT6LmuAp8YkDz5O-i" },
     { name: "Probability", path: "1uXLCiZaqocqnBGGkiED4CkHNMSWUYcWh" },
   ],
-  pyq: [
-    {
-      name: "Number Systems",
-      path: "/StudyResources/Grade-9/maths/number-systems",
-    },
-    { name: "Polynomials", path: "/StudyResources/Grade-9/maths/polynomials" },
-    {
-      name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-9/maths/coordinate-geometry",
-    },
-    {
-      name: "Linear Equations in Two Variables",
-      path: "/StudyResources/Grade-9/maths/linear-equations",
-    },
-    {
-      name: "Euclid’s Geometry",
-      path: "/StudyResources/Grade-9/maths/euclids-geometry",
-    },
-    {
-      name: "Lines and Angles",
-      path: "/StudyResources/Grade-9/maths/lines-and-angles",
-    },
-    { name: "Triangles", path: "/StudyResources/Grade-9/maths/triangles" },
-    {
-      name: "Quadrilaterals",
-      path: "/StudyResources/Grade-9/maths/quadrilaterals",
-    },
-    {
-      name: "Areas of Parallelograms and Triangles",
-      path: "/StudyResources/Grade-9/maths/areas-parallelograms-triangles",
-    },
-    { name: "Circles", path: "/StudyResources/Grade-9/maths/circles" },
-    {
-      name: "Constructions",
-      path: "/StudyResources/Grade-9/maths/constructions",
-    },
-    {
-      name: "Heron’s Formula",
-      path: "/StudyResources/Grade-9/maths/herons-formula",
-    },
-    {
-      name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-9/maths/surface-areas-volumes",
-    },
-    { name: "Statistics", path: "/StudyResources/Grade-9/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-9/maths/probability" },
-  ],
   question_banks: [
     {
       name: "Number Systems",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1MKVrFMGYRRNF5gfFCcyJxSM931yJrt9O" }],
     },
     {
       name: "Polynomials",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ], // Empty array for chapters without specific sets
+      sets: [{ name: "Set 1", path: "1hb_qo7JvZpV5sgtvbYht-KDaTA3qw5m9" }], // Empty array for chapters without specific sets
     },
     {
       name: "Coordinate Geometry",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1XzbSAR_1eJWVQhYHUcHIfjUpJhIHPp6r" }],
     },
     {
       name: "Linear Equations in Two Variables",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1ndCa9z9W8qBONtnl7wJYRVVQKcLY9KDW" }],
     },
     {
       name: "Euclid’s Geometry",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "11CZxFXMKA12dtohJM390NQvvBaHOhUtp" }],
     },
     {
       name: "Lines and Angles",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "18NZRrhbbrVOHNMHAqe5uUNd5gpeIk2hG" }],
     },
     {
       name: "Triangles",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "10J6aiHa8ACzJ1JfAHJpel37IlSY4qPli" }],
     },
     {
       name: "Quadrilaterals",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1qSmAORely4h1q-c0oeB-fhsjyx-8D3yD" }],
     },
     {
       name: "Areas of Parallelograms and Triangles",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1tb-coGQNiteLs87LpkpUpmFFdhAVVnW-" }],
     },
     {
       name: "Circles",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1GM9RO7AzeOmDwMF-FyspGePF8dvU_bW1" }],
     },
     {
       name: "Constructions",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1v90sU7F58jWwZ2qOmhVsY_9cCexSXJkV" }],
     },
     {
       name: "Heron’s Formula",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1M_EMbETn1D84i1K5gfl3kahHl1HsYbxi" }],
     },
     {
       name: "Surface Areas and Volumes",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1chWXpyx9VlMmoII8ft5UjFwxPtxCmQLg" }],
     },
     {
       name: "Statistics",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1zqdMR2dC97QnPDIUJLONGRLfrm8f4c2F" }],
     },
     {
       name: "Probability",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
-      ],
+      sets: [{ name: "Set 1", path: "1J3HbINLJZhr-3sVhLssn0S7PZEMBPuvv" }],
     },
   ],
 
@@ -248,121 +141,121 @@ export const maths = {
     {
       name: "Number Systems",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Polynomials",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ], // Empty array for chapters without specific sets
     },
     {
       name: "Coordinate Geometry",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Linear Equations in Two Variables",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Euclid’s Geometry",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Lines and Angles",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Triangles",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Quadrilaterals",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Areas of Parallelograms and Triangles",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Circles",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Constructions",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Heron’s Formula",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Surface Areas and Volumes",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Statistics",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Probability",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/maths/number-systems" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/maths/number-systems" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
   ],
@@ -704,29 +597,14 @@ export const physics = {
     },
     { name: "Sound", path: "1ee3XWDAedSHVjNaYYsInzqxfqi38oWmu" },
   ],
-  pyq: [
-    { name: "Motion", path: "/StudyResources/Grade-9/physics/motion" },
-    {
-      name: "Force & Laws of Motion",
-      path: "/StudyResources/Grade-9/physics/force-&-laws-of-motion",
-    },
-    {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-9/physics/gravitation",
-    },
-    {
-      name: "Work and Energy",
-      path: "/StudyResources/Grade-9/physics/work-and-energy",
-    },
-    { name: "Sound", path: "/StudyResources/Grade-9/physics/sound" },
-  ],
   question_banks: [
     {
       name: "Motion",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/physics/motion" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/physics/motion" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/physics/motion" },
+        {
+          name: "Set 1",
+          path: "1-KZn4bWVGW3YWNLwbF1bC9h3oM0XyG0g",
+        },
       ],
     },
     {
@@ -734,24 +612,17 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
+          path: "1UXjMuSVytzfUvD-S-lszBxdND9JzRbnZ",
         },
       ],
     },
     {
       name: "Gravitation",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/physics/gravitation" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/physics/gravitation" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/physics/gravitation" },
+        {
+          name: "Set 1",
+          path: "1wiTda8Cj9AjCPcnWPwWUR8LWssRcHmu8",
+        },
       ],
     },
     {
@@ -759,24 +630,17 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/physics/work-and-energy",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/physics/work-and-energy",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/physics/work-and-energy",
+          path: "1JsxO7oGT5rYKybAwhrzDNaj1aOrQfIyy",
         },
       ],
     },
     {
       name: "Sound",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/physics/sound" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/physics/sound" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/physics/sound" },
+        {
+          name: "Set 1",
+          path: "1H92mBGUxjcuLv_FkdkFQoPGY2UVWqKuK",
+        },
       ],
     },
   ],
@@ -784,9 +648,9 @@ export const physics = {
     {
       name: "Motion",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/physics/motion" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/physics/motion" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/physics/motion" },
+        { name: "Set 1", path: "" },
+        { name: "Set 3", path: "" },
+        { name: "Set 2", path: "" },
       ],
     },
     {
@@ -1006,39 +870,13 @@ export const chemistry = {
       path: "1q2PhSHIPFtZZE8vqF__doJ2PETd-wTgv",
     },
   ],
-  pyq: [
-    {
-      name: "Matter in Our Surroundings",
-      path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
-    },
-    {
-      name: "Is Matter Around Us Pure ",
-      path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
-    },
-    {
-      name: "Atoms and Molecules",
-      path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
-    },
-    {
-      name: "Structure of The Atom",
-      path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
-    },
-  ],
   question_banks: [
     {
       name: "Matter in Our Surroundings",
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
+          path: "1vCsM_o-FEyTRJ0pa4j8jgpIlmJO1HpSB",
         },
       ],
     },
@@ -1047,15 +885,7 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
+          path: "15dM_Dyo8WlvSidQJkaAGxcd71gU4pd_X",
         },
       ],
     },
@@ -1064,15 +894,7 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
+          path: "1nkeCPJRLCtNWnQQeBvT9ZnV48tpC7Mq9",
         },
       ],
     },
@@ -1081,15 +903,7 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
+          path: "/1Ear3qjAHv9-jQ6bEN7vNJpKpTkrEuh2A",
         },
       ],
     },
@@ -1315,44 +1129,14 @@ export const biology = {
       path: "1ENziG5JpxsUAmy1pVGYjwSGOLpml1gor",
     },
   ],
-  pyq: [
-    {
-      name: "The Fundamental Unit of Life",
-      path: "/StudyResources/Grade-9/biology/fundamental-unit-of-life",
-    },
-    { name: "Tissues", path: "/StudyResources/Grade-9/biology/tissues" },
-    {
-      name: "Diversity in Living Organisms",
-      path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
-    },
-    {
-      name: "Why do We Fall Ill",
-      path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
-    },
-    {
-      name: "Natural Resources",
-      path: "/StudyResources/Grade-9/biology/natural-resources",
-    },
-    {
-      name: "Improvement in Food Resources",
-      path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
-    },
-  ],
+
   question_banks: [
     {
       name: "The Fundamental Unit of Life",
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
+          path: "https://drive.google.com/file/d/1xzGwz6XcGR4VFXA0cJ41-zvqQ3pXlygd/view?usp=drive_link",
         },
       ],
     },
@@ -1361,83 +1145,27 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/tissues",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/tissues",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/tissues",
+          path: "https://drive.google.com/file/d/1EGS_jQbsL3mCGr82xTfn0CMPCXD171qI/view?usp=drive_link",
         },
       ],
     },
-    {
-      name: "Diversity in Living Organisms",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
-        },
-      ],
-    },
+
     {
       name: "Why do We Fall Ill",
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
+          path: "https://drive.google.com/file/d/1d6s9GlK-RpwgXn5ILzCcV8GyR3t5twob/view?usp=drive_link",
         },
       ],
     },
-    {
-      name: "Natural Resources",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/natural-resources",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/natural-resources",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/natural-resources",
-        },
-      ],
-    },
+
     {
       name: "Improvement in Food Resources",
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
+          path: "https://drive.google.com/file/d/1SCyqbw0T8c1gGNbZCiWkfrrH8t7j8VlQ/view?usp=drive_link",
         },
       ],
     },
@@ -1590,20 +1318,30 @@ export const biology = {
           thumbnail: "https://img.youtube.com/vi/HyyaSl9dKqI/hqdefault.jpg",
           channel: "Vedantu9&10",
         },
+        {
+          path: "https://youtu.be/1jn266MKZrs?si=WaSG2ibsnyGPx9KS",
+          thumbnail: "https://img.youtube.com/vi/1jn266MKZrs/hqdefault.jpg",
+          channel: "Just Padhle",
+        },
       ],
     },
     {
       name: "Diversity in Living Organisms",
       options: [
         {
-          path: "/dummy/path/diversity-in-living-organisms/opt1",
-          thumbnail: "/images/diversity_thumbnail1.jpg",
-          channel: "Biology Channel 5",
+          path: "https://youtu.be/CGRzD77Mul8?si=8VYfejMXidiV94Hy",
+          thumbnail: "https://img.youtube.com/vi/CGRzD77Mul8/hqdefault.jpg",
+          channel: "NEEV",
         },
         {
-          path: "/dummy/path/diversity-in-living-organisms/opt2",
-          thumbnail: "/images/diversity_thumbnail2.jpg",
-          channel: "Biology Channel 6",
+          path: "https://youtu.be/mxJowLgBojs?si=TMetQDMMWti1iJ6U",
+          thumbnail: "https://img.youtube.com/vi/mxJowLgBojs/hqdefault.jpg",
+          channel: "EduMantra- Sanjiv Pandey",
+        },
+        {
+          path: "https://youtu.be/arROXsh6-ZQ?si=cIkm562ekJjqkIC0",
+          thumbnail: "https://img.youtube.com/vi/arROXsh6-ZQ/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
       ],
     },
@@ -1611,14 +1349,19 @@ export const biology = {
       name: "Why do We Fall Ill",
       options: [
         {
-          path: "/dummy/path/why-do-we-fall-ill/opt1",
-          thumbnail: "/images/fall_ill_thumbnail1.jpg",
-          channel: "Biology Channel 7",
+          path: "https://youtu.be/RBlj7HHbo2Y?si=sgaS0579NCahdJAl",
+          thumbnail: "https://img.youtube.com/vi/RBlj7HHbo2Y/hqdefault.jpg",
+          channel: "Magnet Brains",
         },
         {
-          path: "/dummy/path/why-do-we-fall-ill/opt2",
-          thumbnail: "/images/fall_ill_thumbnail2.jpg",
-          channel: "Biology Channel 8",
+          path: "https://youtu.be/oSzlqFMnw3Y?si=nfS-MxzKHoFZ2stY",
+          thumbnail: "https://img.youtube.com/vi/oSzlqFMnw3Y/hqdefault.jpg",
+          channel: "NEEV",
+        },
+        {
+          path: "https://youtu.be/U0ya3DntNRc?si=Io-YsU1WXPDKt8dB",
+          thumbnail: "https://img.youtube.com/vi/U0ya3DntNRc/hqdefault.jpg",
+          channel: "EduMantra- Sanjiv Pandey",
         },
       ],
     },
@@ -1626,14 +1369,14 @@ export const biology = {
       name: "Natural Resources",
       options: [
         {
-          path: "/dummy/path/natural-resources/opt1",
-          thumbnail: "/images/natural_resources_thumbnail1.jpg",
-          channel: "Biology Channel 9",
+          path: "https://youtu.be/SHQwJ3hOX6E?si=ErenXt8QiFD3BVop",
+          thumbnail: "https://img.youtube.com/vi/SHQwJ3hOX6E/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
         },
         {
-          path: "/dummy/path/natural-resources/opt2",
-          thumbnail: "/images/natural_resources_thumbnail2.jpg",
-          channel: "Biology Channel 10",
+          path: "https://youtu.be/wdrxy66moxU?si=LP_izEZNQCXxiU5B",
+          thumbnail: "https://img.youtube.com/vi/wdrxy66moxU/hqdefault.jpg",
+          channel: "NEEV",
         },
       ],
     },
@@ -1641,14 +1384,19 @@ export const biology = {
       name: "Improvement in Food Resources",
       options: [
         {
-          path: "/dummy/path/improvement-in-food-resources/opt1",
-          thumbnail: "/images/food_resources_thumbnail1.jpg",
-          channel: "Biology Channel 11",
+          path: "https://youtu.be/g5waLgRvRhs?si=ASWhTCPIHxOGUQWd",
+          thumbnail: "https://img.youtube.com/vi/g5waLgRvRhs/hqdefault.jpg",
+          channel: "Vedantu9&10",
         },
         {
-          path: "/dummy/path/improvement-in-food-resources/opt2",
-          thumbnail: "/images/food_resources_thumbnail2.jpg",
-          channel: "Biology Channel 12",
+          path: "https://youtu.be/dRt7KnwsuUE?si=NdF_2iuJx7gw2heA",
+          thumbnail: "https://img.youtube.com/vi/dRt7KnwsuUE/hqdefault.jpg",
+          channel: "NEEV",
+        },
+        {
+          path: "https://youtu.be/xY1vBwSzAM8?si=FU7-9FrSPUsAedRe",
+          thumbnail: "https://img.youtube.com/vi/xY1vBwSzAM8/hqdefault.jpg",
+          channel: "Just Padhle",
         },
       ],
     },
