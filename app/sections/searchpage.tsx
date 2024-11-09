@@ -3,7 +3,7 @@ import { search_svg } from "@/images/main";
 
 const SearchPage = () => {
   return (
-    <section className="flex flex-col items-center w-screen pt-32 justify-end text-white px-6 space-y-12">
+    <section className="bg-white/5 flex flex-col items-center w-screen pt-32 justify-end text-white px-6 space-y-12">
       <h2 className="text-4xl md:text-5xl mt-5 back-in-left max-w-[500px] font-bold text-center">
         Discover New Learning{" "}
         <span className="text-primary">Opportunities</span>
