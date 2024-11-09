@@ -884,65 +884,7 @@ export const physics = {
     },
     { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
   ],
-  pyq: [
-    {
-      name: "Physical World",
-      path: "/StudyResources/Grade-11/physics/physical-world",
-    },
-    {
-      name: "Units and Measurements",
-      path: "/StudyResources/Grade-11/physics/units-and-measurements",
-    },
-    {
-      name: "Motion in a Straight Line",
-      path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
-    },
-    {
-      name: "Motion in a Plane",
-      path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
-    },
-    {
-      name: "Law of Motion",
-      path: "/StudyResources/Grade-11/physics/law-of-motion",
-    },
-    {
-      name: "Work, Energy and Power",
-      path: "/StudyResources/Grade-11/physics/work-energy-and-power",
-    },
-    {
-      name: "Systems of Particles and Rotational Motion",
-      path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
-    },
-    {
-      name: "Gravitation",
-      path: "/StudyResources/Grade-11/physics/gravitation",
-    },
-    {
-      name: "Mechanical Properties of Solids",
-      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
-    },
-    {
-      name: "Mechanical Properties of Fluids",
-      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
-    },
-    {
-      name: "Thermal Properties of Matter",
-      path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
-    },
-    {
-      name: "Thermodynamics",
-      path: "/StudyResources/Grade-11/physics/thermodynamics",
-    },
-    {
-      name: "Kinetic Theory",
-      path: "/StudyResources/Grade-11/physics/kinetic-theory",
-    },
-    {
-      name: "Oscillations",
-      path: "/StudyResources/Grade-11/physics/oscillations",
-    },
-    { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
-  ],
+  
   question_banks: [
     {
       name: "Physical World",
@@ -1427,14 +1369,19 @@ export const physics = {
       name: "Physical World",
       options: [
         {
-          path: "/dummy/path/physical-world/opt1",
-          thumbnail: "/images/physical_world_thumbnail1.jpg",
-          channel: "Physics Channel 1",
+          path: "https://youtu.be/e154t-hfyRw?si=pffYwvmhVU8c-T75",
+          thumbnail: "https://img.youtube.com/vi/e154t-hfyRw/hqdefault.jpg",
+          channel: "Physics Wallah - Alakh Pandey",
         },
         {
-          path: "/dummy/path/physical-world/opt2",
-          thumbnail: "/images/physical_world_thumbnail2.jpg",
-          channel: "Physics Channel 2",
+          path: "https://youtu.be/QMHMX_TvxKw?si=g2R7fj-eC-er-4Tx",
+          thumbnail: "https://img.youtube.com/vi/QMHMX_TvxKw/hqdefault.jpg",
+          channel: "Abhishek Sahu",
+        },
+        {
+          path: "https://youtu.be/yF291D4XcMo?si=rkZQOxdsYVkN0NW2",
+          thumbnail: "https://img.youtube.com/vi/yF291D4XcMo/hqdefault.jpg",
+          channel: "Magnet Brains",
         },
       ],
     },
@@ -1442,14 +1389,19 @@ export const physics = {
       name: "Units and Measurements",
       options: [
         {
-          path: "/dummy/path/units-and-measurements/opt1",
-          thumbnail: "/images/units_measurements_thumbnail1.jpg",
-          channel: "Physics Channel 3",
+          path: "https://youtu.be/3bhJxde2Xic?si=-HPcw4CXQvfLu7PT",
+          thumbnail: "https://img.youtube.com/vi/3bhJxde2Xic/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
         {
-          path: "/dummy/path/units-and-measurements/opt2",
-          thumbnail: "/images/units_measurements_thumbnail2.jpg",
-          channel: "Physics Channel 4",
+          path: "https://youtu.be/YX5sLwRtULk?si=RZj7GnnxGvXObDYS",
+          thumbnail: "https://img.youtube.com/vi/YX5sLwRtULk/hqdefault.jpg",
+          channel: "Arjuna JEE",
+        },
+        {
+          path: "https://youtu.be/iSQeNkkMCVk?si=vDAvJH9uoqeFe5I1",
+          thumbnail: "https://img.youtube.com/vi/iSQeNkkMCVk/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -1457,14 +1409,19 @@ export const physics = {
       name: "Motion in a Straight Line",
       options: [
         {
-          path: "/dummy/path/motion-in-a-straight-line/opt1",
-          thumbnail: "/images/motion_straight_line_thumbnail1.jpg",
-          channel: "Physics Channel 5",
+          path: "https://youtu.be/CGp3b4X2MQU?si=3O4ebJzuX8YUIQW2",
+          thumbnail: "https://img.youtube.com/vi/CGp3b4X2MQU/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
         {
-          path: "/dummy/path/motion-in-a-straight-line/opt2",
-          thumbnail: "/images/motion_straight_line_thumbnail2.jpg",
-          channel: "Physics Channel 6",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1472,14 +1429,19 @@ export const physics = {
       name: "Motion in a Plane",
       options: [
         {
-          path: "/dummy/path/motion-in-a-plane/opt1",
-          thumbnail: "/images/motion_plane_thumbnail1.jpg",
-          channel: "Physics Channel 7",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/motion-in-a-plane/opt2",
-          thumbnail: "/images/motion_plane_thumbnail2.jpg",
-          channel: "Physics Channel 8",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1487,14 +1449,19 @@ export const physics = {
       name: "Law of Motion",
       options: [
         {
-          path: "/dummy/path/law-of-motion/opt1",
-          thumbnail: "/images/law_motion_thumbnail1.jpg",
-          channel: "Physics Channel 9",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/law-of-motion/opt2",
-          thumbnail: "/images/law_motion_thumbnail2.jpg",
-          channel: "Physics Channel 10",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1502,14 +1469,19 @@ export const physics = {
       name: "Work, Energy and Power",
       options: [
         {
-          path: "/dummy/path/work-energy-and-power/opt1",
-          thumbnail: "/images/work_energy_power_thumbnail1.jpg",
-          channel: "Physics Channel 11",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/work-energy-and-power/opt2",
-          thumbnail: "/images/work_energy_power_thumbnail2.jpg",
-          channel: "Physics Channel 12",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1517,16 +1489,19 @@ export const physics = {
       name: "Systems of Particles and Rotational Motion",
       options: [
         {
-          path: "/dummy/path/systems-of-particles-and-rotational-motion/opt1",
-          thumbnail:
-            "/images/systems_particles_rotational_motion_thumbnail1.jpg",
-          channel: "Physics Channel 13",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/systems-of-particles-and-rotational-motion/opt2",
-          thumbnail:
-            "/images/systems_particles_rotational_motion_thumbnail2.jpg",
-          channel: "Physics Channel 14",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1534,14 +1509,19 @@ export const physics = {
       name: "Gravitation",
       options: [
         {
-          path: "/dummy/path/gravitation/opt1",
-          thumbnail: "/images/gravitation_thumbnail1.jpg",
-          channel: "Physics Channel 15",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/gravitation/opt2",
-          thumbnail: "/images/gravitation_thumbnail2.jpg",
-          channel: "Physics Channel 16",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1549,14 +1529,19 @@ export const physics = {
       name: "Mechanical Properties of Solids",
       options: [
         {
-          path: "/dummy/path/mechanical-properties-of-solids/opt1",
-          thumbnail: "/images/mechanical_properties_solids_thumbnail1.jpg",
-          channel: "Physics Channel 17",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/mechanical-properties-of-solids/opt2",
-          thumbnail: "/images/mechanical_properties_solids_thumbnail2.jpg",
-          channel: "Physics Channel 18",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1564,14 +1549,19 @@ export const physics = {
       name: "Mechanical Properties of Fluids",
       options: [
         {
-          path: "/dummy/path/mechanical-properties-of-fluids/opt1",
-          thumbnail: "/images/mechanical_properties_fluids_thumbnail1.jpg",
-          channel: "Physics Channel 19",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/mechanical-properties-of-fluids/opt2",
-          thumbnail: "/images/mechanical_properties_fluids_thumbnail2.jpg",
-          channel: "Physics Channel 20",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1579,14 +1569,19 @@ export const physics = {
       name: "Thermal Properties of Matter",
       options: [
         {
-          path: "/dummy/path/thermal-properties-of-matter/opt1",
-          thumbnail: "/images/thermal_properties_matter_thumbnail1.jpg",
-          channel: "Physics Channel 21",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/thermal-properties-of-matter/opt2",
-          thumbnail: "/images/thermal_properties_matter_thumbnail2.jpg",
-          channel: "Physics Channel 22",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1594,14 +1589,19 @@ export const physics = {
       name: "Thermodynamics",
       options: [
         {
-          path: "/dummy/path/thermodynamics/opt1",
-          thumbnail: "/images/thermodynamics_thumbnail1.jpg",
-          channel: "Physics Channel 23",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/thermodynamics/opt2",
-          thumbnail: "/images/thermodynamics_thumbnail2.jpg",
-          channel: "Physics Channel 24",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1609,14 +1609,19 @@ export const physics = {
       name: "Kinetic Theory",
       options: [
         {
-          path: "/dummy/path/kinetic-theory/opt1",
-          thumbnail: "/images/kinetic_theory_thumbnail1.jpg",
-          channel: "Physics Channel 25",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/kinetic-theory/opt2",
-          thumbnail: "/images/kinetic_theory_thumbnail2.jpg",
-          channel: "Physics Channel 26",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1624,14 +1629,19 @@ export const physics = {
       name: "Oscillations",
       options: [
         {
-          path: "/dummy/path/oscillations/opt1",
-          thumbnail: "/images/oscillations_thumbnail1.jpg",
-          channel: "Physics Channel 27",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/oscillations/opt2",
-          thumbnail: "/images/oscillations_thumbnail2.jpg",
-          channel: "Physics Channel 28",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1639,14 +1649,19 @@ export const physics = {
       name: "Waves",
       options: [
         {
-          path: "/dummy/path/waves/opt1",
-          thumbnail: "/images/waves_thumbnail1.jpg",
-          channel: "Physics Channel 29",
+          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
+          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
         {
-          path: "/dummy/path/waves/opt2",
-          thumbnail: "/images/waves_thumbnail2.jpg",
-          channel: "Physics Channel 30",
+          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
+          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
+          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },

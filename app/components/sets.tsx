@@ -35,7 +35,6 @@ const SetsCard: React.FC<SetsCardProps> = ({ title, sets }) => {
               <div
                 onClick={() => window.location.href = `https://drive.google.com/uc?export=download&id=${set.path}`}
                 className="items-center gap-2 justify-center flex flex-row px-4 py-2 text-bg hover:scale-105 duration-150 bg-primary rounded-lg hover:bg-primary/80 transition"
-                download
               >
                 Download
                 <svg
