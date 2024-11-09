@@ -569,42 +569,22 @@ export const maths = {
       ],
     },
     {
-      name: "Complex Numbers",
+      name: "Complex Numbers and Quadratic Equations",
       options: [
         {
-          path: "https://www.youtube.com/live/XGFPDkR4-dg?si=ahZuoTB1YM_OB1K_",
-          thumbnail: "https://img.youtube.com/vi/XGFPDkR4-dg/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/DXF5gUZjDwU?si=cKv52i-hNkrMFdsZ",
+          thumbnail: "https://img.youtube.com/vi/DXF5gUZjDwU/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "https://youtu.be/o8T4ZG08q8g?si=yuCRZUzxftMS6c6l",
-          thumbnail: "https://img.youtube.com/vi/o8T4ZG08q8g/hqdefault.jpg",
-          channel: "Arjuna JEE",
+          path: "https://youtu.be/mICggt6LJTI?si=jav_ymgDjgEzqEYg",
+          thumbnail: "https://img.youtube.com/vi/mICggt6LJTI/hqdefault.jpg",
+          channel: "cbseclass videos",
         },
         {
           path: "https://youtu.be/XoPTYrhGdew?si=3F1Cm-3UOgL47V-U",
           thumbnail: "https://img.youtube.com/vi/XoPTYrhGdew/hqdefault.jpg",
           channel: "Science and Fun Education",
-        },
-      ],
-    },
-    {
-      name: "Quadratic Equations",
-      options: [
-        {
-          path: "https://www.youtube.com/live/iOwi85y9oSE?si=ysdcGZKKrOd2AtP7",
-          thumbnail: "https://img.youtube.com/vi/iOwi85y9oSE/hqdefault.jpg",
-          channel: "JEE Wallah",
-        },
-        {
-          path: "https://youtu.be/aXfgyf8AYnA?si=vyN1oozjImG-bQ_j",
-          thumbnail: "https://img.youtube.com/vi/aXfgyf8AYnA/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
-        },
-        {
-          path: "https://youtu.be/QeecXIDYtiw?si=j-Nj822AvpfELAwc",
-          thumbnail: "https://img.youtube.com/vi/QeecXIDYtiw/hqdefault.jpg",
-          channel: "Arjuna JEE",
         },
       ],
     },
@@ -647,9 +627,9 @@ export const maths = {
       name: "Binomial Theorem",
       options: [
         {
-          path: "https://www.youtube.com/live/jEtgJutEGBM?si=ZD-bTlwLgft33jUa",
-          thumbnail: "https://img.youtube.com/vi/jEtgJutEGBM/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/WLez2q1-GvE?si=v5DUj8SlIKXt8cyP",
+          thumbnail: "https://img.youtube.com/vi/WLez2q1-GvE/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
           path: "https://youtu.be/macZAq0DNSk?si=-I4hLdUZ_kRZR5hH",
@@ -657,9 +637,9 @@ export const maths = {
           channel: "Vedantu JEE Made Ejee",
         },
         {
-          path: "https://youtu.be/Ar3TH7MEVTQ?si=9cXQBXTf1KcME444",
-          thumbnail: "https://img.youtube.com/vi/Ar3TH7MEVTQ/hqdefault.jpg",
-          channel: "Arjuna JEE",
+          path: "https://youtu.be/VHMmkzvSWNE?si=Gb4MRy0nktVwCFaZ",
+          thumbnail: "https://img.youtube.com/vi/VHMmkzvSWNE/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -667,14 +647,14 @@ export const maths = {
       name: "Sequences and Series",
       options: [
         {
-          path: "https://www.youtube.com/live/kjc8k5Ia8V0?si=8XBuMCrRw2Ddcn1o",
-          thumbnail: "https://img.youtube.com/vi/kjc8k5Ia8V0/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/TU0rHRQ2wqU?si=uQYY3Gl-6mgEg5Ln",
+          thumbnail: "https://img.youtube.com/vi/TU0rHRQ2wqU/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "https://youtu.be/ub4LDdjCauQ?si=W_OSB6-BmFSqeQZz",
-          thumbnail: "https://img.youtube.com/vi/ub4LDdjCauQ/hqdefault.jpg",
-          channel: "Arjuna JEE",
+          path: "https://youtu.be/GpIrGtev130?si=n_O1rvUC10fvj3AX",
+          thumbnail: "https://img.youtube.com/vi/GpIrGtev130/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
           path: "https://www.youtube.com/live/R8Jo5Ed2KrY?si=DBU-gMlzldfnKfoS",
@@ -687,9 +667,9 @@ export const maths = {
       name: "Straight Lines",
       options: [
         {
-          path: "https://youtu.be/4ddGqKZIIvs?si=Yk23B2Dtl4fp3Hlu",
-          thumbnail: "https://img.youtube.com/vi/4ddGqKZIIvs/hqdefault.jpg",
-          channel: "Arjuna JEE",
+          path: "https://youtu.be/guYhVnACdTk?si=HHxjuYVZHQoRbQ6F",
+          thumbnail: "https://img.youtube.com/vi/guYhVnACdTk/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
           path: "https://youtu.be/kKm_EOHmJl8?si=C7_Z_ZmqzOrEgutF",
@@ -1366,37 +1346,17 @@ export const physics = {
   ],
   video_lectures: [
     {
-      name: "Physical World",
-      options: [
-        {
-          path: "https://youtu.be/e154t-hfyRw?si=pffYwvmhVU8c-T75",
-          thumbnail: "https://img.youtube.com/vi/e154t-hfyRw/hqdefault.jpg",
-          channel: "Physics Wallah - Alakh Pandey",
-        },
-        {
-          path: "https://youtu.be/QMHMX_TvxKw?si=g2R7fj-eC-er-4Tx",
-          thumbnail: "https://img.youtube.com/vi/QMHMX_TvxKw/hqdefault.jpg",
-          channel: "Abhishek Sahu",
-        },
-        {
-          path: "https://youtu.be/yF291D4XcMo?si=rkZQOxdsYVkN0NW2",
-          thumbnail: "https://img.youtube.com/vi/yF291D4XcMo/hqdefault.jpg",
-          channel: "Magnet Brains",
-        },
-      ],
-    },
-    {
       name: "Units and Measurements",
       options: [
         {
-          path: "https://youtu.be/3bhJxde2Xic?si=-HPcw4CXQvfLu7PT",
-          thumbnail: "https://img.youtube.com/vi/3bhJxde2Xic/hqdefault.jpg",
-          channel: "Arjuna JEE",
+          path: "https://www.youtube.com/live/xe75ffBoJcU?si=x_mNXqU_e-G1A_mF",
+          thumbnail: "https://img.youtube.com/vi/xe75ffBoJcU/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
         {
-          path: "https://youtu.be/YX5sLwRtULk?si=RZj7GnnxGvXObDYS",
-          thumbnail: "https://img.youtube.com/vi/YX5sLwRtULk/hqdefault.jpg",
-          channel: "Arjuna JEE",
+          path: "https://youtu.be/bin4OCO-LSc?si=qt-yrgPg1TAPgwiH",
+          thumbnail: "https://img.youtube.com/vi/bin4OCO-LSc/hqdefault.jpg",
+          channel: "Uday - Class 11",
         },
         {
           path: "https://youtu.be/iSQeNkkMCVk?si=vDAvJH9uoqeFe5I1",
@@ -1409,19 +1369,19 @@ export const physics = {
       name: "Motion in a Straight Line",
       options: [
         {
-          path: "https://youtu.be/CGp3b4X2MQU?si=3O4ebJzuX8YUIQW2",
-          thumbnail: "https://img.youtube.com/vi/CGp3b4X2MQU/hqdefault.jpg",
-          channel: "Arjuna JEE",
+          path: "https://youtu.be/MecHXgBPnpw?si=UasqUF_8_xW7HBnb",
+          thumbnail: "https://img.youtube.com/vi/MecHXgBPnpw/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
+          path: "https://youtu.be/nojm_tHauRE?si=vH6pMcgRL7vuyQ6C",
+          thumbnail: "https://img.youtube.com/vi/nojm_tHauRE/hqdefault.jpg",
+          channel: "Abhishek Sahu",
         },
         {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
+          path: "https://youtu.be/lu2E6W805hA?si=YIy2plo0qdshh57y",
+          thumbnail: "https://img.youtube.com/vi/lu2E6W805hA/hqdefault.jpg",
+          channel: "Uday - Class 11",
         },
       ],
     },
@@ -1429,39 +1389,39 @@ export const physics = {
       name: "Motion in a Plane",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/Ro_DbO-geRE?si=4hVyCVvuHDcu3k-7",
+          thumbnail: "https://img.youtube.com/vi/Ro_DbO-geRE/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
-        },
-        {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          path: "https://youtu.be/lFK68tCpsm0?si=BeTK3tYr0PUDzkg8",
+          thumbnail: "https://img.youtube.com/vi/lFK68tCpsm0/hqdefault.jpg",
           channel: "Vedantu JEE Made Ejee",
+        },
+        {
+          path: "https://youtu.be/aoAnn5rFGgM?si=d-KwgaBcatvuDl7e",
+          thumbnail: "https://img.youtube.com/vi/aoAnn5rFGgM/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
     {
-      name: "Law of Motion",
+      name: "Laws of Motion",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/TVttS4KL7Vg?si=N7zMVFnWv2OHyAdr",
+          thumbnail: "https://img.youtube.com/vi/TVttS4KL7Vg/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
+          path: "https://youtu.be/Eds9lqi_BsU?si=5JYR28ntyvzatkY7",
+          thumbnail: "https://img.youtube.com/vi/Eds9lqi_BsU/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
         {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
+          path: "https://youtu.be/3KYRAqUoHr4?si=Ovu5IqoGSz5_XYKP",
+          thumbnail: "https://img.youtube.com/vi/3KYRAqUoHr4/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
       ],
     },
@@ -1469,39 +1429,39 @@ export const physics = {
       name: "Work, Energy and Power",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          path: "https://www.youtube.com/live/C7CXnkkOmX8?si=UE8t19613iYiC1wd",
+          thumbnail: "https://img.youtube.com/vi/C7CXnkkOmX8/hqdefault.jpg",
           channel: "JEE Wallah",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
+          path: "https://youtu.be/26ES1DPAXPU?si=Q37bNXmSVC7I640U",
+          thumbnail: "https://img.youtube.com/vi/26ES1DPAXPU/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
         {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
+          path: "https://youtu.be/nN2PmfBzvDI?si=yPEFWas1uP-srEal",
+          thumbnail: "https://img.youtube.com/vi/nN2PmfBzvDI/hqdefault.jpg",
+          channel: "JEE Wallah",
         },
       ],
     },
     {
-      name: "Systems of Particles and Rotational Motion",
+      name: "System of Particles and Rotational Motion",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/yJjgVPwYceI?si=PsWeeM0vF8Dop1o0",
+          thumbnail: "https://img.youtube.com/vi/yJjgVPwYceI/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
-        },
-        {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          path: "https://youtu.be/6zNkyJp6Uwk?si=Iajnwg18-hupxkoV",
+          thumbnail: "https://img.youtube.com/vi/6zNkyJp6Uwk/hqdefault.jpg",
           channel: "Vedantu JEE Made Ejee",
+        },
+        {
+          path: "https://youtu.be/ZsrcwCoPSZM?si=YOlbrHOQVxOpahlF",
+          thumbnail: "https://img.youtube.com/vi/ZsrcwCoPSZM/hqdefault.jpg",
+          channel: "Abhishek Sahu",
         },
       ],
     },
@@ -1509,19 +1469,19 @@ export const physics = {
       name: "Gravitation",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          path: "https://youtu.be/Gj4--Cdtam4?si=4Xe3Jv9ZSjhtt15w",
+          thumbnail: "https://img.youtube.com/vi/Gj4--Cdtam4/hqdefault.jpg",
+          channel: "Arjuna JEE",
+        },
+        {
+          path: "https://youtu.be/tht94Y4VX4o?si=BWgk_9Bp-5blMeV8",
+          thumbnail: "https://img.youtube.com/vi/tht94Y4VX4o/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/udScbSnuQeA?si=hevUMQuQKo15JOsM",
+          thumbnail: "https://img.youtube.com/vi/udScbSnuQeA/hqdefault.jpg",
           channel: "JEE Wallah",
-        },
-        {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
-        },
-        {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1529,18 +1489,18 @@ export const physics = {
       name: "Mechanical Properties of Solids",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/NDDOXkgyWDM?si=YKKlIVUeSN3K9qt0",
+          thumbnail: "https://img.youtube.com/vi/NDDOXkgyWDM/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
+          path: "https://youtu.be/yIOh-TKlC9M?si=PELmB2vjq29W8IHJ",
+          thumbnail: "https://img.youtube.com/vi/yIOh-TKlC9M/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
         {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          path: "https://youtu.be/WZHgcTH_kfw?si=SrxHNrMenXQpF7M6",
+          thumbnail: "https://img.youtube.com/vi/WZHgcTH_kfw/hqdefault.jpg",
           channel: "Vedantu JEE Made Ejee",
         },
       ],
@@ -1549,18 +1509,18 @@ export const physics = {
       name: "Mechanical Properties of Fluids",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/kNdN8F5hxI4?si=MvWM6MZr1_g-rU51",
+          thumbnail: "https://img.youtube.com/vi/kNdN8F5hxI4/hqdefault.jpg",
+          channel: "Arjuna JEE",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
+          path: "https://youtu.be/YsyeNe2ybJw?si=2xAAR9-9b5Mt8Azk",
+          thumbnail: "https://img.youtube.com/vi/YsyeNe2ybJw/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          path: "https://youtu.be/LOUN1B_tYIc?si=xDy3jE5T0jdCZtOA",
+          thumbnail: "https://img.youtube.com/vi/LOUN1B_tYIc/hqdefault.jpg",
           channel: "Vedantu JEE Made Ejee",
         },
       ],
@@ -1569,19 +1529,19 @@ export const physics = {
       name: "Thermal Properties of Matter",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
+          path: "https://youtu.be/TtU8rRMs2bI?si=dHeLN-u4ofPFeHFg",
+          thumbnail: "https://img.youtube.com/vi/TtU8rRMs2bI/hqdefault.jpg",
+          channel: "Arjuna JEE",
+        },
+        {
+          path: "https://youtu.be/NeU0RXdhnDE?si=NMY9DX6NGCBQPkHR",
+          thumbnail: "https://img.youtube.com/vi/NeU0RXdhnDE/hqdefault.jpg",
           channel: "JEE Wallah",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
-        },
-        {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
+          path: "https://youtu.be/OobIQ1ew8lY?si=FCme0cyvDf7wjS9c",
+          thumbnail: "https://img.youtube.com/vi/OobIQ1ew8lY/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -1589,19 +1549,19 @@ export const physics = {
       name: "Thermodynamics",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/6vmbSiUi0gw?si=KqhE7ZzyMn-av4G_",
+          thumbnail: "https://img.youtube.com/vi/6vmbSiUi0gw/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
-        },
-        {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
+          path: "https://youtu.be/xNgoox5ca2Y?si=Pzur0gAXIOFdvYAx",
+          thumbnail: "https://img.youtube.com/vi/xNgoox5ca2Y/hqdefault.jpg",
           channel: "Vedantu JEE Made Ejee",
+        },
+        {
+          path: "https://youtu.be/qi5YPlMjVPs?si=z9NiL5sydD_Kv2WE",
+          thumbnail: "https://img.youtube.com/vi/qi5YPlMjVPs/hqdefault.jpg",
+          channel: "Abhishek Sahu",
         },
       ],
     },
@@ -1609,19 +1569,19 @@ export const physics = {
       name: "Kinetic Theory",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/Yv_G-G4eEHo?si=TXW2RQtbhC-hhske",
+          thumbnail: "https://img.youtube.com/vi/Yv_G-G4eEHo/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
-          channel: "NCERT Wallah",
+          path: "https://youtu.be/M6WlKlMYoqk?si=AKNreH_sK0_OE9_M",
+          thumbnail: "https://img.youtube.com/vi/M6WlKlMYoqk/hqdefault.jpg",
+          channel: "Abhishek Sahu",
         },
         {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
+          path: "https://youtu.be/hhluNfk-vEc?si=VfTvg6Nc6X8_ESr8",
+          thumbnail: "https://img.youtube.com/vi/hhluNfk-vEc/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -1629,19 +1589,19 @@ export const physics = {
       name: "Oscillations",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
-        },
-        {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          path: "https://youtu.be/eL7s6QvvY7k?si=WynI5re2P2AHWlgq",
+          thumbnail: "https://img.youtube.com/vi/eL7s6QvvY7k/hqdefault.jpg",
           channel: "NCERT Wallah",
         },
         {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
+          path: "https://youtu.be/J4U35166F3g?si=NTjNci1ez0bJEI2O",
+          thumbnail: "https://img.youtube.com/vi/J4U35166F3g/hqdefault.jpg",
+          channel: "Magnet Brains",
+        },
+        {
+          path: "https://youtu.be/mqaqzQEjLBM?si=s9p-XlxFbXTqTN6u",
+          thumbnail: "https://img.youtube.com/vi/mqaqzQEjLBM/hqdefault.jpg",
+          channel: "Abhishek Sahu",
         },
       ],
     },
@@ -1649,19 +1609,19 @@ export const physics = {
       name: "Waves",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
-        },
-        {
-          path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
-          thumbnail: "https://img.youtube.com/vi/91wlgQia_Is/hqdefault.jpg",
+          path: "https://youtu.be/qrJJMbGZazg?si=OIDJKt23CF51ARyW",
+          thumbnail: "https://img.youtube.com/vi/qrJJMbGZazg/hqdefault.jpg",
           channel: "NCERT Wallah",
         },
         {
-          path: "https://youtu.be/rDUh1kEQMRM?si=dzzh1SmkFn20lIWy",
-          thumbnail: "https://img.youtube.com/vi/rDUh1kEQMRM/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
+          path: "https://youtu.be/bXKhAdDaOE0?si=1Eeuv9oMhFxdiv_1",
+          thumbnail: "https://img.youtube.com/vi/bXKhAdDaOE0/hqdefault.jpg",
+          channel: "Abhishek Sahu",
+        },
+        {
+          path: "https://www.youtube.com/live/uq7iH1U8el0?si=XQ3nxuWvl0MR66W1",
+          thumbnail: "https://img.youtube.com/vi/uq7iH1U8el0/hqdefault.jpg",
+          channel: "Vedantu JEE",
         },
       ],
     },
@@ -1746,65 +1706,7 @@ export const chemistry = {
       path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
     },
   ],
-  pyq: [
-    {
-      name: "Basic Concepts of Chemistry",
-      path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
-    },
-    {
-      name: "Atomic Structure",
-      path: "/StudyResources/Grade-11/chemistry/atomic-structure",
-    },
-    {
-      name: "Classification of Elements & Periodicity in Properties",
-      path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
-    },
-    {
-      name: "States of Matter",
-      path: "/StudyResources/Grade-11/chemistry/states-of-matter",
-    },
-    {
-      name: "Chemical Bonding",
-      path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
-    },
-    {
-      name: "Thermodynamics",
-      path: "/StudyResources/Grade-11/chemistry/thermodynamics",
-    },
-    {
-      name: "Chemical Equilibrium",
-      path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
-    },
-    {
-      name: "Ionic Equilibrium",
-      path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
-    },
-    {
-      name: "Redox Reactions",
-      path: "/StudyResources/Grade-11/chemistry/redox-reactions",
-    },
-    { name: "Hydrogen", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
-    {
-      name: "S-Block Elements",
-      path: "/StudyResources/Grade-11/chemistry/s-block-elements",
-    },
-    {
-      name: "Carbon Family p-block Elements",
-      path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
-    },
-    {
-      name: "Boron Family p-block Elements",
-      path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
-    },
-    {
-      name: "General Organic Chemistry",
-      path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
-    },
-    {
-      name: "Hydrocarbons",
-      path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
-    },
-  ],
+
   question_banks: [
     {
       name: "Basic Concepts of Chemistry",
@@ -2303,122 +2205,122 @@ export const chemistry = {
   ],
   video_lectures: [
     {
-      name: "Basic Concepts of Chemistry",
+      name: "Some Basic Concepts of Chemistry",
       options: [
         {
-          path: "/dummy/path/basic-concepts-of-chemistry/opt1",
-          thumbnail: "/images/basic_concepts_thumbnail1.jpg",
-          channel: "Chemistry Channel 1",
+          path: "https://youtu.be/MfadB5RYDWY?si=4VYFEEr0nUnjZXdD",
+          thumbnail: "https://img.youtube.com/vi/MfadB5RYDWY/hqdefault.jpg",
+          channel: "Uday - Class 11",
         },
         {
-          path: "/dummy/path/basic-concepts-of-chemistry/opt2",
-          thumbnail: "/images/basic_concepts_thumbnail2.jpg",
-          channel: "Chemistry Channel 2",
+          path: "https://youtu.be/xOGyQdgLY_o?si=W0EMfzmapW4vOEz-",
+          thumbnail: "https://img.youtube.com/vi/xOGyQdgLY_o/hqdefault.jpg",
+          channel: "Munil Sir",
+        },
+        {
+          path: "https://youtu.be/AUMulT6n_rg?si=hyhTrNCCAKImrTsY",
+          thumbnail: "https://img.youtube.com/vi/AUMulT6n_rg/hqdefault.jpg",
+          channel: "Etoos Education",
         },
       ],
     },
     {
-      name: "Atomic Structure",
+      name: "Structure of Atom",
       options: [
         {
-          path: "/dummy/path/atomic-structure/opt1",
-          thumbnail: "/images/atomic_structure_thumbnail1.jpg",
-          channel: "Chemistry Channel 3",
+          path: "https://youtu.be/yMPNzINbwXg?si=wkCzPUDzOviuGoLR",
+          thumbnail: "https://img.youtube.com/vi/yMPNzINbwXg/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/atomic-structure/opt2",
-          thumbnail: "/images/atomic_structure_thumbnail2.jpg",
-          channel: "Chemistry Channel 4",
+          path: "https://youtu.be/qSm0UXtH2t8?si=RY6mJmJ_QJ9XxEgW",
+          thumbnail: "https://img.youtube.com/vi/qSm0UXtH2t8/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
+        },
+        {
+          path: "https://youtu.be/3JibRsWm2wc?si=Fi2y-INVV7Fs5s1y",
+          thumbnail: "https://img.youtube.com/vi/3JibRsWm2wc/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
     {
-      name: "Classification of Elements & Periodicity in Properties",
+      name: "Classification of Elements and Periodicity in Properties",
       options: [
         {
-          path: "/dummy/path/classification-elements-periodicity/opt1",
-          thumbnail: "/images/classification_periodicity_thumbnail1.jpg",
-          channel: "Chemistry Channel 5",
+          path: "https://youtu.be/3jvKTB9qVNo?si=tBprQrEehmh-QrWv",
+          thumbnail: "https://img.youtube.com/vi/3jvKTB9qVNo/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/classification-elements-periodicity/opt2",
-          thumbnail: "/images/classification_periodicity_thumbnail2.jpg",
-          channel: "Chemistry Channel 6",
+          path: "https://youtu.be/LzzWZ4fubr0?si=px63FyoSdeItLJEJ",
+          thumbnail: "https://img.youtube.com/vi/LzzWZ4fubr0/hqdefault.jpg",
+          channel: "Doubtnut Learn and Fun Class 12",
+        },
+        {
+          path: "https://youtu.be/8JC4Sx45np8?si=qvpJqkaP-7bTD1MZ",
+          thumbnail: "https://img.youtube.com/vi/8JC4Sx45np8/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
     {
-      name: "States of Matter",
+      name: "Chemical Bonding and Molecular Structure",
       options: [
         {
-          path: "/dummy/path/states-of-matter/opt1",
-          thumbnail: "/images/states_of_matter_thumbnail1.jpg",
-          channel: "Chemistry Channel 7",
+          path: "https://youtu.be/a9Bh5YDDT6w?si=YsOq5oQ7gV9MQs7w",
+          thumbnail: "https://img.youtube.com/vi/a9Bh5YDDT6w/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/states-of-matter/opt2",
-          thumbnail: "/images/states_of_matter_thumbnail2.jpg",
-          channel: "Chemistry Channel 8",
+          path: "https://youtu.be/bf-P_200l7M?si=z0uVfUBpRzwxssYC",
+          thumbnail: "https://img.youtube.com/vi/bf-P_200l7M/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/s5Jm-bj95j8?si=wlwES9nQqe1HVzHU",
+          thumbnail: "https://img.youtube.com/vi/s5Jm-bj95j8/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
     {
-      name: "Chemical Bonding",
+      name: "Chemical Thermodynamics",
       options: [
         {
-          path: "/dummy/path/chemical-bonding/opt1",
-          thumbnail: "/images/chemical_bonding_thumbnail1.jpg",
-          channel: "Chemistry Channel 9",
+          path: "https://youtu.be/7dSQM860wes?si=lhol4yFUg_9GP896",
+          thumbnail: "https://img.youtube.com/vi/7dSQM860wes/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/chemical-bonding/opt2",
-          thumbnail: "/images/chemical_bonding_thumbnail2.jpg",
-          channel: "Chemistry Channel 10",
+          path: "https://youtu.be/lwe269bVEIo?si=80jqWYFNTSAl3OvS",
+          thumbnail: "https://img.youtube.com/vi/lwe269bVEIo/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/rhUXxLFo-iI?si=5guUGHXsKb8_uwok",
+          thumbnail: "https://img.youtube.com/vi/rhUXxLFo-iI/hqdefault.jpg",
+          channel: "Munil sir",
         },
       ],
     },
     {
-      name: "Thermodynamics",
+      name: "Equilibrium",
       options: [
         {
-          path: "/dummy/path/thermodynamics/opt1",
-          thumbnail: "/images/thermodynamics_thumbnail1.jpg",
-          channel: "Chemistry Channel 11",
+          path: "https://youtu.be/CVPh5tnR6Jk?si=6x726JwRWF9JNc6b",
+          thumbnail: "https://img.youtube.com/vi/CVPh5tnR6Jk/hqdefault.jpg",
+          channel: "Munil Sir",
         },
         {
-          path: "/dummy/path/thermodynamics/opt2",
-          thumbnail: "/images/thermodynamics_thumbnail2.jpg",
-          channel: "Chemistry Channel 12",
-        },
-      ],
-    },
-    {
-      name: "Chemical Equilibrium",
-      options: [
-        {
-          path: "/dummy/path/chemical-equilibrium/opt1",
-          thumbnail: "/images/chemical_equilibrium_thumbnail1.jpg",
-          channel: "Chemistry Channel 13",
+          path: "https://youtu.be/3nErpCOQB9Y?si=aSxj7k720dY-Aa6_",
+          thumbnail: "https://img.youtube.com/vi/3nErpCOQB9Y/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/chemical-equilibrium/opt2",
-          thumbnail: "/images/chemical_equilibrium_thumbnail2.jpg",
-          channel: "Chemistry Channel 14",
-        },
-      ],
-    },
-    {
-      name: "Ionic Equilibrium",
-      options: [
-        {
-          path: "/dummy/path/ionic-equilibrium/opt1",
-          thumbnail: "/images/ionic_equilibrium_thumbnail1.jpg",
-          channel: "Chemistry Channel 15",
-        },
-        {
-          path: "/dummy/path/ionic-equilibrium/opt2",
-          thumbnail: "/images/ionic_equilibrium_thumbnail2.jpg",
-          channel: "Chemistry Channel 16",
+          path: "https://youtu.be/RL_I2dk1SI8?si=vuGLE-Ca72JAN_gX",
+          thumbnail: "https://img.youtube.com/vi/RL_I2dk1SI8/hqdefault.jpg",
+          channel: "Magnet Brains",
         },
       ],
     },
@@ -2426,89 +2328,39 @@ export const chemistry = {
       name: "Redox Reactions",
       options: [
         {
-          path: "/dummy/path/redox-reactions/opt1",
-          thumbnail: "/images/redox_reactions_thumbnail1.jpg",
-          channel: "Chemistry Channel 17",
+          path: "https://youtu.be/pR9FmbmZ8ic?si=nMvbFek1Ve6oE_Fc",
+          thumbnail: "https://img.youtube.com/vi/pR9FmbmZ8ic/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/redox-reactions/opt2",
-          thumbnail: "/images/redox_reactions_thumbnail2.jpg",
-          channel: "Chemistry Channel 18",
-        },
-      ],
-    },
-    {
-      name: "Hydrogen",
-      options: [
-        {
-          path: "/dummy/path/hydrogen/opt1",
-          thumbnail: "/images/hydrogen_thumbnail1.jpg",
-          channel: "Chemistry Channel 19",
+          path: "https://youtu.be/y4wcp21mFhs?si=ANcCJzLE37dqAHsZ",
+          thumbnail: "https://img.youtube.com/vi/y4wcp21mFhs/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
         {
-          path: "/dummy/path/hydrogen/opt2",
-          thumbnail: "/images/hydrogen_thumbnail2.jpg",
-          channel: "Chemistry Channel 20",
+          path: "https://youtu.be/v1-5_zTaSNQ?si=eUMcD7En08V2Wb6u",
+          thumbnail: "https://img.youtube.com/vi/v1-5_zTaSNQ/hqdefault.jpg",
+          channel: "Magnet Brains",
         },
       ],
     },
     {
-      name: "S-Block Elements",
+      name: "Organic Chemistry: Some basic Principles and Techniques",
       options: [
         {
-          path: "/dummy/path/s-block-elements/opt1",
-          thumbnail: "/images/s_block_elements_thumbnail1.jpg",
-          channel: "Chemistry Channel 21",
+          path: "https://youtu.be/xAI7Tj6N9Fw?si=swl1yFH2M3UtE-1a",
+          thumbnail: "https://img.youtube.com/vi/xAI7Tj6N9Fw/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/s-block-elements/opt2",
-          thumbnail: "/images/s_block_elements_thumbnail2.jpg",
-          channel: "Chemistry Channel 22",
-        },
-      ],
-    },
-    {
-      name: "Carbon Family p-block Elements",
-      options: [
-        {
-          path: "/dummy/path/carbon-family-p-block-elements/opt1",
-          thumbnail: "/images/carbon_family_p_block_thumbnail1.jpg",
-          channel: "Chemistry Channel 23",
+          path: "https://youtu.be/76G56yoUkuY?si=-tyrX2o2PpkPdHIH",
+          thumbnail: "https://img.youtube.com/vi/76G56yoUkuY/hqdefault.jpg",
+          channel: "Munil Sir",
         },
         {
-          path: "/dummy/path/carbon-family-p-block-elements/opt2",
-          thumbnail: "/images/carbon_family_p_block_thumbnail2.jpg",
-          channel: "Chemistry Channel 24",
-        },
-      ],
-    },
-    {
-      name: "Boron Family p-block Elements",
-      options: [
-        {
-          path: "/dummy/path/boron-family-p-block-elements/opt1",
-          thumbnail: "/images/boron_family_p_block_thumbnail1.jpg",
-          channel: "Chemistry Channel 25",
-        },
-        {
-          path: "/dummy/path/boron-family-p-block-elements/opt2",
-          thumbnail: "/images/boron_family_p_block_thumbnail2.jpg",
-          channel: "Chemistry Channel 26",
-        },
-      ],
-    },
-    {
-      name: "General Organic Chemistry",
-      options: [
-        {
-          path: "/dummy/path/general-organic-chemistry/opt1",
-          thumbnail: "/images/general_organic_chemistry_thumbnail1.jpg",
-          channel: "Chemistry Channel 27",
-        },
-        {
-          path: "/dummy/path/general-organic-chemistry/opt2",
-          thumbnail: "/images/general_organic_chemistry_thumbnail2.jpg",
-          channel: "Chemistry Channel 28",
+          path: "https://youtu.be/2wy2ZBVF3CU?si=eDnCCZvtwR8tyJHy",
+          thumbnail: "https://img.youtube.com/vi/2wy2ZBVF3CU/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -2516,14 +2368,19 @@ export const chemistry = {
       name: "Hydrocarbons",
       options: [
         {
-          path: "/dummy/path/hydrocarbons/opt1",
-          thumbnail: "/images/hydrocarbons_thumbnail1.jpg",
-          channel: "Chemistry Channel 29",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/hydrocarbons/opt2",
-          thumbnail: "/images/hydrocarbons_thumbnail2.jpg",
-          channel: "Chemistry Channel 30",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },

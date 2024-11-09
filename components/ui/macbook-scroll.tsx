@@ -70,7 +70,7 @@ export const MacbookScroll = ({
   const translate = useTransform(scrollYProgress, [0, 1], [0, deviceWidth - 200 ]);
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.3], [-28, -28, 0]);
   return (
-    <section className="min-h-[300vh] overflow-hidden">
+    <section className="min-h-[300vh] overflow-hidden sm:flex hidden justify-center">
       <div
         ref={ref}
         className="md:min-h-[200vh] h-screen flex flex-col max-h-max items-center py-12 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-50 sm:scale-75"

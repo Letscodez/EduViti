@@ -9,7 +9,7 @@ export default function Grade9MathsQuestionBanks() {
     <main className="p-6">
       <BackButton />
       <h1 className="text-3xl sm:text-4xl font-bold mb-6 mt-6 text-white text-center">
-        Grade 11 <span className="text-primary">physics</span> Video Lectures
+        Grade 11 <span className="text-primary">Physics</span> Video Lectures
       </h1>
 
       <LecturesCard list={physics.video_lectures} />

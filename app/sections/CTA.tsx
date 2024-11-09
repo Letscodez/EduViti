@@ -5,7 +5,7 @@ import { cardData } from "@/data/card"; // Import cardData
 
 const CTA: React.FC = () => {
   return (
-    <section className="text-white md:px-24 py-24 sm:py-12 px-4 space-y-24 sm:space-y-32">
+    <section className="text-white md:px-24 px-4 space-y-24 sm:space-y-32">
       {/* Main CTA Section */}
       <div className="max-w-7xl mx-auto text-start flex flex-col md:flex-row items-center">
         <div className="w-full md:w-1/2 mb-6 md:mb-0 md:pr-10">
