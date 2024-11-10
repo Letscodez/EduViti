@@ -3,10 +3,12 @@ import { heroImage, title } from "@/images/main";
 import React from "react";
 import Btn from "../components/btn";
 import SearchBar from "../components/searchBar";
+import { BackgroundBeams } from "../../components/ui/background-beams";
 const HeroSection = () => {
+  const words = ["Speed Up", "Boost", "Learners"];
   return (
     <section className="w-screen min-h-screen md:px-24 pt-32 md:pt-16 flex items-center px-4 sm:px-12 flex-col md:flex-row justify-center text-white">
-      <div className="md:w-1/2 px-4 md:px-0 md:mb-0 flex flex-col md:items-start items-center justify-center animate-backinleft space-y-7">
+      <div className="md:w-1/2 z-10 px-4 md:px-0 md:mb-0 flex flex-col md:items-start items-center justify-center animate-backinleft space-y-7">
         <Image
           src={title}
           alt="Hero Title"
@@ -44,7 +46,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right side: Image */}
-      <div className="md:w-1/2 back-in-up flex justify-center md:justify-end">
+      <div className="md:w-1/2 z-10 back-in-up flex justify-center md:justify-end">
         <Image
           src={heroImage}
           alt="Hero Image"
@@ -54,6 +56,7 @@ const HeroSection = () => {
           priority
         />
       </div>
+      <BackgroundBeams />
     </section>
   );
 };
