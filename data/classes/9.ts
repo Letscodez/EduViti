@@ -139,126 +139,68 @@ export const maths = {
 
   sample_papers: [
     {
-      name: "Number Systems",
+      name: "2021",
       sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
+        { name: "Set 1", path: "1wu5Dr8N8WEvapFM9xevVw70KUdb1IQiP" },
+        { name: "Set 2", path: "1Bw9oDb6YHM9bLQGlS10eGnERbN1Qupck" },
+        { name: "Set 3", path: "1Ufv5U7ylI1aDVNkfb1FokwEcjZSeQq6y" },
+        { name: "Set 4", path: "1ET8iu-QDUQuQIdflBECuke7TV5WT0nsf" },
+        { name: "Set 5", path: "1s9bxXSJ1gz1JjEPAgbO_CsuRK3Q6uE8l" },
+        { name: "Set 6", path: "1MHu8wRt3q_43_bBpaO15b3jGEIlCV4ph" },
+        { name: "Set 7", path: "1CTT_q5hwZEGpTDVkOCx2sEJVcOznKI6T" },
+        { name: "Set 8", path: "1R8cENnKyvrMI_2IsK6V1Dl8ReC7x4QDR" },
+        { name: "Set 9", path: "1cEB-g2HYpxXdq4XL4W9fE7-APlKi9xmR" },
+        { name: "Set 10", path: "1rzv5-qWV_L84MFfIQ-LSOV3VSPLw6ypb" }
+      ]
     },
     {
-      name: "Polynomials",
+      name: "2022",
       sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ], // Empty array for chapters without specific sets
+        { name: "Set 1", path: "1As9_TQn9QUrOkJqBDiOb1bs6HzqGL1yj" },
+        { name: "Set 2", path: "1PhB0xpArFbVPOWHBFeriq1V4V3A1yqjA" },
+        { name: "Set 3", path: "1sBcY71x-zONbuBq4iJfuxUqF6KKrIyxt" },
+        { name: "Set 4", path: "1LqZj9B4S_3fXUKhJm1UeM9HOfA45M1K-" },
+        { name: "Set 5", path: "1s4_UpIoLCILvpRJTyZO6UNsji1H5alrY" },
+        { name: "Set 6", path: "1TjeUQ7b3riT4DUtbUWhIgohZKOB3aPY1" },
+        { name: "Set 7", path: "1bWDstBTMQE_O41mWK0uMPp6FxBVePxsj" },
+        { name: "Set 8", path: "1LihXgRUSm2pvk5t4HO1SoQI3x6vm70pP" },
+        { name: "Set 9", path: "1HsN_-so17OAj-yDun6IcegN9vY4mh74F" },
+        { name: "Set 10", path: "1qwxAp7XZ7O7GBl_Sg3trbFPc3MR2ZWoa" }
+      ]
     },
     {
-      name: "Coordinate Geometry",
+      name: "2023",
       sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
+        { name: "Set 1", path: "1LqZj9B4S_3fXUKhJm1UeM9HOfA45M1K-" },
+        { name: "Set 2", path: "1qwxAp7XZ7O7GBl_Sg3trbFPc3MR2ZWoa" },
+        { name: "Set 3", path: "1TjeUQ7b3riT4DUtbUWhIgohZKOB3aPY1" },
+        { name: "Set 4", path: "1LqZj9B4S_3fXUKhJm1UeM9HOfA45M1K-" },
+        { name: "Set 5", path: "1As9_TQn9QUrOkJqBDiOb1bs6HzqGL1yj" },
+        { name: "Set 6", path: "1qwxAp7XZ7O7GBl_Sg3trbFPc3MR2ZWoa" }
+      ]
     },
     {
-      name: "Linear Equations in Two Variables",
+      name: "2024",
       sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
+        { name: "Set 1", path: "1fKKYfbMpbKCnSnSrBMvRKw80rskr9UYp" },
+        { name: "Set 2", path: "1VMikNmCYk--Lp-4uA2mNF8177hkoawur" },
+        { name: "Set 3", path: "1aVT-32pZ69OXR7sXxjMdivJlCGjEudFK" },
+        { name: "Set 4", path: "1VjYCNDAc8CdDmKQeesEUEQD4s6saP5i5" },
+        { name: "Set 5", path: "1_ED1EsEPQamI2DG5F0cULM1BZEZfuUfj" }
+      ]
     },
     {
-      name: "Euclid’s Geometry",
+      name: "2025",
       sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Lines and Angles",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Triangles",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Quadrilaterals",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Areas of Parallelograms and Triangles",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Circles",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Constructions",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Heron’s Formula",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Surface Areas and Volumes",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Statistics",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
-    {
-      name: "Probability",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 2", path: "" },
-        { name: "Set 3", path: "" },
-      ],
-    },
+        { name: "Set 1", path: "1FbGwinfLrhXICN1vEYWw4iEPm79nUYvj" },
+        { name: "Set 2", path: "12X57ViaZWJ4aF_5paEq2vVFllf0W4Q8n" },
+        { name: "Set 3", path: "1xxvdzIXdqnH1WeWg7vbqqli__hio3eUs" },
+        { name: "Set 4", path: "17-EIzlx3NuoadCKYJOOYieSaET4PZP0G" },
+        { name: "Set 5", path: "1L0nrkWt9f6x1OXPsG4oz-pH9wLWQ7D9F" }
+      ]
+    }
   ],
+  
   video_lectures: [
     {
       name: "Number System",
