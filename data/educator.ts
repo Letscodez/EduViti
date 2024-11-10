@@ -8,35 +8,31 @@ export interface EducatorType {
   quote: string;
 }
 
-const raw_educators: EducatorType[] = [
+const raw_educators = [
   {
-    id: 1,
+    quote: "The journey of learning is endless. The more you learn, the more you'll realize how much there is to discover.",
     name: "Sachin Jhakar Sir",
-    image: sachinsir, // Replace with actual image path
-    quote:
-      "The journey of learning is endless. The more you learn, the more you'll realize how much there is to discover.",
+    designation: "Educator",
+    src: sachinsir, // Replace with actual image path or URL
   },
   {
-    id: 2,
+    quote: "Challenges in learning are inevitable, but with discipline and consistency, no obstacle is too great.",
     name: "Rajwant Singh Sir",
-    image: rajwantsir, // Replace with actual image path
-    quote:
-      "Challenges in learning are inevitable, but with discipline and consistency, no obstacle is too great.",
+    designation: "Educator",
+    src: rajwantsir, // Replace with actual image path or URL
   },
   {
-    id: 3,
+    quote: "Don't focus on how much time you are putting in, focus on how well you are understanding the subject.",
     name: "Mohit Tyagi Sir",
-    image: mohitsir, // Replace with actual image path
-    quote:
-      "Don't focus on how much time you are putting in, focus on how well you are understanding the subject.",
+    designation: "Educator",
+    src: mohitsir, // Replace with actual image path or URL
   },
   {
-    id: 4,
+    quote: "To be successful in life it is not important how much you have done but how much you can do",
     name: "Khan Sir",
-    image: khansir, // Replace with actual image path
-    quote:
-      "To be successful in life it is not important how much you have done but how much you can do",
+    designation: "Educator",
+    src: khansir, // Replace with actual image path or URL
   },
-  // Add more educators as needed
+  // Add more educators if necessary
 ];
 export const educators = raw_educators.slice().sort(() => Math.random() - 0.5);

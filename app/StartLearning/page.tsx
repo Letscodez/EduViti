@@ -4,6 +4,7 @@ import Navbar from "../components/navbar";
 import SearchPage from "../sections/searchpage";
 import Footer from "../sections/Footer";
 import Navigate from "../sections/navigate";
+import { GlobeDemo } from "../sections/globe";
 
 const StartLearning = () => {
   return (
@@ -49,6 +50,7 @@ const StartLearning = () => {
           ></path>
         </svg>
       </section>
+      <GlobeDemo />
       <Footer isLearning={true} />
     </main>
   );
