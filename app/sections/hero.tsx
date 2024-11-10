@@ -3,9 +3,17 @@ import { heroImage, title } from "@/images/main";
 import React from "react";
 import Btn from "../components/btn";
 import SearchBar from "../components/searchBar";
+import { FlipWords } from "@/components/ui/flip-words";
 import { BackgroundBeams } from "../../components/ui/background-beams";
 const HeroSection = () => {
-  const words = ["Speed Up", "Boost", "Learners"];
+  const words = [
+    "Empower",
+    "Speed Up",
+    "Boost",
+    "Enhance",
+    "Elevate",
+    "Accelerate",
+  ];
   return (
     <section className="w-screen min-h-screen md:px-24 pt-32 md:pt-16 flex items-center px-4 sm:px-12 flex-col md:flex-row justify-center text-white">
       <div className="md:w-1/2 z-10 px-4 md:px-0 md:mb-0 flex flex-col md:items-start items-center justify-center animate-backinleft space-y-7">
@@ -21,8 +29,8 @@ const HeroSection = () => {
         <h1 className="text-[#06d6a0] back-in-left2 2xl:text-3xl text-2xl overlock-regular-italic text-center md:text-start">
           "Know Together, Grow Together"
         </h1>
-        <h2 className="text-2xl font-semibold back-in-left3 text-white text-center md:text-start">
-          Empower Your Learning journey ! 
+        <h2 className="text-2xl font-semibold back-in-left3 text-gray-100 text-center md:text-start">
+          <FlipWords words={words} /> Your Learning journey !
         </h2>
         <p className="2xl:text-2xl text-lg back-in-left4 text-gray-300 text-center md:text-start">
           Discover an all-in-one platform for curated modules,

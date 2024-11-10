@@ -512,19 +512,19 @@ export const maths = {
       name: "Sets",
       options: [
         {
-          path: "https://www.youtube.com/live/XYJyV48ijms?si=tvXd4LJgaythARc_",
-          thumbnail: "https://img.youtube.com/vi/XYJyV48ijms/hqdefault.jpg",
-          channel: "JEE Wallah",
-        },
-        {
-          path: "https://youtu.be/1rr6yrqhskg?si=gZnFoi5iArAkae1m",
-          thumbnail: "https://img.youtube.com/vi/1rr6yrqhskg/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
-        },
-        {
           path: "https://youtu.be/F_7WUK7htRg?si=PrmJspI1as8WOfQm",
           thumbnail: "https://img.youtube.com/vi/F_7WUK7htRg/hqdefault.jpg",
           channel: "Uday - Class 11",
+        },
+        {
+          path: "https://youtu.be/87Bdi_wQ5-o?si=TVsz2mN0ClP-F8fY",
+          thumbnail: "https://img.youtube.com/vi/87Bdi_wQ5-o/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://www.youtube.com/live/xHgO_0DAYT0?si=RJxwsQrfAebyLQPD",
+          thumbnail: "https://img.youtube.com/vi/xHgO_0DAYT0/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -532,19 +532,19 @@ export const maths = {
       name: "Relations and Functions",
       options: [
         {
-          path: "hhttps://youtu.be/SWjh91DSVbk?si=JSY2k6MtoeH6wV9R",
-          thumbnail: "https://img.youtube.com/vi/SWjh91DSVbk/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
-        },
-        {
-          path: "https://youtu.be/zdIdeR2lWHc?si=b-cTibZHavXx9vUL",
-          thumbnail: "https://img.youtube.com/vi/zdIdeR2lWHc/hqdefault.jpg",
-          channel: "Arjuna JEE",
-        },
-        {
           path: "hhttps://youtu.be/4VXUlNRlT3c?si=_EUeueMDZiSSRxFo",
           thumbnail: "https://img.youtube.com/vi/4VXUlNRlT3c/hqdefault.jpg",
           channel: "Uday - Class 11",
+        },
+        {
+          path: "https://youtu.be/DAEVTXfRWDA?si=iE1b22bSJA5EcuT6",
+          thumbnail: "https://img.youtube.com/vi/DAEVTXfRWDA/hqdefault.jpg",
+          channel: "Dear Sir",
+        },
+        {
+          path: "https://youtu.be/aWh0cMksTPc?si=rhkkcXz4aKIq1FEm",
+          thumbnail: "https://img.youtube.com/vi/aWh0cMksTPc/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -552,19 +552,19 @@ export const maths = {
       name: "Trigonometric Functions",
       options: [
         {
-          path: "https://youtu.be/8tuX-lUKXhg?si=Ak_QWsUziwC1ms7G",
-          thumbnail: "https://img.youtube.com/vi/8tuX-lUKXhg/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
+          path: "https://youtu.be/_pNT2pCEEug?si=lCOXbeZykKGRL0uM",
+          thumbnail: "https://img.youtube.com/vi/_pNT2pCEEug/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "https://www.youtube.com/live/0DgG7LxiYzk?si=gQ07nI5HiZBmg7ne",
-          thumbnail: "https://img.youtube.com/vi/0DgG7LxiYzk/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/PlrvWjFoDz4?si=d8Of3lzXZxdlyJiB",
+          thumbnail: "https://img.youtube.com/vi/PlrvWjFoDz4/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "https://youtu.be/7lg3Mehc0gk?si=7_VeJj3sJSBfipab",
-          thumbnail: "https://img.youtube.com/vi/7lg3Mehc0gk/hqdefault.jpg",
-          channel: "Arjuna JEE",
+          path: "https://youtu.be/DKz3GLI-pl4?si=S1kivR2LRCQ4PD80",
+          thumbnail: "https://img.youtube.com/vi/DKz3GLI-pl4/hqdefault.jpg",
+          channel: "Dear Sir",
         },
       ],
     },
@@ -607,14 +607,14 @@ export const maths = {
       name: "Permutations and Combinations",
       options: [
         {
-          path: "https://www.youtube.com/live/THHeijYTfKs?si=YC7ksHo9sD86fadN",
-          thumbnail: "https://img.youtube.com/vi/THHeijYTfKs/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/vBhi-nco26o?si=xmci3m5XQvNtMh85",
+          thumbnail: "https://img.youtube.com/vi/vBhi-nco26o/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "https://youtu.be/UoJh42eQU8I?si=10ro83gDtf5wrCJu",
-          thumbnail: "https://img.youtube.com/vi/UoJh42eQU8I/hqdefault.jpg",
-          channel: "Arjuna JEE",
+          path: "https://youtu.be/b2EpeYi88yw?si=dQwBlr6UvhW8ik8g",
+          thumbnail: "https://img.youtube.com/vi/b2EpeYi88yw/hqdefault.jpg",
+          channel: "cbseclass videos",
         },
         {
           path: "https://youtu.be/VXbKZURwYfU?si=LcPHHawdKM_gu5QN",
@@ -632,9 +632,9 @@ export const maths = {
           channel: "Science and Fun Education",
         },
         {
-          path: "https://youtu.be/macZAq0DNSk?si=-I4hLdUZ_kRZR5hH",
-          thumbnail: "https://img.youtube.com/vi/macZAq0DNSk/hqdefault.jpg",
-          channel: "Vedantu JEE Made Ejee",
+          path: "https://youtu.be/9LBz3Ptvq1M?si=9Df4Rc3ROhQwP72n",
+          thumbnail: "https://img.youtube.com/vi/9LBz3Ptvq1M/hqdefault.jpg",
+          channel: "cbseclass videos",
         },
         {
           path: "https://youtu.be/VHMmkzvSWNE?si=Gb4MRy0nktVwCFaZ",
@@ -672,8 +672,8 @@ export const maths = {
           channel: "NCERT Wallah",
         },
         {
-          path: "https://youtu.be/kKm_EOHmJl8?si=C7_Z_ZmqzOrEgutF",
-          thumbnail: "https://img.youtube.com/vi/kKm_EOHmJl8/hqdefault.jpg",
+          path: "https://youtu.be/RsWz9f4sMY4?si=s9WZlK8dO_K-ZWiA",
+          thumbnail: "https://img.youtube.com/vi/RsWz9f4sMY4/hqdefault.jpg",
           channel: "Vedantu JEE Made Ejee",
         },
         {
@@ -747,9 +747,9 @@ export const maths = {
       name: "Statistics",
       options: [
         {
-          path: "https://youtu.be/M0wE7kH_ojk?si=TaNutA9ujUB3n4Sp",
-          thumbnail: "https://img.youtube.com/vi/M0wE7kH_ojk/hqdefault.jpg",
-          channel: "JEE Wallah",
+          path: "https://youtu.be/gHtUmkpPwVM?si=aWBW2-7lW4W1BCrL",
+          thumbnail: "https://img.youtube.com/vi/gHtUmkpPwVM/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
           path: "https://youtu.be/91wlgQia_Is?si=tU4g1SUSjShoXVCz",
@@ -3344,14 +3344,19 @@ export const biology = {
       name: "The Living World",
       options: [
         {
-          path: "/dummy/path/living-world/opt1",
-          thumbnail: "/images/living_world_thumbnail1.jpg",
-          channel: "Biology Channel 1",
+          path: "https://youtu.be/_OThWBqmwvg?si=hh2xRdLyXMFL-d5J",
+          thumbnail: "https://img.youtube.com/vi/_OThWBqmwvg/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "/dummy/path/living-world/opt2",
-          thumbnail: "/images/living_world_thumbnail2.jpg",
-          channel: "Biology Channel 2",
+          path: "https://youtu.be/tP98Z_nkPQg?si=oVZszRuE6E-uIJBB",
+          thumbnail: "https://img.youtube.com/vi/tP98Z_nkPQg/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/7TSmrv6GRPw?si=QyRCBDnsSldNxM1z",
+          thumbnail: "https://img.youtube.com/vi/7TSmrv6GRPw/hqdefault.jpg",
+          channel: "Vedantu 9,10 &11",
         },
       ],
     },
@@ -3359,14 +3364,19 @@ export const biology = {
       name: "Biological Classification",
       options: [
         {
-          path: "/dummy/path/biological-classification/opt1",
-          thumbnail: "/images/biological_classification_thumbnail1.jpg",
-          channel: "Biology Channel 3",
+          path: "https://youtu.be/GUnPzBP6KBw?si=t13JFugJe_ewXr1u",
+          thumbnail: "https://img.youtube.com/vi/GUnPzBP6KBw/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/biological-classification/opt2",
-          thumbnail: "/images/biological_classification_thumbnail2.jpg",
-          channel: "Biology Channel 4",
+          path: "https://youtu.be/Eg4JPk2APX8?si=crbiXRCE1LO81-uT",
+          thumbnail: "https://img.youtube.com/vi/Eg4JPk2APX8/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/l68BufSyHog?si=KUyyWjIHDyL-Vst1",
+          thumbnail: "https://img.youtube.com/vi/l68BufSyHog/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3374,14 +3384,19 @@ export const biology = {
       name: "Plant Kingdom",
       options: [
         {
-          path: "/dummy/path/plant-kingdom/opt1",
-          thumbnail: "/images/plant_kingdom_thumbnail1.jpg",
-          channel: "Biology Channel 5",
+          path: "https://youtu.be/5dVLC_DRcao?si=7Nv49tjJjM9BqQnf",
+          thumbnail: "https://img.youtube.com/vi/5dVLC_DRcao/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
         {
-          path: "/dummy/path/plant-kingdom/opt2",
-          thumbnail: "/images/plant_kingdom_thumbnail2.jpg",
-          channel: "Biology Channel 6",
+          path: "https://youtu.be/afKHJRmkH1s?si=rTEVenzkoFJwLg73",
+          thumbnail: "https://img.youtube.com/vi/afKHJRmkH1s/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://www.youtube.com/live/IfNzYosUYrE?si=J_Up9Op2OpoKS7vK",
+          thumbnail: "https://img.youtube.com/vi/IfNzYosUYrE/hqdefault.jpg",
+          channel: "Vedantu 9,10 &11",
         },
       ],
     },
@@ -3389,14 +3404,19 @@ export const biology = {
       name: "Animal Kingdom",
       options: [
         {
-          path: "/dummy/path/animal-kingdom/opt1",
-          thumbnail: "/images/animal_kingdom_thumbnail1.jpg",
-          channel: "Biology Channel 7",
+          path: "https://www.youtube.com/live/cKVzHdARVho?si=_U8PlzWq19x96ZXQ",
+          thumbnail: "https://img.youtube.com/vi/cKVzHdARVho/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/animal-kingdom/opt2",
-          thumbnail: "/images/animal_kingdom_thumbnail2.jpg",
-          channel: "Biology Channel 8",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3404,14 +3424,19 @@ export const biology = {
       name: "Morphology of Flowering Plants",
       options: [
         {
-          path: "/dummy/path/morphology-flowering-plants/opt1",
-          thumbnail: "/images/morphology_flowering_plants_thumbnail1.jpg",
-          channel: "Biology Channel 9",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/morphology-flowering-plants/opt2",
-          thumbnail: "/images/morphology_flowering_plants_thumbnail2.jpg",
-          channel: "Biology Channel 10",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3419,14 +3444,19 @@ export const biology = {
       name: "Anatomy of Flowering Plants",
       options: [
         {
-          path: "/dummy/path/anatomy-flowering-plants/opt1",
-          thumbnail: "/images/anatomy_flowering_plants_thumbnail1.jpg",
-          channel: "Biology Channel 11",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/anatomy-flowering-plants/opt2",
-          thumbnail: "/images/anatomy_flowering_plants_thumbnail2.jpg",
-          channel: "Biology Channel 12",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3434,29 +3464,39 @@ export const biology = {
       name: "Structural Organisation in Animals",
       options: [
         {
-          path: "/dummy/path/structural-organisation-animals/opt1",
-          thumbnail: "/images/structural_organisation_animals_thumbnail1.jpg",
-          channel: "Biology Channel 13",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/structural-organisation-animals/opt2",
-          thumbnail: "/images/structural_organisation_animals_thumbnail2.jpg",
-          channel: "Biology Channel 14",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
     {
-      name: "Cell, The Unit of Life",
+      name: "Cell - The Unit of Life",
       options: [
         {
-          path: "/dummy/path/cell-unit-of-life/opt1",
-          thumbnail: "/images/cell_unit_of_life_thumbnail1.jpg",
-          channel: "Biology Channel 15",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/cell-unit-of-life/opt2",
-          thumbnail: "/images/cell_unit_of_life_thumbnail2.jpg",
-          channel: "Biology Channel 16",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3464,14 +3504,19 @@ export const biology = {
       name: "Biomolecules",
       options: [
         {
-          path: "/dummy/path/biomolecules/opt1",
-          thumbnail: "/images/biomolecules_thumbnail1.jpg",
-          channel: "Biology Channel 17",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/biomolecules/opt2",
-          thumbnail: "/images/biomolecules_thumbnail2.jpg",
-          channel: "Biology Channel 18",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3479,44 +3524,19 @@ export const biology = {
       name: "Cell Cycle and Cell Division",
       options: [
         {
-          path: "/dummy/path/cell-cycle-cell-division/opt1",
-          thumbnail: "/images/cell_cycle_cell_division_thumbnail1.jpg",
-          channel: "Biology Channel 19",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/cell-cycle-cell-division/opt2",
-          thumbnail: "/images/cell_cycle_cell_division_thumbnail2.jpg",
-          channel: "Biology Channel 20",
-        },
-      ],
-    },
-    {
-      name: "Transport in Plants",
-      options: [
-        {
-          path: "/dummy/path/transport-in-plants/opt1",
-          thumbnail: "/images/transport_in_plants_thumbnail1.jpg",
-          channel: "Biology Channel 21",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/transport-in-plants/opt2",
-          thumbnail: "/images/transport_in_plants_thumbnail2.jpg",
-          channel: "Biology Channel 22",
-        },
-      ],
-    },
-    {
-      name: "Mineral Nutrition",
-      options: [
-        {
-          path: "/dummy/path/mineral-nutrition/opt1",
-          thumbnail: "/images/mineral_nutrition_thumbnail1.jpg",
-          channel: "Biology Channel 23",
-        },
-        {
-          path: "/dummy/path/mineral-nutrition/opt2",
-          thumbnail: "/images/mineral_nutrition_thumbnail2.jpg",
-          channel: "Biology Channel 24",
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3524,14 +3544,19 @@ export const biology = {
       name: "Photosynthesis in Higher Plants",
       options: [
         {
-          path: "/dummy/path/photosynthesis-higher-plants/opt1",
-          thumbnail: "/images/photosynthesis_higher_plants_thumbnail1.jpg",
-          channel: "Biology Channel 25",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/photosynthesis-higher-plants/opt2",
-          thumbnail: "/images/photosynthesis_higher_plants_thumbnail2.jpg",
-          channel: "Biology Channel 26",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3539,44 +3564,39 @@ export const biology = {
       name: "Respiration in Plants",
       options: [
         {
-          path: "/dummy/path/respiration-in-plants/opt1",
-          thumbnail: "/images/respiration_in_plants_thumbnail1.jpg",
-          channel: "Biology Channel 27",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/respiration-in-plants/opt2",
-          thumbnail: "/images/respiration_in_plants_thumbnail2.jpg",
-          channel: "Biology Channel 28",
-        },
-      ],
-    },
-    {
-      name: "Plant Growth and Development",
-      options: [
-        {
-          path: "/dummy/path/plant-growth-development/opt1",
-          thumbnail: "/images/plant_growth_development_thumbnail1.jpg",
-          channel: "Biology Channel 29",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
         {
-          path: "/dummy/path/plant-growth-development/opt2",
-          thumbnail: "/images/plant_growth_development_thumbnail2.jpg",
-          channel: "Biology Channel 30",
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
     {
-      name: "Digestion and Absorption",
+      name: "Plant - Growth and Development",
       options: [
         {
-          path: "/dummy/path/digestion-absorption/opt1",
-          thumbnail: "/images/digestion_absorption_thumbnail1.jpg",
-          channel: "Biology Channel 31",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/digestion-absorption/opt2",
-          thumbnail: "/images/digestion_absorption_thumbnail2.jpg",
-          channel: "Biology Channel 32",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3584,14 +3604,19 @@ export const biology = {
       name: "Breathing and Exchange of Gases",
       options: [
         {
-          path: "/dummy/path/breathing-exchange-gases/opt1",
-          thumbnail: "/images/breathing_exchange_gases_thumbnail1.jpg",
-          channel: "Biology Channel 33",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/breathing-exchange-gases/opt2",
-          thumbnail: "/images/breathing_exchange_gases_thumbnail2.jpg",
-          channel: "Biology Channel 34",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3599,14 +3624,19 @@ export const biology = {
       name: "Body Fluids and Circulation",
       options: [
         {
-          path: "/dummy/path/body-fluids-circulation/opt1",
-          thumbnail: "/images/body_fluids_circulation_thumbnail1.jpg",
-          channel: "Biology Channel 35",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/body-fluids-circulation/opt2",
-          thumbnail: "/images/body_fluids_circulation_thumbnail2.jpg",
-          channel: "Biology Channel 36",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3614,14 +3644,19 @@ export const biology = {
       name: "Excretory Products and their Elimination",
       options: [
         {
-          path: "/dummy/path/excretory-products-elimination/opt1",
-          thumbnail: "/images/excretory_products_elimination_thumbnail1.jpg",
-          channel: "Biology Channel 37",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/excretory-products-elimination/opt2",
-          thumbnail: "/images/excretory_products_elimination_thumbnail2.jpg",
-          channel: "Biology Channel 38",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3629,14 +3664,19 @@ export const biology = {
       name: "Locomotion and Movement",
       options: [
         {
-          path: "/dummy/path/locomotion-movement/opt1",
-          thumbnail: "/images/locomotion_movement_thumbnail1.jpg",
-          channel: "Biology Channel 39",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/locomotion-movement/opt2",
-          thumbnail: "/images/locomotion_movement_thumbnail2.jpg",
-          channel: "Biology Channel 40",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3644,14 +3684,19 @@ export const biology = {
       name: "Neural Control and Coordination",
       options: [
         {
-          path: "/dummy/path/neural-control-coordination/opt1",
-          thumbnail: "/images/neural_control_coordination_thumbnail1.jpg",
-          channel: "Biology Channel 41",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/neural-control-coordination/opt2",
-          thumbnail: "/images/neural_control_coordination_thumbnail2.jpg",
-          channel: "Biology Channel 42",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },
@@ -3659,14 +3704,19 @@ export const biology = {
       name: "Chemical Coordination and Integration",
       options: [
         {
-          path: "/dummy/path/chemical-coordination-integration/opt1",
-          thumbnail: "/images/chemical_coordination_integration_thumbnail1.jpg",
-          channel: "Biology Channel 43",
+          path: "https://youtu.be/NKHQihGW0Js?si=AX0OCp7LFPdhID_V",
+          thumbnail: "https://img.youtube.com/vi/NKHQihGW0Js/hqdefault.jpg",
+          channel: "Science and Fun Motivation",
         },
         {
-          path: "/dummy/path/chemical-coordination-integration/opt2",
-          thumbnail: "/images/chemical_coordination_integration_thumbnail2.jpg",
-          channel: "Biology Channel 44",
+          path: "https://youtu.be/xzN_SZ_AWLw?si=EGE8HYmTLOLrSW0F",
+          thumbnail: "https://img.youtube.com/vi/xzN_SZ_AWLw/hqdefault.jpg",
+          channel: "NCERT Wallah",
+        },
+        {
+          path: "https://youtu.be/XAZd1uuf9KU?si=4HzUq8kbHtaz92c1",
+          thumbnail: "https://img.youtube.com/vi/XAZd1uuf9KU/hqdefault.jpg",
+          channel: "Munil Sir",
         },
       ],
     },

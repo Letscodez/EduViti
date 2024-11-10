@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 export const FlipWords = ({
   words,
-  duration = 3000,
+  duration = 2500,
   className,
 }: {
   words: string[];
@@ -58,7 +58,8 @@ export const FlipWords = ({
           position: "absolute",
         }}
         className={cn(
-          "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2",
+          "inline-block",
+          
           className
         )}
         key={currentWord}
@@ -73,7 +74,6 @@ export const FlipWords = ({
               delay: wordIndex * 0.3,
               duration: 0.3,
             }}
-            className="inline-block whitespace-nowrap"
           >
             {word.split("").map((letter, letterIndex) => (
               <motion.span
@@ -84,12 +84,11 @@ export const FlipWords = ({
                   delay: wordIndex * 0.3 + letterIndex * 0.05,
                   duration: 0.2,
                 }}
-                className="inline-block"
+                className="text-[#EAFFF9]"
               >
                 {letter}
               </motion.span>
             ))}
-            <span className="inline-block">&nbsp;</span>
           </motion.span>
         ))}
       </motion.div>
