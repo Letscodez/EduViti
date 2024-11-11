@@ -73,7 +73,7 @@ const HeroSection = () => {
           <div className="flex-grow bg-[#06d6a0] h-[1px]" />
         </div>
 
-        <div className="flex justify-center back-in-left6 md:justify-start w-full mb-6">
+        <div className="flex justify-center back-in-left6 md:justify-start w-full">
           <Btn />
         </div>
       </div>
@@ -81,7 +81,7 @@ const HeroSection = () => {
       {/* Right side: Image */}
       <Tilt
         options={defaultOptions}
-        className="md:w-1/2 z-10 flex justify-center md:justify-end"
+        className="md:w-1/2 z-10 md:mt-0 mt-4 flex justify-center md:justify-end"
       >
         <Image
           src={heroImage}

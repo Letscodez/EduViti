@@ -19,12 +19,14 @@ const Btn = ({ className, displayText, url }: BtnProps) => {
     easing: "cubic-bezier(.25,.8,.25,1)", // Standard smooth easing curve
   };
   return (
-    <Tilt options={defaultOptions} href={displayText ? url : "/StartLearning"}>
-      <button
-        className={`${className} bg-primary text-xs sm:text-sm text-bg font-bold py-3 px-6 rounded-lg hover:opacity-90 duration-200 ease-in-out max-h-12 hover:shadow-xl hover:shadow-primary/30`}
-      >
-        {displayText ? displayText : "Start Learning"}
-      </button>
+    <Tilt options={defaultOptions}>
+      <a href={displayText ? url : "/StartLearning"}>
+        <button
+          className={`${className} bg-primary text-xs sm:text-sm text-bg font-bold py-3 px-6 rounded-lg hover:opacity-90 duration-200 ease-in-out max-h-12 hover:shadow-xl hover:shadow-primary/30`}
+        >
+          {displayText ? displayText : "Start Learning"}
+        </button>
+      </a>
     </Tilt>
   );
 };
