@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { benefitsData, BenefitType } from "@/data/benifit"; // Ensure that benefitsData contains 4-5 items
 import Btn from "../components/btn";
+import { ReactTyped } from "react-typed";
 
 const BenefitsSection = () => {
   return (
@@ -17,9 +19,14 @@ const BenefitsSection = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex md:mt-10 flex-col items-center md:items-start">
-          <p className="sm:text-start text-center mb-8 text-white/80 text-lg md:text-xl leading-relaxed">
-            At EduViti, we empower students by providing a comprehensive suite of educational resources designed to enhance your learning experience and support your learning growth.
-          </p>
+          <span className="sm:text-start text-center mb-8 text-white/80 text-lg md:text-xl leading-relaxed">
+            <ReactTyped
+              strings={[
+                `At EduViti, we empower students by providing a comprehensive suite of educational resources designed to enhance your learning experience and support your learning growth.`,
+              ]}
+              typeSpeed={25}
+            />
+          </span>
           <Btn />
         </div>
       </div>
