@@ -26,6 +26,100 @@ export const links: LinkType[] = [
   },
   { name: "Biology", path: "/StudyResources/Grade-9/biology", icon: qbank_svg },
 ];
+export const common_science = {
+  sample_paper: [
+    {
+      name: "2021",
+      sets: [
+        { name: "Set 1", path: "1_Y_IsaAC5h7bd8mUW5a-nWpKDGp8wTze" },
+        { name: "Set 2", path: "19f2PjdiiVkW1fyZ9Al91aB5eyn-VHWfs" },
+        { name: "Set 3", path: "1GUcdXo_WDNrexd_QX0puq-E-AswrwTGD" },
+        { name: "Set 4", path: "1mILgMChbKBMoqkw39yjc16r7doyJw-Wq" },
+        { name: "Set 5", path: "1XT7bvRHuahfaPfGtlgBefWFYKuJyUtHl" },
+        { name: "Set 6", path: "1vXUmImWE3cv_mKSAUPPtbEuLEKeRIWWj" },
+        { name: "Set 7", path: "15HyHbeV3zeKBnBPT02h6y7W_GkhPgTPt" },
+        { name: "Set 8", path: "1fzc5uXAWFc8J4VZALFrvJgHVL2im0tOT" },
+        { name: "Set 9", path: "1Dtm3HD6hGTDBPCjAmF66Fl_Pz91zGAwK" },
+        { name: "Set 10", path: "1XB-WJI6BsDFdLWk4VgvmxLriH9IlqoK8" },
+        { name: "Set 11", path: "1uL_ACBtkAxU7cIbaevaWDzmx8Tnvw8D4" },
+        { name: "Set 12", path: "18uo3aD_9TKw78ZqxdnGlKW8zru8lHj7j" },
+        { name: "Set 13", path: "1IZDZMEC_S-2gqQSBedD42rdNze1xp1C2" },
+        { name: "Set 14", path: "1aIYJl3lzbrxrnsn6t5ZSpbb0JWpPoahX" },
+        { name: "Set 15", path: "1kic4KRt41UTpvCB4lr41cEUAPPb7llXJ" },
+        { name: "Set 16", path: "1Calf4C8kBeGctBK7C1VA-ezZSuaxIegx" },
+        { name: "Set 17", path: "1jXOK-Xtu2UfiLXK-jLKxhM08qhXCWAB6" },
+        { name: "Set 18", path: "1Uc73Aerwg5XCS1OglGuesZpHXJqUPkNU" },
+        { name: "Set 19", path: "1Y7f9ug8cu00yG3heasp4aAzk-6S9pumb" },
+        { name: "Set 20", path: "1NhibkHeOxmUU9BRIZCG0DT4PGQX-FYiv" },
+        { name: "Set 21", path: "1mMrfE870a1ONmJjoUzgiVKp3Ds_u7sLR" },
+        { name: "Set 22", path: "1KJGsqjUnG10fas5oY2WFCfeFQBgTg6vG" },
+        { name: "Set 23", path: "1m6AuRr-R3mIyaSrqBjOASA4b_lEr2GKp" },
+        { name: "Set 24", path: "1SSy1nuEitQlUhnX5XwAzpq8C5spq6Iwo" },
+        { name: "Set 25", path: "1J_dq7GtQrcUYwcSlNMtD8VU0mEkmWHrj" },
+      ],
+    },
+    {
+      name: "2022",
+      sets: [
+        { name: "Set 1", path: "1h7BVuXNKlD6zEOTeLF1yBsIs_xULXjY5" },
+        { name: "Set 2", path: "11YDH-Nx4Ah0bqWBOtfYWbnajw1dzRq6x" },
+        { name: "Set 3", path: "1pxh1kfDz0rrPUKTywniM00iG3jH8sLrY" },
+        { name: "Set 4", path: "1K820EbUv-Jsaw_BTV_CTwsxZqxSvXZGy" },
+        { name: "Set 5", path: "1MldiY73cbtOmichqwN8n5z-doNIImIkc" },
+      ],
+    },
+    {
+      name: "2023",
+      sets: [
+        { name: "Set 1", path: "1WAJuqK3couQEA50B6tS3pA1t0AcprkuK" },
+        { name: "Set 2", path: "1xakkpo5ZYrhXdTcdMb1T25IjzuoGgPzM" },
+        { name: "Set 3", path: "1nTt0-d3azlQPGl7ilY-z9X0Yn742G4sa" },
+        { name: "Set 3", path: "17n_8CLI9zzpQAs1XHeIwQtekTGxBHYBW" },
+        { name: "Set 3", path: "1BMgFNLl7gfpyzUBH42-VMLQpKUQ5M6B5" },
+        { name: "Set 3", path: "1Tywh5yLBYPi1WRRwECW2Gn_1F7Usayht" },
+        { name: "Set 3", path: "18A6Yc97g1dwn9pepsxSDzbrgYSM7WC5O" },
+        { name: "Set 3", path: "1nVtf_M4HFrxWJ_aeCFmATXAr7AD3dygZ" },
+        { name: "Set 3", path: "14CmIipPitSBVGxNTh1E1-m8QHNRpPqlN" },
+        { name: "Set 3", path: "1Llm4vHT0Zy4K1obWwiCB5gOoiGrjFO-F" },
+        { name: "Set 3", path: "1LY-hn5nSyeC7l9GaXn1FmCuYu1aeVRkU" },
+        { name: "Set 3", path: "1aFYZO88uDnxuQU86Gf76NF3DuV80npSY" },
+        { name: "Set 3", path: "1Twp0s5rEOK-UzwnSjnnbR2RppzEUTPj4" },
+        { name: "Set 3", path: "1AwSi1Sr2N2yofaBEnNfnd6n7ebjlH1r8" },
+        { name: "Set 3", path: "1o9bdyGpPTCvm1feivllvEWw9CayDGOoM" },
+      ],
+    },
+    {
+      name: "2024",
+      sets: [
+        { name: "Set 1", path: "1FzgefP6Wx_ExYhiVUSOdgg3_CVAJ8ee5" },
+        { name: "Set 2", path: "1tewLPCPLiyJiUtQLlTfOeTaylsvOQBdG" },
+        { name: "Set 3", path: "1t1Ot9JiAbY3whsLGVN5JBw2Z4oEOv3QL" },
+        { name: "Set 3", path: "1uGO4YPWN5ARydLhb_Iv-0iCD6vNSBnRq" },
+        { name: "Set 3", path: "1oRlqgtXrEzhkplh-5WfYgowekOUycRMn" },
+        { name: "Set 3", path: "1VVv4k2T7X7i6lgoEGenR2fsW9VB8udpc" },
+        { name: "Set 3", path: "1i_I6XRIL2u6wcVKEiRPdbzt6vKrKEN9_" },
+        { name: "Set 3", path: "1_REiHvb9NudpCwjQNA9stTLlMLo8MAMg" },
+        { name: "Set 3", path: "1SbxuO4ZPYXCZXCi2Bcvtus6_7CeaTr4z" },
+        { name: "Set 3", path: "1kNcMfjcLhu4-vQdSHH--IgwDj7_bq7qO" },
+      ],
+    },
+    {
+      name: "2025",
+      sets: [
+        { name: "Set 1", path: "1iMrXZJFCp33_VyQME5N7RPJW-UQSUZ5J" },
+        { name: "Set 2", path: "1P0MmL9bxbaLp_m7LQTAzaCtgO8QGRNGl" },
+        { name: "Set 3", path: "1Obah3SZza4Iz7G1EoClvAoGURXKUjL0L" },
+        { name: "Set 3", path: "12T9v8vFnIfwsy0S9jDNQH1AngtUK5Su8" },
+        { name: "Set 3", path: "19K3VI16_EhvFY7ArPHBIfmlLCrjMzpTg" },
+        { name: "Set 3", path: "1XdCb9CbC6dHmwIYUHEln-st4AEMJBId8" },
+        { name: "Set 3", path: "17IurQQqo5w-HRIc_MvIlz6sX5XdBouVb" },
+        { name: "Set 3", path: "1t0EpWx6NyglZXXQNy_k5ap8Kej2Eot2Q" },
+        { name: "Set 3", path: "1t9BKbfcYMxS9m8b5gYg2gM0suFBvvdSL" },
+        { name: "Set 3", path: "1Yeo7xQG2vvyQfTxV7tC2BhMa9lV5vQbk" },
+      ],
+    },
+  ],
+}
 export const maths = {
   notes: [
     {
@@ -586,66 +680,6 @@ export const physics = {
       ],
     },
   ],
-  sample_paper: [
-    {
-      name: "Motion",
-      sets: [
-        { name: "Set 1", path: "" },
-        { name: "Set 3", path: "" },
-        { name: "Set 2", path: "" },
-      ],
-    },
-    {
-      name: "Force & Laws of Motion",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/physics/force-and-laws-of-motion",
-        },
-      ],
-    },
-    {
-      name: "Gravitation",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/physics/gravitation" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/physics/gravitation" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/physics/gravitation" },
-      ],
-    },
-    {
-      name: "Work and Energy",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/physics/work-and-energy",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/physics/work-and-energy",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/physics/work-and-energy",
-        },
-      ],
-    },
-    {
-      name: "Sound",
-      sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-9/physics/sound" },
-        { name: "Set 2", path: "/StudyResources/Grade-9/physics/sound" },
-        { name: "Set 3", path: "/StudyResources/Grade-9/physics/sound" },
-      ],
-    },
-  ],
   video_lectures: [
     {
       name: "Motion",
@@ -773,7 +807,6 @@ export const physics = {
       ],
     },
   ],
-
   books: [
     {
       title: "HC Verma",
@@ -846,76 +879,6 @@ export const chemistry = {
         {
           name: "Set 1",
           path: "/1Ear3qjAHv9-jQ6bEN7vNJpKpTkrEuh2A",
-        },
-      ],
-    },
-  ],
-  sample_paper: [
-    {
-      name: "Matter in Our Surroundings",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/chemistry/matter-in-our-surroundings",
-        },
-      ],
-    },
-    {
-      name: "Is Matter Around Us Pure ",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/chemistry/is-matter-around-us-pure",
-        },
-      ],
-    },
-    {
-      name: "Atoms and Molecules",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/chemistry/atoms-and-molecules",
-        },
-      ],
-    },
-    {
-      name: "Structure of The Atom",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/chemistry/structure-of-the-atom",
         },
       ],
     },
@@ -1027,7 +990,6 @@ export const chemistry = {
       ],
     },
   ],
-
   books: [
     {
       title: "Lakhmir Singh",
@@ -1071,7 +1033,6 @@ export const biology = {
       path: "1ENziG5JpxsUAmy1pVGYjwSGOLpml1gor",
     },
   ],
-
   question_banks: [
     {
       name: "The Fundamental Unit of Life",
@@ -1108,110 +1069,6 @@ export const biology = {
         {
           name: "Set 1",
           path: "https://drive.google.com/file/d/1SCyqbw0T8c1gGNbZCiWkfrrH8t7j8VlQ/view?usp=drive_link",
-        },
-      ],
-    },
-  ],
-  sample_paper: [
-    {
-      name: "The Fundamental Unit of Life",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/the-fundamental-unit-of-life",
-        },
-      ],
-    },
-    {
-      name: "Tissues",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/tissues",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/tissues",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/tissues",
-        },
-      ],
-    },
-    {
-      name: "Diversity in Living Organisms",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/diversity-in-living-organisms",
-        },
-      ],
-    },
-    {
-      name: "Why do We Fall Ill",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/why-do-we-fall-ill",
-        },
-      ],
-    },
-    {
-      name: "Natural Resources",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/natural-resources",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/natural-resources",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/natural-resources",
-        },
-      ],
-    },
-    {
-      name: "Improvement in Food Resources",
-      sets: [
-        {
-          name: "Set 1",
-          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
-        },
-        {
-          name: "Set 2",
-          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
-        },
-        {
-          name: "Set 3",
-          path: "/StudyResources/Grade-9/biology/improvement-in-food-resources",
         },
       ],
     },

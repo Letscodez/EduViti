@@ -1,6 +1,7 @@
 import React from "react";
 import { maths } from "@/images/main";
 import Image from "next/image";
+import { LampContainer } from "@/components/ui/lamp";
 const showList = [
   {
     label: "Study Resources For All Classes",
@@ -21,7 +22,8 @@ const showList = [
 
 const ShowListComponent = () => {
   return (
-    <section className="p-6">
+    <section>
+      <LampContainer >
       <h1 className="text-5xl font-bold text-white mb-6 text-center">
         Welcome to <span className="text-primary">Eduvity!</span>
       </h1>
@@ -50,6 +52,7 @@ const ShowListComponent = () => {
           </div>
         ))}
       </div>
+      </LampContainer>
     </section>
   );
 };

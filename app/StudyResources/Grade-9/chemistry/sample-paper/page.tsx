@@ -1,5 +1,5 @@
 import React from 'react';
-import { chemistry } from '@/data/classes/9';
+import { common_science } from '@/data/classes/9';
 import SetsCard from '@/app/components/sets';
 import BackButton from '@/app/components/backbtn';
 
@@ -11,7 +11,7 @@ export default function Grade9ChemistryQuestionBanks () {
         Grade 9 <span className='text-primary'>Chemistry</span> Question Banks
       </h1>
       <div className="grid gap-6 mt-14">
-        {chemistry.sample_paper.map((chapter) => (
+        {common_science.sample_paper.map((chapter) => (
           <SetsCard
             key={chapter.name}
             title={chapter.name}
