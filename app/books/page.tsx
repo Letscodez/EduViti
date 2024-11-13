@@ -1,69 +1,98 @@
-'use client';
-import BackButton from '@/app/components/backbtn';
-import React from 'react';
-import Image from 'next/image';
-import { StaticImageData } from 'next/image';
-import { physics } from '@/images/main'; // Replace with the actual image import for Quantum Physics
+"use client";
+import React from "react";
+import Image from "next/image";
+import Btn from "../components/btn";
+import {
+  astronomy,
+  chemistry,
+  cs,
+  engineering_physics,
+  maths,
+  physics,
+  ds,
+} from "@/images/main";
+import BackButton from "../components/backbtn";
 
-type Book = {
-  title: string;
-  author: string;
-  description: string;
-  image: StaticImageData;
-};
-
-const books: Book[] = [
+// List of book categories with images
+const categories = [
+  { label: "Maths", path: "/books/Maths", image: maths },
   {
-    title: "Quantum Mechanics: The Theoretical Minimum",
-    author: "Leonard Susskind & Art Friedman",
-    description: "A clear and practical introduction to quantum mechanics.",
+    label: "Fundamental Science",
+    path: "/books/FundamentalScience",
+    image: chemistry,
+  },
+  {
+    label: "Quantum Physics",
+    path: "/books/QuantumPhysics",
     image: physics,
   },
   {
-    title: "Principles of Quantum Mechanics",
-    author: "R. Shankar",
-    description: "Comprehensive guide on quantum mechanics principles and applications.",
-    image: physics,
+    label: "Astronomy",
+    path: "/books/Astronomy",
+    image: astronomy,
   },
   {
-    title: "In Search of Schrödinger's Cat",
-    author: "John Gribbin",
-    description: "An exploration of quantum mechanics and its paradoxes.",
-    image: physics,
+    label: "Engineering Physics",
+    path: "/books/EngineeringPhysics",
+    image: engineering_physics,
   },
-  // Add more books here as needed
+  {
+    label: "Computer Science",
+    path: "/books/ComputerScience",
+    image: cs,
+  },
+  {
+    label: "Data Science",
+    path: "/books/DataScience",
+    image: ds,
+  },
 ];
 
-const QuantumPhysicsBooksList: React.FC = () => {
+const BookCategorySelector = () => {
   return (
-    <div className="p-6 text-white min-h-screen">
-      <BackButton/>
-      <h1 className="text-4xl font-bold mb-12 mt-8 text-center text-white">
-        Recommended Books for <span className='text-primary'>Quantum Physics</span>
+    <section className="min-h-screen p-6 text-white">
+      <BackButton />
+      <h1 className="text-4xl font-bold mb-12 mt-8 text-center">
+        Explore Book <span className="text-primary">Categories</span>
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-auto gap-8 md:mx-2 xl:mx-28 ">
-        {books.map((book, index) => (
+      <div className="grid gap-6 px-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {categories.map((category) => (
           <div
-            key={index}
-            className="bg-white/5 border border-primary/50 p-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex flex-col md:flex-col xl:flex-row items-center lg:mb-0 mb-2"
+            key={category.path}
+            className="relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-white/10 hover:shadow-xl border border-primary/40"
           >
-            <Image
-              src={book.image}
-              height={200}
-              width={200}
-              alt={book.title}
-              className="h-full rounded-lg object-cover border border-primary/50 my-auto"
-            />
-            <div className="lg:ml-5 h-full lg:text-start text-center mt-2 space-y-2">
-              <h2 className="text-lg text-primary/80">{book.title}</h2>
-              <p className="text-sm text-gray-200">{book.description}</p>
-              <h3 className="text-md text-gray-300 font-mediu ">~{book.author}</h3>
+            <div className="w-full rounded-t-2xl overflow-hidden relative h-40">
+              {/* Image with blur and opacity */}
+              <Image
+                src={category.image}
+                alt={category.label}
+                className="w-full h-40 object-cover group-hover:scale-95 group-hover:rounded-xl transform transition duration-150 blur-[1px]"
+              />
+
+              {/* Black overlay effect */}
+              <div className="absolute inset-0 group-hover:scale-95 duration-150 group-hover:rounded-xl bg-black opacity-50"></div>
+              {/* Centered Text */}
+              <span className="absolute inset-0 flex items-center justify-center text-3xl font-bold text-center text-white">
+                {category.label}
+              </span>
+            </div>
+
+            {/* Content */}
+            <div className="p-4 pb-20 text-center">
+              <p className="text-sm text-gray-300 mt-2">
+                Explore a collection of books under {category.label}.
+              </p>
+            </div>
+
+            {/* Button - Positioned at Bottom */}
+            <div className="absolute bottom-4 left-4 right-4 flex justify-center">
+              <Btn displayText="Explore Books" url={category.path} />
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
-export default QuantumPhysicsBooksList;
+export default BookCategorySelector;

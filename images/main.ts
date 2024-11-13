@@ -41,7 +41,12 @@ import physics from "./physics.webp";
 import maths from "./maths.webp";
 import cs from "./cs.webp";
 import mac from "./mac.png";
-
+import school from "./school.webp";
+import books from "./books.webp";
+import courses_thumbnail from "./courses_thumbnail.webp";
+import astronomy from "./astronomy.webp";
+import engineering_physics from "./ephysics.webp";
+import ds from "./ds.webp";
 export {
   title,
   nav_logo,
@@ -84,6 +89,12 @@ export {
   maths,
   cs,
   mac,
+  school,
+  books,
+  courses_thumbnail,
+  astronomy,
+  engineering_physics,
+  ds
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -127,7 +138,13 @@ export type ImageAssets = {
   physics: StaticImageData;
   maths: StaticImageData;
   cs : StaticImageData;
-  // mac: StaticImageData;
+  mac: StaticImageData;
+  school: StaticImageData;  
+  books: StaticImageData;
+  courses_thumbnail: StaticImageData;
+  astronomy: StaticImageData;
+  engineering_physics: StaticImageData;
+  ds: StaticImageData;
 };
 // Default export of images for better structure
 const images: ImageAssets = {
@@ -171,7 +188,13 @@ const images: ImageAssets = {
   physics,
   maths,
   cs,
-  // mac,
+  mac,
+  school,
+  books,
+  courses_thumbnail,
+  astronomy,
+  engineering_physics,
+  ds
 };
 
 export default images;

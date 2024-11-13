@@ -4,19 +4,18 @@ import { BackgroundLines } from "@/components/ui/background-lines";
 const SearchPage = () => {
   return (
     <BackgroundLines className="bg-white/5 flex flex-col items-center w-screen pt-32 justify-start text-white px-6 space-y-12">
-      <h2 className="text-4xl md:text-5xl mt-5 back-in-left max-w-[500px] font-bold text-center">
-        Discover New Learning{" "}
-        <span className="text-primary">Opportunities</span>
+      <h2 className="text-4xl md:text-5xl font-bold text-center max-w-[500px] mt-5">
+        Discover New Learning <span className="text-primary">Opportunities</span>
       </h2>
-      <p className="text-lg md:text-xl back-in-right text-center text-white/80 max-w-xl leading-relaxed">
+      <p className="text-lg md:text-xl text-center text-white/80 max-w-xl leading-relaxed">
         Search through our vast library of study materials and find the
         resources that fit your goals.
       </p>
-      <div className="w-full max-w-lg flex flex-row hover:scale-105 rounded-lg shadow-bg shadow text-white justify-center bg-white/10 items-center animate-bounce duration-1000">
+      <div className="w-full max-w-lg flex flex-row items-center justify-center bg-white/10 rounded-lg shadow-bg shadow text-white hover:scale-105 duration-1000">
         <input
           type="text"
           placeholder="Search for Courses, Topics, or Materials.."
-          className="w-full px-4 bg-white/0 py-3 border-r border-white/20 placeholder-gray-400 focus-within:outline-none"
+          className="w-full px-4 py-3 bg-transparent border-r border-white/20 placeholder-gray-400 focus:outline-none"
         />
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +29,7 @@ const SearchPage = () => {
       </div>
       <a
         href="#discover"
-        className="text-md max-w-96 text-center back-in-up text-gray-300 font-medium hover:text-white transition duration-100"
+        className="text-md text-center text-gray-300 font-medium hover:text-white transition duration-100"
       >
         Discover new possibilities!
       </a>

@@ -21,7 +21,7 @@ const StartLearning = () => {
       <Navigate />
       <section
         id="discover"
-        className=" min-h-screen text-white px-6 md:px-12 py-16"
+        className="min-h-screen text-white px-6 md:px-12 py-16"
       >
         <Navbar homeBtn={true} />
         <div className="container max-w-5xl mx-auto mt-12 space-y-8">
