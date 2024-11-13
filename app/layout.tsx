@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fredoka } from "next/font/google";
 import "./globals.css"; // Importing global styles
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: "EduViti - All in One Online study platform.",
@@ -35,11 +36,10 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${fredoka.className} overflow-y-scroll overflow-x-hidden`}
+        className={`${fredoka.className} overflow-y-scroll overflow-x-hidden bg-gradient-to-r from-bg via-[#2e4640] to-bg`}
       >
-        <div className="bg-gradient-to-r from-bg via-[#2e4640] to-bg min-h-screen">
-          {children} {/* Rendering children */}
-        </div>
+          {children}
+          <Analytics mode="development"/>
       </body>
     </html>
   );
