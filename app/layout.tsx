@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fredoka } from "next/font/google";
 import "./globals.css"; // Importing global styles
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "EduViti - All in One Online study platform.",
@@ -40,6 +41,7 @@ export default function RootLayout({
       >
           {children}
           <Analytics mode="development"/>
+          <SpeedInsights />
       </body>
     </html>
   );
