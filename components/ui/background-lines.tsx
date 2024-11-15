@@ -1,6 +1,5 @@
-"use client";
 import { cn } from "@/lib/utils";
-import { motion } from "framer-motion";
+import * as motion  from "motion/react-client";
 import React from "react";
 
 export const BackgroundLines = ({

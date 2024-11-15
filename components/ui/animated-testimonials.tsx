@@ -1,7 +1,8 @@
 "use client";
 
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "motion/react";
+import * as motion from "motion/react-client";
 import Image, { StaticImageData } from "next/image";
 import { useEffect, useState } from "react";
 
@@ -46,14 +47,6 @@ export const AnimatedTestimonials = ({
   useEffect(() => {
     setRotateY(Math.floor(Math.random() * 21) - 10);
   }, []); // Empty dependency array ensures it only runs on mount
-
-  // Autoplay functionality
-  useEffect(() => {
-    if (autoplay) {
-      const interval = setInterval(handleNext, 5000);
-      return () => clearInterval(interval);
-    }
-  }, [autoplay]);
 
   return (
     <div className="max-w-full md:max-w-5xl mx-auto antialiased px-4 md:px-8 lg:px-12 py-20 border rounded-3xl border-primary/40 bg-white/10">

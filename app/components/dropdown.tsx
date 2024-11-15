@@ -3,9 +3,6 @@ import {
   useState,
   useEffect,
   ReactElement,
-  JSXElementConstructor,
-  Key,
-  ReactNode,
 } from "react";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 
@@ -36,7 +33,7 @@ const Dropdown = ({ link }: DropdownProps): ReactElement => {
   const handleMouseLeave = () => {
     hoverTimeout = setTimeout(() => {
       setIsHovered(false);
-    }, 200);
+    }, 300);
   };
 
   useEffect(() => {
@@ -65,7 +62,7 @@ const Dropdown = ({ link }: DropdownProps): ReactElement => {
       {/* Dropdown Menu */}
       {isHovered && (
         <div
-          className="absolute opacity-95 duration-200 border border-primary/20 mt-2 w-48 rounded-lg shadow-lg bg-gradient-to-bl to-[#333333] from-[#224640] z-10"
+          className="absolute opacity-95 duration-200 border border-primary/20 mt-6 w-48 rounded-lg shadow-lg bg-bg/80 z-10"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >

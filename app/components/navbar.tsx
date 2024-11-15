@@ -7,7 +7,7 @@ import { nav_logo } from "@/images/main";
 import Hamburger from "./hamburger";
 import Dropdown from "./dropdown";
 import SearchBar from "./searchBar";
-import { motion } from "framer-motion";
+import * as motion from "motion/react-client"
 
 // Define props type with homeBtn
 type NavbarProps = {
@@ -48,10 +48,10 @@ const Navbar: React.FC<NavbarProps> = ({ homeBtn }) => {
       initial={{ y: -100 }}
       animate={hidden ? "hidden" : "visible"}
       variants={{
-        hidden: { opacity: 0, y: -100, transition: { duration: 0.5, ease: "easeInOut" } },
+        hidden: { opacity: 0, y: -100, transition: { duration: 0.5, ease: "easeInOut", } },
         visible: { opacity: 1, y: 0, transition: { duration: 0.25, ease: "easeInOut" } },
       }}
-      className="bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 lg:mx-12 mx-4 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-[1000] filter"
+      className="bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 lg:mx-12 mx-4 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-[999] filter"
     >
       {/* Logo */}
       <a href="/">
