@@ -25,10 +25,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#06d6a0" />
         <meta property="twitter:image" content="https://eduviti.me/images/og.png" />
-        <meta property="twitter:card" content=".https://eduviti.me/images/og.png"></meta>
+        <meta property="twitter:card" content="https://eduviti.me/images/og.png"></meta>
         <meta property="twitter:title" content="EduViti - Your all in one Online Study platform."></meta>
         <meta property="twitter:description" content="Eduvity is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and many more, making it super easy for students to access everything!"></meta>
-        <meta property="og:image" content=".https://eduviti.me/images/og.png"></meta>
+        <meta property="og:image" content="https://eduviti.me/images/og.png"></meta>
         <meta property="og:site_name" content="EduViti" />
         <meta property="og:title" content="EduViti - Your all in one Online Study platform."></meta>
         <meta property="og:description" content="Eduvity is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and many more, making it super easy for students to access everything!" />
