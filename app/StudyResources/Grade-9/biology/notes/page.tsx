@@ -12,7 +12,8 @@ const Grade9BiologyNotes = () => {
       <h1 className="text-2xl sm:text-4xl font-bold mb-6 text-white text-center mt-6"> Grade 9 <span className="text-primary">Biology</span> Notes</h1>
       <div className="flex flex-wrap mt-14 -mx-3">
         {biology.notes.map((chapter) => (
-          <div key={chapter.name} className="w-1/2 px-3 mb-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-14">
+
             <ChapterCard
               title={chapter.name}
               fileId={chapter.path}

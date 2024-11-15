@@ -17,7 +17,7 @@ const showList = [
   },
   {
     label: "Looking out for Free Courses? we have got you covered!",
-    path: "/ScienceResources",
+    path: "/FreeOnlineCourses",
     image: courses_thumbnail,
   },
 ];
@@ -44,9 +44,7 @@ const ShowListComponent = () => {
               <Image
                 src={item.image}
                 alt={item.label}
-                layout="fill"
-                objectFit="cover"
-                className="group-hover:scale-95 transform object-cover transition duration-200"
+                className="group-hover:scale-95 group-hover:rounded-xl transform object-cover transition duration-200"
               />
             </div>
 
