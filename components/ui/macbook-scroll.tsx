@@ -161,7 +161,7 @@ export const Lid = ({
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
         <Image
           src={mac}
-          alt="Eduviti"
+          alt="EduViti"
           fill
           priority
           className="object-cover border border-primary/20 object-left-top absolute rounded-lg inset-0 h-full w-full"
@@ -657,7 +657,7 @@ const AceternityLogo = () => {
     >
       <Image
         src={nav_logo}
-        alt="Eduvity Logo"
+        alt="EduViti Logo"
         width={150}
         height={150}
         style={{ transform: "rotateX(-25deg)" }}

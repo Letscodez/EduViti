@@ -148,7 +148,7 @@ export const neet = [
       description:
         "Test your skills with this comprehensive mock test for Algebra.",
       thumbnail: "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg",
-      channel: "Eduvity Channel",
+      channel: "EduViti Channel",
       path: "/videos/mock-test-1",
     },
     {
@@ -156,7 +156,7 @@ export const neet = [
       name: "Mock Test 2",
       description: "Take this mock test for Geometry and Trigonometry concepts.",
       thumbnail: "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg",
-      channel: "Eduvity Channel",
+      channel: "EduViti Channel",
       path: "/videos/mock-test-2",
     },
     {
@@ -164,7 +164,7 @@ export const neet = [
       name: "Mock Test 3",
       description: "Practice mock tests for Calculus and Algebra concepts.",
       thumbnail: "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg",
-      channel: "Eduvity Channel",
+      channel: "EduViti Channel",
       path: "/videos/mock-test-3",
     },
   

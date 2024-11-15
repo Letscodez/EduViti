@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   description: "Empower your learning journey with us for brighter futures.",
   keywords: "education, learning, online education, study platform, maths, science, free study material",
   openGraph: {
-    description: "Eduvity is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and more, making it easy for students to access everything!",
+    description: "EduViti is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and more, making it easy for students to access everything!",
     title: "EduViti - Your all in one Online Study platform.",
     type: "website",
-    url: "https://eduviti.me/",
+    url: "https://EduViti.me/",
     siteName: "EduViti",
     images: [
       {
-        url: "https://eduviti.me/images/og.png",
+        url: "https://EduViti.me/images/og.png",
         width: 1200,
         height: 630,
         alt: "EduViti homepage showcasing Maths and Science learning resources.",
@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    creatorId: "@EduvityOfficial",
-    description: "Eduvity is an online learning platform offering Maths and Science resources including notes, video lectures, and more.",
-    site: "https://eduviti.me/",
-    creator: "@EduvityOfficial",
+    creatorId: "@EduVitiOfficial",
+    description: "EduViti is an online learning platform offering Maths and Science resources including notes, video lectures, and more.",
+    site: "https://EduViti.me/",
+    creator: "@EduVitiOfficial",
     title: "EduViti - Your all in one Online Study platform.",
   },
   applicationName: "EduViti",
@@ -50,7 +50,6 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#06d6a0" />
-        <meta name="robots" content="index, follow" />
         <link rel="preconnect" href="https://vercel.live" />
         <link rel="dns-prefetch" href="https://vercel.live" />
         <link

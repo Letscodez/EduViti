@@ -31,7 +31,7 @@ const Footer: React.FC<FooterProps> = ({isLearning }) => {
       <div className="container mx-auto flex flex-row justify-between items-center md:px-32 px-6 mt-32">
         {/* Left Section (Logo and Description) */}
         <div className="sm:w-auto w-1/2 mb-6 md:mb-0">
-          <h2 className="text-2xl font-bold text-primary font-mono">EDUVITI</h2>
+          <h2 className="text-2xl font-bold text-primary font-mono">EduViti</h2>
           <p className="mt-2 max-w-xs">
             EduViti – All in One Online study platform.
           </p>
@@ -47,10 +47,10 @@ const Footer: React.FC<FooterProps> = ({isLearning }) => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/Eduvity_official"
+                href="https://www.instagram.com/EduViti_official"
                 className="hover:text-white"
               >
-                Instagram - @eduvity_official
+                Instagram - @EduViti_official
               </a>
             </li>
           </ul>

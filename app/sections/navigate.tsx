@@ -11,7 +11,7 @@ const showList = [
     image: school,
   },
   {
-    label: "Looking for Free Quality Books? Eduviti is the Place!",
+    label: "Looking for Free Quality Books? EduViti is the Place!",
     path: "/books",
     image: books,
   },
@@ -27,7 +27,7 @@ const ShowListComponent = () => {
     <section>
       <LampContainer>
         <h1 className="text-5xl font-bold text-white mb-6 text-center">
-          Welcome to <span className="text-primary">Eduvity!</span>
+          Welcome to <span className="text-primary">EduViti!</span>
         </h1>
         <p className="text-lg text-gray-200 text-center">
           Explore our categories to find resources tailored for your learning journey.
