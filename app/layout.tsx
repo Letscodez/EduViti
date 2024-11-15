@@ -2,18 +2,43 @@ import type { Metadata } from "next";
 import { Fredoka } from "next/font/google";
 import "./globals.css"; // Importing global styles
 import { Analytics } from '@vercel/analytics/next';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "EduViti - All in One Online study platform.",
   description: "Empower your learning journey with us for brighter futures.",
-  keywords: "education, learning, community, study, free, growing",
+  keywords: "education, learning, online education, study platform, maths, science, free study material",
+  openGraph: {
+    description: "Eduvity is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and more, making it easy for students to access everything!",
+    title: "EduViti - Your all in one Online Study platform.",
+    type: "website",
+    url: "https://eduviti.me/",
+    siteName: "EduViti",
+    images: [
+      {
+        url: "https://eduviti.me/images/og.png",
+        width: 1200,
+        height: 630,
+        alt: "EduViti homepage showcasing Maths and Science learning resources.",
+      },
+    ],
+  },
+  twitter: {
+    creatorId: "@EduvityOfficial",
+    description: "Eduvity is an online learning platform offering Maths and Science resources including notes, video lectures, and more.",
+    site: "https://eduviti.me/",
+    creator: "@EduvityOfficial",
+    title: "EduViti - Your all in one Online Study platform.",
+  },
+  applicationName: "EduViti",
+  category: "website",
 };
 
 const fredoka = Fredoka({
   weight: "400",
   subsets: ["latin"],
 });
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -22,17 +47,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#06d6a0" />
-        <meta property="twitter:image" content="https://eduviti.me/images/og.png" />
-        <meta property="twitter:card" content="https://eduviti.me/images/og.png"></meta>
-        <meta property="twitter:title" content="EduViti - Your all in one Online Study platform."></meta>
-        <meta property="twitter:description" content="Eduvity is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and many more, making it super easy for students to access everything!"></meta>
-        <meta property="og:image" content="https://eduviti.me/images/og.png"></meta>
-        <meta property="og:site_name" content="EduViti" />
-        <meta property="og:title" content="EduViti - Your all in one Online Study platform."></meta>
-        <meta property="og:description" content="Eduvity is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and many more, making it super easy for students to access everything!" />
-        <meta property="og:url" content="https://eduviti.me/"></meta>
+        <meta name="robots" content="index, follow" />
         <link rel="preconnect" href="https://vercel.live" />
         <link rel="dns-prefetch" href="https://vercel.live" />
         <link
@@ -41,13 +59,14 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link rel="dns-prefetch" href="https://cdn.example.com" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body
         className={`${fredoka.className} overflow-y-scroll overflow-x-hidden bg-gradient-to-r from-bg via-[#2e4640] to-bg`}
       >
-          {children}
-          <Analytics mode="development"/>
-          <SpeedInsights />
+        {children}
+        <Analytics mode="development" />
+        <SpeedInsights />
       </body>
     </html>
   );
