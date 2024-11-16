@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "EduViti",
     images: [
       {
-        url: "https://EduViti.me/images/og.png",
+        url: "https://EduViti.me/big.png",
         width: 1200,
         height: 630,
         alt: "EduViti homepage showcasing Maths and Science learning resources.",
@@ -32,6 +32,18 @@ export const metadata: Metadata = {
   },
   applicationName: "EduViti",
   category: "website",
+  icons : [
+    {
+      url : "https://EduViti.me/icon.png",
+      sizes: "192x192",
+      type: "image/png",
+    },
+    {
+      url : "https://EduViti.me/icon.png",
+      sizes: "512x512",
+      type: "image/png",
+    },
+  ],
 };
 
 const fredoka = Fredoka({
