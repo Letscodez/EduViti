@@ -33,6 +33,11 @@ const categories = [
 export const metadata : Metadata = { 
   title : "Free Online Courses",
   description : "Explore a collection of free online courses for JEE, NEET, CBSE, and Computer Science.",
+  openGraph : {
+    title : "Free Online Courses",
+    description : "Explore a collection of free online courses for JEE, NEET, CBSE, and Computer Science.",
+    url : "https://eduviti.me/FreeOnlineCourses",
+  }
 }
 
 const BookCategorySelector = () => {

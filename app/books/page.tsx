@@ -15,6 +15,12 @@ import { Metadata } from "next";
 export const metadata : Metadata = { 
   title : "Book Categories",
   description : "Explore a collection of books under different categories.",
+  openGraph : {
+    title : "Book Categories",
+    description : "Explore a collection of books under different categories.",
+    type : "website",
+    url : "https://eduviti.me/books",
+  }
 }
 
 // List of book categories with images

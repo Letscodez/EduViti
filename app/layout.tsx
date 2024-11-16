@@ -39,6 +39,7 @@ export const metadata: Metadata = {
       },
     ]
   },
+  applicationName: "EduViti",
   category: "website",
   icons : [
     {
