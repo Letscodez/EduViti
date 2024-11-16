@@ -5,8 +5,10 @@ import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
-  title: "EduViti - All in One Online study platform.",
-  description: "Empower your learning journey with us for brighter futures.",
+  title: {
+    default: "EduViti - Your all in one Online Study platform.",
+    template : "%s | EduViti",
+  },
   keywords: "education, learning, online education, study platform, maths, science, free study material",
   openGraph: {
     description: "EduViti is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and more, making it easy for students to access everything!",
@@ -44,7 +46,6 @@ export const metadata: Metadata = {
       },
     ]
   },
-  applicationName: "EduViti",
   category: "website",
   icons : [
     {
