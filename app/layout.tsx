@@ -20,7 +20,13 @@ export const metadata: Metadata = {
         width: 400,
         height: 400,
         alt: "EduViti homepage showcasing Maths and Science learning resources.",
-      }
+      },
+      {
+        url: "https://EduViti.me/big.png",
+        width: 1200,
+        height: 630,
+        alt: "EduViti homepage showcasing Maths and Science learning resources.",
+      },
     ],
   },
   twitter: {
@@ -36,7 +42,6 @@ export const metadata: Metadata = {
         height: 800,
         alt: "EduViti homepage showcasing Maths and Science learning resources.",
       },
-
     ]
   },
   applicationName: "EduViti",
