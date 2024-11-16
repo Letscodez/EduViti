@@ -12,6 +12,11 @@ import {
   ds,
 } from "@/images/main";
 import BackButton from "../components/backbtn";
+import { Metadata } from "next";
+export const metadata : Metadata = { 
+  title : "Book Categories",
+  description : "Explore a collection of books under different categories.",
+}
 
 // List of book categories with images
 const categories = [
