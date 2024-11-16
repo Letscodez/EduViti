@@ -37,6 +37,7 @@ export const metadata: Metadata = {
     site: "https://EduViti.me/",
     creator: "@EduVitiOfficial",
     title: "EduViti - Your all in one Online Study platform.",
+    card : "summary_large_image",
     images: [
       {
         url: "https://EduViti.me/big.png",

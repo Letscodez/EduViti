@@ -4,6 +4,12 @@ import Navbar from "../components/navbar";
 import SearchPage from "../sections/searchpage";
 import Footer from "../sections/Footer";
 import Navigate from "../sections/navigate";
+import { Metadata } from "next";
+
+export const metadata : Metadata = { 
+  title : "Start Learning - EduViti - Your all in one Online Study platform.",
+  description : "Kickstart your learning journey with EduViti. Explore curated study resources for students of all grades. Get access to notes, video lectures, question banks, and more!",
+}
 
 const StartLearning = () => {
   return (

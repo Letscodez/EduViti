@@ -3,15 +3,13 @@ import React from "react";
 import Image from "next/image";
 import Btn from "../components/btn";
 import {
-  astronomy,
   chemistry,
   cs,
-  engineering_physics,
   maths,
   physics,
-  ds,
 } from "@/images/main";
 import BackButton from "../components/backbtn";
+import { Metadata } from "next";
 
 // List of book categories with images
 const categories = [
@@ -32,6 +30,11 @@ const categories = [
     image: cs,
   },
 ];
+
+export const metadata : Metadata = { 
+  title : "Free Online Courses",
+  description : "Explore a collection of free online courses for JEE, NEET, CBSE, and Computer Science.",
+}
 
 const BookCategorySelector = () => {
   return (

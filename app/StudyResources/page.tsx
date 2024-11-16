@@ -8,11 +8,6 @@ import { Metadata } from "next";
 export const metadata : Metadata = { 
   title : "Study Resources",
   description : "Explore curated study resources for students of all grades. Get access to notes, video lectures, question banks, and more!",
-  openGraph : {
-    title : "Study Resources - EduViti - Your all in one Online Study platform.",
-    description : "Explore curated study resources for students of all grades. Get access to notes, video lectures, question banks, and more!",
-    url : "https://EduViti.me/StudyResources",
-  },
 }
 
 // List of classes to select from
