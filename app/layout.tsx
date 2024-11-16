@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     siteName: "EduViti",
     images: [
       {
-        url: "https://EduViti.me/big.png",
-        width: 1200,
-        height: 630,
+        url: "https://EduViti.me/og.png",
+        width: 400,
+        height: 400,
         alt: "EduViti homepage showcasing Maths and Science learning resources.",
-      },
+      }
     ],
   },
   twitter: {
@@ -29,6 +29,15 @@ export const metadata: Metadata = {
     site: "https://EduViti.me/",
     creator: "@EduVitiOfficial",
     title: "EduViti - Your all in one Online Study platform.",
+    images: [
+      {
+        url: "https://EduViti.me/big.png",
+        width: 1200,
+        height: 800,
+        alt: "EduViti homepage showcasing Maths and Science learning resources.",
+      },
+
+    ]
   },
   applicationName: "EduViti",
   category: "website",
@@ -43,6 +52,11 @@ export const metadata: Metadata = {
       sizes: "512x512",
       type: "image/png",
     },
+    {
+      url : "https://EduViti.me/big.png",
+      sizes: "1000x1000",
+      type: "image/png",
+    }
   ],
 };
 
