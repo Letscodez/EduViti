@@ -17,8 +17,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://EduViti.me/og.png",
-        width: 400,
-        height: 400,
+        width: 256,
+        height: 256,
         alt: "EduViti homepage showcasing Maths and Science learning resources.",
       },
       {
