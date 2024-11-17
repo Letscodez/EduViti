@@ -10,7 +10,7 @@ import {
 import BackButton from "../components/backbtn";
 import { Metadata } from "next";
 
-// List of book categories with images
+// List of courses categories with images
 const categories = [
   { label: "JEE", path: "/FreeOnlineCourses/JEE", image: maths },
   {
@@ -30,22 +30,54 @@ const categories = [
   },
 ];
 
-export const metadata : Metadata = { 
-  title : "Free Online Courses",
-  description : "Explore a collection of free online courses for JEE, NEET, CBSE, and Computer Science.",
-  openGraph : {
-    title : "Free Online Courses",
-    description : "Explore a collection of free online courses for JEE, NEET, CBSE, and Computer Science.",
-    url : "https://eduviti.me/FreeOnlineCourses",
-  }
-}
+export const metadata: Metadata = {
+  title: "Courses",
+  keywords: "education, learning, online education, study platform, maths, science, free study material",
+  openGraph: {
+    description: "Choose from a variety of courses. Dive into a world of structured, high-quality study resources designed to help you excel.",
+    title: "Online Courses | EduViti",
+    type: "website",
+    url: "https://EduViti.me/FreeOnlineCourses",
+    siteName: "Courses | EduViti",
+    images: [
+      {
+        url: "https://EduViti.me/og.png",
+        alt: "EduViti homepage showcasing Maths and Science learning resources.",
+      },
+    ],
+  },
+  twitter: {
+    creatorId: "@EduVitiOfficial",
+    description: "Choose from a variety of courses. Dive into a world of structured, high-quality study resources designed to help you excel.",
+    site: "https://EduViti.me/FreeOnlineCourses",
+    creator: "@EduVitiOfficial",
+    title: "Online Courses | EduViti",
+    card : "summary_large_image",
+    images: [
+      {
+        url: "https://EduViti.me/big.png",
+        width: 1200,
+        height: 800,
+        alt: "EduViti homepage showcasing Maths and Science learning resources.",
+      },
+    ]
+  },
+  applicationName: "EduViti",
+  category: "website",
+  icons : [
+    {
+      url : "https://EduViti.me/icon.png",
+      type: "image/png",
+    }
+  ],
+};
 
-const BookCategorySelector = () => {
+const CoursesSelector = () => {
   return (
     <section className="min-h-screen p-6 text-white">
       <BackButton />
       <h1 className="text-4xl font-bold mb-12 mt-8 text-center">
-        Explore Book <span className="text-primary">Categories</span>
+        Explore a variety of <span className="text-primary">Courses</span>
       </h1>
       <div className="grid gap-6 px-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {categories.map((category) => (
@@ -87,4 +119,4 @@ const BookCategorySelector = () => {
   );
 };
 
-export default BookCategorySelector;
+export default CoursesSelector;
