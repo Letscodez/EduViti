@@ -6,7 +6,6 @@ type SetsCardProps = {
   title: string;
   sets: { name: string; path: string }[];
 };
-// ruk dekhta hu
 const SetsCard: React.FC<SetsCardProps> = ({ title, sets }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
@@ -33,7 +32,9 @@ const SetsCard: React.FC<SetsCardProps> = ({ title, sets }) => {
                 ⁍ {set.name}
               </h3>
               <div
-                onClick={() => window.location.href = `https://drive.google.com/uc?export=download&id=${set.path}`}
+                onClick={() =>
+                  (window.location.href = `https://drive.google.com/uc?export=download&id=${set.path}`)
+                }
                 className="items-center gap-2 justify-center flex flex-row px-4 py-2 text-bg hover:scale-105 duration-150 bg-primary rounded-lg hover:bg-primary/80 transition"
               >
                 Download

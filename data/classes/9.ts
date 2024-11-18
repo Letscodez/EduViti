@@ -171,63 +171,63 @@ export const maths = {
   question_banks: [
     {
       name: "Number Systems",
-      sets: [{ name: "Set 1", path: "1MKVrFMGYRRNF5gfFCcyJxSM931yJrt9O" }],
+      sets: [{ name: "Set 1", path: "1MKVrFMGYRRNF5gfFCcyJxSM931yJrt9Ox" }],
     },
     {
       name: "Polynomials",
-      sets: [{ name: "Set 1", path: "1hb_qo7JvZpV5sgtvbYht-KDaTA3qw5m9" }], // Empty array for chapters without specific sets
+      sets: [{ name: "Set 1", path: "1hb_qo7JvZpV5sgtvbYht-KDaTA3qw5m9x" }], // Empty array for chapters without specific sets
     },
     {
       name: "Coordinate Geometry",
-      sets: [{ name: "Set 1", path: "1XzbSAR_1eJWVQhYHUcHIfjUpJhIHPp6r" }],
+      sets: [{ name: "Set 1", path: "1XzbSAR_1eJWVQhYHUcHIfjUpJhIHPp6rx" }],
     },
     {
       name: "Linear Equations in Two Variables",
-      sets: [{ name: "Set 1", path: "1ndCa9z9W8qBONtnl7wJYRVVQKcLY9KDW" }],
+      sets: [{ name: "Set 1", path: "1ndCa9z9W8qBONtnl7wJYRVVQKcLY9KDWx" }],
     },
     {
       name: "Euclid’s Geometry",
-      sets: [{ name: "Set 1", path: "11CZxFXMKA12dtohJM390NQvvBaHOhUtp" }],
+      sets: [{ name: "Set 1", path: "11CZxFXMKA12dtohJM390NQvvBaHOhUtpx" }],
     },
     {
       name: "Lines and Angles",
-      sets: [{ name: "Set 1", path: "18NZRrhbbrVOHNMHAqe5uUNd5gpeIk2hG" }],
+      sets: [{ name: "Set 1", path: "18NZRrhbbrVOHNMHAqe5uUNd5gpeIk2hGx" }],
     },
     {
       name: "Triangles",
-      sets: [{ name: "Set 1", path: "10J6aiHa8ACzJ1JfAHJpel37IlSY4qPli" }],
+      sets: [{ name: "Set 1", path: "10J6aiHa8ACzJ1JfAHJpel37IlSY4qPlix" }],
     },
     {
       name: "Quadrilaterals",
-      sets: [{ name: "Set 1", path: "1qSmAORely4h1q-c0oeB-fhsjyx-8D3yD" }],
+      sets: [{ name: "Set 1", path: "1qSmAORely4h1q-c0oeB-fhsjyx-8D3yDx" }],
     },
     {
       name: "Areas of Parallelograms and Triangles",
-      sets: [{ name: "Set 1", path: "1tb-coGQNiteLs87LpkpUpmFFdhAVVnW-" }],
+      sets: [{ name: "Set 1", path: "1tb-coGQNiteLs87LpkpUpmFFdhAVVnW-x" }],
     },
     {
       name: "Circles",
-      sets: [{ name: "Set 1", path: "1GM9RO7AzeOmDwMF-FyspGePF8dvU_bW1" }],
+      sets: [{ name: "Set 1", path: "1GM9RO7AzeOmDwMF-FyspGePF8dvU_bW1x" }],
     },
     {
       name: "Constructions",
-      sets: [{ name: "Set 1", path: "1v90sU7F58jWwZ2qOmhVsY_9cCexSXJkV" }],
+      sets: [{ name: "Set 1", path: "1v90sU7F58jWwZ2qOmhVsY_9cCexSXJkVx" }],
     },
     {
       name: "Heron’s Formula",
-      sets: [{ name: "Set 1", path: "1M_EMbETn1D84i1K5gfl3kahHl1HsYbxi" }],
+      sets: [{ name: "Set 1", path: "1M_EMbETn1D84i1K5gfl3kahHl1HsYbxix" }],
     },
     {
       name: "Surface Areas and Volumes",
-      sets: [{ name: "Set 1", path: "1chWXpyx9VlMmoII8ft5UjFwxPtxCmQLg" }],
+      sets: [{ name: "Set 1", path: "1chWXpyx9VlMmoII8ft5UjFwxPtxCmQLgx" }],
     },
     {
       name: "Statistics",
-      sets: [{ name: "Set 1", path: "1zqdMR2dC97QnPDIUJLONGRLfrm8f4c2F" }],
+      sets: [{ name: "Set 1", path: "1zqdMR2dC97QnPDIUJLONGRLfrm8f4c2Fx" }],
     },
     {
       name: "Probability",
-      sets: [{ name: "Set 1", path: "1J3HbINLJZhr-3sVhLssn0S7PZEMBPuvv" }],
+      sets: [{ name: "Set 1", path: "1J3HbINLJZhr-3sVhLssn0S7PZEMBPuvvx" }],
     },
   ],
 
@@ -639,7 +639,7 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "1-KZn4bWVGW3YWNLwbF1bC9h3oM0XyG0g",
+          path: "1-KZn4bWVGW3YWNLwbF1bC9h3oM0XyG0gx",
         },
       ],
     },
@@ -648,7 +648,7 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "1UXjMuSVytzfUvD-S-lszBxdND9JzRbnZ",
+          path: "1UXjMuSVytzfUvD-S-lszBxdND9JzRbnZx",
         },
       ],
     },
@@ -657,7 +657,7 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "1wiTda8Cj9AjCPcnWPwWUR8LWssRcHmu8",
+          path: "1wiTda8Cj9AjCPcnWPwWUR8LWssRcHmu8x",
         },
       ],
     },
@@ -666,7 +666,7 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "1JsxO7oGT5rYKybAwhrzDNaj1aOrQfIyy",
+          path: "1JsxO7oGT5rYKybAwhrzDNaj1aOrQfIyyx",
         },
       ],
     },
@@ -675,7 +675,7 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "1H92mBGUxjcuLv_FkdkFQoPGY2UVWqKuK",
+          path: "1H92mBGUxjcuLv_FkdkFQoPGY2UVWqKuKx",
         },
       ],
     },
@@ -851,7 +851,7 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "1vCsM_o-FEyTRJ0pa4j8jgpIlmJO1HpSB",
+          path: "1vCsM_o-FEyTRJ0pa4j8jgpIlmJO1HpSBx",
         },
       ],
     },
@@ -860,7 +860,7 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "15dM_Dyo8WlvSidQJkaAGxcd71gU4pd_X",
+          path: "15dM_Dyo8WlvSidQJkaAGxcd71gU4pd_Xx",
         },
       ],
     },
@@ -869,7 +869,7 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "1nkeCPJRLCtNWnQQeBvT9ZnV48tpC7Mq9",
+          path: "1nkeCPJRLCtNWnQQeBvT9ZnV48tpC7Mq9x",
         },
       ],
     },
@@ -878,7 +878,7 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/1Ear3qjAHv9-jQ6bEN7vNJpKpTkrEuh2A",
+          path: "/1Ear3qjAHv9-jQ6bEN7vNJpKpTkrEuh2Ax",
         },
       ],
     },
