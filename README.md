@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏆 Eduvity  
+### **Scripting the Your Future**  
 
-## Getting Started
+Eduvity is an innovative platform for learners, by learners! Whether you're gearing up for JEE or diving into foundational concepts, Eduvity is your one-stop destination for curated video lectures, question banks, and study materials.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features  
+- 📚 **Curated Video Lectures**: Handpicked videos from top educators for both advanced and foundational learning.  
+- 🧩 **Interactive Question Banks**: Test your knowledge with practice questions and detailed solutions.  
+- 🔍 **Easy Navigation**: Quickly find what you need with our user-friendly layout.  
+- 🎯 **Tailored for JEE**: One-shots, revision series, and deep dives into critical topics.  
+- 🌐 **Compact Design**: A simple, clean, and intuitive UI to keep you focused on learning.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Our Mission  
+At Eduvity, we're passionate about making quality education accessible to everyone. By combining the best content with an easy-to-use platform, we help learners unlock their full potential.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack  
+- **Frontend**: Next.js, TypeScript, TailwndCSS  
+- **Backend**: Node.js  
+- **Hosting**: Vercel  
+- **Version Control**: Git & GitHub  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ ![](https://eduviti.me/big.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🤝 Contributing  
+We welcome contributions from the community!  
+1. Fork the repository.  
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).  
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).  
+4. Push to the branch (`git push origin feature/AmazingFeature`).  
+5. Open a pull request.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌟 Show Your Support  
+Give this project a ⭐️ if you love the idea and want to support the community-driven learning revolution!  
+
+---
+
+## 🛡️ License  
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+## 📬 Contact  
+For any queries or feedback, feel free to reach out:  
+- **GitHub**: [@LetsCodez](https://github.com/LetsCodez)  & [@MasterJod](https://github.com/MasterJod)
+- **Email**: eduvity.official@gmail.com  
+
+---
+
+### 🙌 Made with ❤️ by the Eduvity Community  
