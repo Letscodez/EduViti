@@ -1,21 +1,20 @@
-'use client'
+'use client';
 import React from 'react';
 import { chemistry } from '@/data/classes/12';
 import ChapterCard from '@/app/components/chapters';
 import BackButton from '@/app/components/backbtn';
 
-const Grade12ChemistryNotes = () => {
+export default function Grade12ChemistryNotes () {
   return (
     <main className="p-6">
       <BackButton />
-      <h1 className="text-2xl sm:text-4xl font-bold mb-6 text-white text-center mt-6">Grade 12 <span className='text-primary'>Chemistry</span> Notes</h1>
-      <div className="flex flex-wrap mt-14 -mx-3">
-        {chemistry.notes.map((chapter) => (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-14">
-
+      <h1 className="text-2xl sm:text-4xl font-bold mb-6 mt-6 text-white text-center">Grade 12 <span className='text-primary'>Chemistry</span>  Notes</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-14">
+        {chemistry.notes.map((ch) => (
+          <div key={ch.name}>
             <ChapterCard
-              title={chapter.name}
-              fileId={chapter.path}
+              title={ch.name}
+              fileId={ch.path}
             />
           </div>
         ))}
@@ -24,4 +23,3 @@ const Grade12ChemistryNotes = () => {
   );
 }
 
-export default Grade12ChemistryNotes;
