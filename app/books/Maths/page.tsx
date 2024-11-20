@@ -1,4 +1,4 @@
-'use client';
+
 import BackButton from '@/app/components/backbtn';
 import React from 'react';
 import Image from 'next/image';
