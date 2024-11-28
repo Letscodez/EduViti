@@ -3,7 +3,6 @@ import React from "react";
 import Btn from "../components/btn";
 import Image from "next/image";
 import { cardData } from "@/data/card"; // Import cardData
-import { ReactTyped } from "react-typed";
 
 const CTA: React.FC = () => {
   return (
@@ -17,14 +16,9 @@ const CTA: React.FC = () => {
         </div>
         <div className="w-full md:w-1/2 md:pl-10 flex flex-col items-center sm:items-start justify-center">
           <span className="md:text-start text-center mb-8 text-white/80 text-lg md:text-xl leading-relaxed">
-            <ReactTyped
-              strings={[
-                `Join our vibrant community to access exclusive resources,
+            Join our vibrant community to access exclusive resources,
             knowledgeable books, and free courses that will drive you to explore
-            everything.`,
-              ]}
-              typeSpeed={25}
-            />
+            everything. <span className="animate-ping duration-600">❘</span>
           </span>
           <Btn />
         </div>
