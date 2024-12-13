@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Fredoka } from "next/font/google";
 import "./globals.css"; // Importing global styles
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
@@ -9,6 +9,8 @@ export const metadata: Metadata = {
     default: "EduViti - Your all in one Online Study platform.",
     template: "%s | EduViti",
   },
+  description:
+      "EduViti is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and more, making it easy for students to access everything!",
   keywords:
     "education, learning, online education, study platform, maths, science, free study material",
   openGraph: {
@@ -45,24 +47,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#06d6a0" />
         <link rel="preconnect" href="https://vercel.live" />
         <link rel="dns-prefetch" href="https://vercel.live" />
-        <link
-          rel="preconnect"
-          href="https://cdn.example.com"
-          crossOrigin="anonymous"
-        />
-        <link rel="dns-prefetch" href="https://cdn.example.com" />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body
         className={`${fredoka.className} overflow-y-scroll overflow-x-hidden bg-gradient-to-r from-bg via-[#2e4640] to-bg`}
       >
         {children}
-        <Analytics mode="development" />
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
