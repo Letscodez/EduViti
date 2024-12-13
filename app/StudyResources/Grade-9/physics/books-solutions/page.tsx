@@ -1,16 +1,17 @@
-'use client';
-import Image from 'next/image';
+"use client";
+import Image from "next/image";
 
-import { physics } from '@/data/classes/9';
-import BackButton from '@/app/components/backbtn';
+import { physics } from "@/data/classes/9";
+import BackButton from "@/app/components/backbtn";
 
 export default function Grade9PhysicsBooks() {
-  
-
   return (
     <div className="p-6 text-center">
-      <BackButton/>
-      <h1 className="text-2xl sm:text-4xl font-bold text-white mb-8 mt-8 ">Grade 9 <span className="text-primary">Physics</span> Extra Books & Solutions</h1>
+      <BackButton />
+      <h1 className="text-2xl sm:text-4xl font-bold text-white mb-8 mt-8 ">
+        Grade 9 <span className="text-primary">Physics</span> Extra Books &
+        Solutions
+      </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center mt-14 ">
         {physics.books.map((book) => (
           <a

@@ -4,8 +4,12 @@ import { capabilities } from "@/data/capabilities"; // Import capabilities data
 const Capabilities: React.FC = () => {
   return (
     <section className=" h-[64vh] md:block hidden px-4">
-      <h1 className="text-lg font-light text-center text-primary mb-4">Our Capabilities</h1>
-      <h2 className="text-4xl font-bold text-center text-white mb-8">We Can Help You With...</h2>
+      <h1 className="text-lg font-light text-center text-primary mb-4">
+        Our Capabilities
+      </h1>
+      <h2 className="text-4xl font-bold text-center text-white mb-8">
+        We Can Help You With...
+      </h2>
       <div className="max-w-7xl min-w-5xl mx-auto flex flex-wrap justify-center gap-6 pt-3">
         {capabilities.map((capability) => (
           <div

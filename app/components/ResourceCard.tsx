@@ -5,13 +5,18 @@ interface ResourceCardProps {
   title: string;
   description?: string;
   icon: string;
-  url  ?: string;
+  url?: string;
 }
 
-const ResourceCard: React.FC<ResourceCardProps> = ({title, description, icon,url}) => {
+const ResourceCard: React.FC<ResourceCardProps> = ({
+  title,
+  description,
+  icon,
+  url,
+}) => {
   return (
     <a
-    href={url}
+      href={url}
       className={`p-6 rounded-xl bg-white/15 shadow-xl transition-transform transform hover:scale-105 border border-primary/50 text-center  `}
     >
       <div className="flex justify-center mb-4 ">

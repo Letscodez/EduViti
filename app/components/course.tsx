@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 type CourseCardProps = {
   name: string;
@@ -9,10 +9,16 @@ type CourseCardProps = {
   path: string;
 };
 
-const CourseCard: React.FC<CourseCardProps> = ({ name, description, thumbnail, channel, path }) => {
+const CourseCard: React.FC<CourseCardProps> = ({
+  name,
+  description,
+  thumbnail,
+  channel,
+  path,
+}) => {
   return (
     <div className="bg-white/10 border border-primary/30 rounded-md flex flex-col p-4">
-      <div className="relative w-full mb-4" style={{ aspectRatio: '16/9' }}>
+      <div className="relative w-full mb-4" style={{ aspectRatio: "16/9" }}>
         <Image
           src={thumbnail}
           alt={`${name} thumbnail`}

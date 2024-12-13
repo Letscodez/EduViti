@@ -48,9 +48,7 @@ export const CardContainer = ({
   return (
     <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
       <div
-        className={cn(
-          containerClassName
-        )}
+        className={cn(containerClassName)}
         style={{
           perspective: "1000px",
         }}
@@ -62,7 +60,7 @@ export const CardContainer = ({
           onMouseLeave={handleMouseLeave}
           className={cn(
             "flex relative transition-all duration-200 ease-linear",
-            className
+            className,
           )}
           style={{
             transformStyle: "preserve-3d",
@@ -86,7 +84,7 @@ export const CardBody = ({
     <div
       className={cn(
         "[transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
-        className
+        className,
       )}
     >
       {children}

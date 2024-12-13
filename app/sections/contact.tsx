@@ -20,7 +20,7 @@ const Contact = () => {
   });
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
+    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>,
   ) => {
     setFormData({
       ...formData,
@@ -64,9 +64,7 @@ const Contact = () => {
           {FAQs.map((faq) => (
             <Accordion type="single" collapsible key={faq.id}>
               <AccordionItem value={`item-${faq.id}`}>
-                <AccordionTrigger>
-              {faq.question}
-                </AccordionTrigger>
+                <AccordionTrigger>{faq.question}</AccordionTrigger>
                 <AccordionContent>{faq.answer}</AccordionContent>
               </AccordionItem>
             </Accordion>

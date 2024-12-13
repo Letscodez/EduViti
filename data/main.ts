@@ -137,7 +137,11 @@ const coursescbse: LinkType[] = [
     path: "/FreeOnlineCourses/CBSE/class-11",
     icon: maps_svg,
   },
-  { name: "Class 12", path: "/FreeOnlineCourses/CBSE/class-12", icon: qbank_svg },
+  {
+    name: "Class 12",
+    path: "/FreeOnlineCourses/CBSE/class-12",
+    icon: qbank_svg,
+  },
 ];
 const coursescomputerscience: LinkType[] = [
   { name: "Maths", path: "/FreeOnlineCourses/ICSE-courses", icon: rocket },
@@ -176,4 +180,4 @@ const courses5: LinkType[] = [
   },
 ];
 
-export { books, coursesjee, coursesneet, coursescbse, coursescomputerscience, };
+export { books, coursesjee, coursesneet, coursescbse, coursescomputerscience };

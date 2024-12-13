@@ -1,5 +1,5 @@
 import React from "react";
-import * as motion  from "motion/react-client";
+import * as motion from "motion/react-client";
 import { cn } from "@/lib/utils";
 
 export function LampDemo() {
@@ -32,7 +32,7 @@ export const LampContainer = ({
     <div
       className={cn(
         "relative flex flex-col min-h-96 justify-center overflow-hidden w-full z-0",
-        className
+        className,
       )}
     >
       <div className="relative flex w-full flex-1 items-center justify-center z-0">

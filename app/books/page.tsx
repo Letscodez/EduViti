@@ -14,44 +14,27 @@ import BackButton from "../components/backbtn";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Book Categories | EduViti",
-  keywords: "education, learning, online education, study platform, maths, science, free study material",
+  keywords:
+    "education, learning, online education, study platform, maths, science, free study material",
   openGraph: {
-    description: "Explore a collection of books under various categories. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
+    description:
+      "Explore a collection of books under various categories. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
     title: "Book Categories | EduViti",
     type: "website",
     url: "https://EduViti.me/books",
     siteName: "Books Categories | EduViti",
-    images: [
-      {
-        url: "https://EduViti.me/og.png",
-        alt: "EduViti homepage showcasing Maths and Science learning resources.",
-      },
-    ],
   },
   twitter: {
     creatorId: "@EduVitiOfficial",
-    description: "Explore a collection of books under various categories. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
+    description:
+      "Explore a collection of books under various categories. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
     site: "https://EduViti.me/books",
     creator: "@EduVitiOfficial",
     title: "Book Categories | EduViti",
-    card : "summary_large_image",
-    images: [
-      {
-        url: "https://EduViti.me/big.png",
-        width: 1200,
-        height: 800,
-        alt: "EduViti homepage showcasing Maths and Science learning resources.",
-      },
-    ]
+    card: "summary_large_image",
   },
   applicationName: "EduViti",
   category: "website",
-  icons : [
-    {
-      url : "https://EduViti.me/icon.png",
-      type: "image/png",
-    }
-  ],
 };
 
 // List of book categories with images

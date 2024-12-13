@@ -26,7 +26,7 @@ body {
 }
 
 .back-in-left {
-  animation: back-in-left 1s forwards; 
+  animation: back-in-left 1s forwards;
 }
 @keyframes back-in-left2 {
   0% {
@@ -40,7 +40,7 @@ body {
 }
 
 .back-in-left2 {
-  animation: back-in-left2 1.5s forwards; 
+  animation: back-in-left2 1.5s forwards;
 }
 @keyframes back-in-left3 {
   0% {
@@ -54,7 +54,7 @@ body {
 }
 
 .back-in-left3 {
-  animation: back-in-left3 1.5s forwards; 
+  animation: back-in-left3 1.5s forwards;
 }
 @keyframes back-in-left4 {
   0% {
@@ -68,7 +68,7 @@ body {
 }
 
 .back-in-left4 {
-  animation: back-in-left4 1.5s forwards; 
+  animation: back-in-left4 1.5s forwards;
 }
 @keyframes back-in-left5 {
   0% {
@@ -82,7 +82,7 @@ body {
 }
 
 .back-in-left5 {
-  animation: back-in-left5 1.5s forwards; 
+  animation: back-in-left5 1.5s forwards;
 }
 @keyframes back-in-left6 {
   0% {
@@ -96,7 +96,7 @@ body {
 }
 
 .back-in-left6 {
-  animation: back-in-left6 1.5s forwards; 
+  animation: back-in-left6 1.5s forwards;
 }
 
 @keyframes back-in-right {
@@ -111,7 +111,7 @@ body {
 }
 
 .back-in-right {
-  animation: back-in-right 1.5s forwards; 
+  animation: back-in-right 1.5s forwards;
 }
 
 @keyframes back-in-down {
@@ -126,7 +126,7 @@ body {
 }
 
 .back-in-down {
-  animation: back-in-down 1s forwards; 
+  animation: back-in-down 1s forwards;
 }
 @keyframes back-in-up {
   0% {
@@ -140,6 +140,5 @@ body {
 }
 
 .back-in-up {
-  animation: back-in-up 1.3s forwards; 
+  animation: back-in-up 1.3s forwards;
 }
-

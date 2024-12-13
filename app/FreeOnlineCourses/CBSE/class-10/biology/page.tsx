@@ -1,7 +1,7 @@
-import React from 'react';
-import CourseCard from '@/app/components/course';
-import BackButton from '@/app/components/backbtn';
-import { biology } from '@/data/courses/cbse/10';
+import React from "react";
+import CourseCard from "@/app/components/course";
+import BackButton from "@/app/components/backbtn";
+import { biology } from "@/data/courses/cbse/10";
 
 const Class9MathsCourses = () => {
   // Sample courses data

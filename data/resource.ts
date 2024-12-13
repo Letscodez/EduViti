@@ -26,7 +26,7 @@ export const resources: ResourceType[] = [
     description:
       "Explore Question Banks packed with curated questions across all key subjects.",
     icon: qbank_svg,
-    linkName : "question-banks"
+    linkName: "question-banks",
   },
   {
     title: "Board PYQP's",
@@ -36,7 +36,7 @@ export const resources: ResourceType[] = [
     linkName: "pyqp",
   },
   {
-    title: "Sample Papers",  
+    title: "Sample Papers",
     description: "CBSE released sample papers, solved by experts",
     icon: openbook_svg,
     linkName: "sample-paper",
@@ -68,10 +68,10 @@ export const resources2: ResourceType[] = [
     description:
       "Explore Question Banks packed with curated questions across all key subjects.",
     icon: qbank_svg,
-    linkName : "question-banks"
+    linkName: "question-banks",
   },
   {
-    title: "Sample Papers",  
+    title: "Sample Papers",
     description: "CBSE released sample papers, solved by experts",
     icon: openbook_svg,
     linkName: "sample-paper",
@@ -100,10 +100,10 @@ export const cbse: ResourceType[] = [
   {
     title: "Physics",
     icon: qbank_svg,
-    linkName : "physics"
+    linkName: "physics",
   },
   {
-    title: "Chemistry",  
+    title: "Chemistry",
     icon: openbook_svg,
     linkName: "chemistry",
   },

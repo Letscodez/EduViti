@@ -864,7 +864,7 @@ export const physics = {
     },
     { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
   ],
-  
+
   question_banks: [
     {
       name: "Physical World",

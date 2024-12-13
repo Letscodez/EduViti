@@ -9,7 +9,11 @@ interface BtnProps {
   url?: string;
 }
 
-const Btn = ({ className = "", displayText = "Start Learning", url = "/StartLearning" }: BtnProps) => {
+const Btn = ({
+  className = "",
+  displayText = "Start Learning",
+  url = "/StartLearning",
+}: BtnProps) => {
   const defaultOptions = {
     reverse: true,
     max: 20,

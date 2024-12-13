@@ -59,8 +59,8 @@ export const FlipWords = ({
         }}
         className={cn(
           "inline-block",
-          
-          className
+
+          className,
         )}
         key={currentWord}
       >

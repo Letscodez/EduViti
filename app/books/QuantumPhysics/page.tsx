@@ -1,9 +1,8 @@
-
-import BackButton from '@/app/components/backbtn';
-import React from 'react';
-import Image from 'next/image';
-import { StaticImageData } from 'next/image';
-import { physics } from '@/images/main'; // Replace with the actual image import for Fundamental Science
+import BackButton from "@/app/components/backbtn";
+import React from "react";
+import Image from "next/image";
+import { StaticImageData } from "next/image";
+import { physics } from "@/images/main"; // Replace with the actual image import for Fundamental Science
 
 type Book = {
   title: string;
@@ -16,19 +15,22 @@ const books: Book[] = [
   {
     title: "The Elegant Universe",
     author: "Brian Greene",
-    description: "An in-depth exploration of string theory and fundamental physics.",
+    description:
+      "An in-depth exploration of string theory and fundamental physics.",
     image: physics,
   },
   {
     title: "A Brief History of Time",
     author: "Stephen Hawking",
-    description: "An introduction to cosmology and black holes by one of the leading physicists.",
+    description:
+      "An introduction to cosmology and black holes by one of the leading physicists.",
     image: physics,
   },
   {
     title: "Astrophysics for People in a Hurry",
     author: "Neil deGrasse Tyson",
-    description: "A concise overview of astrophysics and fundamental scientific concepts.",
+    description:
+      "A concise overview of astrophysics and fundamental scientific concepts.",
     image: physics,
   },
   // Add more books here as needed
@@ -37,9 +39,10 @@ const books: Book[] = [
 const FundamentalScienceBooksList: React.FC = () => {
   return (
     <div className="p-6 text-white min-h-screen">
-      <BackButton/>
+      <BackButton />
       <h1 className="text-4xl font-bold mb-12 mt-8 text-center text-white">
-        Recommended Books for <span className='text-primary'>Quantum Physics</span>
+        Recommended Books for{" "}
+        <span className="text-primary">Quantum Physics</span>
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-auto gap-8 md:mx-2 xl:mx-28 xl:grid-cols-2 2xl:grid-cols-3">
         {books.map((book, index) => (
@@ -57,7 +60,9 @@ const FundamentalScienceBooksList: React.FC = () => {
             <div className="lg:ml-5 h-full lg:text-start text-center mt-2 space-y-2">
               <h2 className="text-lg text-primary/80">{book.title}</h2>
               <p className="text-sm text-gray-200">{book.description}</p>
-              <h3 className="text-md text-gray-300 font-mediu ">~{book.author}</h3>
+              <h3 className="text-md text-gray-300 font-mediu ">
+                ~{book.author}
+              </h3>
             </div>
           </div>
         ))}

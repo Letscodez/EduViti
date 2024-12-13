@@ -27,13 +27,21 @@ const StudyMaterials = () => {
               />
             </CardItem>
             <CardBody className="group/card lg:ml-5 lg:text-start text-center mt-2 space-y-2">
-              <CardItem as="h2" translateZ={50} className="text-md text-primary font-semibold">
+              <CardItem
+                as="h2"
+                translateZ={50}
+                className="text-md text-primary font-semibold"
+              >
                 {material.title}
               </CardItem>
               <CardItem as="h3" translateZ={30} className="text-lg">
                 {material.subtitle}
               </CardItem>
-              <CardItem as="p" translateZ={25} className="text-sm text-gray-200">
+              <CardItem
+                as="p"
+                translateZ={25}
+                className="text-sm text-gray-200"
+              >
                 → {material.description}
               </CardItem>
             </CardBody>

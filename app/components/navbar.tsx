@@ -69,7 +69,9 @@ const Navbar: React.FC<NavbarProps> = ({ homeBtn }) => {
       </div>
 
       <div className="flex flex-row items-center justify-center space-x-3 mr-6">
-        {homeBtn && <Btn className="sm:block hidden" displayText="Home" url="/" />}
+        {homeBtn && (
+          <Btn className="sm:block hidden" displayText="Home" url="/" />
+        )}
         {!homeBtn && (
           <div className="hidden sm:block">
             <SearchBar />

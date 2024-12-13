@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import * as motion  from "motion/react-client";
+import * as motion from "motion/react-client";
 import React from "react";
 
 export const BackgroundLines = ({
@@ -14,12 +14,7 @@ export const BackgroundLines = ({
   };
 }) => {
   return (
-    <div
-      className={cn(
-        "h-auto md:h-[80vh] w-full",
-        className
-      )}
-    >
+    <div className={cn("h-auto md:h-[80vh] w-full", className)}>
       <SVG svgOptions={svgOptions} />
       {children}
     </div>

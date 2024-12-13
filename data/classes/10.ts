@@ -653,7 +653,7 @@ export const maths = {
         },
       ],
     },
-    
+
     {
       name: "Statistics",
       options: [
@@ -1368,112 +1368,111 @@ export const biology = {
   ],
   video_lectures: [
     {
-        name: "Life Processes",
-        options: [
-          {
-            path: "https://www.youtube.com/live/zBNAk9thu70?si=zGB39dZHcczMjq_a",
-            thumbnail: "https://img.youtube.com/vi/zBNAk9thu70/hqdefault.jpg",
-            channel: "Physics Wallah Foundation",
-          },
-          {
-            path: "https://youtu.be/T9DgvXpCnwo?si=bYLLc43UvrUhdJsb",
-            thumbnail: "https://img.youtube.com/vi/T9DgvXpCnwo/hqdefault.jpg",
-            channel: "Exphub 9th &10th",
-          },
-          {
-            path: "https://youtu.be/YUI7uPbSIQc?si=6ojfSgNk5vYSEGmN",
-            thumbnail: "https://img.youtube.com/vi/YUI7uPbSIQc/hqdefault.jpg",
-            channel: "UDAAN",
-          },
-        ],
+      name: "Life Processes",
+      options: [
+        {
+          path: "https://www.youtube.com/live/zBNAk9thu70?si=zGB39dZHcczMjq_a",
+          thumbnail: "https://img.youtube.com/vi/zBNAk9thu70/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/T9DgvXpCnwo?si=bYLLc43UvrUhdJsb",
+          thumbnail: "https://img.youtube.com/vi/T9DgvXpCnwo/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
+        },
+        {
+          path: "https://youtu.be/YUI7uPbSIQc?si=6ojfSgNk5vYSEGmN",
+          thumbnail: "https://img.youtube.com/vi/YUI7uPbSIQc/hqdefault.jpg",
+          channel: "UDAAN",
+        },
+      ],
     },
     {
-        name: "Control and Coordination",
-        options: [
-          {
-            path: "https://www.youtube.com/live/Hm9UA8KnDo4?si=kTzduVHZTSDoWDBT",
-            thumbnail: "https://img.youtube.com/vi/Hm9UA8KnDo4/hqdefault.jpg",
-            channel: "Physics Wallah Foundation",
-          },
-          {
-            path: "https://youtu.be/uVEYi--kPwM?si=cK0OM8wdtEHDSnwh",
-            thumbnail: "https://img.youtube.com/vi/uVEYi--kPwM/hqdefault.jpg",
-            channel: "UDAAN",
-          },
-          {
-            path: "https://youtu.be/1o7IuDldhRQ?si=3VCbNyRO5ySGBzgT",
-            thumbnail: "https://img.youtube.com/vi/1o7IuDldhRQ/hqdefault.jpg",
-            channel: "Exphub 9th &10th",
-          },
-          {
-            path: "https://youtu.be/DWvAXUGTnS8?si=R3jT_HwqNWD3DZQ4",
-            thumbnail: "https://img.youtube.com/vi/DWvAXUGTnS8/hqdefault.jpg",
-            channel: "Science and Fun Education",
-          },
-        ],
+      name: "Control and Coordination",
+      options: [
+        {
+          path: "https://www.youtube.com/live/Hm9UA8KnDo4?si=kTzduVHZTSDoWDBT",
+          thumbnail: "https://img.youtube.com/vi/Hm9UA8KnDo4/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/uVEYi--kPwM?si=cK0OM8wdtEHDSnwh",
+          thumbnail: "https://img.youtube.com/vi/uVEYi--kPwM/hqdefault.jpg",
+          channel: "UDAAN",
+        },
+        {
+          path: "https://youtu.be/1o7IuDldhRQ?si=3VCbNyRO5ySGBzgT",
+          thumbnail: "https://img.youtube.com/vi/1o7IuDldhRQ/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
+        },
+        {
+          path: "https://youtu.be/DWvAXUGTnS8?si=R3jT_HwqNWD3DZQ4",
+          thumbnail: "https://img.youtube.com/vi/DWvAXUGTnS8/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+      ],
     },
     {
-        name: "How do Organisms Reproduce?",
-        options: [
-          {
-            path: "https://www.youtube.com/live/nIbZOBAV1as?si=Z8xFKFdrOdbqRRZs",
-            thumbnail: "https://img.youtube.com/vi/nIbZOBAV1as/hqdefault.jpg",
-            channel: "Physics Wallah Foundation",
-          },
-          {
-            path: "https://youtu.be/UoFHsD-HHK8?si=_okzXQNjV6dunGiP",
-            thumbnail: "https://img.youtube.com/vi/UoFHsD-HHK8/hqdefault.jpg",
-            channel: "Science and Fun Education",
-          },
-          {
-            path: "https://youtu.be/aR3Fe1ZDkqU?si=mYJRsC5XiIaAqBAz",
-            thumbnail: "https://img.youtube.com/vi/aR3Fe1ZDkqU/hqdefault.jpg",
-            channel: "Exphub 9th &10th",
-          },
-        ],
+      name: "How do Organisms Reproduce?",
+      options: [
+        {
+          path: "https://www.youtube.com/live/nIbZOBAV1as?si=Z8xFKFdrOdbqRRZs",
+          thumbnail: "https://img.youtube.com/vi/nIbZOBAV1as/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/UoFHsD-HHK8?si=_okzXQNjV6dunGiP",
+          thumbnail: "https://img.youtube.com/vi/UoFHsD-HHK8/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+        {
+          path: "https://youtu.be/aR3Fe1ZDkqU?si=mYJRsC5XiIaAqBAz",
+          thumbnail: "https://img.youtube.com/vi/aR3Fe1ZDkqU/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
+        },
+      ],
     },
     {
-        name: "Heredity and Evolution",
-        options: [
-          {
-            path: "https://youtu.be/PeoNpqD73aU?si=f6qy9IjgRA5oYqZt",
-            thumbnail: "https://img.youtube.com/vi/PeoNpqD73aU/hqdefault.jpg",
-            channel: "Exphub 9th &10th",
-          },
-          {
-            path: "https://youtu.be/cmhT2q0l_NQ?si=7wwxL4JMaQImH0Pk",
-            thumbnail: "https://img.youtube.com/vi/cmhT2q0l_NQ/hqdefault.jpg",
-            channel: "UDAAN",
-          },
-          {
-            path: "https://youtu.be/ZiTIToDFaFQ?si=iOVjP1p_SgqeO42C",
-            thumbnail: "https://img.youtube.com/vi/ZiTIToDFaFQ/hqdefault.jpg",
-            channel: "Exphub 9th &10th",
-          },
-        ],
+      name: "Heredity and Evolution",
+      options: [
+        {
+          path: "https://youtu.be/PeoNpqD73aU?si=f6qy9IjgRA5oYqZt",
+          thumbnail: "https://img.youtube.com/vi/PeoNpqD73aU/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
+        },
+        {
+          path: "https://youtu.be/cmhT2q0l_NQ?si=7wwxL4JMaQImH0Pk",
+          thumbnail: "https://img.youtube.com/vi/cmhT2q0l_NQ/hqdefault.jpg",
+          channel: "UDAAN",
+        },
+        {
+          path: "https://youtu.be/ZiTIToDFaFQ?si=iOVjP1p_SgqeO42C",
+          thumbnail: "https://img.youtube.com/vi/ZiTIToDFaFQ/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
+        },
+      ],
     },
     {
-        name: "Our Environment",
-        options: [
-          {
-            path: "https://www.youtube.com/live/k-uteM3JcyI?si=PH0n_jhllikEbZCV",
-            thumbnail: "https://img.youtube.com/vi/k-uteM3JcyI/hqdefault.jpg",
-            channel: "Physics Wallah Foundation",
-          },
-          {
-            path: "https://youtu.be/fKZDHRTbu8Q?si=BxJIRZlKxS74T26w",
-            thumbnail: "https://img.youtube.com/vi/fKZDHRTbu8Q/hqdefault.jpg",
-            channel: "Exphub 9th &10th",
-          },
-          {
-            path: "https://youtu.be/Os_oNOoNH7s?si=Y_7IgteHsoBsJ2f-",
-            thumbnail: "https://img.youtube.com/vi/Os_oNOoNH7s/hqdefault.jpg",
-            channel: "Science and Fun Education",
-          },
-        ],
+      name: "Our Environment",
+      options: [
+        {
+          path: "https://www.youtube.com/live/k-uteM3JcyI?si=PH0n_jhllikEbZCV",
+          thumbnail: "https://img.youtube.com/vi/k-uteM3JcyI/hqdefault.jpg",
+          channel: "Physics Wallah Foundation",
+        },
+        {
+          path: "https://youtu.be/fKZDHRTbu8Q?si=BxJIRZlKxS74T26w",
+          thumbnail: "https://img.youtube.com/vi/fKZDHRTbu8Q/hqdefault.jpg",
+          channel: "Exphub 9th &10th",
+        },
+        {
+          path: "https://youtu.be/Os_oNOoNH7s?si=Y_7IgteHsoBsJ2f-",
+          thumbnail: "https://img.youtube.com/vi/Os_oNOoNH7s/hqdefault.jpg",
+          channel: "Science and Fun Education",
+        },
+      ],
     },
-],
-
+  ],
 
   books: [
     {

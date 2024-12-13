@@ -42,8 +42,17 @@ const Hamburger = () => {
       <DialogContent>
         <DialogHeader>
           <DialogTitle className="flex h-[70px] sm:h-[90px] ">
-            <Image src={nav_logo} alt="logo" height={70} className="ml-2 sm:w-[90px] " />
-            <Image src={title} alt="title" className=" pl-2 pr-20 py-6 sm:px-6" />
+            <Image
+              src={nav_logo}
+              alt="logo"
+              height={70}
+              className="ml-2 sm:w-[90px] "
+            />
+            <Image
+              src={title}
+              alt="title"
+              className=" pl-2 pr-20 py-6 sm:px-6"
+            />
             <p className="text-white/90 text-xl font-bold ml-2">
               Choose a link to navigate.
             </p>
@@ -53,12 +62,13 @@ const Hamburger = () => {
         <Accordion type="multiple" className="flex flex-col h-full space-y-4">
           {navLinks.map((link) => (
             <AccordionItem key={link.label} value={link.label}>
-              <AccordionTrigger>
-                {link.label}
-              </AccordionTrigger>
+              <AccordionTrigger>{link.label}</AccordionTrigger>
               <AccordionContent>
                 {link.sublinks.map((sublink) => (
-                  <div className="my-4 text-grey-400 hover:text-primary" key={sublink.label}>      
+                  <div
+                    className="my-4 text-grey-400 hover:text-primary"
+                    key={sublink.label}
+                  >
                     <a href={sublink.path}>⁍ {sublink.label}</a>
                   </div>
                 ))}

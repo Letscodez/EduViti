@@ -1,12 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Btn from "../components/btn";
-import {
-  chemistry,
-  cs,
-  maths,
-  physics,
-} from "@/images/main";
+import { chemistry, cs, maths, physics } from "@/images/main";
 import BackButton from "../components/backbtn";
 import { Metadata } from "next";
 
@@ -32,44 +27,27 @@ const categories = [
 
 export const metadata: Metadata = {
   title: "Courses",
-  keywords: "education, learning, online education, study platform, maths, science, free study material",
+  keywords:
+    "education, learning, online education, study platform, maths, science, free study material",
   openGraph: {
-    description: "Choose from a variety of courses. Dive into a world of structured, high-quality study resources designed to help you excel.",
+    description:
+      "Choose from a variety of courses. Dive into a world of structured, high-quality study resources designed to help you excel.",
     title: "Online Courses | EduViti",
     type: "website",
     url: "https://EduViti.me/FreeOnlineCourses",
     siteName: "Courses | EduViti",
-    images: [
-      {
-        url: "https://EduViti.me/og.png",
-        alt: "EduViti homepage showcasing Maths and Science learning resources.",
-      },
-    ],
   },
   twitter: {
     creatorId: "@EduVitiOfficial",
-    description: "Choose from a variety of courses. Dive into a world of structured, high-quality study resources designed to help you excel.",
+    description:
+      "Choose from a variety of courses. Dive into a world of structured, high-quality study resources designed to help you excel.",
     site: "https://EduViti.me/FreeOnlineCourses",
     creator: "@EduVitiOfficial",
     title: "Online Courses | EduViti",
-    card : "summary_large_image",
-    images: [
-      {
-        url: "https://EduViti.me/big.png",
-        width: 1200,
-        height: 800,
-        alt: "EduViti homepage showcasing Maths and Science learning resources.",
-      },
-    ]
+    card: "summary_large_image",
   },
   applicationName: "EduViti",
   category: "website",
-  icons : [
-    {
-      url : "https://EduViti.me/icon.png",
-      type: "image/png",
-    }
-  ],
 };
 
 const CoursesSelector = () => {

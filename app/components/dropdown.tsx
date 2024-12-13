@@ -1,15 +1,11 @@
 "use client";
-import {
-  useState,
-  useEffect,
-  ReactElement,
-} from "react";
+import { useState, useEffect, ReactElement } from "react";
 import { ChevronDownIcon } from "@radix-ui/react-icons";
 
 // Define the types for the sublinks and link prop
 interface Sublink {
   label: string;
-  path : string;
+  path: string;
 }
 
 interface Link {

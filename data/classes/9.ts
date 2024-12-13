@@ -119,7 +119,7 @@ export const common_science = {
       ],
     },
   ],
-}
+};
 export const maths = {
   notes: [
     {
@@ -244,8 +244,8 @@ export const maths = {
         { name: "Set 7", path: "1CTT_q5hwZEGpTDVkOCx2sEJVcOznKI6T" },
         { name: "Set 8", path: "1R8cENnKyvrMI_2IsK6V1Dl8ReC7x4QDR" },
         { name: "Set 9", path: "1cEB-g2HYpxXdq4XL4W9fE7-APlKi9xmR" },
-        { name: "Set 10", path: "1rzv5-qWV_L84MFfIQ-LSOV3VSPLw6ypb" }
-      ]
+        { name: "Set 10", path: "1rzv5-qWV_L84MFfIQ-LSOV3VSPLw6ypb" },
+      ],
     },
     {
       name: "2022",
@@ -259,8 +259,8 @@ export const maths = {
         { name: "Set 7", path: "1bWDstBTMQE_O41mWK0uMPp6FxBVePxsj" },
         { name: "Set 8", path: "1LihXgRUSm2pvk5t4HO1SoQI3x6vm70pP" },
         { name: "Set 9", path: "1HsN_-so17OAj-yDun6IcegN9vY4mh74F" },
-        { name: "Set 10", path: "1qwxAp7XZ7O7GBl_Sg3trbFPc3MR2ZWoa" }
-      ]
+        { name: "Set 10", path: "1qwxAp7XZ7O7GBl_Sg3trbFPc3MR2ZWoa" },
+      ],
     },
     {
       name: "2023",
@@ -270,8 +270,8 @@ export const maths = {
         { name: "Set 3", path: "1TjeUQ7b3riT4DUtbUWhIgohZKOB3aPY1" },
         { name: "Set 4", path: "1LqZj9B4S_3fXUKhJm1UeM9HOfA45M1K-" },
         { name: "Set 5", path: "1As9_TQn9QUrOkJqBDiOb1bs6HzqGL1yj" },
-        { name: "Set 6", path: "1qwxAp7XZ7O7GBl_Sg3trbFPc3MR2ZWoa" }
-      ]
+        { name: "Set 6", path: "1qwxAp7XZ7O7GBl_Sg3trbFPc3MR2ZWoa" },
+      ],
     },
     {
       name: "2024",
@@ -280,8 +280,8 @@ export const maths = {
         { name: "Set 2", path: "1VMikNmCYk--Lp-4uA2mNF8177hkoawur" },
         { name: "Set 3", path: "1aVT-32pZ69OXR7sXxjMdivJlCGjEudFK" },
         { name: "Set 4", path: "1VjYCNDAc8CdDmKQeesEUEQD4s6saP5i5" },
-        { name: "Set 5", path: "1_ED1EsEPQamI2DG5F0cULM1BZEZfuUfj" }
-      ]
+        { name: "Set 5", path: "1_ED1EsEPQamI2DG5F0cULM1BZEZfuUfj" },
+      ],
     },
     {
       name: "2025",
@@ -290,11 +290,11 @@ export const maths = {
         { name: "Set 2", path: "12X57ViaZWJ4aF_5paEq2vVFllf0W4Q8n" },
         { name: "Set 3", path: "1xxvdzIXdqnH1WeWg7vbqqli__hio3eUs" },
         { name: "Set 4", path: "17-EIzlx3NuoadCKYJOOYieSaET4PZP0G" },
-        { name: "Set 5", path: "1L0nrkWt9f6x1OXPsG4oz-pH9wLWQ7D9F" }
-      ]
-    }
+        { name: "Set 5", path: "1L0nrkWt9f6x1OXPsG4oz-pH9wLWQ7D9F" },
+      ],
+    },
   ],
-  
+
   video_lectures: [
     {
       name: "Number System",

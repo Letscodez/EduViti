@@ -1,9 +1,8 @@
-
-import BackButton from '@/app/components/backbtn';
-import React from 'react';
-import Image from 'next/image';
-import { StaticImageData } from 'next/image';
-import { physics } from '@/images/main'; // Replace with the actual image import for Data Science
+import BackButton from "@/app/components/backbtn";
+import React from "react";
+import Image from "next/image";
+import { StaticImageData } from "next/image";
+import { physics } from "@/images/main"; // Replace with the actual image import for Data Science
 
 type Book = {
   title: string;
@@ -16,19 +15,22 @@ const books: Book[] = [
   {
     title: "Data Science for Business",
     author: "Foster Provost and Tom Fawcett",
-    description: "An essential introduction to data science, focusing on business applications and decision-making.",
+    description:
+      "An essential introduction to data science, focusing on business applications and decision-making.",
     image: physics,
   },
   {
     title: "Python for Data Analysis",
     author: "Wes McKinney",
-    description: "A practical guide to data analysis with Python, focusing on data wrangling, manipulation, and visualization.",
+    description:
+      "A practical guide to data analysis with Python, focusing on data wrangling, manipulation, and visualization.",
     image: physics,
   },
   {
     title: "Deep Learning",
     author: "Ian Goodfellow, Yoshua Bengio, and Aaron Courville",
-    description: "A comprehensive book on deep learning concepts, techniques, and applications.",
+    description:
+      "A comprehensive book on deep learning concepts, techniques, and applications.",
     image: physics,
   },
   // Add more books here as needed
@@ -37,9 +39,9 @@ const books: Book[] = [
 const DataScienceBooksList: React.FC = () => {
   return (
     <div className="p-6 text-white min-h-screen">
-      <BackButton/>
+      <BackButton />
       <h1 className="text-4xl font-bold mb-12 mt-8 text-center text-white">
-        Recommended Books for <span className='text-primary'>Data Science</span>
+        Recommended Books for <span className="text-primary">Data Science</span>
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-auto gap-8 md:mx-2 xl:mx-28 xl:grid-cols-2 2xl:grid-cols-3">
         {books.map((book, index) => (
@@ -57,7 +59,9 @@ const DataScienceBooksList: React.FC = () => {
             <div className="lg:ml-5 h-full lg:text-start text-center mt-2 space-y-2">
               <h2 className="text-lg text-primary/80">{book.title}</h2>
               <p className="text-sm text-gray-200">{book.description}</p>
-              <h3 className="text-md text-gray-300 font-mediu ">~{book.author}</h3>
+              <h3 className="text-md text-gray-300 font-mediu ">
+                ~{book.author}
+              </h3>
             </div>
           </div>
         ))}

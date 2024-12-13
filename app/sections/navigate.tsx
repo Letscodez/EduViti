@@ -30,7 +30,8 @@ const ShowListComponent = () => {
           Welcome to <span className="text-primary">EduViti!</span>
         </h1>
         <p className="text-lg text-gray-200 text-center">
-          Explore our categories to find resources tailored for your learning journey.
+          Explore our categories to find resources tailored for your learning
+          journey.
         </p>
       </LampContainer>
       <div className="grid gap-6 px-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -50,7 +51,9 @@ const ShowListComponent = () => {
 
             {/* Text Content */}
             <div className="p-4 pb-16">
-              <h2 className="font-bold text-lg text-white my-4">{item.label}</h2>
+              <h2 className="font-bold text-lg text-white my-4">
+                {item.label}
+              </h2>
             </div>
 
             {/* "FREE" Tag and Button - Stick to Bottom */}

@@ -1,9 +1,8 @@
-
-import BackButton from '@/app/components/backbtn';
-import React from 'react';
-import Image from 'next/image';
-import { StaticImageData } from 'next/image';
-import { physics } from '@/images/main'; // Replace with the actual image import for Computer Science
+import BackButton from "@/app/components/backbtn";
+import React from "react";
+import Image from "next/image";
+import { StaticImageData } from "next/image";
+import { physics } from "@/images/main"; // Replace with the actual image import for Computer Science
 
 type Book = {
   title: string;
@@ -15,20 +14,24 @@ type Book = {
 const books: Book[] = [
   {
     title: "Introduction to Algorithms",
-    author: "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein",
-    description: "A comprehensive guide to the field of algorithms, covering a wide range of topics in computer science.",
+    author:
+      "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein",
+    description:
+      "A comprehensive guide to the field of algorithms, covering a wide range of topics in computer science.",
     image: physics,
   },
   {
     title: "Computer Networking: A Top-Down Approach",
     author: "James F. Kurose and Keith W. Ross",
-    description: "An in-depth look at computer networking principles from a layered perspective.",
+    description:
+      "An in-depth look at computer networking principles from a layered perspective.",
     image: physics,
   },
   {
     title: "Clean Code: A Handbook of Agile Software Craftsmanship",
     author: "Robert C. Martin",
-    description: "A practical guide to writing clean, maintainable, and efficient code in software development.",
+    description:
+      "A practical guide to writing clean, maintainable, and efficient code in software development.",
     image: physics,
   },
   // Add more books here as needed
@@ -37,9 +40,10 @@ const books: Book[] = [
 const ComputerScienceBooksList: React.FC = () => {
   return (
     <div className="p-6 text-white min-h-screen">
-      <BackButton/>
+      <BackButton />
       <h1 className="text-4xl font-bold mb-12 mt-8 text-center text-white">
-        Recommended Books for <span className='text-primary'>Computer Science</span>
+        Recommended Books for{" "}
+        <span className="text-primary">Computer Science</span>
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-auto gap-8 md:mx-2 xl:mx-28 xl:grid-cols-2 2xl:grid-cols-3">
         {books.map((book, index) => (
@@ -57,7 +61,9 @@ const ComputerScienceBooksList: React.FC = () => {
             <div className="lg:ml-5 h-full lg:text-start text-center mt-2 space-y-2">
               <h2 className="text-lg text-primary/80">{book.title}</h2>
               <p className="text-sm text-gray-200">{book.description}</p>
-              <h3 className="text-md text-gray-300 font-mediu ">~{book.author}</h3>
+              <h3 className="text-md text-gray-300 font-mediu ">
+                ~{book.author}
+              </h3>
             </div>
           </div>
         ))}

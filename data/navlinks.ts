@@ -16,9 +16,8 @@ export const navLinks = [
       { label: "Quantum Physics", path: "/books/QuantumPhysics" },
       { label: "Astronomy", path: "/books/Astronomy" },
       { label: "Engineering Physics", path: "/books/EngineeringPhysics" },
-      { label: "Computer Science", path: "/books/ComputerScience", },
-      { label: "Data Science", path: "/books/DataScience", },
-      
+      { label: "Computer Science", path: "/books/ComputerScience" },
+      { label: "Data Science", path: "/books/DataScience" },
     ],
   },
   {

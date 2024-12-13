@@ -20,7 +20,8 @@ const BenefitsSection = () => {
           <span className="sm:text-start text-center mb-8 text-white/80 text-lg md:text-xl leading-relaxed">
             At EduViti, we empower students by providing a comprehensive suite
             of educational resources designed to enhance your learning
-            experience and support your learning growth. <span className="animate-ping duration-600">❘</span>
+            experience and support your learning growth.{" "}
+            <span className="animate-ping duration-600">❘</span>
           </span>
           <Btn />
         </div>

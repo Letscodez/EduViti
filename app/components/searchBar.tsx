@@ -1,6 +1,8 @@
-import React from 'react';
+import React from "react";
 
-const SearchBar = ({ placeholder = "Search for Courses, Topics, or Materials.." }) => {
+const SearchBar = ({
+  placeholder = "Search for Courses, Topics, or Materials..",
+}) => {
   return (
     <div className="w-full max-w-lg border border-primary/30 flex flex-row hover:scale-105 rounded-lg text-white justify-center bg-black/30 items-center">
       <input

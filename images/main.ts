@@ -94,7 +94,7 @@ export {
   courses_thumbnail,
   astronomy,
   engineering_physics,
-  ds
+  ds,
 };
 //  Type declarations for imported images
 export type ImageAssets = {
@@ -137,9 +137,9 @@ export type ImageAssets = {
   chemistry: StaticImageData;
   physics: StaticImageData;
   maths: StaticImageData;
-  cs : StaticImageData;
+  cs: StaticImageData;
   mac: StaticImageData;
-  school: StaticImageData;  
+  school: StaticImageData;
   books: StaticImageData;
   courses_thumbnail: StaticImageData;
   astronomy: StaticImageData;
@@ -194,7 +194,7 @@ const images: ImageAssets = {
   courses_thumbnail,
   astronomy,
   engineering_physics,
-  ds
+  ds,
 };
 
 export default images;

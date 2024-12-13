@@ -2,13 +2,17 @@ import React from "react";
 
 interface ChapterCardProps {
   title: string;
-  fileId: string; 
+  fileId: string;
 }
 
 const ChapterCard: React.FC<ChapterCardProps> = ({ title, fileId }) => {
   return (
     <div className="w-full p-3 bg-white/10 rounded-lg hover:text-white/50 shadow-md border border-primary/30 hover:scale-[1.03] duration-200 cursor-pointer flex items-center justify-between">
-      <a href={`https://drive.google.com/file/d/${fileId}`} target="_blank" className="text-lg flex flex-row items-center justify-center gap-2  text-white/90">
+      <a
+        href={`https://drive.google.com/file/d/${fileId}`}
+        target="_blank"
+        className="text-lg flex flex-row items-center justify-center gap-2  text-white/90"
+      >
         ⁍ <span className="underline underline-offset-3">{title}</span>↗
       </a>
       <a
