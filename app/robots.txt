@@ -1,0 +1,9 @@
+# Allow all crawlers to access everything except explicitly disallowed paths
+User-agent: *
+Allow: /
+
+# Disallow crawling of API routes (case-sensitive)
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://eduviti.com/sitemap.xml

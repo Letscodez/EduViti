@@ -1,8 +1,8 @@
-# 🏆 Eduvity
+# 🏆 Eduviti
 
 ### **Scripting the Your Future**
 
-Eduvity is an innovative platform for learners, by learners! Whether you're gearing up for JEE or diving into foundational concepts, Eduvity is your one-stop destination for curated video lectures, question banks, and study materials.
+Eduviti is an innovative platform for learners, by learners! Whether you're gearing up for JEE or diving into foundational concepts, Eduviti is your one-stop destination for curated video lectures, question banks, and study materials.
 
 ---
 
@@ -18,7 +18,7 @@ Eduvity is an innovative platform for learners, by learners! Whether you're gear
 
 ## 🎯 Our Mission
 
-At Eduvity, we're passionate about making quality education accessible to everyone. By combining the best content with an easy-to-use platform, we help learners unlock their full potential.
+At Eduviti, we're passionate about making quality education accessible to everyone. By combining the best content with an easy-to-use platform, we help learners unlock their full potential.
 
 ---
 
@@ -68,4 +68,4 @@ For any queries or feedback, feel free to reach out:
 
 ---
 
-### 🙌 Made with ❤️ by the Eduvity Community
+### 🙌 Made with ❤️ by the Eduviti Community
