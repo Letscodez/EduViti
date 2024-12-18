@@ -164,17 +164,20 @@ export const Lid = ({
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
 
         {/* Image Section */}
-        <Link href="/mac.png" target="_blank" className="h-full w-full object-cover">
-        <Image
-          src={src}
-          alt="EduViti"
-          width={640}
-          height={360}
-          priority
-          className="border border-primary/20 object-left-top absolute rounded-lg inset-0 h-full w-full object-cover"
-        />
+        <Link
+          href="/mac.png"
+          target="_blank"
+          className="h-full w-full object-cover"
+        >
+          <Image
+            src={src}
+            alt="EduViti"
+            width={640}
+            height={360}
+            priority
+            className="border border-primary/20 object-left-top absolute rounded-lg inset-0 h-full w-full object-cover"
+          />
         </Link>
-        
 
         {/* Blur Effect */}
         <div className="absolute inset-x-0 h-full w-full scale-150 -z-50 rounded-full bg-[#60a5fa09] to-transparent blur-3xl" />
