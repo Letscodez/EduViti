@@ -1,6 +1,7 @@
 import BackButton from "@/app/components/backbtn";
 import React from "react";
 import Image from "next/image";
+import { coming_soon_potrait } from "@/data/comingsoon";
 
 import { StaticImageData } from "next/image";
 
@@ -16,23 +17,20 @@ const books: Book[] = [
     title: "Calculus Made Easy",
     author: "Silvanus P. Thompson",
     description: "A simple and effective approach to understanding calculus.",
-    image:
-      "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
+    image: coming_soon_potrait,
   },
   {
     title: "Discrete Mathematics and Its Applications",
     author: "Kenneth H. Rosen",
     description: "Comprehensive introduction to discrete mathematics.",
-    image:
-      "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
+    image: coming_soon_potrait,
   },
   {
     title: "Introduction to Linear Algebra",
     author: "Gilbert Strang",
     description:
       "A classic textbook on linear algebra, widely used in courses.",
-    image:
-      "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
+    image: coming_soon_potrait,
   },
   // Add more books here as needed
 ];

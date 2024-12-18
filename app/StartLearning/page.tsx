@@ -8,27 +8,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Start Learning",
-  keywords:
-    "education, learning, online education, study platform, maths, science, free study material",
-  openGraph: {
-    description:
-      "Kickstart your learning journey with EduViti. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
-    title: "Start Learning with EduViti!",
-    type: "website",
-    url: "https://EduViti.me/StartLearning",
-    siteName: "Start Learning | EduViti",
-  },
-  twitter: {
-    creatorId: "@EduVitiOfficial",
-    description:
-      "Kickstart your learning journey with EduViti. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
-    site: "https://EduViti.me/StartLearning",
-    creator: "@EduVitiOfficial",
-    title: "Start Learning with EduViti!",
-    card: "summary_large_image",
-  },
-  applicationName: "EduViti",
-  category: "website",
+  description:
+    "Kickstart your learning journey with EduViti. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
 };
 
 const StartLearning = () => {

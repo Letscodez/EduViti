@@ -27,27 +27,8 @@ const categories = [
 
 export const metadata: Metadata = {
   title: "Courses",
-  keywords:
-    "education, learning, online education, study platform, maths, science, free study material",
-  openGraph: {
-    description:
-      "Choose from a variety of courses. Dive into a world of structured, high-quality study resources designed to help you excel.",
-    title: "Online Courses | EduViti",
-    type: "website",
-    url: "https://EduViti.me/FreeOnlineCourses",
-    siteName: "Courses | EduViti",
-  },
-  twitter: {
-    creatorId: "@EduVitiOfficial",
-    description:
-      "Choose from a variety of courses. Dive into a world of structured, high-quality study resources designed to help you excel.",
-    site: "https://EduViti.me/FreeOnlineCourses",
-    creator: "@EduVitiOfficial",
-    title: "Online Courses | EduViti",
-    card: "summary_large_image",
-  },
-  applicationName: "EduViti",
-  category: "website",
+  description:
+    "Choose from a variety of courses. Dive into a world of structured, high-quality study resources designed to help you excel.",
 };
 
 const CoursesSelector = () => {

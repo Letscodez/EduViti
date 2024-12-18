@@ -9,13 +9,6 @@ export const metadata: Metadata = {
   title: "Study Resources",
   description:
     "Explore curated study resources for students of all grades. Get access to notes, video lectures, question banks, and more!",
-  openGraph: {
-    title: "Study Resources",
-    description:
-      "Explore curated study resources for students of all grades. Get access to notes, video lectures, question banks, and more!",
-    type: "website",
-    url: "https://eduviti.com/StudyResources",
-  },
 };
 
 // List of classes to select from

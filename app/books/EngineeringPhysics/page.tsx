@@ -2,6 +2,7 @@ import BackButton from "@/app/components/backbtn";
 import React from "react";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
+import { coming_soon_potrait } from "@/data/comingsoon";
 
 type Book = {
   title: string;
@@ -16,24 +17,21 @@ const books: Book[] = [
     author: "David Halliday",
     description:
       "A comprehensive guide to the basics of physics for engineering students.",
-    image:
-      "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
+    image: coming_soon_potrait,
   },
   {
     title: "Engineering Mechanics: Dynamics",
     author: "J.L. Meriam",
     description:
       "An essential resource on the dynamics of physical systems in engineering.",
-    image:
-      "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
+    image: coming_soon_potrait,
   },
   {
     title: "Physics for Scientists and Engineers",
     author: "Raymond A. Serway",
     description:
       "An in-depth exploration of physics concepts tailored for engineering students.",
-    image:
-      "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
+    image: coming_soon_potrait,
   },
   // Add more books here as needed
 ];
