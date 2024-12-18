@@ -14,27 +14,6 @@ import BackButton from "../components/backbtn";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Book Categories | EduViti",
-  keywords:
-    "education, learning, online education, study platform, maths, science, free study material",
-  openGraph: {
-    description:
-      "Explore a collection of books under various categories. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
-    title: "Book Categories | EduViti",
-    type: "website",
-    url: "https://EduViti.me/books",
-    siteName: "Books Categories | EduViti",
-  },
-  twitter: {
-    creatorId: "@EduVitiOfficial",
-    description:
-      "Explore a collection of books under various categories. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
-    site: "https://EduViti.me/books",
-    creator: "@EduVitiOfficial",
-    title: "Book Categories | EduViti",
-    card: "summary_large_image",
-  },
-  applicationName: "EduViti",
-  category: "website",
 };
 
 // List of book categories with images

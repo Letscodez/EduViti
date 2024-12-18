@@ -20,6 +20,7 @@ export default function Grade10MathsBooks() {
             href={book.link}
             target="_blank"
             rel="noopener noreferrer"
+            key={book.link}
             className="bg-white/10 border border-primary/30 rounded-lg p-3 text-white w-40 hover:shadow-lg hover:scale-105 transform transition duration-200 hover:text-primary"
           >
             <Image

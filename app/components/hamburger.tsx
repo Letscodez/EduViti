@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/accordion"; // Ensure these components are exported correctly
 import { navLinks } from "@/data/navlinks"; // Your navigation links data
 import Image from "next/image";
-import { nav_logo, title } from "@/images/main"; // Make sure nav_logo is imported correctly
+import { nav_logo } from "@/images/main"; // Make sure nav_logo is imported correctly
 
 const Hamburger = () => {
   return (
@@ -29,7 +29,7 @@ const Hamburger = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-8 h-8 text-white hover:text-primary cursor-pointer lg:hidden block"
+          className="w-8 h-8 text-white hover:text-primary cursor-pointer xl:hidden block"
         >
           <path
             strokeLinecap="round"
@@ -41,19 +41,14 @@ const Hamburger = () => {
 
       <DialogContent>
         <DialogHeader>
-          <DialogTitle className="flex h-[70px] sm:h-[90px] ">
+          <DialogTitle className="flex h-[70px] sm:h-[90px] text-center items-center ">
             <Image
               src={nav_logo}
               alt="logo"
               height={70}
               className="ml-2 sm:w-[90px] "
             />
-            <Image
-              src={title}
-              alt="title"
-              className=" pl-2 pr-20 py-6 sm:px-6"
-            />
-            <p className="text-white/90 text-xl font-bold ml-2">
+            <p className="text-gray-200 text-xl ml-2">
               Choose a link to navigate.
             </p>
           </DialogTitle>

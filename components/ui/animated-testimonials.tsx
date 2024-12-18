@@ -23,7 +23,6 @@ type AnimatedTestimonialsProps = {
 // AnimatedTestimonials component
 export const AnimatedTestimonials = ({
   testimonials,
-  autoplay = false,
 }: AnimatedTestimonialsProps) => {
   const [active, setActive] = useState(0);
   const [rotateY, setRotateY] = useState<number>(0); // Default to a stable number
@@ -118,9 +117,9 @@ export const AnimatedTestimonials = ({
               ease: "easeInOut",
             }}
           >
-            <h3 className="text-xl md:text-2xl font-bold text-primary">
+            <p className="text-xl md:text-2xl font-bold text-primary">
               {testimonials[active].name}
-            </h3>
+            </p>
             <p className="text-sm md:text-base text-white dark:text-neutral-500">
               {testimonials[active].designation}
             </p>
@@ -153,12 +152,14 @@ export const AnimatedTestimonials = ({
           <div className="flex gap-4 pt-6 md:pt-8 md:mx-0 mx-auto">
             <button
               onClick={handlePrev}
+              aria-label="Previous testimonial"
               className="h-7 w-7 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button"
             >
               <IconArrowLeft className="h-5 w-5 text-black dark:text-neutral-400 group-hover/button:rotate-12 transition-transform duration-300" />
             </button>
             <button
               onClick={handleNext}
+              aria-label="Next testimonial"
               className="h-7 w-7 rounded-full bg-gray-100 dark:bg-neutral-800 flex items-center justify-center group/button"
             >
               <IconArrowRight className="h-5 w-5 text-black dark:text-neutral-400 group-hover/button:-rotate-12 transition-transform duration-300" />

@@ -7,6 +7,7 @@ import { nav_logo } from "@/images/main";
 import Hamburger from "./hamburger";
 import Dropdown from "./dropdown";
 import SearchBar from "./searchBar";
+import Link from "next/link";
 
 // Define props type with homeBtn
 type NavbarProps = {
@@ -40,26 +41,26 @@ const Navbar: React.FC<NavbarProps> = ({ homeBtn }) => {
 
   return (
     <nav
-      className={`bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 lg:mx-12 mx-4 border border-primary/20 h-16 flex items-center justify-between rounded-xl fixed top-3 z-[999] filter transition-transform duration-300 ${
+      className={`bg-teal-100/30 backdrop-brightness-50 backdrop-blur-3xl left-2 right-2 lg:mx-12 mx-4 border border-primary/20 py-1 flex items-center justify-between rounded-xl fixed top-3 z-[999] filter transition-transform duration-300 ${
         hidden ? "-translate-y-96" : "translate-y-0"
       }`}
     >
       {/* Logo */}
-      <a href="/">
+      <Link href="/">
         <Image
           src={nav_logo}
           alt="Logo"
           height={60}
           width={60}
-          className="ml-4"
+          className="ml-4 focus:outline-none"
           priority
         />
-      </a>
+      </Link>
 
       {/* Navigation Links */}
       <div className="relative flex items-center mx-2 md:mx-0">
         <ul
-          className="lg:flex space-x-6 cursor-pointer md:space-x-12 text-lg mx-auto hidden"
+          className="xl:flex space-x-6 cursor-pointer md:space-x-12 text-lg 2xl:text-xl  mx-auto hidden"
           key="unique"
         >
           {navLinks.map((link) => (

@@ -7,7 +7,7 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./src/**/*.{ts,tsx}", // from the original configuration
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
     extend: {
@@ -28,9 +28,6 @@ const config: Config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-      },
-      backgroundImage: {
-        hero: "url('/images/heroImage.webp')",
       },
     },
   },

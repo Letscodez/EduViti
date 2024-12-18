@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Fredoka } from "next/font/google";
-import "./globals.css"; // Importing global styles
-import { Analytics } from "@vercel/analytics/react"
+import "./globals.css";
+
+import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
@@ -10,12 +11,10 @@ export const metadata: Metadata = {
     template: "%s | EduViti",
   },
   description:
-      "EduViti is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and more, making it easy for students to access everything!",
-  keywords:
-    "education, learning, online education, study platform, maths, science, free study material",
+    "EduViti is an explorable platform offering Maths and Science materials...",
+  keywords: "education, learning, online education, study platform...",
   openGraph: {
-    description:
-      "EduViti is an explorable platform offering Maths and Science materials, including exclusive notes, video lectures, question banks, and more, making it easy for students to access everything!",
+    description: "EduViti is an explorable platform...",
     title: "EduViti - Your all in one Online Study platform.",
     type: "website",
     url: "https://EduViti.me/",
@@ -23,8 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     creatorId: "@EduVitiOfficial",
-    description:
-      "EduViti is an online learning platform offering Maths and Science resources including notes, video lectures, and more.",
+    description: "EduViti is an online learning platform...",
     site: "https://EduViti.me/",
     creator: "@EduVitiOfficial",
     title: "EduViti - Your all in one Online Study platform.",
@@ -37,6 +35,7 @@ export const metadata: Metadata = {
 const fredoka = Fredoka({
   weight: "400",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export default function RootLayout({
@@ -47,6 +46,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link rel="preconnect" href="https://vercel.live" />
         <link rel="dns-prefetch" href="https://vercel.live" />
         <link rel="icon" href="/favicon.ico" />

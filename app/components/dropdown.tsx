@@ -35,7 +35,7 @@ const Dropdown = ({ link }: DropdownProps): ReactElement => {
   useEffect(() => {
     // Cleanup timeout on unmount
     return () => clearTimeout(hoverTimeout);
-  }, []);
+  });
 
   return (
     <div
@@ -45,9 +45,9 @@ const Dropdown = ({ link }: DropdownProps): ReactElement => {
       key={link.label}
     >
       <li key={link.label} className="flex items-center space-x-1 ">
-        <a className="text-white/90 duration-100 hover:text-[#06d6a0] transition-colors ease-in-out">
+        <span className="text-white/90 duration-100 hover:text-[#06d6a0] transition-colors ease-in-out">
           {link.label}
-        </a>
+        </span>
         <ChevronDownIcon
           className={`h-6 w-6 text-white duration-100 ${
             isHovered ? "rotate-180" : "rotate-0"

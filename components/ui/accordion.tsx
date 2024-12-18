@@ -12,7 +12,7 @@ const AccordionItem = React.forwardRef<
   React.ElementRef<typeof AccordionPrimitive.Item>,
   React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Item>
 >(({ className, ...props }, ref) => (
-  <AccordionPrimitive.Item ref={ref} {...props} />
+  <AccordionPrimitive.Item ref={ref} {...props} className={cn(className)} />
 ));
 AccordionItem.displayName = "AccordionItem";
 const AccordionTrigger = React.forwardRef<

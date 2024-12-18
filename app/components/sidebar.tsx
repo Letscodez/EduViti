@@ -1,8 +1,9 @@
 "use client";
 import { nav_logo, title } from "@/images/main";
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 // Define the props type
 interface SidebarProps {
@@ -57,7 +58,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           isSidebarVisible ? "block" : "hidden"
         }`}
       >
-        <a
+        <Link
           href="/"
           className="flex duration-200 hover:scale-105 items-center mb-4 space-x-3"
         >
@@ -70,7 +71,7 @@ const Sidebar: React.FC<SidebarProps> = ({
             className="md:w-32 w-28"
             priority
           />
-        </a>
+        </Link>
         <ul className="space-y-2 mt-10">
           {links.map((link) => (
             <li

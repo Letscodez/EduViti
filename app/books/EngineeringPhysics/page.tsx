@@ -8,7 +8,7 @@ type Book = {
   title: string;
   author: string;
   description: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
 };
 
 const books: Book[] = [
@@ -17,21 +17,21 @@ const books: Book[] = [
     author: "David Halliday",
     description:
       "A comprehensive guide to the basics of physics for engineering students.",
-    image: physics,
+    image: "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
   },
   {
     title: "Engineering Mechanics: Dynamics",
     author: "J.L. Meriam",
     description:
       "An essential resource on the dynamics of physical systems in engineering.",
-    image: physics,
+    image: "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
   },
   {
     title: "Physics for Scientists and Engineers",
     author: "Raymond A. Serway",
     description:
       "An in-depth exploration of physics concepts tailored for engineering students.",
-    image: physics,
+    image: "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
   },
   // Add more books here as needed
 ];

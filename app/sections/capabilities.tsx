@@ -3,7 +3,7 @@ import { capabilities } from "@/data/capabilities"; // Import capabilities data
 
 const Capabilities: React.FC = () => {
   return (
-    <section className=" h-[64vh] md:block hidden px-4">
+    <section className="md:block hidden px-4">
       <h1 className="text-lg font-light text-center text-primary mb-4">
         Our Capabilities
       </h1>

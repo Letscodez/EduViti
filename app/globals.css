@@ -2,16 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Overlock+SC&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 body {
   @apply bg-gradient-to-r from-bg via-primary to-bg;
-}
-
-.outfit {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
 }
 
 @keyframes back-in-left {
@@ -97,48 +89,4 @@ body {
 
 .back-in-left6 {
   animation: back-in-left6 1.5s forwards;
-}
-
-@keyframes back-in-right {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.back-in-right {
-  animation: back-in-right 1.5s forwards;
-}
-
-@keyframes back-in-down {
-  0% {
-    transform: translateY(-400%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-.back-in-down {
-  animation: back-in-down 1s forwards;
-}
-@keyframes back-in-up {
-  0% {
-    transform: translateY(800%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-.back-in-up {
-  animation: back-in-up 1.3s forwards;
 }

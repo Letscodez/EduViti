@@ -7,7 +7,7 @@ type Book = {
   title: string;
   author: string;
   description: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
 };
 
 const books: Book[] = [
@@ -16,20 +16,20 @@ const books: Book[] = [
     author: "Carl Sagan",
     description:
       "A landmark book that explores the universe and our place in it.",
-    image: physics,
+    image: "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
   },
   {
     title: "Astrophysics for People in a Hurry",
     author: "Neil deGrasse Tyson",
     description: "An accessible and concise guide to the universe and beyond.",
-    image: physics,
+    image: "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
   },
   {
     title: "A Brief History of Time",
     author: "Stephen Hawking",
     description:
       "An exploration of time, black holes, and the nature of the universe.",
-    image: physics,
+    image: "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
   },
   // Add more books here as needed
 ];

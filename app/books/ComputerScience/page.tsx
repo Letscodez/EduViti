@@ -8,7 +8,7 @@ type Book = {
   title: string;
   author: string;
   description: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
 };
 
 const books: Book[] = [
@@ -18,21 +18,21 @@ const books: Book[] = [
       "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein",
     description:
       "A comprehensive guide to the field of algorithms, covering a wide range of topics in computer science.",
-    image: physics,
+    image: "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
   },
   {
     title: "Computer Networking: A Top-Down Approach",
     author: "James F. Kurose and Keith W. Ross",
     description:
       "An in-depth look at computer networking principles from a layered perspective.",
-    image: physics,
+    image: "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
   },
   {
     title: "Clean Code: A Handbook of Agile Software Craftsmanship",
     author: "Robert C. Martin",
     description:
       "A practical guide to writing clean, maintainable, and efficient code in software development.",
-    image: physics,
+    image: "https://img.freepik.com/premium-photo/coming-soon_1182508-53.jpg?ga=GA1.1.362428800.1734531322&semt=ais_hybrid",
   },
   // Add more books here as needed
 ];

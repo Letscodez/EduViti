@@ -484,14 +484,9 @@ export const maths = {
       name: "Relations and Functions",
       options: [
         {
-          path: "/dummy/path/relations-and-functions/opt1",
-          thumbnail: "/images/relations_and_functions_thumbnail1.jpg",
-          channel: "Math Channel 1",
-        },
-        {
-          path: "/dummy/path/relations-and-functions/opt2",
-          thumbnail: "/images/relations_and_functions_thumbnail2.jpg",
-          channel: "Math Channel 2",
+          path: "https://www.youtube.com/live/SnAwgpd6q4Y?si=YzOLsNqWu2IQXtyH",
+          thumbnail: "https://img.youtube.com/vi/SnAwgpd6q4Y/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -499,14 +494,9 @@ export const maths = {
       name: "Inverse Trigonometric Functions",
       options: [
         {
-          path: "/dummy/path/inverse-trigonometric-functions/opt1",
-          thumbnail: "/images/inverse_trigonometric_functions_thumbnail1.jpg",
-          channel: "Math Channel 3",
-        },
-        {
-          path: "/dummy/path/inverse-trigonometric-functions/opt2",
-          thumbnail: "/images/inverse_trigonometric_functions_thumbnail2.jpg",
-          channel: "Math Channel 4",
+          path: "https://youtu.be/Oy-Z49idgVw?si=cGMLbaX2JoPhdMda",
+          thumbnail: "https://img.youtube.com/vi/Oy-Z49idgVw/hqdefault.jpg",
+          channel: "Science & Fun Education",
         },
       ],
     },
@@ -514,14 +504,9 @@ export const maths = {
       name: "Matrices",
       options: [
         {
-          path: "/dummy/path/matrices/opt1",
-          thumbnail: "/images/matrices_thumbnail1.jpg",
-          channel: "Math Channel 5",
-        },
-        {
-          path: "/dummy/path/matrices/opt2",
-          thumbnail: "/images/matrices_thumbnail2.jpg",
-          channel: "Math Channel 6",
+          path: "https://www.youtube.com/live/Lwrl7FhL0fk?si=qTm5HI8QCnaCuS--",
+          thumbnail: "https://img.youtube.com/vi/Lwrl7FhL0fk/hqdefault.jpg",
+          channel: "Vedantu Math",
         },
       ],
     },
@@ -529,14 +514,9 @@ export const maths = {
       name: "Determinants",
       options: [
         {
-          path: "/dummy/path/determinants/opt1",
-          thumbnail: "/images/determinants_thumbnail1.jpg",
-          channel: "Math Channel 7",
-        },
-        {
-          path: "/dummy/path/determinants/opt2",
-          thumbnail: "/images/determinants_thumbnail2.jpg",
-          channel: "Math Channel 8",
+          path: "https://youtu.be/2NncYZhn6FI?si=xHIAiY7-jDT_g0bu",
+          thumbnail: "https://img.youtube.com/vi/2NncYZhn6FI/hqdefault.jpg",
+          channel: "Science & Fun Education",
         },
       ],
     },
@@ -544,14 +524,9 @@ export const maths = {
       name: "Continuity and Differentiability",
       options: [
         {
-          path: "/dummy/path/continuity-and-differentiability/opt1",
-          thumbnail: "/images/continuity_and_differentiability_thumbnail1.jpg",
-          channel: "Math Channel 9",
-        },
-        {
-          path: "/dummy/path/continuity-and-differentiability/opt2",
-          thumbnail: "/images/continuity_and_differentiability_thumbnail2.jpg",
-          channel: "Math Channel 10",
+          path: "https://www.youtube.com/live/7-dWmrAayKY?si=JHyzHd3RmEQWPy6p",
+          thumbnail: "https://img.youtube.com/vi/7-dWmrAayKY/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -559,14 +534,9 @@ export const maths = {
       name: "Applications of Derivatives",
       options: [
         {
-          path: "/dummy/path/applications-of-derivatives/opt1",
-          thumbnail: "/images/applications_of_derivatives_thumbnail1.jpg",
-          channel: "Math Channel 11",
-        },
-        {
-          path: "/dummy/path/applications-of-derivatives/opt2",
-          thumbnail: "/images/applications_of_derivatives_thumbnail2.jpg",
-          channel: "Math Channel 12",
+          path: "https://www.youtube.com/live/Tbo0-fwPGIU?si=XmIEvTDN52X9dsF6",
+          thumbnail: "https://img.youtube.com/vi/Tbo0-fwPGIU/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -574,14 +544,9 @@ export const maths = {
       name: "Integrals",
       options: [
         {
-          path: "/dummy/path/integrals/opt1",
-          thumbnail: "/images/integrals_thumbnail1.jpg",
-          channel: "Math Channel 13",
-        },
-        {
-          path: "/dummy/path/integrals/opt2",
-          thumbnail: "/images/integrals_thumbnail2.jpg",
-          channel: "Math Channel 14",
+          path: "https://youtu.be/yY2oUKVAkdY?si=ThHCchjolOAy8bxp",
+          thumbnail: "https://img.youtube.com/vi/yY2oUKVAkdY/hqdefault.jpg",
+          channel: "Science & Fun Education",
         },
       ],
     },
@@ -589,14 +554,9 @@ export const maths = {
       name: "Application of Integrals",
       options: [
         {
-          path: "/dummy/path/application-of-integrals/opt1",
-          thumbnail: "/images/application_of_integrals_thumbnail1.jpg",
-          channel: "Math Channel 15",
-        },
-        {
-          path: "/dummy/path/application-of-integrals/opt2",
-          thumbnail: "/images/application_of_integrals_thumbnail2.jpg",
-          channel: "Math Channel 16",
+          path: "https://youtu.be/lnR343-9vFY?si=xoumy-uYzNmpGA9N",
+          thumbnail: "https://img.youtube.com/vi/lnR343-9vFY/hqdefault.jpg",
+          channel: "Science & Fun Education",
         },
       ],
     },
@@ -604,14 +564,9 @@ export const maths = {
       name: "Differential Equations",
       options: [
         {
-          path: "/dummy/path/differential-equations/opt1",
-          thumbnail: "/images/differential_equations_thumbnail1.jpg",
-          channel: "Math Channel 17",
-        },
-        {
-          path: "/dummy/path/differential-equations/opt2",
-          thumbnail: "/images/differential_equations_thumbnail2.jpg",
-          channel: "Math Channel 18",
+          path: "https://www.youtube.com/live/UMhzjajR2S8?si=wZ0CRYc_cSUqtdkI",
+          thumbnail: "https://img.youtube.com/vi/UMhzjajR2S8/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -619,14 +574,9 @@ export const maths = {
       name: "Vector Algebra",
       options: [
         {
-          path: "/dummy/path/vector-algebra/opt1",
-          thumbnail: "/images/vector_algebra_thumbnail1.jpg",
-          channel: "Math Channel 19",
-        },
-        {
-          path: "/dummy/path/vector-algebra/opt2",
-          thumbnail: "/images/vector_algebra_thumbnail2.jpg",
-          channel: "Math Channel 20",
+          path: "https://youtu.be/U7nSbEZyYnA?si=xEanlYwGAt-zonvY",
+          thumbnail: "https://img.youtube.com/vi/U7nSbEZyYnA/hqdefault.jpg",
+          channel: "Science & Fun Education",
         },
       ],
     },
@@ -634,14 +584,9 @@ export const maths = {
       name: "Three Dimensional Geometry",
       options: [
         {
-          path: "/dummy/path/three-dimensional-geometry/opt1",
-          thumbnail: "/images/three_dimensional_geometry_thumbnail1.jpg",
-          channel: "Math Channel 21",
-        },
-        {
-          path: "/dummy/path/three-dimensional-geometry/opt2",
-          thumbnail: "/images/three_dimensional_geometry_thumbnail2.jpg",
-          channel: "Math Channel 22",
+          path: "https://youtu.be/sNG2FVZi5d8?si=OixRj9rfykqcmA0n",
+          thumbnail: "https://img.youtube.com/vi/sNG2FVZi5d8/hqdefault.jpg",
+          channel: "Science & Fun Education",
         },
       ],
     },
@@ -649,14 +594,9 @@ export const maths = {
       name: "Linear Programming",
       options: [
         {
-          path: "/dummy/path/linear-programming/opt1",
-          thumbnail: "/images/linear_programming_thumbnail1.jpg",
-          channel: "Math Channel 23",
-        },
-        {
-          path: "/dummy/path/linear-programming/opt2",
-          thumbnail: "/images/linear_programming_thumbnail2.jpg",
-          channel: "Math Channel 24",
+          path: "https://www.youtube.com/live/3h54yvfwJ-o?si=7RvHZdyXoLxiIhCW",
+          thumbnail: "https://img.youtube.com/vi/3h54yvfwJ-o/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -664,14 +604,9 @@ export const maths = {
       name: "Probability",
       options: [
         {
-          path: "/dummy/path/probability/opt1",
-          thumbnail: "/images/probability_thumbnail1.jpg",
-          channel: "Math Channel 25",
-        },
-        {
-          path: "/dummy/path/probability/opt2",
-          thumbnail: "/images/probability_thumbnail2.jpg",
-          channel: "Math Channel 26",
+          path: "https://www.youtube.com/live/Smn7lsVFEzs?si=PhHTpSS3f_j80Cq2",
+          thumbnail: "https://img.youtube.com/vi/Smn7lsVFEzs/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -1190,14 +1125,9 @@ export const physics = {
       name: "Electric Charges and Fields",
       options: [
         {
-          path: "/dummy/path/electric-charges-and-fields/opt1",
-          thumbnail: "/images/electric_charges_and_fields_thumbnail1.jpg",
-          channel: "Physics Channel 1",
-        },
-        {
-          path: "/dummy/path/electric-charges-and-fields/opt2",
-          thumbnail: "/images/electric_charges_and_fields_thumbnail2.jpg",
-          channel: "Physics Channel 2",
+          path: "https://www.youtube.com/live/MVvHdH6n2VE?si=13Om55peUwXIk3cZ",
+          thumbnail: "https://img.youtube.com/vi/MVvHdH6n2VE/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1205,14 +1135,9 @@ export const physics = {
       name: "Electrostatic Potential and Capacitance",
       options: [
         {
-          path: "/dummy/path/electrostatic-potential-and-capacitance/opt1",
-          thumbnail: "/images/electrostatic_potential_thumbnail1.jpg",
-          channel: "Physics Channel 3",
-        },
-        {
-          path: "/dummy/path/electrostatic-potential-and-capacitance/opt2",
-          thumbnail: "/images/electrostatic_potential_thumbnail2.jpg",
-          channel: "Physics Channel 4",
+          path: "https://youtu.be/l7mDgyaLZuQ?si=vPhIOyjmdX3XUDGk",
+          thumbnail: "https://img.youtube.com/vi/l7mDgyaLZuQ/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -1220,14 +1145,9 @@ export const physics = {
       name: "Current Electricity",
       options: [
         {
-          path: "/dummy/path/current-electricity/opt1",
-          thumbnail: "/images/current_electricity_thumbnail1.jpg",
-          channel: "Physics Channel 5",
-        },
-        {
-          path: "/dummy/path/current-electricity/opt2",
-          thumbnail: "/images/current_electricity_thumbnail2.jpg",
-          channel: "Physics Channel 6",
+          path: "https://www.youtube.com/live/VYGh_9UIHCo?si=AWov8u7s1s4lO2lE",
+          thumbnail: "https://img.youtube.com/vi/VYGh_9UIHCo/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -1235,14 +1155,9 @@ export const physics = {
       name: "Moving Charges and Magnetism",
       options: [
         {
-          path: "/dummy/path/moving-charges-and-magnetism/opt1",
-          thumbnail: "/images/moving_charges_and_magnetism_thumbnail1.jpg",
-          channel: "Physics Channel 7",
-        },
-        {
-          path: "/dummy/path/moving-charges-and-magnetism/opt2",
-          thumbnail: "/images/moving_charges_and_magnetism_thumbnail2.jpg",
-          channel: "Physics Channel 8",
+          path: "https://youtu.be/0wbl0B39HS0?si=LihP_I13dbIzwbzU",
+          thumbnail: "https://img.youtube.com/vi/0wbl0B39HS0/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -1250,14 +1165,9 @@ export const physics = {
       name: "Magnetism and Matter",
       options: [
         {
-          path: "/dummy/path/magnetism-and-matter/opt1",
-          thumbnail: "/images/magnetism_and_matter_thumbnail1.jpg",
-          channel: "Physics Channel 9",
-        },
-        {
-          path: "/dummy/path/magnetism-and-matter/opt2",
-          thumbnail: "/images/magnetism_and_matter_thumbnail2.jpg",
-          channel: "Physics Channel 10",
+          path: "https://www.youtube.com/live/OBU4WqGXtJs?si=4qEqelZX0k-evoXL",
+          thumbnail: "https://img.youtube.com/vi/OBU4WqGXtJs/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -1265,14 +1175,9 @@ export const physics = {
       name: "Electromagnetic Induction",
       options: [
         {
-          path: "/dummy/path/electromagnetic-induction/opt1",
-          thumbnail: "/images/electromagnetic_induction_thumbnail1.jpg",
-          channel: "Physics Channel 11",
-        },
-        {
-          path: "/dummy/path/electromagnetic-induction/opt2",
-          thumbnail: "/images/electromagnetic_induction_thumbnail2.jpg",
-          channel: "Physics Channel 12",
+          path: "https://youtu.be/KuvRoOi89HQ?si=eweQpG3N22f8AyV-",
+          thumbnail: "https://img.youtube.com/vi/KuvRoOi89HQ/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -1280,14 +1185,9 @@ export const physics = {
       name: "Alternating Current",
       options: [
         {
-          path: "/dummy/path/alternating-current/opt1",
-          thumbnail: "/images/alternating_current_thumbnail1.jpg",
-          channel: "Physics Channel 13",
-        },
-        {
-          path: "/dummy/path/alternating-current/opt2",
-          thumbnail: "/images/alternating_current_thumbnail2.jpg",
-          channel: "Physics Channel 14",
+          path: "https://youtu.be/X7p1oVJ3NgM?si=BKWOjG4Qkog2_weK",
+          thumbnail: "https://img.youtube.com/vi/X7p1oVJ3NgM/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -1295,14 +1195,9 @@ export const physics = {
       name: "Electromagnetic Waves",
       options: [
         {
-          path: "/dummy/path/electromagnetic-waves/opt1",
-          thumbnail: "/images/electromagnetic_waves_thumbnail1.jpg",
-          channel: "Physics Channel 15",
-        },
-        {
-          path: "/dummy/path/electromagnetic-waves/opt2",
-          thumbnail: "/images/electromagnetic_waves_thumbnail2.jpg",
-          channel: "Physics Channel 16",
+          path: "https://www.youtube.com/live/IXHmFRJbrXw?si=jlrzD3Fy5OgH3CDg",
+          thumbnail: "https://img.youtube.com/vi/IXHmFRJbrXw/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -1310,14 +1205,9 @@ export const physics = {
       name: "Wave Optics",
       options: [
         {
-          path: "/dummy/path/wave-optics/opt1",
-          thumbnail: "/images/wave_optics_thumbnail1.jpg",
-          channel: "Physics Channel 17",
-        },
-        {
-          path: "/dummy/path/wave-optics/opt2",
-          thumbnail: "/images/wave_optics_thumbnail2.jpg",
-          channel: "Physics Channel 18",
+          path: "https://www.youtube.com/live/942EmkxOhTM?si=W3OU8YQofkLr6uDx",
+          thumbnail: "https://img.youtube.com/vi/942EmkxOhTM/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -1325,14 +1215,9 @@ export const physics = {
       name: "Ray Optics and Optical Instruments",
       options: [
         {
-          path: "/dummy/path/wave-optics/opt1",
-          thumbnail: "/images/wave_optics_thumbnail1.jpg",
-          channel: "Physics Channel 19",
-        },
-        {
-          path: "/dummy/path/wave-optics/opt2",
-          thumbnail: "/images/wave_optics_thumbnail2.jpg",
-          channel: "Physics Channel 20",
+          path: "https://youtu.be/mpbZfBYpVs4?si=coClQUCkm73nkNeO",
+          thumbnail: "https://img.youtube.com/vi/mpbZfBYpVs4/hqdefault.jpg",
+          channel: "Science and Fun Education",
         },
       ],
     },
@@ -1340,14 +1225,9 @@ export const physics = {
       name: "Dual Nature of Radiation and Matter",
       options: [
         {
-          path: "/dummy/path/dual-nature-of-radiation-and-matter/opt1",
-          thumbnail: "/images/dual_nature_of_radiation_thumbnail1.jpg",
-          channel: "Physics Channel 19",
-        },
-        {
-          path: "/dummy/path/dual-nature-of-radiation-and-matter/opt2",
-          thumbnail: "/images/dual_nature_of_radiation_thumbnail2.jpg",
-          channel: "Physics Channel 20",
+          path: "https://www.youtube.com/live/qj0AeF2tQCc?si=GoA_qjdi1BaSjeFz",
+          thumbnail: "https://img.youtube.com/vi/qj0AeF2tQCc/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -1355,14 +1235,9 @@ export const physics = {
       name: "Atoms",
       options: [
         {
-          path: "/dummy/path/atoms/opt1",
-          thumbnail: "/images/atoms_thumbnail1.jpg",
-          channel: "Physics Channel 21",
-        },
-        {
-          path: "/dummy/path/atoms/opt2",
-          thumbnail: "/images/atoms_thumbnail2.jpg",
-          channel: "Physics Channel 22",
+          path: "https://youtu.be/Xqvdt21pO7Y?si=9v69noTnBtYk7qNj",
+          thumbnail: "https://img.youtube.com/vi/Xqvdt21pO7Y/hqdefault.jpg",
+          channel: "Vedantu JEE Made Ejee",
         },
       ],
     },
@@ -1370,14 +1245,9 @@ export const physics = {
       name: "Nuclei",
       options: [
         {
-          path: "/dummy/path/nuclei/opt1",
-          thumbnail: "/images/nuclei_thumbnail1.jpg",
-          channel: "Physics Channel 23",
-        },
-        {
-          path: "/dummy/path/nuclei/opt2",
-          thumbnail: "/images/nuclei_thumbnail2.jpg",
-          channel: "Physics Channel 24",
+          path: "https://www.youtube.com/live/MLxoHc8jxgo?si=1iAl3_5oAdbxYOZT",
+          thumbnail: "https://img.youtube.com/vi/MLxoHc8jxgo/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
@@ -1385,14 +1255,9 @@ export const physics = {
       name: "Semiconductor Electronics: Materials, Devices and Simple Circuits",
       options: [
         {
-          path: "/dummy/path/semiconductor-electronics-materials-devices-and-simple-circuits/opt1",
-          thumbnail: "/images/semiconductor_electronics_thumbnail1.jpg",
-          channel: "Physics Channel 25",
-        },
-        {
-          path: "/dummy/path/semiconductor-electronics-materials-devices-and-simple-circuits/opt2",
-          thumbnail: "/images/semiconductor_electronics_thumbnail2.jpg",
-          channel: "Physics Channel 26",
+          path: "https://www.youtube.com/live/ECxd0bqFAAs?si=haQmPbZOozNUl8I8",
+          thumbnail: "https://img.youtube.com/vi/ECxd0bqFAAs/hqdefault.jpg",
+          channel: "NCERT Wallah",
         },
       ],
     },
