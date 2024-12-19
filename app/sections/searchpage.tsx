@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { BackgroundLines } from "@/components/ui/background-lines";
-import { search_list } from "@/data/search.querry";
+import { search_list } from "@/data/search.query";
 
 const SearchPage = () => {
   const [search, setSearch] = useState("");

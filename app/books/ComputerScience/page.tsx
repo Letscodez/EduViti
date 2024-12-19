@@ -2,7 +2,7 @@ import BackButton from "@/app/components/backbtn";
 import React from "react";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
-import { coming_soon_potrait } from "@/data/comingsoon";
+import { coming_soon_portrait } from "@/data/comingsoon";
 
 type Book = {
   title: string;
@@ -18,21 +18,21 @@ const books: Book[] = [
       "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein",
     description:
       "A comprehensive guide to the field of algorithms, covering a wide range of topics in computer science.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   {
     title: "Computer Networking: A Top-Down Approach",
     author: "James F. Kurose and Keith W. Ross",
     description:
       "An in-depth look at computer networking principles from a layered perspective.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   {
     title: "Clean Code: A Handbook of Agile Software Craftsmanship",
     author: "Robert C. Martin",
     description:
       "A practical guide to writing clean, maintainable, and efficient code in software development.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   // Add more books here as needed
 ];

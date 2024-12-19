@@ -2,7 +2,7 @@ import BackButton from "@/app/components/backbtn";
 import React from "react";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
-import { coming_soon_potrait } from "@/data/comingsoon";
+import { coming_soon_portrait } from "@/data/comingsoon";
 
 type Book = {
   title: string;
@@ -17,20 +17,20 @@ const books: Book[] = [
     author: "Carl Sagan",
     description:
       "A landmark book that explores the universe and our place in it.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   {
     title: "Astrophysics for People in a Hurry",
     author: "Neil deGrasse Tyson",
     description: "An accessible and concise guide to the universe and beyond.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   {
     title: "A Brief History of Time",
     author: "Stephen Hawking",
     description:
       "An exploration of time, black holes, and the nature of the universe.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   // Add more books here as needed
 ];
@@ -58,7 +58,7 @@ const AstronomyBooksList: React.FC = () => {
             <div className="lg:ml-5 h-full lg:text-start text-center mt-2 space-y-2">
               <h2 className="text-lg text-primary/80">{book.title}</h2>
               <p className="text-sm text-gray-200">{book.description}</p>
-              <h3 className="text-md text-gray-300 font-mediu ">
+              <h3 className="text-md text-gray-300 font-medium ">
                 ~{book.author}
               </h3>
             </div>

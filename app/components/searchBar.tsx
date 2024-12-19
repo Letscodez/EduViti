@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { search_list } from "@/data/search.querry";
+import { search_list } from "@/data/search.query";
 
 const SearchBar = ({
   placeholder = "Search for Courses, Topics, or Materials..",

@@ -1,7 +1,7 @@
 import BackButton from "@/app/components/backbtn";
 import React from "react";
 import Image from "next/image";
-import { coming_soon_potrait } from "@/data/comingsoon";
+import { coming_soon_portrait } from "@/data/comingsoon";
 
 import { StaticImageData } from "next/image";
 
@@ -17,20 +17,20 @@ const books: Book[] = [
     title: "Calculus Made Easy",
     author: "Silvanus P. Thompson",
     description: "A simple and effective approach to understanding calculus.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   {
     title: "Discrete Mathematics and Its Applications",
     author: "Kenneth H. Rosen",
     description: "Comprehensive introduction to discrete mathematics.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   {
     title: "Introduction to Linear Algebra",
     author: "Gilbert Strang",
     description:
       "A classic textbook on linear algebra, widely used in courses.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   // Add more books here as needed
 ];

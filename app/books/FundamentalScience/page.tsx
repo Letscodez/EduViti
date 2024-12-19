@@ -2,7 +2,7 @@ import BackButton from "@/app/components/backbtn";
 import React from "react";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
-import { coming_soon_potrait } from "@/data/comingsoon";
+import { coming_soon_portrait } from "@/data/comingsoon";
 
 type Book = {
   title: string;
@@ -17,21 +17,21 @@ const books: Book[] = [
     author: "Brian Greene",
     description:
       "An in-depth exploration of string theory and fundamental physics.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   {
     title: "A Brief History of Time",
     author: "Stephen Hawking",
     description:
       "An introduction to cosmology and black holes by one of the leading physicists.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   {
     title: "Astrophysics for People in a Hurry",
     author: "Neil deGrasse Tyson",
     description:
       "A concise overview of astrophysics and fundamental scientific concepts.",
-    image: coming_soon_potrait,
+    image: coming_soon_portrait,
   },
   // Add more books here as needed
 ];

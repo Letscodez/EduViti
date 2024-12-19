@@ -727,8 +727,8 @@ export const physics = {
       path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
     },
     {
-      name: "Human Eye and Colourful World",
-      path: "/StudyResources/Grade-9/physics/human-eye-and-colourful-world",
+      name: "Human Eye and Colorful World",
+      path: "/StudyResources/Grade-9/physics/human-eye-and-colorful-world",
     },
     {
       name: "Electricity",
@@ -775,7 +775,7 @@ export const physics = {
       ],
     },
     {
-      name: "Human Eye and Colourful World",
+      name: "Human Eye and Colorful World",
       sets: [
         { name: "Set 1", path: "xyz" },
         { name: "Set 2", path: "xyz" },
@@ -817,7 +817,7 @@ export const physics = {
       ],
     },
     {
-      name: "Human Eye and Colourful World",
+      name: "Human Eye and Colorful World",
       sets: [
         { name: "Set 1", path: "xyz" },
         { name: "Set 2", path: "xyz" },
@@ -876,7 +876,7 @@ export const physics = {
       ],
     },
     {
-      name: "Human Eye and Colourful World",
+      name: "Human Eye and Colorful World",
       options: [
         {
           path: "https://www.youtube.com/live/ZuXx7Voxzsg?si=FX89VMCEmwmPjCie",
