@@ -9,7 +9,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Start Learning",
   description:
-    "Kickstart your learning journey with EduViti. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we’ve got everything you need to stay ahead.",
+    "Kickstart your learning journey with EduViti. Dive into a world of structured, high-quality study resources designed to help you excel. From interactive modules to question banks, we've got everything you need to stay ahead.",
 };
 
 const StartLearning = () => {
@@ -43,7 +43,7 @@ const StartLearning = () => {
           <p className="text-lg md:text-xl text-center text-white/80 leading-relaxed mb-8">
             Dive into a world of structured, high-quality study resources
             designed to help you excel. From interactive modules to question
-            banks, we’ve got everything you need to stay ahead.
+            banks, we've got everything you need to stay ahead.
           </p>
         </div>
         <StudyMaterials />

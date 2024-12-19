@@ -136,7 +136,7 @@ export const maths = {
       path: "1g20q-bqv6d2BO-TIP8ZFBsb00xvijnW6",
     },
     {
-      name: "Euclid’s Geometry",
+      name: "Euclid's Geometry",
       path: "1Qv0D1zA_NXxe_NZt2MqqUENRHNuUVIqg/",
     },
     {
@@ -158,7 +158,7 @@ export const maths = {
       path: "1Uy8mAoInlUtuYJdoGdWlijHQgYepNcbm",
     },
     {
-      name: "Heron’s Formula",
+      name: "Heron's Formula",
       path: "1F8Vsf7En3508dnsPqdvrUEsOf_cTxgel",
     },
     {
@@ -186,7 +186,7 @@ export const maths = {
       sets: [{ name: "Set 1", path: "1ndCa9z9W8qBONtnl7wJYRVVQKcLY9KDWx" }],
     },
     {
-      name: "Euclid’s Geometry",
+      name: "Euclid's Geometry",
       sets: [{ name: "Set 1", path: "11CZxFXMKA12dtohJM390NQvvBaHOhUtpx" }],
     },
     {
@@ -214,7 +214,7 @@ export const maths = {
       sets: [{ name: "Set 1", path: "1v90sU7F58jWwZ2qOmhVsY_9cCexSXJkVx" }],
     },
     {
-      name: "Heron’s Formula",
+      name: "Heron's Formula",
       sets: [{ name: "Set 1", path: "1M_EMbETn1D84i1K5gfl3kahHl1HsYbxix" }],
     },
     {
@@ -392,7 +392,7 @@ export const maths = {
       ],
     },
     {
-      name: "Euclid’s Geometry",
+      name: "Euclid's Geometry",
       options: [
         {
           path: "https://youtu.be/TN4yzAvyTyA?si=rCkk7JgvgM1-dXdS",
@@ -522,7 +522,7 @@ export const maths = {
       ],
     },
     {
-      name: "Heron’s Formula",
+      name: "Heron's Formula",
       options: [
         {
           path: "https://youtu.be/TR6LgGf1hw4?si=gxcT5wsgnmNPWB_i",
@@ -596,22 +596,22 @@ export const maths = {
     {
       title: "RD Sharma",
       thumbnail: rd_maths_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Manjit Singh",
       thumbnail: manjit_maths_9,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],
@@ -811,17 +811,17 @@ export const physics = {
     {
       title: "HC Verma",
       thumbnail: hc_phy_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],
@@ -994,17 +994,17 @@ export const chemistry = {
     {
       title: "Lakhmir Singh",
       thumbnail: lakhmir_chem_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],
@@ -1204,17 +1204,17 @@ export const biology = {
     {
       title: "HC Verma",
       thumbnail: rd_maths_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],

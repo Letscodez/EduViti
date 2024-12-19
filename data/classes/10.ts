@@ -34,84 +34,84 @@ export const maths = {
   notes: [
     {
       name: "Real Numbers",
-      path: "/StudyResources/Grade-10/maths/real-numbers",
+      path: "xyz",
     },
-    { name: "Polynomials", path: "/StudyResources/Grade-10/maths/polynomials" },
+    { name: "Polynomials", path: "xyz" },
     {
       name: "Pair of Linear Equations",
-      path: "/StudyResources/Grade-10/maths/linear-equations",
+      path: "xyz",
     },
     {
       name: "Quadratic Equations",
-      path: "/StudyResources/Grade-10/maths/quadratic-equations",
+      path: "xyz",
     },
     {
       name: "Arithmetic Progression",
-      path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+      path: "xyz",
     },
-    { name: "Triangles", path: "/StudyResources/Grade-10/maths/triangles" },
+    { name: "Triangles", path: "xyz" },
     {
       name: "Coordinate Geometry",
-      path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+      path: "xyz",
     },
     {
       name: "Introduction to Trigonometry",
-      path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+      path: "xyz",
     },
     {
       name: "Applications of Trigonometry",
-      path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+      path: "xyz",
     },
-    { name: "Circles", path: "/StudyResources/Grade-10/maths/circles" },
+    { name: "Circles", path: "xyz" },
     {
       name: "Area Related to Circles",
-      path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+      path: "xyz",
     },
     {
       name: "Surface Areas and Volumes",
-      path: "/StudyResources/Grade-10/maths/surface-areas-volumes",
+      path: "xyz",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-10/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-10/maths/probability" },
+    { name: "Statistics", path: "xyz" },
+    { name: "Probability", path: "xyz" },
   ],
 
   pyqp: [
     {
       name: "Session 2024-2025",
-      path: "/StudyResources/Grade-12/maths/relations-and-functions",
+      path: "xyz",
     },
     {
       name: "Session 2023-2024",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2022-2023",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2021-2022",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2020-2021",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
   ],
   question_banks: [
     {
       name: "Real Numbers",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/real-numbers" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/real-numbers" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/real-numbers" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
       name: "Polynomials",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/polynomials" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/polynomials" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/polynomials" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
@@ -119,15 +119,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-10/maths/pair-of-linear-equations",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-10/maths/pair-of-linear-equations",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-10/maths/pair-of-linear-equations",
+          path: "xyz",
         },
       ],
     },
@@ -136,15 +136,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-10/maths/quadratic-equations",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-10/maths/quadratic-equations",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-10/maths/quadratic-equations",
+          path: "xyz",
         },
       ],
     },
@@ -153,24 +153,24 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-10/maths/arithmetic-progression",
+          path: "xyz",
         },
       ],
     },
     {
       name: "Triangles",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/triangles" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/triangles" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/triangles" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
@@ -178,15 +178,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-10/maths/coordinate-geometry",
+          path: "xyz",
         },
       ],
     },
@@ -195,15 +195,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-10/maths/introduction-to-trigonometry",
+          path: "xyz",
         },
       ],
     },
@@ -212,24 +212,24 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-10/maths/applications-of-trigonometry",
+          path: "xyz",
         },
       ],
     },
     {
       name: "Circles",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/circles" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/circles" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/circles" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
@@ -237,15 +237,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-10/maths/area-related-to-circles",
+          path: "xyz",
         },
       ],
     },
@@ -254,32 +254,32 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-10/maths/surface-areas-and-volumes",
+          path: "xyz",
         },
       ],
     },
     {
       name: "Statistics",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/statistics" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/statistics" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/statistics" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
       name: "Probability",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-10/maths/probability" },
-        { name: "Set 2", path: "/StudyResources/Grade-10/maths/probability" },
-        { name: "Set 3", path: "/StudyResources/Grade-10/maths/probability" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
   ],
@@ -700,22 +700,22 @@ export const maths = {
     {
       title: "RD Sharma",
       thumbnail: rd_maths_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Manjit Singh",
       thumbnail: manjit_maths_9,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],
@@ -724,45 +724,45 @@ export const physics = {
   notes: [
     {
       name: "Light Reflection and Refraction",
-      path: "/StudyResources/Grade-9/physics/light-reflection-and-refraction",
+      path: "xyz",
     },
     {
       name: "Human Eye and Colorful World",
-      path: "/StudyResources/Grade-9/physics/human-eye-and-colorful-world",
+      path: "xyz",
     },
     {
       name: "Electricity",
-      path: "/StudyResources/Grade-9/physics/electricity",
+      path: "xyz",
     },
     {
       name: "Magnetic Effects of Electric Current",
-      path: "/StudyResources/Grade-9/physics/magnetic-effects-of-electric-current",
+      path: "xyz",
     },
     {
       name: "Sources of Energy",
-      path: "/StudyResources/Grade-9/physics/sources-of-energy",
+      path: "xyz",
     },
   ],
   pyqp: [
     {
       name: "Session 2024-2025",
-      path: "/StudyResources/Grade-12/maths/relations-and-functions",
+      path: "xyz",
     },
     {
       name: "Session 2023-2024",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2022-2023",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2021-2022",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2020-2021",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
   ],
   question_banks: [
@@ -971,17 +971,17 @@ export const physics = {
     {
       title: "HC Verma",
       thumbnail: hc_phy_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],
@@ -994,41 +994,41 @@ export const chemistry = {
     },
     {
       name: "Acids, Bases, and Salts",
-      path: "/StudyResources/Grade-10/chemistry/acids-bases-and-salts",
+      path: "xyz",
     },
     {
       name: "Metals and Non-Metals",
-      path: "/StudyResources/Grade-10/chemistry/metals-and-non-metals",
+      path: "xyz",
     },
     {
       name: "Carbon and Its Compounds",
-      path: "/StudyResources/Grade-10/chemistry/carbon-and-its-compounds",
+      path: "xyz",
     },
     {
       name: "Periodic Classification of Elements",
-      path: "/StudyResources/Grade-10/chemistry/periodic-classification-of-elements",
+      path: "xyz",
     },
   ],
   pyqp: [
     {
       name: "Session 2024-2025",
-      path: "/StudyResources/Grade-12/maths/relations-and-functions",
+      path: "xyz",
     },
     {
       name: "Session 2023-2024",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2022-2023",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2021-2022",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2020-2021",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
   ],
   question_banks: [
@@ -1222,17 +1222,17 @@ export const chemistry = {
     {
       title: "Lakhmir Singh",
       thumbnail: lakhmir_chem_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],
@@ -1241,45 +1241,45 @@ export const biology = {
   notes: [
     {
       name: "Life Processes",
-      path: "/StudyResources/Grade-9/biology/life-processes",
+      path: "xyz",
     },
     {
       name: "Control and Coordination",
-      path: "/StudyResources/Grade-9/biology/control-and-coordination",
+      path: "xyz",
     },
     {
       name: "How do Organisms Reproduce?",
-      path: "/StudyResources/Grade-9/biology/how-do-organisms-reproduce",
+      path: "xyz",
     },
     {
       name: "Heredity and Evolution",
-      path: "/StudyResources/Grade-9/biology/heredity-and-evolution",
+      path: "xyz",
     },
     {
       name: "Our Environment",
-      path: "/StudyResources/Grade-9/biology/our-environment",
+      path: "xyz",
     },
   ],
   pyqp: [
     {
       name: "Session 2024-2025",
-      path: "/StudyResources/Grade-12/maths/relations-and-functions",
+      path: "xyz",
     },
     {
       name: "Session 2023-2024",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2022-2023",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2021-2022",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Session 2020-2021",
-      path: "/StudyResources/Grade-12/maths/inverse-trigonometric-functions",
+      path: "xyz",
     },
   ],
   question_banks: [
@@ -1478,17 +1478,17 @@ export const biology = {
     {
       title: "HC Verma",
       thumbnail: rd_maths_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],

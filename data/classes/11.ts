@@ -8,9 +8,9 @@ import {
   pearson,
   lakhmir_chem_9,
   hc_phy_9,
-  manjit_maths_9,
 } from "@/images/main";
 import { LinkType } from "./linkType";
+import path from "path";
 
 export const links: LinkType[] = [
   { name: "Maths", path: "/StudyResources/Grade-11/maths", icon: rocket },
@@ -32,61 +32,61 @@ export const links: LinkType[] = [
 ];
 export const maths = {
   notes: [
-    { name: "Sets", path: "/StudyResources/Grade-11/maths/sets" },
+    { name: "Sets", path: "" },
     {
       name: "Relations and Functions",
-      path: "/StudyResources/Grade-11/maths/relations-and-functions",
+      path: "xyz",
     },
     {
       name: "Trigonometric Functions",
-      path: "/StudyResources/Grade-11/maths/trigonometric-functions",
+      path: "xyz",
     },
     {
       name: "Complex Numbers and Quadratic Equations",
-      path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
+      path: "xyz",
     },
     {
       name: "Linear Inequalities",
-      path: "/StudyResources/Grade-11/maths/linear-inequalities",
+      path: "xyz",
     },
     {
       name: "Permutations and Combinations",
-      path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
+      path: "xyz",
     },
     {
       name: "Binomial Theorem",
-      path: "/StudyResources/Grade-11/maths/binomial-theorem",
+      path: "xyz",
     },
     {
       name: "Sequences and Series",
-      path: "/StudyResources/Grade-11/maths/sequences-and-series",
+      path: "xyz",
     },
     {
       name: "Straight Lines",
-      path: "/StudyResources/Grade-11/maths/straight-lines",
+      path: "xyz",
     },
     {
       name: "Conic Sections",
-      path: "/StudyResources/Grade-11/maths/conic-sections",
+      path: "xyz",
     },
     {
       name: "Introduction to Three Dimensional Geometry",
-      path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+      path: "xyz",
     },
     {
       name: "Limits and Derivatives",
-      path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+      path: "xyz",
     },
-    { name: "Statistics", path: "/StudyResources/Grade-11/maths/statistics" },
-    { name: "Probability", path: "/StudyResources/Grade-11/maths/probability" },
+    { name: "Statistics", path: "xyz" },
+    { name: "Probability", path: "xyz" },
   ],
   question_banks: [
     {
       name: "Sets",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/maths/sets" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/maths/sets" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/maths/sets" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
@@ -94,15 +94,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/relations-and-functions",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/relations-and-functions",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/relations-and-functions",
+          path: "xyz",
         },
       ],
     },
@@ -111,15 +111,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/trigonometric-functions",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/trigonometric-functions",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/trigonometric-functions",
+          path: "xyz",
         },
       ],
     },
@@ -128,15 +128,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
+          path: "xyz",
         },
       ],
     },
@@ -145,15 +145,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/linear-inequalities",
+          path: "-inequalities",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/linear-inequalities",
+          path: "-inequalities",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/linear-inequalities",
+          path: "-inequalities",
         },
       ],
     },
@@ -162,15 +162,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
+          path: "-and-combinations",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
+          path: "-and-combinations",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
+          path: "-and-combinations",
         },
       ],
     },
@@ -179,15 +179,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/binomial-theorem",
+          path: "-theorem",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/binomial-theorem",
+          path: "-theorem",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/binomial-theorem",
+          path: "-theorem",
         },
       ],
     },
@@ -196,15 +196,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/sequences-and-series",
+          path: "-and-series",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/sequences-and-series",
+          path: "-and-series",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/sequences-and-series",
+          path: "-and-series",
         },
       ],
     },
@@ -213,15 +213,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/straight-lines",
+          path: "-lines",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/straight-lines",
+          path: "-lines",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/straight-lines",
+          path: "-lines",
         },
       ],
     },
@@ -230,15 +230,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/conic-sections",
+          path: "-sections",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/conic-sections",
+          path: "-sections",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/conic-sections",
+          path: "-sections",
         },
       ],
     },
@@ -247,15 +247,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+          path: "-to-three-dimensional-geometry",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+          path: "-to-three-dimensional-geometry",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+          path: "-to-three-dimensional-geometry",
         },
       ],
     },
@@ -264,32 +264,32 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+          path: "-and-derivatives",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+          path: "-and-derivatives",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+          path: "-and-derivatives",
         },
       ],
     },
     {
       name: "Statistics",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/maths/statistics" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/maths/statistics" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/maths/statistics" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
       name: "Probability",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/maths/probability" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/maths/probability" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/maths/probability" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
   ],
@@ -298,9 +298,9 @@ export const maths = {
     {
       name: "Sets",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/maths/sets" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/maths/sets" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/maths/sets" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
@@ -308,15 +308,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/relations-and-functions",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/relations-and-functions",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/relations-and-functions",
+          path: "xyz",
         },
       ],
     },
@@ -325,15 +325,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/trigonometric-functions",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/trigonometric-functions",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/trigonometric-functions",
+          path: "xyz",
         },
       ],
     },
@@ -342,15 +342,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/complex-numbers-and-quadratic-equations",
+          path: "xyz",
         },
       ],
     },
@@ -359,15 +359,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/linear-inequalities",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/linear-inequalities",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/linear-inequalities",
+          path: "xyz",
         },
       ],
     },
@@ -376,15 +376,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/permutations-and-combinations",
+          path: "xyz",
         },
       ],
     },
@@ -393,15 +393,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/binomial-theorem",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/binomial-theorem",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/binomial-theorem",
+          path: "xyz",
         },
       ],
     },
@@ -410,15 +410,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/sequences-and-series",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/sequences-and-series",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/sequences-and-series",
+          path: "xyz",
         },
       ],
     },
@@ -427,15 +427,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/straight-lines",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/straight-lines",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/straight-lines",
+          path: "xyz",
         },
       ],
     },
@@ -444,15 +444,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/conic-sections",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/conic-sections",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/conic-sections",
+          path: "xyz",
         },
       ],
     },
@@ -461,15 +461,15 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/introduction-to-three-dimensional-geometry",
+          path: "xyz",
         },
       ],
     },
@@ -478,32 +478,32 @@ export const maths = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/maths/limits-and-derivatives",
+          path: "xyz",
         },
       ],
     },
     {
       name: "Statistics",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/maths/statistics" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/maths/statistics" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/maths/statistics" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
       name: "Probability",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/maths/probability" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/maths/probability" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/maths/probability" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
   ],
@@ -789,17 +789,17 @@ export const maths = {
     {
       title: "RD Sharma",
       thumbnail: rd_maths_9,
-      link: "https://example.com/rd-sharma",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/rs-aggarwal",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/pearson",
+      link: "xyz",
     },
   ],
 };
@@ -808,61 +808,61 @@ export const physics = {
   notes: [
     {
       name: "Physical World",
-      path: "/StudyResources/Grade-11/physics/physical-world",
+      path: "xyz",
     },
     {
       name: "Units and Measurements",
-      path: "/StudyResources/Grade-11/physics/units-and-measurements",
+      path: "xyz",
     },
     {
       name: "Motion in a Straight Line",
-      path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+      path: "xyz",
     },
     {
       name: "Motion in a Plane",
-      path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+      path: "xyz",
     },
     {
       name: "Law of Motion",
-      path: "/StudyResources/Grade-11/physics/law-of-motion",
+      path: "xyz",
     },
     {
       name: "Work, Energy and Power",
-      path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+      path: "xyz",
     },
     {
       name: "Systems of Particles and Rotational Motion",
-      path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
+      path: "xyz",
     },
     {
       name: "Gravitation",
-      path: "/StudyResources/Grade-11/physics/gravitation",
+      path: "xyz",
     },
     {
       name: "Mechanical Properties of Solids",
-      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
+      path: "xyz",
     },
     {
       name: "Mechanical Properties of Fluids",
-      path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+      path: "-properties-of-fluids",
     },
     {
       name: "Thermal Properties of Matter",
-      path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+      path: "-properties-of-matter",
     },
     {
       name: "Thermodynamics",
-      path: "/StudyResources/Grade-11/physics/thermodynamics",
+      path: "",
     },
     {
       name: "Kinetic Theory",
-      path: "/StudyResources/Grade-11/physics/kinetic-theory",
+      path: "-theory",
     },
     {
       name: "Oscillations",
-      path: "/StudyResources/Grade-11/physics/oscillations",
+      path: "",
     },
-    { name: "Waves", path: "/StudyResources/Grade-11/physics/waves" },
+    { name: "Waves", path: "" },
   ],
 
   question_banks: [
@@ -871,15 +871,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/physical-world",
+          path: "-world",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/physical-world",
+          path: "-world",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/physical-world",
+          path: "-world",
         },
       ],
     },
@@ -888,15 +888,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/units-and-measurements",
+          path: "-and-measurements",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/units-and-measurements",
+          path: "-and-measurements",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/units-and-measurements",
+          path: "-and-measurements",
         },
       ],
     },
@@ -905,15 +905,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+          path: "-in-a-straight-line",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+          path: "-in-a-straight-line",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+          path: "-in-a-straight-line",
         },
       ],
     },
@@ -922,15 +922,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+          path: "-in-a-plane",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+          path: "-in-a-plane",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+          path: "-in-a-plane",
         },
       ],
     },
@@ -939,15 +939,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/law-of-motion",
+          path: "-of-motion",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/law-of-motion",
+          path: "-of-motion",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/law-of-motion",
+          path: "-of-motion",
         },
       ],
     },
@@ -956,15 +956,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+          path: "-energy-and-power",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+          path: "-energy-and-power",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+          path: "-energy-and-power",
         },
       ],
     },
@@ -973,24 +973,24 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
+          path: "-of-particles-and-rotational-motion",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
+          path: "-of-particles-and-rotational-motion",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
+          path: "-of-particles-and-rotational-motion",
         },
       ],
     },
     {
       name: "Gravitation",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/physics/gravitation" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/physics/gravitation" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/physics/gravitation" },
+        { name: "Set 1", path: "" },
+        { name: "Set 2", path: "" },
+        { name: "Set 3", path: "" },
       ],
     },
     {
@@ -998,15 +998,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
+          path: "xyz",
         },
       ],
     },
@@ -1015,15 +1015,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+          path: "xyz",
         },
       ],
     },
@@ -1032,15 +1032,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+          path: "xyz",
         },
       ],
     },
@@ -1049,15 +1049,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/thermodynamics",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/thermodynamics",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/thermodynamics",
+          path: "xyz",
         },
       ],
     },
@@ -1066,15 +1066,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/kinetic-theory",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/kinetic-theory",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/kinetic-theory",
+          path: "xyz",
         },
       ],
     },
@@ -1083,24 +1083,24 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/oscillations",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/oscillations",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/oscillations",
+          path: "xyz",
         },
       ],
     },
     {
       name: "Waves",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/physics/waves" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/physics/waves" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/physics/waves" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
   ],
@@ -1111,15 +1111,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/physical-world",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/physical-world",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/physical-world",
+          path: "xyz",
         },
       ],
     },
@@ -1128,15 +1128,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/units-and-measurements",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/units-and-measurements",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/units-and-measurements",
+          path: "xyz",
         },
       ],
     },
@@ -1145,15 +1145,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-straight-line",
+          path: "xyz",
         },
       ],
     },
@@ -1162,15 +1162,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/motion-in-a-plane",
+          path: "xyz",
         },
       ],
     },
@@ -1179,15 +1179,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/law-of-motion",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/law-of-motion",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/law-of-motion",
+          path: "xyz",
         },
       ],
     },
@@ -1196,15 +1196,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/work-energy-and-power",
+          path: "xyz",
         },
       ],
     },
@@ -1213,24 +1213,24 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/systems-of-particles-and-rotational-motion",
+          path: "xyz",
         },
       ],
     },
     {
       name: "Gravitation",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/physics/gravitation" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/physics/gravitation" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/physics/gravitation" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
@@ -1238,15 +1238,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-solids",
+          path: "xyz",
         },
       ],
     },
@@ -1255,15 +1255,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/mechanical-properties-of-fluids",
+          path: "xyz",
         },
       ],
     },
@@ -1272,15 +1272,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/thermal-properties-of-matter",
+          path: "xyz",
         },
       ],
     },
@@ -1289,15 +1289,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/thermodynamics",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/thermodynamics",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/thermodynamics",
+          path: "xyz",
         },
       ],
     },
@@ -1306,15 +1306,15 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/kinetic-theory",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/kinetic-theory",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/kinetic-theory",
+          path: "xyz",
         },
       ],
     },
@@ -1323,24 +1323,24 @@ export const physics = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/physics/oscillations",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/physics/oscillations",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/physics/oscillations",
+          path: "xyz",
         },
       ],
     },
     {
       name: "Waves",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/physics/waves" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/physics/waves" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/physics/waves" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
   ],
@@ -1631,17 +1631,17 @@ export const physics = {
     {
       title: "HC Verma",
       thumbnail: hc_phy_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],
@@ -1650,60 +1650,60 @@ export const chemistry = {
   notes: [
     {
       name: "Basic Concepts of Chemistry",
-      path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
+      path: "xyz",
     },
     {
       name: "Atomic Structure",
-      path: "/StudyResources/Grade-11/chemistry/atomic-structure",
+      path: "xyz",
     },
     {
       name: "Classification of Elements & Periodicity in Properties",
-      path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
+      path: "xyz",
     },
     {
       name: "States of Matter",
-      path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+      path: "xyz",
     },
     {
       name: "Chemical Bonding",
-      path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+      path: "xyz",
     },
     {
       name: "Thermodynamics",
-      path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+      path: "xyz",
     },
     {
       name: "Chemical Equilibrium",
-      path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+      path: "xyz",
     },
     {
       name: "Ionic Equilibrium",
-      path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+      path: "xyz",
     },
     {
       name: "Redox Reactions",
-      path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+      path: "xyz",
     },
-    { name: "Hydrogen", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
+    { name: "Hydrogen", path: "xyz" },
     {
       name: "S-Block Elements",
-      path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+      path: "xyz",
     },
     {
       name: "Carbon Family p-block Elements",
-      path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+      path: "xyz",
     },
     {
       name: "Boron Family p-block Elements",
-      path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+      path: "xyz",
     },
     {
       name: "General Organic Chemistry",
-      path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+      path: "xyz",
     },
     {
       name: "Hydrocarbons",
-      path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
+      path: "xyz",
     },
   ],
 
@@ -1713,15 +1713,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
+          path: "xyz",
         },
       ],
     },
@@ -1730,15 +1730,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/atomic-structure",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/atomic-structure",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/atomic-structure",
+          path: "xyz",
         },
       ],
     },
@@ -1747,15 +1747,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
+          path: "xyz",
         },
       ],
     },
@@ -1764,15 +1764,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+          path: "xyz",
         },
       ],
     },
@@ -1781,15 +1781,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+          path: "xyz",
         },
       ],
     },
@@ -1798,15 +1798,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+          path: "xyz",
         },
       ],
     },
@@ -1815,15 +1815,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+          path: "xyz",
         },
       ],
     },
@@ -1832,15 +1832,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+          path: "xyz",
         },
       ],
     },
@@ -1849,24 +1849,24 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+          path: "xyz",
         },
       ],
     },
     {
       name: "Hydrogen",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
@@ -1874,15 +1874,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+          path: "xyz",
         },
       ],
     },
@@ -1891,15 +1891,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+          path: "xyz",
         },
       ],
     },
@@ -1908,15 +1908,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+          path: "xyz",
         },
       ],
     },
@@ -1925,15 +1925,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+          path: "xyz",
         },
       ],
     },
@@ -1942,15 +1942,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
+          path: "xyz",
         },
       ],
     },
@@ -1961,15 +1961,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/basic-concepts-of-chemistry",
+          path: "xyz",
         },
       ],
     },
@@ -1978,15 +1978,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/atomic-structure",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/atomic-structure",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/atomic-structure",
+          path: "xyz",
         },
       ],
     },
@@ -1995,15 +1995,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/classification-elements-periodicity",
+          path: "xyz",
         },
       ],
     },
@@ -2012,15 +2012,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/states-of-matter",
+          path: "xyz",
         },
       ],
     },
@@ -2029,15 +2029,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/chemical-bonding",
+          path: "xyz",
         },
       ],
     },
@@ -2046,15 +2046,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/thermodynamics",
+          path: "xyz",
         },
       ],
     },
@@ -2063,15 +2063,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/chemical-equilibrium",
+          path: "xyz",
         },
       ],
     },
@@ -2080,15 +2080,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/ionic-equilibrium",
+          path: "xyz",
         },
       ],
     },
@@ -2097,24 +2097,24 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/redox-reactions",
+          path: "xyz",
         },
       ],
     },
     {
       name: "Hydrogen",
       sets: [
-        { name: "Set 1", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
-        { name: "Set 2", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
-        { name: "Set 3", path: "/StudyResources/Grade-11/chemistry/hydrogen" },
+        { name: "Set 1", path: "xyz" },
+        { name: "Set 2", path: "xyz" },
+        { name: "Set 3", path: "xyz" },
       ],
     },
     {
@@ -2122,15 +2122,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/s-block-elements",
+          path: "xyz",
         },
       ],
     },
@@ -2139,15 +2139,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/carbon-family-p-block-elements",
+          path: "xyz",
         },
       ],
     },
@@ -2156,15 +2156,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/boron-family-p-block-elements",
+          path: "xyz",
         },
       ],
     },
@@ -2173,15 +2173,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/general-organic-chemistry",
+          path: "xyz",
         },
       ],
     },
@@ -2190,15 +2190,15 @@ export const chemistry = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/chemistry/hydrocarbons",
+          path: "xyz",
         },
       ],
     },
@@ -2390,17 +2390,17 @@ export const chemistry = {
     {
       title: "Lakhmir Singh",
       thumbnail: lakhmir_chem_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],
@@ -2409,181 +2409,181 @@ export const biology = {
   notes: [
     {
       name: "The Living World",
-      path: "/StudyResources/Grade-11/biology/living-world",
+      path: "xyz",
     },
     {
       name: "Biological Classification",
-      path: "/StudyResources/Grade-11/biology/biological-classification",
+      path: "xyz",
     },
     {
       name: "Plant Kingdom",
-      path: "/StudyResources/Grade-11/biology/plant-kingdom",
+      path: "xyz",
     },
     {
       name: "Animal Kingdom",
-      path: "/StudyResources/Grade-11/biology/animal-kingdom",
+      path: "xyz",
     },
     {
       name: "Morphology of Flowering Plants",
-      path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+      path: "xyz",
     },
     {
       name: "Anatomy of Flowering Plants",
-      path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+      path: "xyz",
     },
     {
       name: "Structural Organisation in Animals",
-      path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+      path: "xyz",
     },
     {
       name: "Cell, The Unit of Life",
-      path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+      path: "xyz",
     },
     {
       name: "Biomolecules",
-      path: "/StudyResources/Grade-11/biology/biomolecules",
+      path: "xyz",
     },
     {
       name: "Cell Cycle and Cell Division",
-      path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+      path: "xyz",
     },
     {
       name: "Transport in Plants",
-      path: "/StudyResources/Grade-11/biology/transport-in-plants",
+      path: "xyz",
     },
     {
       name: "Mineral Nutrition",
-      path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+      path: "xyz",
     },
     {
       name: "Photosynthesis in Higher Plants",
-      path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+      path: "xyz",
     },
     {
       name: "Respiration in Plants",
-      path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+      path: "xyz",
     },
     {
       name: "Plant Growth and Development",
-      path: "/StudyResources/Grade-11/biology/plant-growth-development",
+      path: "xyz",
     },
     {
       name: "Digestion and Absorption",
-      path: "/StudyResources/Grade-11/biology/digestion-absorption",
+      path: "xyz",
     },
     {
       name: "Breathing and Exchange of Gases",
-      path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+      path: "xyz",
     },
     {
       name: "Body Fluids and Circulation",
-      path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+      path: "xyz",
     },
     {
       name: "Excretory Products and their Elimination",
-      path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+      path: "xyz",
     },
     {
       name: "Locomotion and Movement",
-      path: "/StudyResources/Grade-11/biology/locomotion-movement",
+      path: "xyz",
     },
     {
       name: "Neural Control and Coordination",
-      path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+      path: "xyz",
     },
     {
       name: "Chemical Coordination and Integration",
-      path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+      path: "xyz",
     },
   ],
   pyq: [
     {
       name: "The Living World",
-      path: "/StudyResources/Grade-11/biology/living-world",
+      path: "xyz",
     },
     {
       name: "Biological Classification",
-      path: "/StudyResources/Grade-11/biology/biological-classification",
+      path: "xyz",
     },
     {
       name: "Plant Kingdom",
-      path: "/StudyResources/Grade-11/biology/plant-kingdom",
+      path: "xyz",
     },
     {
       name: "Animal Kingdom",
-      path: "/StudyResources/Grade-11/biology/animal-kingdom",
+      path: "xyz",
     },
     {
       name: "Morphology of Flowering Plants",
-      path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+      path: "xyz",
     },
     {
       name: "Anatomy of Flowering Plants",
-      path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+      path: "xyz",
     },
     {
       name: "Structural Organisation in Animals",
-      path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+      path: "xyz",
     },
     {
       name: "Cell, The Unit of Life",
-      path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+      path: "xyz",
     },
     {
       name: "Biomolecules",
-      path: "/StudyResources/Grade-11/biology/biomolecules",
+      path: "xyz",
     },
     {
       name: "Cell Cycle and Cell Division",
-      path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+      path: "xyz",
     },
     {
       name: "Transport in Plants",
-      path: "/StudyResources/Grade-11/biology/transport-in-plants",
+      path: "xyz",
     },
     {
       name: "Mineral Nutrition",
-      path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+      path: "xyz",
     },
     {
       name: "Photosynthesis in Higher Plants",
-      path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+      path: "xyz",
     },
     {
       name: "Respiration in Plants",
-      path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+      path: "xyz",
     },
     {
       name: "Plant Growth and Development",
-      path: "/StudyResources/Grade-11/biology/plant-growth-development",
+      path: "xyz",
     },
     {
       name: "Digestion and Absorption",
-      path: "/StudyResources/Grade-11/biology/digestion-absorption",
+      path: "xyz",
     },
     {
       name: "Breathing and Exchange of Gases",
-      path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+      path: "xyz",
     },
     {
       name: "Body Fluids and Circulation",
-      path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+      path: "xyz",
     },
     {
       name: "Excretory Products and their Elimination",
-      path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+      path: "xyz",
     },
     {
       name: "Locomotion and Movement",
-      path: "/StudyResources/Grade-11/biology/locomotion-movement",
+      path: "xyz",
     },
     {
       name: "Neural Control and Coordination",
-      path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+      path: "xyz",
     },
     {
       name: "Chemical Coordination and Integration",
-      path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+      path: "xyz",
     },
   ],
   question_banks: [
@@ -2592,15 +2592,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/living-world",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/living-world",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/living-world",
+          path: "xyz",
         },
       ],
     },
@@ -2609,15 +2609,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/biological-classification",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/biological-classification",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/biological-classification",
+          path: "xyz",
         },
       ],
     },
@@ -2626,15 +2626,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+          path: "xyz",
         },
       ],
     },
@@ -2643,15 +2643,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+          path: "xyz",
         },
       ],
     },
@@ -2660,15 +2660,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+          path: "xyz",
         },
       ],
     },
@@ -2677,15 +2677,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+          path: "xyz",
         },
       ],
     },
@@ -2694,15 +2694,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+          path: "xyz",
         },
       ],
     },
@@ -2711,15 +2711,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+          path: "xyz",
         },
       ],
     },
@@ -2728,15 +2728,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/biomolecules",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/biomolecules",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/biomolecules",
+          path: "xyz",
         },
       ],
     },
@@ -2745,15 +2745,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+          path: "xyz",
         },
       ],
     },
@@ -2762,15 +2762,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+          path: "xyz",
         },
       ],
     },
@@ -2779,15 +2779,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+          path: "xyz",
         },
       ],
     },
@@ -2796,15 +2796,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+          path: "xyz",
         },
       ],
     },
@@ -2813,15 +2813,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+          path: "xyz",
         },
       ],
     },
@@ -2830,15 +2830,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+          path: "xyz",
         },
       ],
     },
@@ -2847,15 +2847,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+          path: "xyz",
         },
       ],
     },
@@ -2864,15 +2864,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+          path: "xyz",
         },
       ],
     },
@@ -2881,15 +2881,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+          path: "xyz",
         },
       ],
     },
@@ -2898,15 +2898,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+          path: "xyz",
         },
       ],
     },
@@ -2915,15 +2915,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+          path: "xyz",
         },
       ],
     },
@@ -2932,15 +2932,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+          path: "xyz",
         },
       ],
     },
@@ -2949,15 +2949,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+          path: "xyz",
         },
       ],
     },
@@ -2969,15 +2969,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/living-world",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/living-world",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/living-world",
+          path: "xyz",
         },
       ],
     },
@@ -2986,15 +2986,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/biological-classification",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/biological-classification",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/biological-classification",
+          path: "xyz",
         },
       ],
     },
@@ -3003,15 +3003,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/plant-kingdom",
+          path: "xyz",
         },
       ],
     },
@@ -3020,15 +3020,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/animal-kingdom",
+          path: "xyz",
         },
       ],
     },
@@ -3037,15 +3037,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/morphology-flowering-plants",
+          path: "xyz",
         },
       ],
     },
@@ -3054,15 +3054,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/anatomy-flowering-plants",
+          path: "xyz",
         },
       ],
     },
@@ -3071,15 +3071,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/structural-organisation-animals",
+          path: "xyz",
         },
       ],
     },
@@ -3088,15 +3088,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/cell-unit-of-life",
+          path: "xyz",
         },
       ],
     },
@@ -3105,15 +3105,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/biomolecules",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/biomolecules",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/biomolecules",
+          path: "xyz",
         },
       ],
     },
@@ -3122,15 +3122,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/cell-cycle-cell-division",
+          path: "xyz",
         },
       ],
     },
@@ -3139,15 +3139,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/transport-in-plants",
+          path: "xyz",
         },
       ],
     },
@@ -3156,15 +3156,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/mineral-nutrition",
+          path: "xyz",
         },
       ],
     },
@@ -3173,15 +3173,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/photosynthesis-higher-plants",
+          path: "xyz",
         },
       ],
     },
@@ -3190,15 +3190,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/respiration-in-plants",
+          path: "xyz",
         },
       ],
     },
@@ -3207,15 +3207,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/plant-growth-development",
+          path: "xyz",
         },
       ],
     },
@@ -3224,15 +3224,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/digestion-absorption",
+          path: "xyz",
         },
       ],
     },
@@ -3241,15 +3241,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/breathing-exchange-gases",
+          path: "xyz",
         },
       ],
     },
@@ -3258,15 +3258,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/body-fluids-circulation",
+          path: "xyz",
         },
       ],
     },
@@ -3275,15 +3275,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/excretory-products-elimination",
+          path: "xyz",
         },
       ],
     },
@@ -3292,15 +3292,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/locomotion-movement",
+          path: "xyz",
         },
       ],
     },
@@ -3309,15 +3309,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/neural-control-coordination",
+          path: "xyz",
         },
       ],
     },
@@ -3326,15 +3326,15 @@ export const biology = {
       sets: [
         {
           name: "Set 1",
-          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+          path: "xyz",
         },
         {
           name: "Set 2",
-          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+          path: "xyz",
         },
         {
           name: "Set 3",
-          path: "/StudyResources/Grade-11/biology/chemical-coordination-integration",
+          path: "xyz",
         },
       ],
     },
@@ -3726,17 +3726,17 @@ export const biology = {
     {
       title: "HC Verma",
       thumbnail: rd_maths_9,
-      link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqiYh5B5O82gORSf4Fir20tavhvd4E_9LVxg&sk",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "RS Aggarwal",
       thumbnail: rs_maths_9,
-      link: "https://example.com/science-book",
+      link: "https://eduviti.me/not-found",
     },
     {
       title: "Pearson",
       thumbnail: pearson,
-      link: "https://example.com/english-book",
+      link: "https://eduviti.me/not-found",
     },
     // Add more books here as needed
   ],
