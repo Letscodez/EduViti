@@ -24,7 +24,7 @@ const showList = [
 
 const ShowListComponent = () => {
   return (
-    <section>
+    <section id="discover">
       <LampContainer>
         <h1 className="text-5xl font-bold text-white mb-6 text-center">
           Welcome to <span className="text-primary">EduViti!</span>

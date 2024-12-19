@@ -41,11 +41,11 @@ const SearchPage = () => {
 
   return (
     <BackgroundLines className="bg-white/5 flex flex-col items-center w-screen pt-32 justify-start text-white px-6 space-y-12">
-      <h2 className="text-4xl md:text-5xl font-bold text-center max-w-[500px] mt-5">
+      <h2 className="text-4xl md:text-5xl font-bold text-center max-w-[500px] mt-5 z-50">
         Discover New Learning{" "}
         <span className="text-primary">Opportunities</span>
       </h2>
-      <p className="text-lg md:text-xl text-center text-white/80 max-w-xl leading-relaxed">
+      <p className="text-lg md:text-xl text-center z-50 text-white/80 max-w-xl leading-relaxed">
         Search through our vast library of study materials and find the
         resources that fit your goals.
       </p>
@@ -92,9 +92,9 @@ const SearchPage = () => {
       )}
       <a
         href="#discover"
-        className="text-md text-center text-gray-300 font-medium hover:text-white transition duration-100"
+        className="text-md text-center z-50 text-gray-300 font-medium hover:underline transition duration-100 cursor-pointer"
       >
-        Discover new possibilities!
+        Discover new <span className="text-primary">possibilities!</span>
       </a>
     </BackgroundLines>
   );

@@ -990,7 +990,7 @@ export const chemistry = {
   notes: [
     {
       name: "Chemical Reactions and Equations",
-      path: "/StudyResources/Grade-10/chemistry/chemical-reactions-and-equations",
+      path: "xyz",
     },
     {
       name: "Acids, Bases, and Salts",

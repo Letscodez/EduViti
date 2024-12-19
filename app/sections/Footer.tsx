@@ -8,11 +8,15 @@ type FooterProps = {
 const Footer: React.FC<FooterProps> = ({ isLearning }) => {
   return (
     <footer
-      className={` ${isLearning ? "bg-none" : "bg-[#353535]"} text-white  min-h-auto`}
+      className={` ${
+        isLearning ? "bg-none" : "bg-[#353535]"
+      } text-white  min-h-auto`}
     >
       {/* <section className="bg-gray-900 py-16 text-center"> */}
       <div
-        className={`${isLearning ? "bg-white/5" : "bg-white -mt-40"} max-w-screen border-b border-primary/50 h-96`}
+        className={`${
+          isLearning ? "bg-white/5" : "bg-white -mt-40"
+        } max-w-screen border-b border-primary/50 h-96`}
       ></div>
       <div className="container mx-auto px-6 md:px-12">
         <div className="bg-gradient-to-r from-[#333333] via-[#2e4640] to-[#333333] rounded-3xl p-10 text-white max-w-7xl mx-auto border-solid border-[1px] border-[#06D6A0] -mt-44 place-items-center h-96 ">
@@ -60,30 +64,48 @@ const Footer: React.FC<FooterProps> = ({ isLearning }) => {
           </ul>
           <div className="flex space-x-4 mt-4">
             <div className="flex space-x-4 mt-4">
-              <a
-                href="#"
-                className="hover:text-teal-400"
-                aria-label="Follow us on Facebook"
-              >
+              <a href="https://github.com/LetsCodez" target="_blank">
                 <svg
-                  className="w-6 h-6 fill-current text-gray-400 hover:text-white"
+                  height="24"
+                  viewBox="0 0 16 16"
+                  width="24"
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  className="w-6 h-6 fill-current text-gray-400 hover:text-white"
                 >
-                  <path d="M12 .297C5.373.297 0 5.67 0 12.297c0 6.081 4.388 11.11 10.125 12.1v-8.51H7.078v-3.59h3.047V9.797c0-3.007 1.792-4.657 4.533-4.657 1.312 0 2.684.236 2.684.236v2.953h-1.513c-1.492 0-1.957.926-1.957 1.876v2.24h3.328l-.532 3.59h-2.796v8.51C19.612 23.407 24 18.379 24 12.297 24 5.67 18.627.297 12 .297z" />
+                  <path
+                    fill="currentColor"
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
                 </svg>
               </a>
-              <a
-                href="#"
-                className="hover:text-teal-400"
-                aria-label="Connect on LinkedIn"
-              >
+              <a href="mailto:eduvity@gmail.com">
                 <svg
-                  className="w-6 h-6 fill-current text-gray-400 hover:text-white"
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  className="w-6 h-6 fill-current text-gray-400 hover:text-white"
+                  height={24}
+                  width={24}
+                  viewBox="0 0 48 48"
                 >
-                  <path d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.77 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.23 0 22.23 0zM7.07 20.27H3.34V9.03h3.73v11.24zm-1.87-12.8C4.12 7.47 3.44 6.8 3.44 6c0-.79.68-1.47 1.51-1.47.83 0 1.51.68 1.51 1.47s-.68 1.47-1.51 1.47zm15.82 12.8h-3.73v-5.95c0-1.42-.03-3.24-1.98-3.24-1.98 0-2.28 1.55-2.28 3.14v6.05h-3.73V9.03h3.58v1.53h.05c.5-.95 1.72-1.95 3.54-1.95 3.79 0 4.49 2.5 4.49 5.75v6.9z" />
+                  <path
+                    fill="#4caf50"
+                    d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z"
+                  ></path>
+                  <path
+                    fill="#1e88e5"
+                    d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z"
+                  ></path>
+                  <polygon
+                    fill="#e53935"
+                    points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17"
+                  ></polygon>
+                  <path
+                    fill="#c62828"
+                    d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"
+                  ></path>
+                  <path
+                    fill="#fbc02d"
+                    d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"
+                  ></path>
                 </svg>
               </a>
             </div>

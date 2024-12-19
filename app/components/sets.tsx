@@ -24,7 +24,11 @@ const SetsCard: React.FC<SetsCardProps> = ({ title, sets }) => {
           {sets.map((set, index) => (
             <a
               target="_blank"
-              href={`https://drive.google.com/file/d/${set.path}/view?usp=drive_link`}
+              href={
+                set.path !== "xyz"
+                  ? `https://drive.google.com/file/d/${set.path}/view?usp=drive_link`
+                  : `https://eduviti.me/not-found`
+              }
               key={index}
               className="flex justify-between items-center bg-white/10 border hover:scale-[1.01] duration-150 border-primary/30 p-2 rounded-md"
             >
@@ -32,8 +36,12 @@ const SetsCard: React.FC<SetsCardProps> = ({ title, sets }) => {
                 ⁍ {set.name}
               </h3>
               <div
-                onClick={() =>
-                  (window.location.href = `https://drive.google.com/uc?export=download&id=${set.path}`)
+                onClick={
+                  set.path !== "xyz"
+                    ? () =>
+                        (window.location.href = `https://drive.google.com/uc?export=download&id=${set.path}`)
+                    : () =>
+                        (window.location.href = `https://eduviti.me/not-found`)
                 }
                 className="items-center gap-2 justify-center flex flex-row px-4 py-2 text-bg hover:scale-105 duration-150 bg-primary rounded-lg hover:bg-primary/80 transition"
               >

@@ -6,13 +6,9 @@ import { useRouter } from "next/navigation";
 const BackButton = () => {
   const router = useRouter();
 
-  const handleBack = () => {
-    router.back();
-  };
-
   return (
     <button
-      onClick={handleBack}
+      onClick={() => router.back()}
       className="flex items-center gap-2 bg-primary text-white rounded-lg p-2 hover:opacity-80 transition-all duration-200"
     >
       <Image

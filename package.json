@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^15.1.0",
+    "@next/eslint-plugin-next": "^15.1.2",
     "@radix-ui/react-accordion": "^1.2.2",
-    "@radix-ui/react-dialog": "^1.1.3",
+    "@radix-ui/react-dialog": "^1.1.4",
     "@radix-ui/react-icons": "^1.3.2",
     "@radix-ui/react-separator": "^1.1.1",
     "@radix-ui/react-slot": "^1.1.1",
@@ -24,7 +24,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.1.0",
     "motion": "^11.15.0",
-    "next": "^15.1.0",
+    "next": "^15.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-tilt": "^1.0.2",
@@ -35,11 +35,11 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
-    "@types/react": "^19.0.1",
+    "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
-    "eslint-config-next": "^15.1.0",
+    "eslint-config-next": "^15.1.2",
     "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.16",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2"
   }
 }
