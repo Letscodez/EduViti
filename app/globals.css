@@ -1,0 +1,52 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-gradient-to-r from-bg via-primary to-bg;
+}
+
+.layout {
+  @apply overflow-y-scroll overflow-x-hidden bg-gradient-to-r from-bg via-[#2e4640] to-bg;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-75px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-75px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(75px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-down {
+  animation: slideInFromTop 0.5s ease-in-out;
+}
+.slide-left {
+  animation: slideInFromRight 0.5s ease-in-out;
+}
+.slide-right {
+  animation: slideInFromLeft 0.5s ease-in-out;
+}
