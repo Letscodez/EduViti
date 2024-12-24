@@ -77,7 +77,7 @@ We welcome contributions! Please follow these steps:
 3. **Run the Application**
    ```bash
    # Start the Next.js server
-   npm start
+   pnpm start
    ```
 4. **Hurrah!** The application should now be running on [http://localhost:3000](http://localhost:3000)
    Start contributing to the project by adding new features, fixing bugs, and improving the codebase.
