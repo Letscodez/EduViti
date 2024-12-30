@@ -10,7 +10,8 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import { Input } from "@/components/ui/input";
 import { FAQs } from "@/data/faq";
-import Btn from "@/app/components/btn";
+import { Tilt } from "react-tilt";
+import { defaultOptions } from "@/data/tilt";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,9 +19,9 @@ const Contact = () => {
     email: "",
     message: "",
   });
-
+  const [sent, setSent] = useState("");
   const handleChange = (
-    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>,
+    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
   ) => {
     setFormData({
       ...formData,
@@ -41,14 +42,14 @@ const Contact = () => {
       });
 
       if (response.ok) {
-        alert("Message sent successfully!");
+        setSent("Sent!");
         setFormData({ name: "", email: "", message: "" }); // Reset form
       } else {
-        alert("Failed to send message.");
+        setSent("Failed")
       }
     } catch (error) {
       console.error("Error sending message:", error);
-      alert("Error sending message.");
+      setSent("Error")
     }
   };
 
@@ -101,7 +102,15 @@ const Contact = () => {
                 48 hours.
               </p>
             </span>
-            <Btn className="mx-auto" displayText="Start Contributing" />
+            <Tilt options={defaultOptions}>
+              <button
+                type="submit"
+                disabled={sent === "Sent" || sent === "Failed" || sent === "Error Occurred" ? true : false}
+                className={`mx-auto text-xs sm:text-sm text-bg font-bold py-3 px-6 rounded-lg hover:opacity-90 duration-200 ease-in-out max-h-12 hover:shadow-xl hover:shadow-primary/30 ${sent === "Sent!" ? "bg-teal-600" : sent === "Failed" || sent === "Error Occurred" ? "bg-red-600" : "bg-primary"}`}
+              >
+                {sent ? sent : "Start Contributing"}
+              </button>
+            </Tilt>
           </div>
         </form>
       </div>
