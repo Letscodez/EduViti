@@ -21,7 +21,7 @@ const Contact = () => {
   });
   const [sent, setSent] = useState("");
   const handleChange = (
-    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
+    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>,
   ) => {
     setFormData({
       ...formData,
@@ -45,11 +45,11 @@ const Contact = () => {
         setSent("Sent!");
         setFormData({ name: "", email: "", message: "" }); // Reset form
       } else {
-        setSent("Failed")
+        setSent("Failed");
       }
     } catch (error) {
       console.error("Error sending message:", error);
-      setSent("Error")
+      setSent("Error");
     }
   };
 
@@ -105,7 +105,13 @@ const Contact = () => {
             <Tilt options={defaultOptions}>
               <button
                 type="submit"
-                disabled={sent === "Sent" || sent === "Failed" || sent === "Error Occurred" ? true : false}
+                disabled={
+                  sent === "Sent" ||
+                  sent === "Failed" ||
+                  sent === "Error Occurred"
+                    ? true
+                    : false
+                }
                 className={`mx-auto text-xs sm:text-sm text-bg font-bold py-3 px-6 rounded-lg hover:opacity-90 duration-200 ease-in-out max-h-12 hover:shadow-xl hover:shadow-primary/30 ${sent === "Sent!" ? "bg-teal-600" : sent === "Failed" || sent === "Error Occurred" ? "bg-red-600" : "bg-primary"}`}
               >
                 {sent ? sent : "Start Contributing"}

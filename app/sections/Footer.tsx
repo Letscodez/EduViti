@@ -42,7 +42,7 @@ const Footer: React.FC<FooterProps> = ({ isLearning }) => {
         <div className="sm:w-auto w-1/2 mb-6 md:mb-0">
           <h2 className="text-2xl font-bold text-primary font-mono">EduViti</h2>
           <p className="mt-2 max-w-xs">
-            EduViti – All in One Online study platform.
+            EduViti - All in One Online study platform.
           </p>
         </div>
 
@@ -129,7 +129,7 @@ const Footer: React.FC<FooterProps> = ({ isLearning }) => {
       {/* Bottom Copyright */}
       <hr className="w-[83%] mx-auto mt-8 opacity-40" />
       <div className="text-center text-sm text-gray-400 hover:text-teal-400 mt-8">
-        Copyright © 2024 - All Rights Reserved
+        Copyright &copy; {new Date().getFullYear()} - All Rights Reserved
       </div>
     </footer>
   );
