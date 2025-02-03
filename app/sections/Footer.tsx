@@ -71,7 +71,7 @@ const Footer: React.FC<FooterProps> = ({ isLearning }) => {
           <div className="flex space-x-4 mt-4">
             <div className="flex space-x-4 mt-4">
               <Link
-                href="https://github.com/LetsCodez"
+                href="https://github.com/matrixdevx"
                 target="_blank"
                 aria-label="Github"
               >
