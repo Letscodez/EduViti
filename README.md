@@ -64,7 +64,7 @@ We welcome contributions! Please follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/LetsCodez/EduViti.git
+   git clone https://github.com/matrixdevx/EduViti.git
    cd EduViti
    ```
 
@@ -100,7 +100,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any queries or feedback, feel free to reach out:
 
-- **GitHub**: [@LetsCodez](https://github.com/LetsCodez) & [@MasterJodd](https://github.com/MasterJodd)
+- **GitHub**: [@Matrix.Dev](https://github.com/matrixdevx) & [@MasterJodd](https://github.com/MasterJodd)
 - **Email**: eduvity.official@gmail.com
 
 ---
